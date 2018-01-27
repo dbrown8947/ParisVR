@@ -431,7 +431,7 @@ public class OBJLoader
             MeshRenderer mr = subObject.AddComponent<MeshRenderer>();
             //add mesh collider for raycast
             MeshCollider mc = subObject.AddComponent<MeshCollider>();
-            
+            mc.sharedMesh = m;
 
             Material[] processedMaterials = new Material[meshMaterialNames.Count];
             for(int i=0 ; i < meshMaterialNames.Count; i++)

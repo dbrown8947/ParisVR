@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour {
 	public Text objName;
 	public int escCount;
 	public GameObject obj;
+
 	public InputField posX;
 	public InputField posY;
 	public InputField posZ;
@@ -36,13 +37,16 @@ public class PlayerController : MonoBehaviour {
 	//Private Variables
 	private int count;
 	private Vector3 direction;
+    private string assetType;
+    private Vector3 bcHolder;
+    private GameObject parentObj;
 
-	//FUNCTION      : Start()
-	//DESCRIPTION   : This Method is launched when the level is loaded and is used to gather
-	//                information or initalize other variables
-	//PARAMETERS    : Nothing
-	//RETURNS		: Nothing
-	void Start()
+    //FUNCTION      : Start()
+    //DESCRIPTION   : This Method is launched when the level is loaded and is used to gather
+    //                information or initalize other variables
+    //PARAMETERS    : Nothing
+    //RETURNS		: Nothing
+    void Start()
 	{
 		escCount = 0;
 	}
@@ -111,9 +115,18 @@ public class PlayerController : MonoBehaviour {
 		//If the player hasnt already selected an item and we are not paused
 		if (!selected && Time.timeScale == 1.0f)
 		{
-			//if we are not paused and the left mouse button is pressed
-			if (Input.GetMouseButtonDown (0) && Time.timeScale == 1.0f)
+			//if we are not paused and the left or right mouse button is pressed
+			if ((Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1)) && Time.timeScale == 1.0f)
 			{
+                if(Input.GetMouseButtonDown(0))
+                {
+                    assetType = "Asset";
+                }
+                else
+                {
+                    assetType = "SubAsset";
+                }
+
 				//Create a Raycast
 				RaycastHit hit = new RaycastHit ();
 
@@ -121,7 +134,7 @@ public class PlayerController : MonoBehaviour {
 				if (Physics.Raycast (Camera.main.ScreenPointToRay (Input.mousePosition), out hit))
 				{
 					//If the raycase made contact with an object with the Asset tag									
-					if (hit.transform.gameObject.tag == "Asset") 
+					if (hit.transform.gameObject.tag == assetType) 
 					{	
 						//Reset the esc counter
 						escCount = 0;
@@ -133,7 +146,29 @@ public class PlayerController : MonoBehaviour {
 						selected = true;
 						obj = hit.transform.gameObject;
 
-						//If the object has a text field
+                        //disable collider to select sub asset
+                        if (assetType == "Asset")
+                        {
+                            //if we have a parent object without collider, put it back
+                            if(parentObj !=null)
+                            {
+                                parentObj.GetComponent<BoxCollider>().size = bcHolder;
+                                parentObj = null;
+                            }
+
+                            bcHolder = obj.GetComponent<BoxCollider>().size;
+                            obj.GetComponent<BoxCollider>().size = new Vector3(0, 0, 0);
+                            parentObj = obj;
+                        }
+                        //selected the subasset, we can put the collider back on
+                        if (assetType == "SubAsset" && parentObj != null) 
+                        {
+                            //put the collider back
+                            parentObj.GetComponent<BoxCollider>().size = bcHolder;
+                            parentObj = null;
+                        }
+     
+                            //If the object has a text field
 						if (obj.GetComponent<UnityEngine.UI.Text> () != null)
 						{			
 							//Update the tagger with the text located on the object.
@@ -160,6 +195,7 @@ public class PlayerController : MonoBehaviour {
 			//Deactivate the modifaction menu and increase the esc counter
 			screen.SetActive(false);
             OtherScreen.SetActive(false);
+            
 			selected = false;
 			escCount++;
 		}
