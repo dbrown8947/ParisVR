@@ -9,7 +9,7 @@ public class ImportPress : MonoBehaviour
     public Dropdown dropdown;
 
     private GameObject go;
-    private List<GameObject> buildings = new List<GameObject>();
+
     private int gameObjectCount = 0;
     // Use this for initialization
 

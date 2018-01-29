@@ -18,7 +18,7 @@ public class AddObjectsHandler : MonoBehaviour {
     public Dropdown listOfBuilding;
     //private string[] NamesOfBuildings;
     Dropdown.OptionData m_NewData;
-    List<Dropdown.OptionData> m_Messages = new List<Dropdown.OptionData>();
+
     public GameObject screen;
     public GameObject OtherScreen;
     public GameObject plyr;
@@ -36,21 +36,7 @@ public class AddObjectsHandler : MonoBehaviour {
     //PARAMETERS    : Nothing
     //RETURNS		: Nothing
     void Start () {
-        //posX.text = "0";
-        //posY.text = "0";
-        //posZ.text = "0";
 
-        //NamesOfBuildings = new string[buildings.Length];
-        //listOfBuilding.ClearOptions();
-        //for (int i = 0; i < buildings.Length; i++)
-        //{
-        //    m_NewData = new Dropdown.OptionData();
-        //    NamesOfBuildings[i] = buildings[i].name;
-        //    m_NewData.text = buildings[i].name;
-        //    m_Messages.Add(m_NewData);
-        //}
-
-        //listOfBuilding.AddOptions(m_Messages);
     }
 
     //FUNCTION      : Update()
