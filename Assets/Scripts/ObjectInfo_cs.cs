@@ -154,5 +154,112 @@ public class ObjectInfo
 			tag = value;
 		}
 	}
+		
+}
 
+
+/*
+* Class Name	: SubObjectInfo 
+* DESCRIPTION   : This is a serializable class that will be used to contain the information of any gameobject
+*                 that is a child of anthoer object in the game world. This class will allow the information pertaining to the object, like transform
+*                 values to be accessed later when loading.
+*/
+[System.Serializable]
+public class SubObjectInfo : ObjectInfo
+{
+	//Private Variables
+	private List<string> materials;
+
+
+	public List<string> Materials
+	{
+		/*
+		 *  Name		: get (materials)
+		 *	Description : Accessor for the material list
+		 *	Parameters	: Nothing
+		 *  Returns		: List<string> materials, the materials list for a gameobject
+		*/
+		get
+		{
+			return materials; 
+		}
+
+		/*
+		 *  Name		: set (materials)
+		 *	Description : Mutator for the  material list
+		 *	Parameters	: List<string> materials, the materials list for a gameobject
+		 *  Returns		: Nothing
+		*/
+		set
+		{
+			materials = value;
+		}
+	}
+}
+
+
+/*
+* Class Name	: Asset 
+* DESCRIPTION   : This is a serializable class that will be used to contain the information of any gameobject
+*                 in the game world. This class will allow the information pertaining to the object, like transform
+*                 values to be accessed later when loading.
+*/
+[System.Serializable]
+public class Asset
+{
+	//Private Variables
+	private ObjectInfo parentInfo;
+	private List<SubObjectInfo> childInfo;
+
+	//ChildInfo Property, used to modify the Parentinfo list
+	public ObjectInfo ParentInfo
+	{
+		/*
+		 *  Name		: get (parentInfo)
+		 *	Description : Accessor for the parentInfo Object
+		 *	Parameters	: Nothing
+		 *  Returns		: ObjectInfo parentInfo, the information about the parent object
+		*/
+		get
+		{
+			return parentInfo; 
+		}
+
+		/*
+		 *  Name		: set (parentInfo)
+		 *	Description : Mutator for the parentInfo Object
+		 *	Parameters	: ObjectInfo parentInfo, the information about the parent object
+		 *  Returns		: Nothing
+		*/
+		set
+		{
+			parentInfo = value;
+		}
+	}
+
+	//ChildInfo Property, used to modify the childinfo list
+	public List<SubObjectInfo> ChildInfo
+	{
+		/*
+		 *  Name		: get (childInfo)
+		 *	Description : Accessor for the childInfo Object
+		 *	Parameters	: Nothing
+		 *  Returns		: SubObjectInfo childInfo, the information about the child object(s)
+		*/
+		get
+		{
+			return childInfo; 
+		}
+
+		/*
+		 *  Name		: set (childInfo)
+		 *	Description : Mutator for the childInfo Object
+		 *	Parameters	: SubObjectInfo childInfo, the information about the child object(s)
+		 *  Returns		: Nothing
+		*/
+		set
+		{
+			childInfo = value;
+		}
+	}
 }

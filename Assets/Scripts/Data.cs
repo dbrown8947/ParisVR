@@ -25,7 +25,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 public class Data : MonoBehaviour
 {
 	//Private class variable(s)
-	private List<ObjectInfo> info;
+	private List<Asset> info;
 
 	/*
 	*  METHOD	    : Save()
@@ -37,6 +37,8 @@ public class Data : MonoBehaviour
 	*/
 	public void Save(string saveName)
 	{
+		int counter = 0;
+
 		try
 		{
 			//Create the binary formatter and save file so we can save the object info
@@ -44,7 +46,7 @@ public class Data : MonoBehaviour
 			FileStream file = File.Open (saveName, FileMode.Open);
 
 			//Create the info list to hold all the game object information
-			info = new List<ObjectInfo> ();
+			info = new List<Asset> ();
 
 			//Grab every asset in the game world that uses the Assets tag
 			GameObject[] assets = GameObject.FindGameObjectsWithTag ("Asset");
@@ -52,15 +54,31 @@ public class Data : MonoBehaviour
 			//For evert gameobject with the Asset Tag
 			foreach (GameObject asset in assets) 
 			{
-				ObjectInfo obj = new ObjectInfo ();
+				Asset obj = new Asset ();
 
-				//Save all the important information about the game object into the ObjectInfo container
-				obj.Position = asset.transform.position;
-				obj.Rotation = asset.transform.localEulerAngles;
-				obj.Scale = asset.transform.localScale;
-				obj.Name = asset.gameObject.name;
-				obj.Tag = asset.GetComponent<UnityEngine.UI.Text> ().text;
+				//Save all the important information about the game object into the ObjectInfo container s
+				obj.ParentInfo.Position = asset.transform.position;
+				obj.ParentInfo.Rotation = asset.transform.localEulerAngles;
+				obj.ParentInfo.Scale = asset.transform.localScale;
+				obj.ParentInfo.Name = asset.gameObject.name;
+				obj.ParentInfo.Tag = asset.GetComponent<UnityEngine.UI.Text> ().text;
 
+//				GameObject[] subObj =  asset.GetComponentsInChildren<GameObject>();
+//
+//				foreach (GameObject ob in subObj)
+//				{
+//					SubObjectInfo nfo = new SubObjectInfo();
+//						
+//					//Save all the important information about the game object into the ObjectInfo container s
+//					nfo.Position = subObj.transform.position;
+//					nfo.Rotation = subObj.transform.localEulerAngles;
+//					nfo.Scale = subObj.transform.localScale;
+//					nfo.Name = subObj.gameObject.name;
+//					//nfo.Tag = asset.GetComponent<UnityEngine.UI.Text> ().text;	
+//
+//					obj.ChildInfo.Add(nfo);
+//				}
+					
 				//Add the object into the info list
 				info.Add (obj);
 			}
@@ -92,14 +110,14 @@ public class Data : MonoBehaviour
 			if (File.Exists (saveName))
 			{
 				//Create the info list to hold all the game object information
-				info = new List<ObjectInfo> ();
+				info = new List<Asset> ();
 
 				//Create the binary formatter and save file so we can load the object info
 				BinaryFormatter formatter = new BinaryFormatter ();
 				FileStream file = File.Open (saveName, FileMode.Open);
 
 				//Read the list of object info from the file and then close the file
-				info = (List<ObjectInfo>)formatter.Deserialize (file);
+				info = (List<Asset>)formatter.Deserialize (file);
 				file.Close();	
 
 				//*********************************************************************
