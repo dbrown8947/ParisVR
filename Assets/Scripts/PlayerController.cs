@@ -1,7 +1,7 @@
 ﻿/*
 * FILE			: PlayerController.cs
-* PROJECT		: Final Game Dev
-* PROGRAMMERS	: Marco Fontana
+* PROJECT		: PARISVR
+* PROGRAMMERS	: Marco Fontana & Dustin Brown
 * FIRST VERSION	: 12-26-2017
 * DESCRIPTION   : This file contains the code and functionality required to handle the player's functions 
 */

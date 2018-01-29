@@ -291,7 +291,6 @@
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\Data.cs" />
     <Compile Include="Assets\Scripts\ImportDropDown.cs" />
-    <Compile Include="Assets\Scripts\ImportOBJToUnity.cs" />
     <Compile Include="Assets\Scripts\ImportPress.cs" />
     <Compile Include="Assets\Scripts\MenuHandler.cs" />
     <Compile Include="Assets\Scripts\ObjectInfo_cs.cs" />
