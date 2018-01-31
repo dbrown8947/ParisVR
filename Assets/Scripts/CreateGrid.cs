@@ -10,6 +10,7 @@ public class CreateGrid : MonoBehaviour {
     public int tileX = 20;
     public int tileZ = 10;
 
+	private int tileNumber = 1;
 	// Use this for initialization
 	void Start () {
         CreateWorld();
@@ -25,6 +26,8 @@ public class CreateGrid : MonoBehaviour {
         for (int x = 0; x < worldWidth; x += tileX) {
             for (int z= 0; z < worldHeight; z += tileZ) {
                 GameObject block = Instantiate(tile, this.transform);
+				block.name = "Tile" + z + "x"+x;
+				tileNumber++;
                 block.transform.position = new Vector3(this.transform.position.x + x, this.transform.position.y, this.transform.position.z + z);
             }
         }

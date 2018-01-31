@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour {
 	//Public Variables
 	public float speed;
 	public GameObject screen;
+	public GameObject gridScreen;
 	public bool selected = false;
 	public Text objName;
 	public int escCount;
@@ -121,8 +122,7 @@ public class PlayerController : MonoBehaviour {
 				if (Physics.Raycast (Camera.main.ScreenPointToRay (Input.mousePosition), out hit))
 				{
 					//If the raycase made contact with an object with the Asset tag									
-					if (hit.transform.gameObject.tag == "Asset") 
-					{	
+					if (hit.transform.gameObject.tag == "Asset") {	
 						//Reset the esc counter
 						escCount = 0;
 
@@ -134,14 +134,23 @@ public class PlayerController : MonoBehaviour {
 						obj = hit.transform.gameObject;
 
 						//If the object has a text field
-						if (obj.GetComponent<UnityEngine.UI.Text> () != null)
-						{			
+						if (obj.GetComponent<UnityEngine.UI.Text> () != null) {			
 							//Update the tagger with the text located on the object.
 							tagger.text = obj.GetComponent<UnityEngine.UI.Text> ().text;
 						}
 
 						//Update the rest of the menu text
 						UpdateTextFields ();			
+					} else if (hit.transform.gameObject.tag == "GridTile") {
+
+						escCount = 0;
+
+						//Activate the modifcation menu
+						gridScreen.SetActive (true);
+						selected = true;
+
+
+
 					}
 				}
 			}
@@ -159,7 +168,7 @@ public class PlayerController : MonoBehaviour {
 
 			//Deactivate the modifaction menu and increase the esc counter
 			screen.SetActive(false);
-            OtherScreen.SetActive(false);
+			gridScreen.SetActive(false);
 			selected = false;
 			escCount++;
 		}
