@@ -124,7 +124,7 @@ public class TextHandler : MonoBehaviour {
 		if (float.TryParse (rotY.text, out value)) 
 		{
 			//change the objects Rotation based on the inputted number
-			obj.transform.localEulerAngles = new Vector3(obj.transform.localEulerAngles.x, value, obj.transform.localEulerAngles.z);
+			obj.transform.localEulerAngles = new Vector3(obj.transform.rotation.x, value, obj.transform.rotation.z);
 		}
 	}
 

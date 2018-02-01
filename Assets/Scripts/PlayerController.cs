@@ -31,8 +31,7 @@ public class PlayerController : MonoBehaviour {
 	public InputField scleY;
 	public InputField scleZ;
 	public InputField tagger;
-
-    public GameObject OtherScreen;
+	public bool gridSelected = false;
 
 	//Private Variables
 	private int count;
@@ -59,10 +58,9 @@ public class PlayerController : MonoBehaviour {
         Movement();
 
         //Enter the Selection Handler
-        if(!OtherScreen.activeSelf)
-        {
-            FindObject();
-        }
+
+        FindObject();
+        
 
         //Enter the Hotkeys Handler
         HotKeys();
@@ -148,7 +146,9 @@ public class PlayerController : MonoBehaviour {
 						//Activate the modifcation menu
 						gridScreen.SetActive (true);
 						selected = true;
+						gridSelected = true;
 
+						obj = hit.transform.gameObject;
 
 
 					}
@@ -170,6 +170,7 @@ public class PlayerController : MonoBehaviour {
 			screen.SetActive(false);
 			gridScreen.SetActive(false);
 			selected = false;
+			gridSelected = false;
 			escCount++;
 		}
 	}
@@ -208,7 +209,7 @@ public class PlayerController : MonoBehaviour {
 	void HotKeys()
 	{
 		//Only activate if the player has selected a game object
-		if (selected)
+		if (selected && screen.activeSelf)
 		{
 			//If the user has pressed the left control button
 			if (Input.GetKey (KeyCode.LeftControl)) 

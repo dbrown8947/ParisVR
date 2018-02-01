@@ -23,13 +23,4 @@ public class ImportDropDown : MonoBehaviour {
 
         dropdown.AddOptions(objObjects);	
 	}
-
-
-	void Update()
-	{
-		
-	}
-
-
-
 }

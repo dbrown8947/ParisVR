@@ -7,8 +7,10 @@ public class ImportPress : MonoBehaviour
 {
     public Button btn;
     public Dropdown dropdown;
+	public GameObject plyr;
+	public GameObject obj;
 
-    private GameObject go;
+    private GameObject building;
     private List<GameObject> buildings = new List<GameObject>();
     private int gameObjectCount = 0;
     // Use this for initialization
@@ -22,33 +24,26 @@ public class ImportPress : MonoBehaviour
     void onClick()
     {
 
-        if (dropdown.options[dropdown.value].text == "All")
-        {
-            for (int i = 1; i < dropdown.options.Count; i++)
-            {
-                go = OBJLoader.LoadOBJFile(dropdown.options[i].text);
-               
-                ApplySettings();
+		if (plyr.GetComponent<PlayerController>().gridSelected) {
+        
+			building = OBJLoader.LoadOBJFile (dropdown.options [dropdown.value].text);
 
-            }
-        }
-        else
-        {
-            go = OBJLoader.LoadOBJFile(dropdown.options[dropdown.value].text);
-            ApplySettings();
-        }
-
+			obj = plyr.GetComponent<PlayerController>().obj;
+			ApplySettings ();
+        
+		}
 
     }
 
     void ApplySettings()
     {
-        go.transform.position = new Vector3(-15 * gameObjectCount - 10, 0, -15 * gameObjectCount);
-        go.transform.localScale = new Vector3(0.02f, 0.02f, 0.02f);
-        go.tag = "Asset";
-        Destroy(go);
-        Instantiate(go);
-
+		//building.transform.position = obj.transform.position;
+		building.transform.position = new Vector3 (obj.transform.position.x/2 , obj.transform.position.y/2, obj.transform.position.z/2);
+		building.transform.localScale = new Vector3(0.02f, 0.02f, 0.02f);
+		building.tag = "Asset";
+		Destroy(building);
+		Instantiate(building);
+		obj.SetActive(false);
         gameObjectCount++;
     }
 
