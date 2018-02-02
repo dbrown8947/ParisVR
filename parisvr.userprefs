@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TextureDropDown.cs">
+    <Files>
+      <File FileName="Assets/Scripts/TextureChange.cs" Line="33" Column="54" />
+      <File FileName="Assets/Scripts/ImportPress.cs" Line="54" Column="5" />
+      <File FileName="Assets/Scripts/Container.cs" Line="34" Column="27" />
+      <File FileName="Assets/TextureDropDown.cs" Line="25" Column="3" />
+      <File FileName="Assets/OBJImport/OBJLoader.cs" Line="15" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/student/Documents/GitHub/ParisVR/Assets/TextureDropDown.cs" line="18" column="3" />
+      <Breakpoint file="/Users/student/Documents/GitHub/ParisVR/Assets/TextureDropDown.cs" line="31" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class ImportPress : MonoBehaviour
 {
     public Button btn;
@@ -50,8 +51,20 @@ public class ImportPress : MonoBehaviour
             ApplySettings();
         }
 
+		//MeshRenderer[] mr = go.GetComponentsInChildren<MeshRenderer> ();
 
-    }
+
+		/*
+		foreach (MeshRenderer meshr in mr) 
+		{
+			foreach (Material m in meshr.materials) 
+			{
+				AssetDatabase.CreateAsset (m, "Assets/Materials/"+m.name+".mat");
+		}
+		*/
+
+    
+	}
 
     /*
     * FUNCTION : ApplySettings
