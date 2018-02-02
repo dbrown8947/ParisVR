@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour {
 	public Text objName;
 	public int escCount;
 	public GameObject obj;
+	public GameObject Parent;
 	public InputField posX;
 	public InputField posY;
 	public InputField posZ;
@@ -36,6 +37,7 @@ public class PlayerController : MonoBehaviour {
 	//Private Variables
 	private int count;
 	private Vector3 direction;
+	private Vector3 rotation = new Vector3(0,0,0);
 
 	//FUNCTION      : Start()
 	//DESCRIPTION   : This Method is launched when the level is loaded and is used to gather
@@ -82,16 +84,16 @@ public class PlayerController : MonoBehaviour {
 		CharacterController player = GetComponent<CharacterController>();
 
 		//If the game is not paused
-		if (Time.timeScale == 1.0f)
-		{
+		//if (Time.timeScale == 1.0f)
+		//{
 			//Use Standard Movement for the movement vector
 			moving = new Vector3 (Input.GetAxis ("Horizontal"), 0.0f, Input.GetAxis ("Vertical"));
-		}
-		else 
-		{
+		//}
+		//else 
+		//{
 			//otherwise dont allow the user to move
-			moving = new Vector3 ( 0.0f, 0.0f,0.0f);
-		}
+		//	moving = new Vector3 ( 0.0f, 0.0f,0.0f);
+		//}
 
 		//Move the player based on the generated vector
 		moving = transform.TransformDirection (moving);
@@ -129,7 +131,7 @@ public class PlayerController : MonoBehaviour {
 
 						//Toggle the selected flag and access the object so we can modify it.
 						selected = true;
-						obj = hit.transform.gameObject;
+						obj = hit.transform.parent.gameObject;
 
 						//If the object has a text field
 						if (obj.GetComponent<UnityEngine.UI.Text> () != null) {			
@@ -150,7 +152,8 @@ public class PlayerController : MonoBehaviour {
 
 						obj = hit.transform.gameObject;
 
-
+						Parent = hit.transform.parent.gameObject;
+						Parent.transform.localEulerAngles = rotation;
 					}
 				}
 			}

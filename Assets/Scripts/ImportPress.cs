@@ -9,6 +9,7 @@ public class ImportPress : MonoBehaviour
     public Dropdown dropdown;
 	public GameObject plyr;
 	public GameObject obj;
+	public GameObject Parent;
 
     private GameObject building;
     private List<GameObject> buildings = new List<GameObject>();
@@ -23,12 +24,12 @@ public class ImportPress : MonoBehaviour
 
     void onClick()
     {
-
 		if (plyr.GetComponent<PlayerController>().gridSelected) {
         
 			building = OBJLoader.LoadOBJFile (dropdown.options [dropdown.value].text);
 
 			obj = plyr.GetComponent<PlayerController>().obj;
+			Parent = plyr.GetComponent<PlayerController>().Parent;
 			ApplySettings ();
         
 		}
@@ -37,12 +38,44 @@ public class ImportPress : MonoBehaviour
 
     void ApplySettings()
     {
-		//building.transform.position = obj.transform.position;
-		building.transform.position = new Vector3 (obj.transform.position.x/2 , obj.transform.position.y/2, obj.transform.position.z/2);
-		building.transform.localScale = new Vector3(0.02f, 0.02f, 0.02f);
-		building.tag = "Asset";
+		Quaternion rotation = new Quaternion(0,0,0,0);
+
 		Destroy(building);
-		Instantiate(building);
+		//building.transform.position = obj.transform.position;
+		building.transform.position = new Vector3 (0, 0, 0);
+		building.transform.rotation = rotation;
+
+		Vector3 center = Vector3.zero;
+
+		foreach (Transform child in building.transform)
+		{
+			center += child.gameObject.GetComponent<Renderer>().bounds.center;
+		}
+		center /= building.transform.childCount; //center is average center of children
+
+		center = (center * 0.3048f) / 12;//Real unity center for object
+
+		building.tag = "Asset";
+		building.transform.localScale = new Vector3(0.0257f, 0.0257f, 0.0257f);
+		GameObject newBuilding= Instantiate(building,Parent.transform);
+		//float x = Parent.transform.position.x - center.x;
+		//float y = Parent.transform.position.y - center.y;
+		//float z = Parent.transform.position.z - center.z;
+		float x = center.x;
+		float y = center.y;
+		float z = center.z;
+
+
+		//newBuilding.transform.position = new Vector3 (newBuilding.transform.position.x - (x), newBuilding.transform.position.y - y, newBuilding.transform.position.z - z);
+		//newBuilding.transform.Translate(new Vector3 ((Parent.transform.localPosition.x), (Parent.transform.position.y), (Parent.transform.position.z))* Time.deltaTime);
+		//newBuilding.transform.position = new Vector3 (newBuilding.transform.position.x - (x), newBuilding.transform.position.y - (y), newBuilding.transform.position.z - (z));
+		newBuilding.transform.localPosition = new Vector3 (newBuilding.transform.localPosition.x - (x), newBuilding.transform.localPosition.y  - (y), newBuilding.transform.localPosition.z  - (z));
+
+		//newBuilding.transform.localPosition = new Vector3 (x, y, z);
+
+		//newBuilding.transform.Translate(new Vector3 (newBuilding.transform.position.x - (x), (y), (y))* Time.deltaTime);
+
+
 		obj.SetActive(false);
         gameObjectCount++;
     }
