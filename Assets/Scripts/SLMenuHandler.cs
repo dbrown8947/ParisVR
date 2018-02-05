@@ -13,6 +13,7 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEditor;
+using SFB;
 
 
 /*
@@ -29,6 +30,11 @@ public class SLMenuHandler : MonoBehaviour
 	//The class that handles saving and loading
 	private Data data; 
 
+	//Error Handler Variables
+	public Transform errorMenu;
+	public Text eLabel;
+	public Text eText;
+
 
 	/*
 	*  METHOD	    : Start()
@@ -36,6 +42,7 @@ public class SLMenuHandler : MonoBehaviour
 	*                 information or initalize other variable
 	*  PARAMETERS	: Nothing
     *  RETURNS  	: Nothing
+    * 
 	*/
 	void Start () 
 	{
@@ -43,6 +50,35 @@ public class SLMenuHandler : MonoBehaviour
 		data = new Data ();
 	}
 
+
+	/*
+	*  METHOD	    : ErrorHandler()
+    *  DESCRIPTION  : This method is responsible for displaying an error and the text involved with 
+    *                 that error to the user.
+	*  PARAMETERS	: string errorType : The error type i.e save error
+	* 				  string error     : The contents of the error i.e what went wrong
+    *  RETURNS  	: Nothing
+	*/
+	void ErrorHandler(string errorType, string error)
+	{
+		//Display the error to the user with the proper information
+		eLabel.text = errorType + " Error";
+		eText.text = error;	
+		errorMenu.gameObject.SetActive (true);
+	}
+
+	/*
+	*  METHOD	    : CloseErrorHandler()
+    *  DESCRIPTION  : This method is responsible for closing the error handler after the user is done with it.
+    *                 This is an onclick handler.
+	*  PARAMETERS	: Nothing
+    *  RETURNS  	: Nothing
+	*/
+	public void CloseErrorHandler()
+	{
+		//Close the error handler and enable the save/load buttons again
+		errorMenu.gameObject.SetActive (false);
+	}
 
 	/*
 	*  METHOD	    : OpenLoad()
@@ -55,21 +91,24 @@ public class SLMenuHandler : MonoBehaviour
 	{
         try
         {
-            string path = EditorUtility.OpenFilePanel("Load Game World", "", "dat");
+			//Open the file using the standalonefilebrowser plugin
+			string path = StandaloneFileBrowser.OpenFilePanel("Load Game World", "", "dat", false)[0];
 
+			//If the path length is zero thorw an exception
             if(path.Length == 0)
             {
                 throw new Exception("No File Selected, Or The File Was Not Found");
             }
             else
             {
+				//Load the file through the data class.
                 data.Load(path);
             }
         }
         catch (Exception e)
         {
             //If we are Saving make sure that the error displays as a save error
-            EditorUtility.DisplayDialog("Load Error", e.Message, "OK");
+			ErrorHandler ("Load", e.Message);           
         }
     }
 
@@ -84,21 +123,24 @@ public class SLMenuHandler : MonoBehaviour
 	{
         try
         {
-           string path = EditorUtility.SaveFilePanel("Save Game World", "", "newSave.dat", "dat");
+			//Save the file using the standalonefilebrowser plugin
+			string path = StandaloneFileBrowser.SaveFilePanel("Save Game World", "", "newSave.dat", "dat");
 
+			//If the path length is zero thorw an exception
            if(path.Length == 0)
            {
                 throw new Exception("No File Selected, Or The File Was Not Found");
             }
            else
            {
+				//Otherwise save the data through the data class
                 data.Save(path);
            }
         }
         catch(Exception e)
         {
             //If we are Saving make sure that the error displays as a save error
-            EditorUtility.DisplayDialog("Save Error", e.Message, "OK");
+			ErrorHandler ("Save", e.Message);
         }
     }
 }
