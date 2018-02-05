@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*
+*  FILE          : ImportPress.cs
+*  PROJECT       : ParisVR
+*  PROGRAMMER    : Dustin Brown
+*  FIRST VERSION : 2018-01-21
+*  DESCRIPTION   :
+*    calls objloader when user selects building(s) to import
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -50,18 +58,6 @@ public class ImportPress : MonoBehaviour
             go = OBJLoader.LoadOBJFile(dropdown.options[dropdown.value].text);
             ApplySettings();
         }
-
-		//MeshRenderer[] mr = go.GetComponentsInChildren<MeshRenderer> ();
-
-
-		/*
-		foreach (MeshRenderer meshr in mr) 
-		{
-			foreach (Material m in meshr.materials) 
-			{
-				AssetDatabase.CreateAsset (m, "Assets/Materials/"+m.name+".mat");
-		}
-		*/
 
     
 	}

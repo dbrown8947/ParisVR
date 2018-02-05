@@ -1,4 +1,13 @@
-﻿using System.Collections;
+﻿/*
+*  FILE          : TextureDropDown.cs
+*  PROJECT       : ParisVR
+*  PROGRAMMER    : Dustin Brown
+*  FIRST VERSION : 2018-02-02
+*  DESCRIPTION   :
+*    Refreshes the texturedropdown list
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

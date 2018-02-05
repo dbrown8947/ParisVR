@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*
+*  FILE          : TextureChange.cs
+*  PROJECT       : ParisVR
+*  PROGRAMMER    : Dustin Brown
+*  FIRST VERSION : 2018-02-02
+*  DESCRIPTION   :
+*    Changes the texture of the selected subAsset to the selected material in the drop down
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,13 +27,20 @@ public class TextureChange : MonoBehaviour {
 	private GameObject obj;
 	private Material[] mats;
 
-
+	/*
+	* Method      : Start
+	* Description : set listerner
+	*/
 	void Start()
 	{
 		btn.onClick.AddListener(onClick);
 	}
 
 
+	/*
+	* Method      : onClick
+	* Description : changes the texture of the selected sub asset to selected material
+	*/
 	void onClick()
 	{
 		int index = textureList.value;
