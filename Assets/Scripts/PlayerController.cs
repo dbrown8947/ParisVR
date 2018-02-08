@@ -11,16 +11,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class PlayerController : MonoBehaviour {
 
 	//Public Variables
 	public float speed;
 	public GameObject screen;
+	public GameObject importMenu;
+	public Text TileName;
 	public bool selected = false;
 	public Text objName;
 	public int escCount;
 	public GameObject obj;
-
+	public GameObject Parent;
 	public InputField posX;
 	public InputField posY;
 	public InputField posZ;
@@ -31,23 +34,27 @@ public class PlayerController : MonoBehaviour {
 	public InputField scleY;
 	public InputField scleZ;
 	public InputField tagger;
-
-    public GameObject OtherScreen;
+	public bool gridSelected = false;
+	private TextHandler Logger;
 
 	//Private Variables
 	private int count;
 	private Vector3 direction;
-    private string assetType;
-    private Vector3 bcHolder;
-    private GameObject parentObj;
+	private Vector3 rotation = new Vector3(0,0,0);
+	private string ObjName;
+	private GameObject SpecificLotParent;
+	private GameObject PlaceHolderParent;
+	private GameObject LotParent;
+	private GameObject AreaParent;
 
-    //FUNCTION      : Start()
-    //DESCRIPTION   : This Method is launched when the level is loaded and is used to gather
-    //                information or initalize other variables
-    //PARAMETERS    : Nothing
-    //RETURNS		: Nothing
-    void Start()
+	//FUNCTION      : Start()
+	//DESCRIPTION   : This Method is launched when the level is loaded and is used to gather
+	//                information or initalize other variables
+	//PARAMETERS    : Nothing
+	//RETURNS		: Nothing
+	void Start()
 	{
+		Logger = gameObject.AddComponent<TextHandler> () as TextHandler;
 		escCount = 0;
 	}
 
@@ -62,10 +69,9 @@ public class PlayerController : MonoBehaviour {
         Movement();
 
         //Enter the Selection Handler
-        if(!OtherScreen.activeSelf)
-        {
-            FindObject();
-        }
+
+        FindObject();
+        
 
         //Enter the Hotkeys Handler
         HotKeys();
@@ -87,16 +93,16 @@ public class PlayerController : MonoBehaviour {
 		CharacterController player = GetComponent<CharacterController>();
 
 		//If the game is not paused
-		if (Time.timeScale == 1.0f)
-		{
+		//if (Time.timeScale == 1.0f)
+		//{
 			//Use Standard Movement for the movement vector
 			moving = new Vector3 (Input.GetAxis ("Horizontal"), 0.0f, Input.GetAxis ("Vertical"));
-		}
-		else 
-		{
+		//}
+		//else 
+		//{
 			//otherwise dont allow the user to move
-			moving = new Vector3 ( 0.0f, 0.0f,0.0f);
-		}
+		//	moving = new Vector3 ( 0.0f, 0.0f,0.0f);
+		//}
 
 		//Move the player based on the generated vector
 		moving = transform.TransformDirection (moving);
@@ -115,18 +121,9 @@ public class PlayerController : MonoBehaviour {
 		//If the player hasnt already selected an item and we are not paused
 		if (!selected && Time.timeScale == 1.0f)
 		{
-			//if we are not paused and the left or right mouse button is pressed
-			if ((Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1)) && Time.timeScale == 1.0f)
+			//if we are not paused and the left mouse button is pressed
+			if (Input.GetMouseButtonDown (0) && Time.timeScale == 1.0f)
 			{
-                if(Input.GetMouseButtonDown(0))
-                {
-                    assetType = "Asset";
-                }
-                else
-                {
-                    assetType = "SubAsset";
-                }
-
 				//Create a Raycast
 				RaycastHit hit = new RaycastHit ();
 
@@ -134,8 +131,7 @@ public class PlayerController : MonoBehaviour {
 				if (Physics.Raycast (Camera.main.ScreenPointToRay (Input.mousePosition), out hit))
 				{
 					//If the raycase made contact with an object with the Asset tag									
-					if (hit.transform.gameObject.tag == assetType) 
-					{	
+					if (hit.transform.gameObject.tag == "Asset") {	
 						//Reset the esc counter
 						escCount = 0;
 
@@ -144,39 +140,39 @@ public class PlayerController : MonoBehaviour {
 
 						//Toggle the selected flag and access the object so we can modify it.
 						selected = true;
-						obj = hit.transform.gameObject;
+						obj = hit.transform.parent.gameObject;
 
-                        //disable collider to select sub asset
-                        if (assetType == "Asset")
-                        {
-                            //if we have a parent object without collider, put it back
-                            if(parentObj !=null)
-                            {
-                                parentObj.GetComponent<BoxCollider>().size = bcHolder;
-                                parentObj = null;
-                            }
+						Logger.WriteToLog ("Object Tagged, Name: " + obj.gameObject.name + " At X =" + obj.gameObject.transform.position.x + " Y =" + obj.gameObject.transform.position.x + " Z =" + obj.gameObject.transform.position.z);
 
-                            bcHolder = obj.GetComponent<BoxCollider>().size;
-                            obj.GetComponent<BoxCollider>().size = new Vector3(0, 0, 0);
-                            parentObj = obj;
-                        }
-                        //selected the subasset, we can put the collider back on
-                        if (assetType == "SubAsset" && parentObj != null) 
-                        {
-                            //put the collider back
-                            parentObj.GetComponent<BoxCollider>().size = bcHolder;
-                            parentObj = null;
-                        }
-     
-                            //If the object has a text field
-						if (obj.GetComponent<UnityEngine.UI.Text> () != null)
-						{			
+						//If the object has a text field
+						if (obj.GetComponent<UnityEngine.UI.Text> () != null) {			
 							//Update the tagger with the text located on the object.
 							tagger.text = obj.GetComponent<UnityEngine.UI.Text> ().text;
 						}
 
 						//Update the rest of the menu text
 						UpdateTextFields ();			
+					} else if (hit.transform.gameObject.tag == "GridTile") {
+
+						escCount = 0;
+
+						//Activate the modifcation menu
+						importMenu.SetActive (true);
+						selected = true;
+						gridSelected = true;
+
+						obj = hit.transform.gameObject;
+						SpecificLotParent = hit.transform.parent.gameObject;
+						PlaceHolderParent = SpecificLotParent.transform.parent.gameObject;
+						LotParent = PlaceHolderParent.transform.parent.gameObject;
+						AreaParent = LotParent.transform.parent.gameObject;
+
+						TileName.text = "Selected Tile: " + SpecificLotParent.name+ " In " + LotParent.name + " In " +AreaParent.name;
+
+						Logger.WriteToLog ("Grid Tile Tagged, Name: " + SpecificLotParent.name + " At X=" + obj.gameObject.transform.position.x + " Y=" + obj.gameObject.transform.position.x + " Z=" + obj.gameObject.transform.position.z);
+
+						Parent = hit.transform.parent.gameObject;
+						Parent.transform.localEulerAngles = rotation;
 					}
 				}
 			}
@@ -194,9 +190,9 @@ public class PlayerController : MonoBehaviour {
 
 			//Deactivate the modifaction menu and increase the esc counter
 			screen.SetActive(false);
-            OtherScreen.SetActive(false);
-            
+			importMenu.SetActive(false);
 			selected = false;
+			gridSelected = false;
 			escCount++;
 		}
 	}
@@ -235,15 +231,15 @@ public class PlayerController : MonoBehaviour {
 	void HotKeys()
 	{
 		//Only activate if the player has selected a game object
-		if (selected)
+		if (selected && screen.activeSelf)
 		{
 			//If the user has pressed the left control button
 			if (Input.GetKey (KeyCode.LeftControl)) 
 			{
 				//Set the object back to the origin point and reset its rotation
-				obj.transform.rotation = Quaternion.identity;
-				obj.transform.position = Vector3.zero;
-
+				obj.transform.localEulerAngles = Vector3.zero;
+				obj.transform.localPosition = Vector3.zero;
+				Logger.WriteToLog ("Game Object : " + obj.gameObject.name + " has been reset to its original position.");
 				//Update the text fields with the new location
 				UpdateTextFields ();
 			}				
