@@ -10,16 +10,15 @@ public class ImportPress : MonoBehaviour
 	public GameObject plyr;
 	public GameObject obj;
 	public GameObject Parent;
+	public GameObject Menu;
+	public GameObject Camera;
 
     private GameObject building;
-    private List<GameObject> buildings = new List<GameObject>();
-    private int gameObjectCount = 0;
     // Use this for initialization
 
     void Start()
     {
         btn.onClick.AddListener(onClick);
-        gameObjectCount = 0;
     }
 
     void onClick()
@@ -46,6 +45,7 @@ public class ImportPress : MonoBehaviour
 		building.transform.rotation = rotation;
 
 		Vector3 center = Vector3.zero;
+		Vector3 Test = Vector3.zero;
 
 		foreach (Transform child in building.transform)
 		{
@@ -57,10 +57,8 @@ public class ImportPress : MonoBehaviour
 
 		building.tag = "Asset";
 		building.transform.localScale = new Vector3(0.0257f, 0.0257f, 0.0257f);
+
 		GameObject newBuilding= Instantiate(building,Parent.transform);
-		//float x = Parent.transform.position.x - center.x;
-		//float y = Parent.transform.position.y - center.y;
-		//float z = Parent.transform.position.z - center.z;
 		float x = center.x;
 		float y = center.y;
 		float z = center.z;
@@ -75,9 +73,10 @@ public class ImportPress : MonoBehaviour
 
 		//newBuilding.transform.Translate(new Vector3 (newBuilding.transform.position.x - (x), (y), (y))* Time.deltaTime);
 
-
 		obj.SetActive(false);
-        gameObjectCount++;
+		Menu.SetActive (false);
+		plyr.GetComponent<PlayerController> ().gridSelected = false;
+		plyr.GetComponent<PlayerController> ().selected = false;
     }
 
 }

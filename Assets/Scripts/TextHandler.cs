@@ -296,4 +296,56 @@ public class TextHandler : MonoBehaviour {
 
 	}
 
+	//FUNCTION      : WriteToLog()
+	//DESCRIPTION   : This method is responsible for creating and writing to a tag file and
+	//                saving the tagger text to the gameobject itself.
+	//PARAMETERS    : Nothing
+	//RETURNS		: Nothing
+	public void WriteToLog(string message)
+	{
+		//Method variables
+		Stream logging;
+		StreamWriter write;
+		string fileName = "";
+		DateTime today = new DateTime();
+
+		//Restart the time scale
+		Time.timeScale = 1.0f;
+
+		try
+		{
+			//get the current date
+			today = DateTime.Now;
+
+			//Create a daily unique log file name
+			fileName = "Logs " + today.ToString("MM_dd_yyyy") + ".txt";
+
+			//If the file doesnt exist
+			if (!File.Exists(fileName))
+			{
+				//Make the file and open it for appending
+				logging = new FileStream(fileName, FileMode.Append);
+				write = new StreamWriter(logging);
+			}
+			else
+			{
+				//If the file does exist get ready to append to it
+				write = File.AppendText(fileName);
+			}
+
+			//Get the current time of error
+			DateTime errorTime = DateTime.Now;
+
+			//Write the information to the tag file then close it
+			write.WriteLine(DateTime.Now + ": " + message);
+			write.Flush();
+			write.Close();
+		}
+		catch (Exception)
+		{
+			//Do nothing
+		}
+
+	}
+
 }

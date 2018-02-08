@@ -11,12 +11,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class PlayerController : MonoBehaviour {
 
 	//Public Variables
 	public float speed;
 	public GameObject screen;
-	public GameObject gridScreen;
+	public GameObject importMenu;
+	public Text TileName;
 	public bool selected = false;
 	public Text objName;
 	public int escCount;
@@ -33,11 +35,17 @@ public class PlayerController : MonoBehaviour {
 	public InputField scleZ;
 	public InputField tagger;
 	public bool gridSelected = false;
+	private TextHandler Logger;
 
 	//Private Variables
 	private int count;
 	private Vector3 direction;
 	private Vector3 rotation = new Vector3(0,0,0);
+	private string ObjName;
+	private GameObject SpecificLotParent;
+	private GameObject PlaceHolderParent;
+	private GameObject LotParent;
+	private GameObject AreaParent;
 
 	//FUNCTION      : Start()
 	//DESCRIPTION   : This Method is launched when the level is loaded and is used to gather
@@ -46,6 +54,7 @@ public class PlayerController : MonoBehaviour {
 	//RETURNS		: Nothing
 	void Start()
 	{
+		Logger = gameObject.AddComponent<TextHandler> () as TextHandler;
 		escCount = 0;
 	}
 
@@ -133,6 +142,8 @@ public class PlayerController : MonoBehaviour {
 						selected = true;
 						obj = hit.transform.parent.gameObject;
 
+						Logger.WriteToLog ("Object Tagged, Name: " + obj.gameObject.name + " At X =" + obj.gameObject.transform.position.x + " Y =" + obj.gameObject.transform.position.x + " Z =" + obj.gameObject.transform.position.z);
+
 						//If the object has a text field
 						if (obj.GetComponent<UnityEngine.UI.Text> () != null) {			
 							//Update the tagger with the text located on the object.
@@ -146,11 +157,19 @@ public class PlayerController : MonoBehaviour {
 						escCount = 0;
 
 						//Activate the modifcation menu
-						gridScreen.SetActive (true);
+						importMenu.SetActive (true);
 						selected = true;
 						gridSelected = true;
 
 						obj = hit.transform.gameObject;
+						SpecificLotParent = hit.transform.parent.gameObject;
+						PlaceHolderParent = SpecificLotParent.transform.parent.gameObject;
+						LotParent = PlaceHolderParent.transform.parent.gameObject;
+						AreaParent = LotParent.transform.parent.gameObject;
+
+						TileName.text = "Selected Tile: " + SpecificLotParent.name+ " In " + LotParent.name + " In " +AreaParent.name;
+
+						Logger.WriteToLog ("Grid Tile Tagged, Name: " + SpecificLotParent.name + " At X=" + obj.gameObject.transform.position.x + " Y=" + obj.gameObject.transform.position.x + " Z=" + obj.gameObject.transform.position.z);
 
 						Parent = hit.transform.parent.gameObject;
 						Parent.transform.localEulerAngles = rotation;
@@ -171,7 +190,7 @@ public class PlayerController : MonoBehaviour {
 
 			//Deactivate the modifaction menu and increase the esc counter
 			screen.SetActive(false);
-			gridScreen.SetActive(false);
+			importMenu.SetActive(false);
 			selected = false;
 			gridSelected = false;
 			escCount++;
@@ -218,9 +237,9 @@ public class PlayerController : MonoBehaviour {
 			if (Input.GetKey (KeyCode.LeftControl)) 
 			{
 				//Set the object back to the origin point and reset its rotation
-				obj.transform.rotation = Quaternion.identity;
-				obj.transform.position = Vector3.zero;
-
+				obj.transform.localEulerAngles = Vector3.zero;
+				obj.transform.localPosition = Vector3.zero;
+				Logger.WriteToLog ("Game Object : " + obj.gameObject.name + " has been reset to its original position.");
 				//Update the text fields with the new location
 				UpdateTextFields ();
 			}				
