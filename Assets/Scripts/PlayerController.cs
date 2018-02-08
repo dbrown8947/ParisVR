@@ -93,16 +93,16 @@ public class PlayerController : MonoBehaviour {
 		CharacterController player = GetComponent<CharacterController>();
 
 		//If the game is not paused
-		//if (Time.timeScale == 1.0f)
-		//{
+		if (Time.timeScale == 1.0f)
+		{
 			//Use Standard Movement for the movement vector
 			moving = new Vector3 (Input.GetAxis ("Horizontal"), 0.0f, Input.GetAxis ("Vertical"));
-		//}
-		//else 
-		//{
+		}
+		else 
+		{
 			//otherwise dont allow the user to move
-		//	moving = new Vector3 ( 0.0f, 0.0f,0.0f);
-		//}
+			moving = new Vector3 ( 0.0f, 0.0f,0.0f);
+		}
 
 		//Move the player based on the generated vector
 		moving = transform.TransformDirection (moving);
