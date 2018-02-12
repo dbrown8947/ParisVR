@@ -12,6 +12,7 @@ public class ImportPress : MonoBehaviour
 	public GameObject Parent;
 	public GameObject Menu;
 	public GameObject Camera;
+	public Material defaultMat;
 
     private GameObject building;
     // Use this for initialization
@@ -25,7 +26,7 @@ public class ImportPress : MonoBehaviour
     {
 		if (plyr.GetComponent<PlayerController>().gridSelected) {
         
-			building = OBJLoader.LoadOBJFile (dropdown.options [dropdown.value].text);
+			building = OBJLoader.LoadOBJFile (dropdown.options [dropdown.value].text,defaultMat);
 
 			obj = plyr.GetComponent<PlayerController>().obj;
 			Parent = plyr.GetComponent<PlayerController>().Parent;

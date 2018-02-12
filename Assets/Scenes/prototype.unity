@@ -20007,6 +20007,7 @@ MonoBehaviour:
   Parent: {fileID: 0}
   Menu: {fileID: 569720379}
   Camera: {fileID: 1662150121}
+  defaultMat: {fileID: 2100000, guid: 6b0a2755682ec4e58b0894e672a36ec9, type: 2}
 --- !u!114 &1973629600
 MonoBehaviour:
   m_ObjectHideFlags: 0
