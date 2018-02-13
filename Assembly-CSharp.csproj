@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\Container.cs" />
      <Compile Include="Assets\Scripts\Data.cs" />
+     <Compile Include="Assets\Scripts\ElementDropDown.cs" />
      <Compile Include="Assets\Scripts\ImportDropDown.cs" />
      <Compile Include="Assets\Scripts\ImportPress.cs" />
      <Compile Include="Assets\Scripts\MenuHandler.cs" />
