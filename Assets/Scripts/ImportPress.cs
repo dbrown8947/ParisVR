@@ -7,9 +7,15 @@ public class ImportPress : MonoBehaviour
 {
     public Button btn;
     public Dropdown dropdown;
+	public GameObject plyr;
+	public GameObject obj;
+	public GameObject Parent;
+	public GameObject Menu;
+	public GameObject Camera;
+	public Material defaultMat;
 
-    private GameObject go;
-    private int gameObjectCount = 0;
+    private GameObject building;
+    // Use this for initialization
 
 
     /*
@@ -20,7 +26,6 @@ public class ImportPress : MonoBehaviour
     void Start()
     {
         btn.onClick.AddListener(onClick);
-        gameObjectCount = 0;
     }
 
     /*
@@ -30,26 +35,16 @@ public class ImportPress : MonoBehaviour
     */
     void onClick()
     {
-        //if all, import all objects in folder
-        if (dropdown.options[dropdown.value].text == "All")
-        {
-            //iterate through directory
-            for (int i = 1; i < dropdown.options.Count; i++)
-            {
-                //import asset
-                go = OBJLoader.LoadOBJFile(dropdown.options[i].text);
-               
-                ApplySettings();
 
-            }
-        }
-        else
-        {
-            //import the selected asset
-            go = OBJLoader.LoadOBJFile(dropdown.options[dropdown.value].text);
-            ApplySettings();
-        }
+		if (plyr.GetComponent<PlayerController>().gridSelected) {
+        
+			building = OBJLoader.LoadOBJFile (dropdown.options [dropdown.value].text,defaultMat);
 
+			obj = plyr.GetComponent<PlayerController>().obj;
+			Parent = plyr.GetComponent<PlayerController>().Parent;
+			ApplySettings ();
+        
+		}
 
     }
 
@@ -60,18 +55,41 @@ public class ImportPress : MonoBehaviour
     */
     void ApplySettings()
     {
-        //place in new postion
-        go.transform.position = new Vector3(-15 * gameObjectCount - 10, 0, -15 * gameObjectCount);
-        //reduce scale
-        go.transform.localScale = new Vector3(0.02f, 0.02f, 0.02f);
-        //tag the parent object as an asset
-        go.tag = "Asset";
-        //destroy the original
-        Destroy(go);
-        //create new version with transformations applied
-        Instantiate(go);
 
-        gameObjectCount++;
+
+		Destroy(building);
+		//building.transform.position = obj.transform.position;
+		building.transform.position = new Vector3 (0, 0, 0);
+		//building.transform.rotation = rotation;
+
+		Vector3 center = Vector3.zero;
+		Vector3 Test = Vector3.zero;
+
+		foreach (Transform child in building.transform)
+		{
+			center += child.gameObject.GetComponent<Renderer>().bounds.center;
+		}
+		center /= building.transform.childCount; //center is average center of children
+
+		center = (center * 0.3048f) / 12;//Real unity center for object
+
+		building.tag = "Asset";
+		building.transform.localScale = new Vector3(0.0257f, 0.0257f, 0.0257f);
+
+		GameObject newBuilding= Instantiate(building,Parent.transform);
+		float x = center.x;
+		float y = center.y;
+		float z = center.z;
+
+
+		newBuilding.transform.localPosition = new Vector3 (newBuilding.transform.localPosition.x - (x), newBuilding.transform.localPosition.y  - (y), newBuilding.transform.localPosition.z  - (z));
+
+
+
+		obj.SetActive(false);
+		Menu.SetActive (false);
+		plyr.GetComponent<PlayerController> ().gridSelected = false;
+		plyr.GetComponent<PlayerController> ().selected = false;
     }
 
 }

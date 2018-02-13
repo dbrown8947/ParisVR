@@ -26,17 +26,16 @@ public class ImportDropDown : MonoBehaviour {
     private List<string> objObjects = new List<string>();
 
     void Start()
-    {
-        //read directory
-        string[] tempPath = Directory.GetFiles(@filepath, "*.obj");
+	{
+		//read directory
+		string[] tempPath = Directory.GetFiles (@filepath, "*.obj");
 
-        //add to list
-        for (int i = 0; i < tempPath.Length; i++)
-        {
-            objObjects.Add(tempPath[i]);
-        }
-        //fill drop down with list
-        dropdown.AddOptions(objObjects);	
-	}
+		//add to list
+		for (int i = 0; i < tempPath.Length; i++) {
+			objObjects.Add (tempPath [i]);
+		}
+		//fill drop down with list
+		dropdown.AddOptions (objObjects);	
 	
+	}
 }
