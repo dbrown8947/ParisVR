@@ -207,6 +207,10 @@ public class PlayerController : MonoBehaviour {
 			
 		}
 
+
+			}
+
+		}
 		//If the user pressed esacape 
 		if (Input.GetKeyDown (KeyCode.Escape)) 
 		{
@@ -224,7 +228,7 @@ public class PlayerController : MonoBehaviour {
 			gridSelected = false;
 			escCount++;
 		}
-			}}
+
 		}
 	//FUNCTION      : UpdateTextFields()
 	//DESCRIPTION   : This Method is responsible for updating the menu text when the user
