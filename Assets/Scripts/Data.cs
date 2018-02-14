@@ -27,6 +27,26 @@ public class Data : MonoBehaviour
 	//Private class variable(s)
 	private List<Asset> info;
 
+
+	public List<Asset> Info
+	{
+		get 
+		{
+			return info;
+		}
+		set
+		{
+			info = value;
+		}
+	}
+		
+	void Start()
+	{
+		//Create the info list to hold all the game object information
+		info = new List<Asset> ();
+	}
+
+
 	/*
 	*  METHOD	    : Save()
     *  DESCRIPTION  : This method is responsible for finding all gameobjects in the game world that
@@ -37,16 +57,13 @@ public class Data : MonoBehaviour
 	*/
 	public void Save(string saveName)
 	{
-		int counter = 0;
+		//int counter = 0;
 
 		try
 		{
 			//Create the binary formatter and save file so we can save the object info
 			BinaryFormatter formatter = new BinaryFormatter ();
 			FileStream file = File.Open (saveName, FileMode.OpenOrCreate);
-
-			//Create the info list to hold all the game object information
-			info = new List<Asset> ();
 
             //Grab every asset in the game world that uses the Assets tag
             GameObject[] assets = GameObject.FindGameObjectsWithTag ("Asset");
@@ -56,35 +73,17 @@ public class Data : MonoBehaviour
 			{
                 Asset obj = new Asset ();
 
-                obj.ParentInfo = new ObjectInfo();
-
-                //Save all the important information about the game object into the ObjectInfo container s
-                obj.ParentInfo.Position = new TempVector(asset.transform.position.x, asset.transform.position.y, asset.transform.position.z); //asset.transform.position;
-				obj.ParentInfo.Rotation = new TempVector(asset.transform.localEulerAngles.x, asset.transform.localEulerAngles.y, asset.transform.localEulerAngles.z); //asset.transform.localEulerAngles;
-                obj.ParentInfo.Scale = new TempVector(asset.transform.localScale.x, asset.transform.localScale.y, asset.transform.localScale.z); //asset.transform.localScale;
-                obj.ParentInfo.Name = asset.gameObject.name;
-               // obj.ParentInfo.Tag = asset.GetComponent<UnityEngine.UI.Text> ().text;
-                obj.ParentInfo.Area = asset.transform.parent.parent.parent.parent.name;
-                obj.ParentInfo.Tile = asset.transform.parent.name;
-                Debug.Log(obj.ParentInfo.Area);
-
-                //				GameObject[] subObj =  asset.GetComponentsInChildren<GameObject>();
-                //
-                //				foreach (GameObject ob in subObj)
-                //				{
-                //					SubObjectInfo nfo = new SubObjectInfo();
-                //						
-                //					//Save all the important information about the game object into the ObjectInfo container s
-                //					nfo.Position = subObj.transform.position;
-                //					nfo.Rotation = subObj.transform.localEulerAngles;
-                //					nfo.Scale = subObj.transform.localScale;
-                //					nfo.Name = subObj.gameObject.name;
-                //					//nfo.Tag = asset.GetComponent<UnityEngine.UI.Text> ().text;	
-                //
-                //					obj.ChildInfo.Add(nfo);
-                //				}
-                //Add the object into the info list
-                info.Add (obj);
+				for(int i=0; i < info.Count; i++)
+				{
+					if(info[i].ParentInfo.Tile.CompareTo(asset.transform.name) == 0 && info[i].ParentInfo.Area.CompareTo(asset.transform.parent.parent.parent.parent.name) == 0)
+					{
+						//Save all the important information about the game object into the ObjectInfo container s
+						info[i].ParentInfo.Position = new TempVector(asset.transform.position.x, asset.transform.position.y, asset.transform.position.z); //asset.transform.position;
+						info[i].ParentInfo.Rotation = new TempVector(asset.transform.localEulerAngles.x, asset.transform.localEulerAngles.y, asset.transform.localEulerAngles.z); //asset.transform.localEulerAngles;
+						info[i].ParentInfo.Scale = new TempVector(asset.transform.localScale.x, asset.transform.localScale.y, asset.transform.localScale.z); //asset.transform.localScale;
+						break;
+					}					
+				}
 			}
 
             //Write the information inside the list into the save file in a binary format
@@ -145,4 +144,6 @@ public class Data : MonoBehaviour
 		}
 			
 	}
+
+
 }

@@ -22,6 +22,7 @@ public class ObjectInfo
     private string name;
     private string area;
     private string tile;
+	private string fileName;
     private TempVector position;
     private TempVector rotation;
     private TempVector scale;
@@ -50,6 +51,32 @@ public class ObjectInfo
 		set
 		{
 			name = value;
+		}
+	}
+
+	//Name property, used to access the name variable
+	public string FileName
+	{
+		/*
+		 *  Name		: get (name)
+		 *	Description : Accessor for the name string
+		 *	Parameters	: Nothing
+		 *  Returns		: string name, the name of the object in the game world.
+		*/
+		get
+		{
+			return fileName; 
+		}
+
+		/*
+		 *  Name		: set (name)
+		 *	Description : Mutator for the name string
+		 *	Parameters	: string value : the name of the object in the game world. 
+		 *  Returns		: Nothing
+		*/
+		set
+		{
+			fileName = value;
 		}
 	}
 
@@ -266,6 +293,12 @@ public class Asset
 	//Private Variables
 	private ObjectInfo parentInfo;
 	private List<SubObjectInfo> childInfo;
+
+	public Asset()
+	{
+		parentInfo = new ObjectInfo ();
+		childInfo = new List<SubObjectInfo> ();
+	}
 
 	//ChildInfo Property, used to modify the Parentinfo list
 	public ObjectInfo ParentInfo

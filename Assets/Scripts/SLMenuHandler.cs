@@ -143,4 +143,10 @@ public class SLMenuHandler : MonoBehaviour
 			ErrorHandler ("Save", e.Message);
         }
     }
+
+
+	public void AddToAssetList(Asset asset)
+	{
+		data.Info.Add(asset);
+	}
 }

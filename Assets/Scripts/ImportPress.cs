@@ -23,19 +23,20 @@ public class ImportPress : MonoBehaviour
 
     void onClick()
     {
-		if (plyr.GetComponent<PlayerController>().gridSelected) {
-        
+		if (plyr.GetComponent<PlayerController>().gridSelected) 
+		{
+			Asset asset = new Asset ();
 			building = OBJLoader.LoadOBJFile (dropdown.options [dropdown.value].text);
 
 			obj = plyr.GetComponent<PlayerController>().obj;
 			Parent = plyr.GetComponent<PlayerController>().Parent;
-			ApplySettings ();
-        
+			ApplySettings (asset);
+			CaptureAsset (asset);
 		}
 
     }
 
-    void ApplySettings()
+	void ApplySettings(Asset asset)
     {
 		Quaternion rotation = new Quaternion(0,0,0,0);
 
@@ -73,20 +74,25 @@ public class ImportPress : MonoBehaviour
 
 		//newBuilding.transform.Translate(new Vector3 (newBuilding.transform.position.x - (x), (y), (y))* Time.deltaTime);
 
+		//Populate
+		asset.ParentInfo.Name = newBuilding.name;
+		asset.ParentInfo.FileName = dropdown.options [dropdown.value].text;
+		asset.ParentInfo.Area = newBuilding.transform.parent.parent.parent.parent.name;
+		asset.ParentInfo.Area = newBuilding.transform.parent.name;
+			
 		obj.SetActive(false);
 		Menu.SetActive (false);
 		plyr.GetComponent<PlayerController> ().gridSelected = false;
 		plyr.GetComponent<PlayerController> ().selected = false;
     }
 
-    public void ApplySettings(TempVector pos, TempVector rot, TempVector scale, string area, string tile)
+	public void ApplySettings(TempVector pos, TempVector rot, TempVector scale, string area, string tile, string fileName)
     {
         GameObject bigParent = GameObject.Find(area);
-        building = OBJLoader.LoadOBJFile(@"C:\Users\Marco\Documents\MyObjects\CIBC.obj");
-        Parent = bigParent.transform.Find(tile).gameObject;
+        building = OBJLoader.LoadOBJFile(fileName);
+       
+		Parent = FindTileParent (area);
         Quaternion rotation = new Quaternion(0, 0, 0, 0);
-
-
 
         Debug.Log(tile);
         Debug.Log(pos.X.ToString());
@@ -138,4 +144,25 @@ public class ImportPress : MonoBehaviour
         //plyr.GetComponent<PlayerController>().selected = false;
     }
 
+	void CaptureAsset(Asset asset)
+	{
+		GameObject.Find("PauseMenu").GetComponent<SLMenuHandler>().AddToAssetList(asset);
+	}
+
+	GameObject FindTileParent(string name)
+	{
+		GameObject par = null;
+		GameObject[] tiles = GameObject.FindGameObjectsWithTag("GridTile");
+
+		foreach (GameObject obj in tiles) 
+		{
+			if (obj.transform.parent.parent.parent.parent.name.CompareTo (name)) 
+			{
+				par = obj;
+				break;
+			}
+		}
+
+		return par;
+	}
 }

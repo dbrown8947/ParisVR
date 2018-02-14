@@ -47,6 +47,9 @@ public class Options : MonoBehaviour
 		int hold = 0;
 		bool found = false;
 
+		saveFolder.text = PlayerPrefs.GetString ("save", @"C:\Users\Marco Fontana\Documents\MyObjects");
+		assetFolder.text = PlayerPrefs.GetString ("asset", @"C:\Users\Marco Fontana\Documents\MyObjects");
+
 		//For each support resolution found
 		foreach (Resolution rez in resolutions)
 		{
@@ -203,11 +206,13 @@ public class Options : MonoBehaviour
 			{
 				//Open the save folder menu to select an save folder
 				path = StandaloneFileBrowser.OpenFolderPanel("Save Folder", "",false)[0];
+				PlayerPrefs.SetString ("save", path);
 			}
 			else
 			{
 				//Open the asset folder menu to select an asset folder
 				path = StandaloneFileBrowser.OpenFolderPanel("Asset Folder", "",false)[0];
+				PlayerPrefs.SetString ("asset", path);
 			}	
 
 			//If the path is found
