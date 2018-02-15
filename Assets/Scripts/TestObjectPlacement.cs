@@ -43,7 +43,12 @@ class OSMWay
 
 	public class TestObjectPlacement : MonoBehaviour {
 
+	private int buildingNumber = 0;
+	private int roadNumber = 0;
+
 	public GameObject Tile;
+
+	public GameObject Road;
 
 
 	OSMPositionNode findNode(long id, List<OSMPositionNode> n)
@@ -162,6 +167,7 @@ class OSMWay
 			foreach (OSMTag t in way.tags) {
 				if (t.key == "building" && t.value == "yes") {
 					building = true;
+					buildingNumber++;
 					break;
 				} else if (t.key == "highway" && (t.value == "secondary" || t.value == "residential")) {
 					highway = true;
@@ -202,6 +208,8 @@ class OSMWay
 
 				//create cube to reperesent the lot
 				GameObject lot = Instantiate(Tile,this.gameObject.transform);
+
+				lot.gameObject.name = "Lot " + buildingNumber;
 
 				GameObject tile = lot.transform.GetChild(0).gameObject;
 				GameObject Hitbox = tile.transform.GetChild(0).gameObject;
@@ -260,22 +268,18 @@ class OSMWay
 						length = (float)(Math.Sqrt (Math.Pow ((nodeB.latidude - nodeA.latidude), 2) + Math.Pow ((nodeB.longitude - nodeA.longitude), 2)+10));
 
 						//create cube for the road
-						GameObject road = GameObject.CreatePrimitive (PrimitiveType.Cube);
+						GameObject road = Instantiate(Road,this.gameObject.transform);
+						roadNumber++;
+						road.gameObject.name = "Road " + roadNumber;
 						//apply transformations
 						road.transform.position = position;
 						road.transform.Rotate (new Vector3 (0.0f, rotation, 0.0f));
 						road.transform.localScale = new Vector3 (length, 0.1f, 5f);
-						road.GetComponent<Renderer> ().material.color = Color.blue;
 					}
-
 				}
-
-			
+					
 			}
-
-		
-		
-		
+	
 		}
 
 	}

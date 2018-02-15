@@ -4532,7 +4532,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11f7d298c9e854e3593300011756a12c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tile: {fileID: 1889748569756540, guid: 9de4142d3c4494abd85703d3aff26604, type: 2}
+  Tile: {fileID: 1222505691397212, guid: a815721de8dd84189a0ac353899c0d76, type: 2}
+  Road: {fileID: 1000217654735708, guid: 73653d0b115de491d973b5d6215415f5, type: 2}
 --- !u!1 &1366945106
 GameObject:
   m_ObjectHideFlags: 0
