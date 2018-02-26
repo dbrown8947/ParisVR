@@ -75,12 +75,12 @@ public class Data : MonoBehaviour
 
 				for(int i=0; i < info.Count; i++)
 				{
-					if(info[i].ParentInfo.Tile.CompareTo(asset.transform.name) == 0 && info[i].ParentInfo.Area.CompareTo(asset.transform.parent.parent.parent.parent.name) == 0)
+					if(info[i].ParentInfo.Tile.CompareTo(asset.transform.parent.name) == 0 && info[i].ParentInfo.Area.CompareTo(asset.transform.parent.parent.parent.parent.name) == 0)
 					{
 						//Save all the important information about the game object into the ObjectInfo container s
-						info[i].ParentInfo.Position = new TempVector(asset.transform.position.x, asset.transform.position.y, asset.transform.position.z); //asset.transform.position;
-						info[i].ParentInfo.Rotation = new TempVector(asset.transform.localEulerAngles.x, asset.transform.localEulerAngles.y, asset.transform.localEulerAngles.z); //asset.transform.localEulerAngles;
-						info[i].ParentInfo.Scale = new TempVector(asset.transform.localScale.x, asset.transform.localScale.y, asset.transform.localScale.z); //asset.transform.localScale;
+						info[i].ParentInfo.Position = new TempVector(asset.transform.parent.localPosition.x, asset.transform.parent.localPosition.y, asset.transform.parent.localPosition.z); //asset.transform.position;
+						info[i].ParentInfo.Rotation = new TempVector(asset.transform.parent.localEulerAngles.x, asset.transform.parent.localEulerAngles.y, asset.transform.parent.transform.localEulerAngles.z); //asset.transform.localEulerAngles;
+						info[i].ParentInfo.Scale = new TempVector(asset.transform.parent.localScale.x, asset.transform.parent.localScale.y, asset.transform.parent.localScale.z); //asset.transform.localScale;
 						break;
 					}					
 				}
@@ -124,9 +124,11 @@ public class Data : MonoBehaviour
 				info = (List<Asset>)formatter.Deserialize (file);
 				file.Close();
 
-                import.ApplySettings(info[0].ParentInfo.Position, info[0].ParentInfo.Rotation, info[0].ParentInfo.Scale, info[0].ParentInfo.Area, info[0].ParentInfo.Tile);
-
-
+				for(int i =0; i < info.Count; i++)
+				{
+					import.ApplySettings(info[i].ParentInfo.Position, info[i].ParentInfo.Rotation, info[i].ParentInfo.Scale, info[i].ParentInfo.Area, info[i].ParentInfo.Tile, info[i].ParentInfo.FileName);
+				}
+											
 				//*********************************************************************
 				//THIS IS WHERE YOU WOULD IMPORT ASSETS AND PLACE THEM BACK IN POSITION
 				//*********************************************************************

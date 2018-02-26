@@ -48,6 +48,7 @@ public class SLMenuHandler : MonoBehaviour
 	{
 		//Initalize private variables
 		data = new Data ();
+		data.Info = new List<Asset> ();
 	}
 
 

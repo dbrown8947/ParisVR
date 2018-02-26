@@ -22,9 +22,7 @@ public class CameraController : MonoBehaviour {
 	private Vector3 offset;
 	Vector2 mouseLook;
 	Vector2 smoothV;
-	bool locked;
-
-
+	GameObject obj;
 
 
 	//FUNCTION      : Start()
@@ -39,10 +37,7 @@ public class CameraController : MonoBehaviour {
 
 		//Created the offset and toggle the lock flag
 		offset = transform.position - player.transform.position;
-		locked = true;
-
 	}
-
 
 	//FUNCTION      : Update()
 	//DESCRIPTION   : This Method is responsible for starting the methods that handler player movement
@@ -52,7 +47,7 @@ public class CameraController : MonoBehaviour {
 	void Update()
 	{
 		//if the cursor is locked and we are not paused
-		if (locked && Time.timeScale == 1.0f) 
+		if (player.GetComponent<PlayerController>().Locked && Time.timeScale == 1.0f) 
 		{
 			//This segment of code is from the tutorial from Holistic3d found here https://www.youtube.com/watch?v=blO039OzUZc
 
@@ -73,26 +68,6 @@ public class CameraController : MonoBehaviour {
 			transform.localRotation = Quaternion.AngleAxis (-mouseLook.y, Vector3.right);
 			player.transform.localRotation = Quaternion.AngleAxis (mouseLook.x, player.transform.up);
 		}
-
-		//If the player has pressed the left alt button
-		if (Input.GetKeyDown (KeyCode.LeftAlt)) 
-		{
-			//If the mouse is locked
-			if (locked) 
-			{
-				//Unlock the mouse and display the cursor
-				Cursor.lockState = CursorLockMode.None;
-				Cursor.visible = true;
-				locked = false;
-			} 
-			else 
-			{
-				//Otherwise lock the mouse and hide the cursor
-				Cursor.lockState = CursorLockMode.Locked;
-				Cursor.visible = false;
-				locked = true;
-			}
-		}
 	}
 	
 	//FUNCTION      : LateUpdate()
@@ -103,7 +78,6 @@ public class CameraController : MonoBehaviour {
 	void LateUpdate ()
 	{
 		//change the location of the camera
-		transform.position = player.transform.position + offset;
-		
+		transform.position = player.transform.position + offset;		
 	}
 }
