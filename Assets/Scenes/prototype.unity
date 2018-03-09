@@ -4501,6 +4501,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1336889563}
   - component: {fileID: 1336889564}
+  - component: {fileID: 1336889565}
   m_Layer: 0
   m_Name: GeneratedWorld
   m_TagString: Untagged
@@ -4532,8 +4533,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11f7d298c9e854e3593300011756a12c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tile: {fileID: 1222505691397212, guid: a815721de8dd84189a0ac353899c0d76, type: 2}
+  Tile: {fileID: 1788839491423732, guid: e263ba82007014849839720dbc6b5e42, type: 2}
   Road: {fileID: 1000217654735708, guid: 73653d0b115de491d973b5d6215415f5, type: 2}
+--- !u!114 &1336889565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1336889562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f96a0c382a741c0afcd0eb3d75a35c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  World: {fileID: 1336889562}
+  BaseLot: {fileID: 1447972115226330, guid: e263ba82007014849839720dbc6b5e42, type: 2}
 --- !u!1 &1366945106
 GameObject:
   m_ObjectHideFlags: 0
