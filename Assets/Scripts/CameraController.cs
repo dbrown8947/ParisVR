@@ -18,6 +18,8 @@ public class CameraController : MonoBehaviour {
 	public float sens = 5f;
 	public float smoothing = 2f;
 
+	TextHandler Logger;
+
 	//Private Variables
 	private Vector3 offset;
 	Vector2 mouseLook;
@@ -34,8 +36,10 @@ public class CameraController : MonoBehaviour {
 	//RETURNS		: Nothing
 	void Start ()
 	{
+		Logger = gameObject.AddComponent<TextHandler> () as TextHandler;
 		//Lock the cursor into the center of the screen
 		Cursor.lockState = CursorLockMode.Locked;
+		Logger.WriteToLog ("The screen is locked");
 
 		//Created the offset and toggle the lock flag
 		offset = transform.position - player.transform.position;
@@ -77,9 +81,11 @@ public class CameraController : MonoBehaviour {
 		//If the player has pressed the left alt button
 		if (Input.GetKeyDown (KeyCode.LeftAlt)) 
 		{
+			
 			//If the mouse is locked
 			if (locked) 
 			{
+				Logger.WriteToLog ("The screen has been unlocked with alt");
 				//Unlock the mouse and display the cursor
 				Cursor.lockState = CursorLockMode.None;
 				Cursor.visible = true;
@@ -87,6 +93,7 @@ public class CameraController : MonoBehaviour {
 			} 
 			else 
 			{
+				Logger.WriteToLog ("The screen has been locked with alt");
 				//Otherwise lock the mouse and hide the cursor
 				Cursor.lockState = CursorLockMode.Locked;
 				Cursor.visible = false;

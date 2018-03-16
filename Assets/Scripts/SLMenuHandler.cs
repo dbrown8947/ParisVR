@@ -4,7 +4,7 @@
 * PROGRAMMERS	: Marco Fontana
 * FIRST VERSION	: 1-20-2018
 * DESCRIPTION   : This file contains the code and functionality required handle the menus required to save and load game worlds
-*/
+
 
 using System;
 using System.Collections;
@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEditor;
+
 
 
 /*
@@ -20,7 +20,7 @@ using UnityEditor;
 * DESCRIPTION   : This class is responsible for handling any menuing involving the save and load features of the application. This class
 *                 will launch the save/load menu and pass errors to an error handler so that the user can see problems that occur and allows
 *                 them to save/load game worlds.
-*/
+*
 public class SLMenuHandler : MonoBehaviour
 {
 
@@ -36,7 +36,7 @@ public class SLMenuHandler : MonoBehaviour
 	*                 information or initalize other variable
 	*  PARAMETERS	: Nothing
     *  RETURNS  	: Nothing
-	*/
+	*
 	void Start () 
 	{
 		//Initalize private variables
@@ -50,12 +50,12 @@ public class SLMenuHandler : MonoBehaviour
     *                 activating it. This is an onclick handler.
 	*  PARAMETERS	: Nothing
     *  RETURNS  	: Nothing
-	*/
+	*
 	public void OpenLoad()
 	{
         try
         {
-            string path = EditorUtility.OpenFilePanel("Load Game World", "", "dat");
+            //string path = EditorUtility.OpenFilePanel("Load Game World", "", "dat");
 
             if(path.Length == 0)
             {
@@ -69,7 +69,7 @@ public class SLMenuHandler : MonoBehaviour
         catch (Exception e)
         {
             //If we are Saving make sure that the error displays as a save error
-            EditorUtility.DisplayDialog("Load Error", e.Message, "OK");
+            //EditorUtility.DisplayDialog("Load Error", e.Message, "OK");
         }
     }
 
@@ -79,12 +79,12 @@ public class SLMenuHandler : MonoBehaviour
     *                 activating it. This is an onclick handler.
 	*  PARAMETERS	: Nothing
     *  RETURNS  	: Nothing
-	*/
+	*
 	public void OpenSave()
 	{
         try
         {
-           string path = EditorUtility.SaveFilePanel("Save Game World", "", "newSave.dat", "dat");
+           //string path = EditorUtility.SaveFilePanel("Save Game World", "", "newSave.dat", "dat");
 
            if(path.Length == 0)
            {
@@ -98,7 +98,8 @@ public class SLMenuHandler : MonoBehaviour
         catch(Exception e)
         {
             //If we are Saving make sure that the error displays as a save error
-            EditorUtility.DisplayDialog("Save Error", e.Message, "OK");
+            //EditorUtility.DisplayDialog("Save Error", e.Message, "OK");
         }
     }
 }
+*/

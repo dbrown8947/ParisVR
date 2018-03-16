@@ -1,0 +1,3324 @@
+02/13/2018 10:12:59: The screen is locked
+02/13/2018 10:13:14: The screen has been unlocked with alt
+02/13/2018 10:13:20: The screen has been locked with alt
+02/13/2018 10:13:27: The screen has been unlocked with alt
+02/13/2018 10:15:30: The screen is locked
+02/13/2018 10:15:34: The screen has been unlocked with alt
+02/13/2018 10:19:55: The screen is locked
+02/13/2018 10:20:00: The screen has been unlocked with alt
+02/13/2018 10:20:01: The screen has been locked with alt
+02/13/2018 10:20:02: The screen has been unlocked with alt
+02/13/2018 10:20:05: The screen has been locked with alt
+02/13/2018 10:20:33: The screen has been unlocked with alt
+02/13/2018 10:24:31: The screen is locked
+02/13/2018 10:24:36: The screen has been unlocked with alt
+02/13/2018 10:24:37: The screen has been locked with alt
+02/13/2018 10:24:40: Object Tagged, Name: HitBox At X =-17.44365 Y =-17.44365 Z =-5.05605
+02/13/2018 10:27:18: The screen is locked
+02/13/2018 10:27:23: The screen has been unlocked with alt
+02/13/2018 10:27:24: Object Tagged, Name: HitBox At X =-17.44365 Y =-17.44365 Z =-5.05605
+02/13/2018 10:27:34: The screen has been locked with alt
+02/13/2018 10:27:36: The screen has been unlocked with alt
+02/13/2018 10:31:24: The screen is locked
+02/13/2018 10:31:28: The screen has been unlocked with alt
+02/13/2018 10:31:30: The screen has been locked with alt
+02/13/2018 10:31:34: Object Tagged, Name: HitBox At X =-17.44365 Y =-17.44365 Z =-5.05605
+02/13/2018 10:31:37: The screen has been unlocked with alt
+02/13/2018 10:31:39: The screen has been locked with alt
+02/13/2018 10:31:44: The screen has been unlocked with alt
+02/13/2018 10:32:51: The screen is locked
+02/13/2018 10:33:21: Object Tagged, Name: HitBox At X =-17.44365 Y =-17.44365 Z =-5.05605
+02/13/2018 10:34:52: The screen has been unlocked with alt
+02/13/2018 10:34:55: The screen has been locked with alt
+02/13/2018 10:35:14: The screen has been unlocked with alt
+02/13/2018 10:35:45: The screen has been locked with alt
+02/13/2018 10:35:53: The screen has been unlocked with alt
+02/13/2018 10:36:05: The screen has been locked with alt
+02/13/2018 10:37:43: The screen is locked
+02/13/2018 10:37:44: Object Tagged, Name: HitBox At X =-17.44365 Y =-17.44365 Z =-5.05605
+02/13/2018 10:37:46: The screen has been unlocked with alt
+02/13/2018 10:38:01: The screen is locked
+02/13/2018 10:38:01: Object Tagged, Name: HitBox At X =-17.44365 Y =-17.44365 Z =-5.05605
+02/13/2018 10:38:09: The screen has been unlocked with alt
+02/13/2018 10:38:09: Game Object : HitBox has been reset to its original position.
+02/13/2018 10:38:09: Game Object : HitBox has been reset to its original position.
+02/13/2018 10:38:09: Game Object : HitBox has been reset to its original position.
+02/13/2018 10:38:10: Game Object : HitBox has been reset to its original position.
+02/13/2018 10:38:10: Game Object : HitBox has been reset to its original position.
+02/13/2018 10:38:10: Game Object : HitBox has been reset to its original position.
+02/13/2018 10:38:10: Game Object : HitBox has been reset to its original position.
+02/13/2018 10:38:10: Game Object : HitBox has been reset to its original position.
+02/13/2018 10:38:10: Game Object : HitBox has been reset to its original position.
+02/13/2018 10:38:10: Game Object : HitBox has been reset to its original position.
+02/13/2018 10:38:10: Game Object : HitBox has been reset to its original position.
+02/13/2018 10:38:32: The screen is locked
+02/13/2018 10:38:35: Object Tagged, Name: TileA1 At X =2.96925 Y =2.96925 Z =-26.35695
+02/13/2018 10:38:35: Grid Tile Tagged, Name: TileA1 At X=2.96925 Y=2.96925 Z=-26.35695
+02/13/2018 10:38:38: The screen has been unlocked with alt
+02/13/2018 10:38:40: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren.mtl
+02/13/2018 10:38:40: Base File Name = BMO Warren
+02/13/2018 10:38:40: mtl File Directory = /Users/Student/Documents/MyObjects/
+02/13/2018 10:38:40: L is, #
+02/13/2018 10:38:40: cmps[0] is: #
+02/13/2018 10:38:40: data is, #
+02/13/2018 10:38:40: cmps[0] failed all if checks is: #
+02/13/2018 10:38:40: L is, ## Alias OBJ Material File
+02/13/2018 10:38:40: cmps[0] is: ##
+02/13/2018 10:38:40: data is, Alias OBJ Material File
+02/13/2018 10:38:40: cmps[0] failed all if checks is: ##
+02/13/2018 10:38:40: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+02/13/2018 10:38:40: cmps[0] is: #
+02/13/2018 10:38:40: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+02/13/2018 10:38:40: cmps[0] failed all if checks is: #
+02/13/2018 10:38:40: L is, 
+02/13/2018 10:38:40: cmps[0] is: 
+02/13/2018 10:38:40: data is, 
+02/13/2018 10:38:40: cmps[0] failed all if checks is: 
+02/13/2018 10:38:40: L is, newmtl DSC00318
+02/13/2018 10:38:40: cmps[0] is: newmtl
+02/13/2018 10:38:40: data is, DSC00318
+02/13/2018 10:38:40: Material Is being checked if it is null
+02/13/2018 10:38:40: Material was checked, attempting to find shader
+02/13/2018 10:38:40: Material instantiated
+02/13/2018 10:38:40: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:40: cmps[0] is: Ka
+02/13/2018 10:38:40: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:40: L is, Kd 0.596078 0.588235 0.584314
+02/13/2018 10:38:40: cmps[0] is: Kd
+02/13/2018 10:38:40: data is, 0.596078 0.588235 0.584314
+02/13/2018 10:38:40: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:40: cmps[0] is: Ks
+02/13/2018 10:38:40: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:40: L is, map_Kd BMO Warren/DSC00318.jpg
+02/13/2018 10:38:40: cmps[0] is: map_Kd
+02/13/2018 10:38:40: data is, BMO Warren/DSC00318.jpg
+02/13/2018 10:38:40: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/DSC00318.jpg
+02/13/2018 10:38:40: L is, 
+02/13/2018 10:38:40: cmps[0] is: 
+02/13/2018 10:38:40: data is, 
+02/13/2018 10:38:40: cmps[0] failed all if checks is: 
+02/13/2018 10:38:40: L is, newmtl Concrete_Aggregate_Smoke
+02/13/2018 10:38:40: cmps[0] is: newmtl
+02/13/2018 10:38:40: data is, Concrete_Aggregate_Smoke
+02/13/2018 10:38:40: Material Is being checked if it is null
+02/13/2018 10:38:40: Attempting to add material to a list
+02/13/2018 10:38:40: Material Added, DSC00318
+02/13/2018 10:38:40: Material was checked, attempting to find shader
+02/13/2018 10:38:40: Material instantiated
+02/13/2018 10:38:40: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:40: cmps[0] is: Ka
+02/13/2018 10:38:40: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:40: L is, Kd 0.603922 0.588235 0.580392
+02/13/2018 10:38:40: cmps[0] is: Kd
+02/13/2018 10:38:40: data is, 0.603922 0.588235 0.580392
+02/13/2018 10:38:40: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:40: cmps[0] is: Ks
+02/13/2018 10:38:40: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:40: L is, 
+02/13/2018 10:38:40: cmps[0] is: 
+02/13/2018 10:38:40: data is, 
+02/13/2018 10:38:40: cmps[0] failed all if checks is: 
+02/13/2018 10:38:40: L is, newmtl Color_A12
+02/13/2018 10:38:40: cmps[0] is: newmtl
+02/13/2018 10:38:40: data is, Color_A12
+02/13/2018 10:38:40: Material Is being checked if it is null
+02/13/2018 10:38:40: Attempting to add material to a list
+02/13/2018 10:38:40: Material Added, Concrete_Aggregate_Smoke
+02/13/2018 10:38:40: Material was checked, attempting to find shader
+02/13/2018 10:38:40: Material instantiated
+02/13/2018 10:38:40: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:40: cmps[0] is: Ka
+02/13/2018 10:38:40: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:40: L is, Kd 0.600000 0.117647 0.117647
+02/13/2018 10:38:40: cmps[0] is: Kd
+02/13/2018 10:38:40: data is, 0.600000 0.117647 0.117647
+02/13/2018 10:38:40: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:40: cmps[0] is: Ks
+02/13/2018 10:38:40: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:40: L is, 
+02/13/2018 10:38:40: cmps[0] is: 
+02/13/2018 10:38:40: data is, 
+02/13/2018 10:38:40: cmps[0] failed all if checks is: 
+02/13/2018 10:38:40: L is, newmtl BackColor
+02/13/2018 10:38:40: cmps[0] is: newmtl
+02/13/2018 10:38:40: data is, BackColor
+02/13/2018 10:38:40: Material Is being checked if it is null
+02/13/2018 10:38:40: Attempting to add material to a list
+02/13/2018 10:38:40: Material Added, Color_A12
+02/13/2018 10:38:40: Material was checked, attempting to find shader
+02/13/2018 10:38:40: Material instantiated
+02/13/2018 10:38:40: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:40: cmps[0] is: Ka
+02/13/2018 10:38:40: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:40: L is, Kd 0.643137 0.698039 0.733333
+02/13/2018 10:38:40: cmps[0] is: Kd
+02/13/2018 10:38:40: data is, 0.643137 0.698039 0.733333
+02/13/2018 10:38:40: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:40: cmps[0] is: Ks
+02/13/2018 10:38:40: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:40: L is, 
+02/13/2018 10:38:40: cmps[0] is: 
+02/13/2018 10:38:40: data is, 
+02/13/2018 10:38:40: cmps[0] failed all if checks is: 
+02/13/2018 10:38:40: L is, newmtl FrontColor
+02/13/2018 10:38:40: cmps[0] is: newmtl
+02/13/2018 10:38:40: data is, FrontColor
+02/13/2018 10:38:40: Material Is being checked if it is null
+02/13/2018 10:38:40: Attempting to add material to a list
+02/13/2018 10:38:40: Material Added, BackColor
+02/13/2018 10:38:40: Material was checked, attempting to find shader
+02/13/2018 10:38:40: Material instantiated
+02/13/2018 10:38:40: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:40: cmps[0] is: Ka
+02/13/2018 10:38:40: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:40: L is, Kd 1.000000 1.000000 1.000000
+02/13/2018 10:38:40: cmps[0] is: Kd
+02/13/2018 10:38:40: data is, 1.000000 1.000000 1.000000
+02/13/2018 10:38:40: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:40: cmps[0] is: Ks
+02/13/2018 10:38:40: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:40: L is, 
+02/13/2018 10:38:40: cmps[0] is: 
+02/13/2018 10:38:40: data is, 
+02/13/2018 10:38:40: cmps[0] failed all if checks is: 
+02/13/2018 10:38:40: L is, newmtl Color_000
+02/13/2018 10:38:40: cmps[0] is: newmtl
+02/13/2018 10:38:40: data is, Color_000
+02/13/2018 10:38:40: Material Is being checked if it is null
+02/13/2018 10:38:40: Attempting to add material to a list
+02/13/2018 10:38:40: Material Added, FrontColor
+02/13/2018 10:38:40: Material was checked, attempting to find shader
+02/13/2018 10:38:40: Material instantiated
+02/13/2018 10:38:40: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:40: cmps[0] is: Ka
+02/13/2018 10:38:40: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:40: L is, Kd 1.000000 1.000000 1.000000
+02/13/2018 10:38:40: cmps[0] is: Kd
+02/13/2018 10:38:40: data is, 1.000000 1.000000 1.000000
+02/13/2018 10:38:40: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:40: cmps[0] is: Ks
+02/13/2018 10:38:40: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:40: L is, 
+02/13/2018 10:38:40: cmps[0] is: 
+02/13/2018 10:38:40: data is, 
+02/13/2018 10:38:40: cmps[0] failed all if checks is: 
+02/13/2018 10:38:40: L is, newmtl Photo_Texture
+02/13/2018 10:38:40: cmps[0] is: newmtl
+02/13/2018 10:38:40: data is, Photo_Texture
+02/13/2018 10:38:40: Material Is being checked if it is null
+02/13/2018 10:38:40: Attempting to add material to a list
+02/13/2018 10:38:40: Material Added, Color_000
+02/13/2018 10:38:40: Material was checked, attempting to find shader
+02/13/2018 10:38:40: Material instantiated
+02/13/2018 10:38:40: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:40: cmps[0] is: Ka
+02/13/2018 10:38:40: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:40: L is, Kd 0.623529 0.647059 0.682353
+02/13/2018 10:38:40: cmps[0] is: Kd
+02/13/2018 10:38:40: data is, 0.623529 0.647059 0.682353
+02/13/2018 10:38:40: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:40: cmps[0] is: Ks
+02/13/2018 10:38:40: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:40: L is, map_Kd BMO Warren/Photo_Texture.jpg
+02/13/2018 10:38:40: cmps[0] is: map_Kd
+02/13/2018 10:38:40: data is, BMO Warren/Photo_Texture.jpg
+02/13/2018 10:38:40: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Photo_Texture.jpg
+02/13/2018 10:38:40: L is, 
+02/13/2018 10:38:40: cmps[0] is: 
+02/13/2018 10:38:40: data is, 
+02/13/2018 10:38:40: cmps[0] failed all if checks is: 
+02/13/2018 10:38:40: L is, newmtl DSC00306
+02/13/2018 10:38:40: cmps[0] is: newmtl
+02/13/2018 10:38:40: data is, DSC00306
+02/13/2018 10:38:40: Material Is being checked if it is null
+02/13/2018 10:38:40: Attempting to add material to a list
+02/13/2018 10:38:40: Material Added, Photo_Texture
+02/13/2018 10:38:40: Material was checked, attempting to find shader
+02/13/2018 10:38:40: Material instantiated
+02/13/2018 10:38:40: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:40: cmps[0] is: Ka
+02/13/2018 10:38:40: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:40: L is, Kd 0.623529 0.623529 0.631373
+02/13/2018 10:38:40: cmps[0] is: Kd
+02/13/2018 10:38:40: data is, 0.623529 0.623529 0.631373
+02/13/2018 10:38:40: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:40: cmps[0] is: Ks
+02/13/2018 10:38:40: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:40: L is, map_Kd BMO Warren/DSC00306.jpg
+02/13/2018 10:38:40: cmps[0] is: map_Kd
+02/13/2018 10:38:40: data is, BMO Warren/DSC00306.jpg
+02/13/2018 10:38:40: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/DSC00306.jpg
+02/13/2018 10:38:41: L is, 
+02/13/2018 10:38:41: cmps[0] is: 
+02/13/2018 10:38:41: data is, 
+02/13/2018 10:38:41: cmps[0] failed all if checks is: 
+02/13/2018 10:38:41: L is, newmtl DSC00305
+02/13/2018 10:38:41: cmps[0] is: newmtl
+02/13/2018 10:38:41: data is, DSC00305
+02/13/2018 10:38:41: Material Is being checked if it is null
+02/13/2018 10:38:41: Attempting to add material to a list
+02/13/2018 10:38:41: Material Added, DSC00306
+02/13/2018 10:38:41: Material was checked, attempting to find shader
+02/13/2018 10:38:41: Material instantiated
+02/13/2018 10:38:41: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:41: cmps[0] is: Ka
+02/13/2018 10:38:41: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:41: L is, Kd 0.541176 0.533333 0.525490
+02/13/2018 10:38:41: cmps[0] is: Kd
+02/13/2018 10:38:41: data is, 0.541176 0.533333 0.525490
+02/13/2018 10:38:41: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:41: cmps[0] is: Ks
+02/13/2018 10:38:41: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:41: L is, map_Kd BMO Warren/DSC00305.jpg
+02/13/2018 10:38:41: cmps[0] is: map_Kd
+02/13/2018 10:38:41: data is, BMO Warren/DSC00305.jpg
+02/13/2018 10:38:41: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/DSC00305.jpg
+02/13/2018 10:38:41: L is, 
+02/13/2018 10:38:41: cmps[0] is: 
+02/13/2018 10:38:41: data is, 
+02/13/2018 10:38:41: cmps[0] failed all if checks is: 
+02/13/2018 10:38:41: L is, newmtl DSC00314
+02/13/2018 10:38:41: cmps[0] is: newmtl
+02/13/2018 10:38:41: data is, DSC00314
+02/13/2018 10:38:41: Material Is being checked if it is null
+02/13/2018 10:38:41: Attempting to add material to a list
+02/13/2018 10:38:41: Material Added, DSC00305
+02/13/2018 10:38:41: Material was checked, attempting to find shader
+02/13/2018 10:38:41: Material instantiated
+02/13/2018 10:38:41: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:41: cmps[0] is: Ka
+02/13/2018 10:38:41: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:41: L is, Kd 0.419608 0.501961 0.647059
+02/13/2018 10:38:41: cmps[0] is: Kd
+02/13/2018 10:38:41: data is, 0.419608 0.501961 0.647059
+02/13/2018 10:38:41: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:41: cmps[0] is: Ks
+02/13/2018 10:38:41: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:41: L is, map_Kd BMO Warren/DSC00314.jpg
+02/13/2018 10:38:41: cmps[0] is: map_Kd
+02/13/2018 10:38:41: data is, BMO Warren/DSC00314.jpg
+02/13/2018 10:38:41: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/DSC00314.jpg
+02/13/2018 10:38:42: L is, 
+02/13/2018 10:38:42: cmps[0] is: 
+02/13/2018 10:38:42: data is, 
+02/13/2018 10:38:42: cmps[0] failed all if checks is: 
+02/13/2018 10:38:42: L is, newmtl DSC00319
+02/13/2018 10:38:42: cmps[0] is: newmtl
+02/13/2018 10:38:42: data is, DSC00319
+02/13/2018 10:38:42: Material Is being checked if it is null
+02/13/2018 10:38:42: Attempting to add material to a list
+02/13/2018 10:38:42: Material Added, DSC00314
+02/13/2018 10:38:42: Material was checked, attempting to find shader
+02/13/2018 10:38:42: Material instantiated
+02/13/2018 10:38:42: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:42: cmps[0] is: Ka
+02/13/2018 10:38:42: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:42: L is, Kd 0.462745 0.521569 0.627451
+02/13/2018 10:38:42: cmps[0] is: Kd
+02/13/2018 10:38:42: data is, 0.462745 0.521569 0.627451
+02/13/2018 10:38:42: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:42: cmps[0] is: Ks
+02/13/2018 10:38:42: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:42: L is, map_Kd BMO Warren/DSC00319.jpg
+02/13/2018 10:38:42: cmps[0] is: map_Kd
+02/13/2018 10:38:42: data is, BMO Warren/DSC00319.jpg
+02/13/2018 10:38:42: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/DSC00319.jpg
+02/13/2018 10:38:42: L is, 
+02/13/2018 10:38:42: cmps[0] is: 
+02/13/2018 10:38:42: data is, 
+02/13/2018 10:38:42: cmps[0] failed all if checks is: 
+02/13/2018 10:38:42: L is, newmtl Metal_Seamed
+02/13/2018 10:38:42: cmps[0] is: newmtl
+02/13/2018 10:38:42: data is, Metal_Seamed
+02/13/2018 10:38:42: Material Is being checked if it is null
+02/13/2018 10:38:42: Attempting to add material to a list
+02/13/2018 10:38:42: Material Added, DSC00319
+02/13/2018 10:38:42: Material was checked, attempting to find shader
+02/13/2018 10:38:42: Material instantiated
+02/13/2018 10:38:42: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:42: cmps[0] is: Ka
+02/13/2018 10:38:42: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:42: L is, Kd 0.462745 0.466667 0.450980
+02/13/2018 10:38:42: cmps[0] is: Kd
+02/13/2018 10:38:42: data is, 0.462745 0.466667 0.450980
+02/13/2018 10:38:42: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:42: cmps[0] is: Ks
+02/13/2018 10:38:42: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:42: L is, map_Kd BMO Warren/Metal_Seamed.jpg
+02/13/2018 10:38:42: cmps[0] is: map_Kd
+02/13/2018 10:38:42: data is, BMO Warren/Metal_Seamed.jpg
+02/13/2018 10:38:42: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Metal_Seamed.jpg
+02/13/2018 10:38:42: L is, 
+02/13/2018 10:38:42: cmps[0] is: 
+02/13/2018 10:38:42: data is, 
+02/13/2018 10:38:42: cmps[0] failed all if checks is: 
+02/13/2018 10:38:42: L is, newmtl Color_008
+02/13/2018 10:38:42: cmps[0] is: newmtl
+02/13/2018 10:38:42: data is, Color_008
+02/13/2018 10:38:42: Material Is being checked if it is null
+02/13/2018 10:38:42: Attempting to add material to a list
+02/13/2018 10:38:42: Material Added, Metal_Seamed
+02/13/2018 10:38:42: Material was checked, attempting to find shader
+02/13/2018 10:38:42: Material instantiated
+02/13/2018 10:38:42: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:42: cmps[0] is: Ka
+02/13/2018 10:38:42: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:42: L is, Kd 0.117647 0.117647 0.117647
+02/13/2018 10:38:42: cmps[0] is: Kd
+02/13/2018 10:38:42: data is, 0.117647 0.117647 0.117647
+02/13/2018 10:38:42: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:42: cmps[0] is: Ks
+02/13/2018 10:38:42: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:42: L is, 
+02/13/2018 10:38:42: cmps[0] is: 
+02/13/2018 10:38:42: data is, 
+02/13/2018 10:38:42: cmps[0] failed all if checks is: 
+02/13/2018 10:38:42: L is, newmtl DSC00324
+02/13/2018 10:38:42: cmps[0] is: newmtl
+02/13/2018 10:38:42: data is, DSC00324
+02/13/2018 10:38:42: Material Is being checked if it is null
+02/13/2018 10:38:42: Attempting to add material to a list
+02/13/2018 10:38:42: Material Added, Color_008
+02/13/2018 10:38:42: Material was checked, attempting to find shader
+02/13/2018 10:38:42: Material instantiated
+02/13/2018 10:38:42: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:42: cmps[0] is: Ka
+02/13/2018 10:38:42: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:42: L is, Kd 0.564706 0.596078 0.650980
+02/13/2018 10:38:42: cmps[0] is: Kd
+02/13/2018 10:38:42: data is, 0.564706 0.596078 0.650980
+02/13/2018 10:38:42: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:42: cmps[0] is: Ks
+02/13/2018 10:38:42: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:42: L is, map_Kd BMO Warren/DSC00324.jpg
+02/13/2018 10:38:42: cmps[0] is: map_Kd
+02/13/2018 10:38:42: data is, BMO Warren/DSC00324.jpg
+02/13/2018 10:38:42: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/DSC00324.jpg
+02/13/2018 10:38:42: L is, 
+02/13/2018 10:38:42: cmps[0] is: 
+02/13/2018 10:38:42: data is, 
+02/13/2018 10:38:42: cmps[0] failed all if checks is: 
+02/13/2018 10:38:42: L is, newmtl DSC00324_1_
+02/13/2018 10:38:42: cmps[0] is: newmtl
+02/13/2018 10:38:42: data is, DSC00324_1_
+02/13/2018 10:38:42: Material Is being checked if it is null
+02/13/2018 10:38:42: Attempting to add material to a list
+02/13/2018 10:38:42: Material Added, DSC00324
+02/13/2018 10:38:42: Material was checked, attempting to find shader
+02/13/2018 10:38:42: Material instantiated
+02/13/2018 10:38:42: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:42: cmps[0] is: Ka
+02/13/2018 10:38:42: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:42: L is, Kd 0.564706 0.596078 0.650980
+02/13/2018 10:38:42: cmps[0] is: Kd
+02/13/2018 10:38:42: data is, 0.564706 0.596078 0.650980
+02/13/2018 10:38:42: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:42: cmps[0] is: Ks
+02/13/2018 10:38:42: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:42: L is, map_Kd BMO Warren/DSC00324_1_.jpg
+02/13/2018 10:38:42: cmps[0] is: map_Kd
+02/13/2018 10:38:42: data is, BMO Warren/DSC00324_1_.jpg
+02/13/2018 10:38:42: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/DSC00324_1_.jpg
+02/13/2018 10:38:42: L is, 
+02/13/2018 10:38:42: cmps[0] is: 
+02/13/2018 10:38:42: data is, 
+02/13/2018 10:38:42: cmps[0] failed all if checks is: 
+02/13/2018 10:38:42: L is, newmtl DSC00340
+02/13/2018 10:38:42: cmps[0] is: newmtl
+02/13/2018 10:38:42: data is, DSC00340
+02/13/2018 10:38:42: Material Is being checked if it is null
+02/13/2018 10:38:42: Attempting to add material to a list
+02/13/2018 10:38:42: Material Added, DSC00324_1_
+02/13/2018 10:38:42: Material was checked, attempting to find shader
+02/13/2018 10:38:42: Material instantiated
+02/13/2018 10:38:42: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:42: cmps[0] is: Ka
+02/13/2018 10:38:42: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:42: L is, Kd 0.615686 0.611765 0.611765
+02/13/2018 10:38:42: cmps[0] is: Kd
+02/13/2018 10:38:42: data is, 0.615686 0.611765 0.611765
+02/13/2018 10:38:42: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:42: cmps[0] is: Ks
+02/13/2018 10:38:42: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:42: L is, map_Kd BMO Warren/DSC00340.jpg
+02/13/2018 10:38:42: cmps[0] is: map_Kd
+02/13/2018 10:38:42: data is, BMO Warren/DSC00340.jpg
+02/13/2018 10:38:42: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/DSC00340.jpg
+02/13/2018 10:38:43: L is, 
+02/13/2018 10:38:43: cmps[0] is: 
+02/13/2018 10:38:43: data is, 
+02/13/2018 10:38:43: cmps[0] failed all if checks is: 
+02/13/2018 10:38:43: L is, newmtl Color_003
+02/13/2018 10:38:43: cmps[0] is: newmtl
+02/13/2018 10:38:43: data is, Color_003
+02/13/2018 10:38:43: Material Is being checked if it is null
+02/13/2018 10:38:43: Attempting to add material to a list
+02/13/2018 10:38:43: Material Added, DSC00340
+02/13/2018 10:38:43: Material was checked, attempting to find shader
+02/13/2018 10:38:43: Material instantiated
+02/13/2018 10:38:43: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: cmps[0] is: Ka
+02/13/2018 10:38:43: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: L is, Kd 0.666667 0.666667 0.666667
+02/13/2018 10:38:43: cmps[0] is: Kd
+02/13/2018 10:38:43: data is, 0.666667 0.666667 0.666667
+02/13/2018 10:38:43: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: cmps[0] is: Ks
+02/13/2018 10:38:43: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: L is, 
+02/13/2018 10:38:43: cmps[0] is: 
+02/13/2018 10:38:43: data is, 
+02/13/2018 10:38:43: cmps[0] failed all if checks is: 
+02/13/2018 10:38:43: L is, newmtl Metal_Rough
+02/13/2018 10:38:43: cmps[0] is: newmtl
+02/13/2018 10:38:43: data is, Metal_Rough
+02/13/2018 10:38:43: Material Is being checked if it is null
+02/13/2018 10:38:43: Attempting to add material to a list
+02/13/2018 10:38:43: Material Added, Color_003
+02/13/2018 10:38:43: Material was checked, attempting to find shader
+02/13/2018 10:38:43: Material instantiated
+02/13/2018 10:38:43: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: cmps[0] is: Ka
+02/13/2018 10:38:43: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: L is, Kd 0.596078 0.615686 0.627451
+02/13/2018 10:38:43: cmps[0] is: Kd
+02/13/2018 10:38:43: data is, 0.596078 0.615686 0.627451
+02/13/2018 10:38:43: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: cmps[0] is: Ks
+02/13/2018 10:38:43: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: L is, map_Kd BMO Warren/Metal_Rough.jpg
+02/13/2018 10:38:43: cmps[0] is: map_Kd
+02/13/2018 10:38:43: data is, BMO Warren/Metal_Rough.jpg
+02/13/2018 10:38:43: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Metal_Rough.jpg
+02/13/2018 10:38:43: L is, 
+02/13/2018 10:38:43: cmps[0] is: 
+02/13/2018 10:38:43: data is, 
+02/13/2018 10:38:43: cmps[0] failed all if checks is: 
+02/13/2018 10:38:43: L is, newmtl Metal_Panel
+02/13/2018 10:38:43: cmps[0] is: newmtl
+02/13/2018 10:38:43: data is, Metal_Panel
+02/13/2018 10:38:43: Material Is being checked if it is null
+02/13/2018 10:38:43: Attempting to add material to a list
+02/13/2018 10:38:43: Material Added, Metal_Rough
+02/13/2018 10:38:43: Material was checked, attempting to find shader
+02/13/2018 10:38:43: Material instantiated
+02/13/2018 10:38:43: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: cmps[0] is: Ka
+02/13/2018 10:38:43: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: L is, Kd 0.560784 0.615686 0.619608
+02/13/2018 10:38:43: cmps[0] is: Kd
+02/13/2018 10:38:43: data is, 0.560784 0.615686 0.619608
+02/13/2018 10:38:43: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: cmps[0] is: Ks
+02/13/2018 10:38:43: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: L is, map_Kd BMO Warren/Metal_Panel.jpg
+02/13/2018 10:38:43: cmps[0] is: map_Kd
+02/13/2018 10:38:43: data is, BMO Warren/Metal_Panel.jpg
+02/13/2018 10:38:43: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Metal_Panel.jpg
+02/13/2018 10:38:43: L is, 
+02/13/2018 10:38:43: cmps[0] is: 
+02/13/2018 10:38:43: data is, 
+02/13/2018 10:38:43: cmps[0] failed all if checks is: 
+02/13/2018 10:38:43: L is, newmtl _Metal_Aluminum_Anodized_2
+02/13/2018 10:38:43: cmps[0] is: newmtl
+02/13/2018 10:38:43: data is, _Metal_Aluminum_Anodized_2
+02/13/2018 10:38:43: Material Is being checked if it is null
+02/13/2018 10:38:43: Attempting to add material to a list
+02/13/2018 10:38:43: Material Added, Metal_Panel
+02/13/2018 10:38:43: Material was checked, attempting to find shader
+02/13/2018 10:38:43: Material instantiated
+02/13/2018 10:38:43: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: cmps[0] is: Ka
+02/13/2018 10:38:43: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: L is, Kd 0.000000 0.019608 0.000000
+02/13/2018 10:38:43: cmps[0] is: Kd
+02/13/2018 10:38:43: data is, 0.000000 0.019608 0.000000
+02/13/2018 10:38:43: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: cmps[0] is: Ks
+02/13/2018 10:38:43: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: L is, map_Kd BMO Warren/_Metal_Aluminum_Anodized_2.jpg
+02/13/2018 10:38:43: cmps[0] is: map_Kd
+02/13/2018 10:38:43: data is, BMO Warren/_Metal_Aluminum_Anodized_2.jpg
+02/13/2018 10:38:43: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/_Metal_Aluminum_Anodized_2.jpg
+02/13/2018 10:38:43: L is, 
+02/13/2018 10:38:43: cmps[0] is: 
+02/13/2018 10:38:43: data is, 
+02/13/2018 10:38:43: cmps[0] failed all if checks is: 
+02/13/2018 10:38:43: L is, newmtl Translucent_Glass_Gray
+02/13/2018 10:38:43: cmps[0] is: newmtl
+02/13/2018 10:38:43: data is, Translucent_Glass_Gray
+02/13/2018 10:38:43: Material Is being checked if it is null
+02/13/2018 10:38:43: Attempting to add material to a list
+02/13/2018 10:38:43: Material Added, _Metal_Aluminum_Anodized_2
+02/13/2018 10:38:43: Material was checked, attempting to find shader
+02/13/2018 10:38:43: Material instantiated
+02/13/2018 10:38:43: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: cmps[0] is: Ka
+02/13/2018 10:38:43: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: L is, Kd 0.501961 0.501961 0.501961
+02/13/2018 10:38:43: cmps[0] is: Kd
+02/13/2018 10:38:43: data is, 0.501961 0.501961 0.501961
+02/13/2018 10:38:43: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: cmps[0] is: Ks
+02/13/2018 10:38:43: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: L is, d 0.500000
+02/13/2018 10:38:43: cmps[0] is: d
+02/13/2018 10:38:43: data is, 0.500000
+02/13/2018 10:38:43: L is, 
+02/13/2018 10:38:43: cmps[0] is: 
+02/13/2018 10:38:43: data is, 
+02/13/2018 10:38:43: cmps[0] failed all if checks is: 
+02/13/2018 10:38:43: L is, newmtl _Metal_Aluminum_Anodized_1
+02/13/2018 10:38:43: cmps[0] is: newmtl
+02/13/2018 10:38:43: data is, _Metal_Aluminum_Anodized_1
+02/13/2018 10:38:43: Material Is being checked if it is null
+02/13/2018 10:38:43: Attempting to add material to a list
+02/13/2018 10:38:43: Material Added, Translucent_Glass_Gray
+02/13/2018 10:38:43: Material was checked, attempting to find shader
+02/13/2018 10:38:43: Material instantiated
+02/13/2018 10:38:43: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: cmps[0] is: Ka
+02/13/2018 10:38:43: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: L is, Kd 0.000000 0.200000 0.164706
+02/13/2018 10:38:43: cmps[0] is: Kd
+02/13/2018 10:38:43: data is, 0.000000 0.200000 0.164706
+02/13/2018 10:38:43: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: cmps[0] is: Ks
+02/13/2018 10:38:43: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: L is, map_Kd BMO Warren/_Metal_Aluminum_Anodized_1.jpg
+02/13/2018 10:38:43: cmps[0] is: map_Kd
+02/13/2018 10:38:43: data is, BMO Warren/_Metal_Aluminum_Anodized_1.jpg
+02/13/2018 10:38:43: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/_Metal_Aluminum_Anodized_1.jpg
+02/13/2018 10:38:43: L is, 
+02/13/2018 10:38:43: cmps[0] is: 
+02/13/2018 10:38:43: data is, 
+02/13/2018 10:38:43: cmps[0] failed all if checks is: 
+02/13/2018 10:38:43: L is, newmtl Translucent_Glass_Gold
+02/13/2018 10:38:43: cmps[0] is: newmtl
+02/13/2018 10:38:43: data is, Translucent_Glass_Gold
+02/13/2018 10:38:43: Material Is being checked if it is null
+02/13/2018 10:38:43: Attempting to add material to a list
+02/13/2018 10:38:43: Material Added, _Metal_Aluminum_Anodized_1
+02/13/2018 10:38:43: Material was checked, attempting to find shader
+02/13/2018 10:38:43: Material instantiated
+02/13/2018 10:38:43: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: cmps[0] is: Ka
+02/13/2018 10:38:43: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: L is, Kd 1.000000 0.996078 0.101961
+02/13/2018 10:38:43: cmps[0] is: Kd
+02/13/2018 10:38:43: data is, 1.000000 0.996078 0.101961
+02/13/2018 10:38:43: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: cmps[0] is: Ks
+02/13/2018 10:38:43: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: L is, d 0.600000
+02/13/2018 10:38:43: cmps[0] is: d
+02/13/2018 10:38:43: data is, 0.600000
+02/13/2018 10:38:43: L is, map_Kd BMO Warren/Translucent_Glass_Gold.jpg
+02/13/2018 10:38:43: cmps[0] is: map_Kd
+02/13/2018 10:38:43: data is, BMO Warren/Translucent_Glass_Gold.jpg
+02/13/2018 10:38:43: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Translucent_Glass_Gold.jpg
+02/13/2018 10:38:43: L is, 
+02/13/2018 10:38:43: cmps[0] is: 
+02/13/2018 10:38:43: data is, 
+02/13/2018 10:38:43: cmps[0] failed all if checks is: 
+02/13/2018 10:38:43: L is, newmtl _Prussian_Blue_
+02/13/2018 10:38:43: cmps[0] is: newmtl
+02/13/2018 10:38:43: data is, _Prussian_Blue_
+02/13/2018 10:38:43: Material Is being checked if it is null
+02/13/2018 10:38:43: Attempting to add material to a list
+02/13/2018 10:38:43: Material Added, Translucent_Glass_Gold
+02/13/2018 10:38:43: Material was checked, attempting to find shader
+02/13/2018 10:38:43: Material instantiated
+02/13/2018 10:38:43: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: cmps[0] is: Ka
+02/13/2018 10:38:43: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: L is, Kd 0.215686 0.290196 0.490196
+02/13/2018 10:38:43: cmps[0] is: Kd
+02/13/2018 10:38:43: data is, 0.215686 0.290196 0.490196
+02/13/2018 10:38:43: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: cmps[0] is: Ks
+02/13/2018 10:38:43: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: L is, 
+02/13/2018 10:38:43: cmps[0] is: 
+02/13/2018 10:38:43: data is, 
+02/13/2018 10:38:43: cmps[0] failed all if checks is: 
+02/13/2018 10:38:43: L is, newmtl _Gray3_
+02/13/2018 10:38:43: cmps[0] is: newmtl
+02/13/2018 10:38:43: data is, _Gray3_
+02/13/2018 10:38:43: Material Is being checked if it is null
+02/13/2018 10:38:43: Attempting to add material to a list
+02/13/2018 10:38:43: Material Added, _Prussian_Blue_
+02/13/2018 10:38:43: Material was checked, attempting to find shader
+02/13/2018 10:38:43: Material instantiated
+02/13/2018 10:38:43: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: cmps[0] is: Ka
+02/13/2018 10:38:43: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: L is, Kd 0.839216 0.839216 0.839216
+02/13/2018 10:38:43: cmps[0] is: Kd
+02/13/2018 10:38:43: data is, 0.839216 0.839216 0.839216
+02/13/2018 10:38:43: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: cmps[0] is: Ks
+02/13/2018 10:38:43: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: L is, 
+02/13/2018 10:38:43: cmps[0] is: 
+02/13/2018 10:38:43: data is, 
+02/13/2018 10:38:43: cmps[0] failed all if checks is: 
+02/13/2018 10:38:43: L is, newmtl _CoolGray8_
+02/13/2018 10:38:43: cmps[0] is: newmtl
+02/13/2018 10:38:43: data is, _CoolGray8_
+02/13/2018 10:38:43: Material Is being checked if it is null
+02/13/2018 10:38:43: Attempting to add material to a list
+02/13/2018 10:38:43: Material Added, _Gray3_
+02/13/2018 10:38:43: Material was checked, attempting to find shader
+02/13/2018 10:38:43: Material instantiated
+02/13/2018 10:38:43: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: cmps[0] is: Ka
+02/13/2018 10:38:43: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: L is, Kd 0.298039 0.313725 0.364706
+02/13/2018 10:38:43: cmps[0] is: Kd
+02/13/2018 10:38:43: data is, 0.298039 0.313725 0.364706
+02/13/2018 10:38:43: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: cmps[0] is: Ks
+02/13/2018 10:38:43: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: L is, 
+02/13/2018 10:38:43: cmps[0] is: 
+02/13/2018 10:38:43: data is, 
+02/13/2018 10:38:43: cmps[0] failed all if checks is: 
+02/13/2018 10:38:43: L is, newmtl _Gray5_
+02/13/2018 10:38:43: cmps[0] is: newmtl
+02/13/2018 10:38:43: data is, _Gray5_
+02/13/2018 10:38:43: Material Is being checked if it is null
+02/13/2018 10:38:43: Attempting to add material to a list
+02/13/2018 10:38:43: Material Added, _CoolGray8_
+02/13/2018 10:38:43: Material was checked, attempting to find shader
+02/13/2018 10:38:43: Material instantiated
+02/13/2018 10:38:43: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: cmps[0] is: Ka
+02/13/2018 10:38:43: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: L is, Kd 0.529412 0.529412 0.529412
+02/13/2018 10:38:43: cmps[0] is: Kd
+02/13/2018 10:38:43: data is, 0.529412 0.529412 0.529412
+02/13/2018 10:38:43: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: cmps[0] is: Ks
+02/13/2018 10:38:43: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: L is, 
+02/13/2018 10:38:43: cmps[0] is: 
+02/13/2018 10:38:43: data is, 
+02/13/2018 10:38:43: cmps[0] failed all if checks is: 
+02/13/2018 10:38:43: L is, newmtl Carpet_Plush_Charcoal
+02/13/2018 10:38:43: cmps[0] is: newmtl
+02/13/2018 10:38:43: data is, Carpet_Plush_Charcoal
+02/13/2018 10:38:43: Material Is being checked if it is null
+02/13/2018 10:38:43: Attempting to add material to a list
+02/13/2018 10:38:43: Material Added, _Gray5_
+02/13/2018 10:38:43: Material was checked, attempting to find shader
+02/13/2018 10:38:43: Material instantiated
+02/13/2018 10:38:43: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: cmps[0] is: Ka
+02/13/2018 10:38:43: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: L is, Kd 0.341176 0.341176 0.341176
+02/13/2018 10:38:43: cmps[0] is: Kd
+02/13/2018 10:38:43: data is, 0.341176 0.341176 0.341176
+02/13/2018 10:38:43: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: cmps[0] is: Ks
+02/13/2018 10:38:43: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: L is, map_Kd BMO Warren/Carpet_Plush_Charcoal.jpg
+02/13/2018 10:38:43: cmps[0] is: map_Kd
+02/13/2018 10:38:43: data is, BMO Warren/Carpet_Plush_Charcoal.jpg
+02/13/2018 10:38:43: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Carpet_Plush_Charcoal.jpg
+02/13/2018 10:38:43: L is, 
+02/13/2018 10:38:43: cmps[0] is: 
+02/13/2018 10:38:43: data is, 
+02/13/2018 10:38:43: cmps[0] failed all if checks is: 
+02/13/2018 10:38:43: L is, newmtl Carpet_Berber_Multi
+02/13/2018 10:38:43: cmps[0] is: newmtl
+02/13/2018 10:38:43: data is, Carpet_Berber_Multi
+02/13/2018 10:38:43: Material Is being checked if it is null
+02/13/2018 10:38:43: Attempting to add material to a list
+02/13/2018 10:38:43: Material Added, Carpet_Plush_Charcoal
+02/13/2018 10:38:43: Material was checked, attempting to find shader
+02/13/2018 10:38:43: Material instantiated
+02/13/2018 10:38:43: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: cmps[0] is: Ka
+02/13/2018 10:38:43: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: L is, Kd 0.592157 0.525490 0.478431
+02/13/2018 10:38:43: cmps[0] is: Kd
+02/13/2018 10:38:43: data is, 0.592157 0.525490 0.478431
+02/13/2018 10:38:43: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: cmps[0] is: Ks
+02/13/2018 10:38:43: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: L is, map_Kd BMO Warren/Carpet_Berber_Multi.jpg
+02/13/2018 10:38:43: cmps[0] is: map_Kd
+02/13/2018 10:38:43: data is, BMO Warren/Carpet_Berber_Multi.jpg
+02/13/2018 10:38:43: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Carpet_Berber_Multi.jpg
+02/13/2018 10:38:43: L is, 
+02/13/2018 10:38:43: cmps[0] is: 
+02/13/2018 10:38:43: data is, 
+02/13/2018 10:38:43: cmps[0] failed all if checks is: 
+02/13/2018 10:38:43: L is, newmtl Carpet_Berber_Pattern_Gray
+02/13/2018 10:38:43: cmps[0] is: newmtl
+02/13/2018 10:38:43: data is, Carpet_Berber_Pattern_Gray
+02/13/2018 10:38:43: Material Is being checked if it is null
+02/13/2018 10:38:43: Attempting to add material to a list
+02/13/2018 10:38:43: Material Added, Carpet_Berber_Multi
+02/13/2018 10:38:43: Material was checked, attempting to find shader
+02/13/2018 10:38:43: Material instantiated
+02/13/2018 10:38:43: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: cmps[0] is: Ka
+02/13/2018 10:38:43: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: L is, Kd 0.647059 0.647059 0.647059
+02/13/2018 10:38:43: cmps[0] is: Kd
+02/13/2018 10:38:43: data is, 0.647059 0.647059 0.647059
+02/13/2018 10:38:43: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: cmps[0] is: Ks
+02/13/2018 10:38:43: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: L is, map_Kd BMO Warren/Carpet_Berber_Pattern_Gray.jpg
+02/13/2018 10:38:43: cmps[0] is: map_Kd
+02/13/2018 10:38:43: data is, BMO Warren/Carpet_Berber_Pattern_Gray.jpg
+02/13/2018 10:38:43: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Carpet_Berber_Pattern_Gray.jpg
+02/13/2018 10:38:43: L is, 
+02/13/2018 10:38:43: cmps[0] is: 
+02/13/2018 10:38:43: data is, 
+02/13/2018 10:38:43: cmps[0] failed all if checks is: 
+02/13/2018 10:38:43: L is, newmtl Crosswalk_Sign_Right
+02/13/2018 10:38:43: cmps[0] is: newmtl
+02/13/2018 10:38:43: data is, Crosswalk_Sign_Right
+02/13/2018 10:38:43: Material Is being checked if it is null
+02/13/2018 10:38:43: Attempting to add material to a list
+02/13/2018 10:38:43: Material Added, Carpet_Berber_Pattern_Gray
+02/13/2018 10:38:43: Material was checked, attempting to find shader
+02/13/2018 10:38:43: Material instantiated
+02/13/2018 10:38:43: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: cmps[0] is: Ka
+02/13/2018 10:38:43: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: L is, Kd 0.776471 0.776471 0.776471
+02/13/2018 10:38:43: cmps[0] is: Kd
+02/13/2018 10:38:43: data is, 0.776471 0.776471 0.776471
+02/13/2018 10:38:43: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: cmps[0] is: Ks
+02/13/2018 10:38:43: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: L is, map_Kd BMO Warren/Crosswalk_Sign_Right.jpg
+02/13/2018 10:38:43: cmps[0] is: map_Kd
+02/13/2018 10:38:43: data is, BMO Warren/Crosswalk_Sign_Right.jpg
+02/13/2018 10:38:43: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Crosswalk_Sign_Right.jpg
+02/13/2018 10:38:43: L is, 
+02/13/2018 10:38:43: cmps[0] is: 
+02/13/2018 10:38:43: data is, 
+02/13/2018 10:38:43: cmps[0] failed all if checks is: 
+02/13/2018 10:38:43: L is, newmtl Asphalt_New
+02/13/2018 10:38:43: cmps[0] is: newmtl
+02/13/2018 10:38:43: data is, Asphalt_New
+02/13/2018 10:38:43: Material Is being checked if it is null
+02/13/2018 10:38:43: Attempting to add material to a list
+02/13/2018 10:38:43: Material Added, Crosswalk_Sign_Right
+02/13/2018 10:38:43: Material was checked, attempting to find shader
+02/13/2018 10:38:43: Material instantiated
+02/13/2018 10:38:43: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: cmps[0] is: Ka
+02/13/2018 10:38:43: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:38:43: L is, Kd 0.262745 0.235294 0.243137
+02/13/2018 10:38:43: cmps[0] is: Kd
+02/13/2018 10:38:43: data is, 0.262745 0.235294 0.243137
+02/13/2018 10:38:43: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: cmps[0] is: Ks
+02/13/2018 10:38:43: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:38:43: L is, map_Kd BMO Warren/Asphalt_New.jpg
+02/13/2018 10:38:43: cmps[0] is: map_Kd
+02/13/2018 10:38:43: data is, BMO Warren/Asphalt_New.jpg
+02/13/2018 10:38:43: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Asphalt_New.jpg
+02/13/2018 10:38:43: L is, 
+02/13/2018 10:38:43: cmps[0] is: 
+02/13/2018 10:38:43: data is, 
+02/13/2018 10:38:43: cmps[0] failed all if checks is: 
+02/13/2018 10:38:55: The screen has been locked with alt
+02/13/2018 10:39:07: Object Tagged, Name: TileA1 At X =2.96925 Y =2.96925 Z =-26.35695
+02/13/2018 10:39:08: The screen has been unlocked with alt
+02/13/2018 10:45:06: The screen is locked
+02/13/2018 10:45:11: The screen has been unlocked with alt
+02/13/2018 10:45:11: Object Tagged, Name: TileA1 At X =2.96925 Y =2.96925 Z =-26.35695
+02/13/2018 10:45:11: Grid Tile Tagged, Name: TileA1 At X=2.96925 Y=2.96925 Z=-26.35695
+02/13/2018 10:45:17: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC.mtl
+02/13/2018 10:45:17: Base File Name = CIBC
+02/13/2018 10:45:17: mtl File Directory = /Users/Student/Documents/MyObjects/
+02/13/2018 10:45:17: L is, #
+02/13/2018 10:45:17: cmps[0] is: #
+02/13/2018 10:45:17: data is, #
+02/13/2018 10:45:17: cmps[0] failed all if checks is: #
+02/13/2018 10:45:17: L is, ## Alias OBJ Material File
+02/13/2018 10:45:17: cmps[0] is: ##
+02/13/2018 10:45:17: data is, Alias OBJ Material File
+02/13/2018 10:45:17: cmps[0] failed all if checks is: ##
+02/13/2018 10:45:17: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+02/13/2018 10:45:17: cmps[0] is: #
+02/13/2018 10:45:17: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+02/13/2018 10:45:17: cmps[0] failed all if checks is: #
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl Brick_Antique
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, Brick_Antique
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 0.576471 0.411765 0.278431
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 0.576471 0.411765 0.278431
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, map_Kd CIBC/Brick_Antique.jpg
+02/13/2018 10:45:17: cmps[0] is: map_Kd
+02/13/2018 10:45:17: data is, CIBC/Brick_Antique.jpg
+02/13/2018 10:45:17: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/Brick_Antique.jpg
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl _Cladding_Stucco_White_5
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, _Cladding_Stucco_White_5
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Attempting to add material to a list
+02/13/2018 10:45:17: Material Added, Brick_Antique
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 0.784314 0.784314 0.784314
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 0.784314 0.784314 0.784314
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl _Cladding_Stucco_White_1
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, _Cladding_Stucco_White_1
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Attempting to add material to a list
+02/13/2018 10:45:17: Material Added, _Cladding_Stucco_White_5
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 0.784314 0.784314 0.784314
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 0.784314 0.784314 0.784314
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, map_Kd CIBC/_Cladding_Stucco_White_1.jpg
+02/13/2018 10:45:17: cmps[0] is: map_Kd
+02/13/2018 10:45:17: data is, CIBC/_Cladding_Stucco_White_1.jpg
+02/13/2018 10:45:17: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/_Cladding_Stucco_White_1.jpg
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl _3
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, _3
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Attempting to add material to a list
+02/13/2018 10:45:17: Material Added, _Cladding_Stucco_White_1
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 0.678431 0.000000 0.078431
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 0.678431 0.000000 0.078431
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl Translucent_Glass_Tinted
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, Translucent_Glass_Tinted
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Attempting to add material to a list
+02/13/2018 10:45:17: Material Added, _3
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 0.027451 0.788235 0.941176
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 0.027451 0.788235 0.941176
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, d 0.480000
+02/13/2018 10:45:17: cmps[0] is: d
+02/13/2018 10:45:17: data is, 0.480000
+02/13/2018 10:45:17: L is, map_Kd CIBC/Translucent_Glass_Tinted.jpg
+02/13/2018 10:45:17: cmps[0] is: map_Kd
+02/13/2018 10:45:17: data is, CIBC/Translucent_Glass_Tinted.jpg
+02/13/2018 10:45:17: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/Translucent_Glass_Tinted.jpg
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl _5
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, _5
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Attempting to add material to a list
+02/13/2018 10:45:17: Material Added, Translucent_Glass_Tinted
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 0.721569 0.756863 0.000000
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 0.721569 0.756863 0.000000
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl _LightGray_
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, _LightGray_
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Attempting to add material to a list
+02/13/2018 10:45:17: Material Added, _5
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 0.662745 0.662745 0.662745
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 0.662745 0.662745 0.662745
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl _Brick_Antique_2
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, _Brick_Antique_2
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Attempting to add material to a list
+02/13/2018 10:45:17: Material Added, _LightGray_
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 0.576471 0.411765 0.278431
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 0.576471 0.411765 0.278431
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, map_Kd CIBC/_Brick_Antique_2.jpg
+02/13/2018 10:45:17: cmps[0] is: map_Kd
+02/13/2018 10:45:17: data is, CIBC/_Brick_Antique_2.jpg
+02/13/2018 10:45:17: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/_Brick_Antique_2.jpg
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl BackColor
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, BackColor
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Attempting to add material to a list
+02/13/2018 10:45:17: Material Added, _Brick_Antique_2
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 0.643137 0.698039 0.733333
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 0.643137 0.698039 0.733333
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl _Brick_Antique_3
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, _Brick_Antique_3
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Attempting to add material to a list
+02/13/2018 10:45:17: Material Added, BackColor
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 0.576471 0.411765 0.278431
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 0.576471 0.411765 0.278431
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, map_Kd CIBC/_Brick_Antique_3.jpg
+02/13/2018 10:45:17: cmps[0] is: map_Kd
+02/13/2018 10:45:17: data is, CIBC/_Brick_Antique_3.jpg
+02/13/2018 10:45:17: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/_Brick_Antique_3.jpg
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl _Brick_Antique_1
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, _Brick_Antique_1
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Attempting to add material to a list
+02/13/2018 10:45:17: Material Added, _Brick_Antique_3
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 0.576471 0.411765 0.278431
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 0.576471 0.411765 0.278431
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, map_Kd CIBC/_Brick_Antique_1.jpg
+02/13/2018 10:45:17: cmps[0] is: map_Kd
+02/13/2018 10:45:17: data is, CIBC/_Brick_Antique_1.jpg
+02/13/2018 10:45:17: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/_Brick_Antique_1.jpg
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl _8
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, _8
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Attempting to add material to a list
+02/13/2018 10:45:17: Material Added, _Brick_Antique_1
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 0.980392 1.000000 0.717647
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 0.980392 1.000000 0.717647
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl FrontColor
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, FrontColor
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Attempting to add material to a list
+02/13/2018 10:45:17: Material Added, _8
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 1.000000 1.000000 1.000000
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 1.000000 1.000000 1.000000
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl _Cladding_Stucco_White_4
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, _Cladding_Stucco_White_4
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Attempting to add material to a list
+02/13/2018 10:45:17: Material Added, FrontColor
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 0.784314 0.784314 0.784314
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 0.784314 0.784314 0.784314
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, map_Kd CIBC/_Cladding_Stucco_White_4.jpg
+02/13/2018 10:45:17: cmps[0] is: map_Kd
+02/13/2018 10:45:17: data is, CIBC/_Cladding_Stucco_White_4.jpg
+02/13/2018 10:45:17: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/_Cladding_Stucco_White_4.jpg
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl _7
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, _7
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Attempting to add material to a list
+02/13/2018 10:45:17: Material Added, _Cladding_Stucco_White_4
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 0.298039 0.298039 0.298039
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 0.298039 0.298039 0.298039
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl _Cladding_Stucco_White_3
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, _Cladding_Stucco_White_3
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Attempting to add material to a list
+02/13/2018 10:45:17: Material Added, _7
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 0.784314 0.784314 0.784314
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 0.784314 0.784314 0.784314
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, map_Kd CIBC/_Cladding_Stucco_White_3.jpg
+02/13/2018 10:45:17: cmps[0] is: map_Kd
+02/13/2018 10:45:17: data is, CIBC/_Cladding_Stucco_White_3.jpg
+02/13/2018 10:45:17: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/_Cladding_Stucco_White_3.jpg
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl _6
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, _6
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Attempting to add material to a list
+02/13/2018 10:45:17: Material Added, _Cladding_Stucco_White_3
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 0.298039 0.298039 0.298039
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 0.298039 0.298039 0.298039
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl _Brick_Tumbled_2
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, _Brick_Tumbled_2
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Attempting to add material to a list
+02/13/2018 10:45:17: Material Added, _6
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 0.529412 0.517647 0.517647
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 0.529412 0.517647 0.517647
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, map_Kd CIBC/_Brick_Tumbled_2.jpg
+02/13/2018 10:45:17: cmps[0] is: map_Kd
+02/13/2018 10:45:17: data is, CIBC/_Brick_Tumbled_2.jpg
+02/13/2018 10:45:17: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/_Brick_Tumbled_2.jpg
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:17: L is, newmtl _Brick_Tumbled_1
+02/13/2018 10:45:17: cmps[0] is: newmtl
+02/13/2018 10:45:17: data is, _Brick_Tumbled_1
+02/13/2018 10:45:17: Material Is being checked if it is null
+02/13/2018 10:45:17: Attempting to add material to a list
+02/13/2018 10:45:17: Material Added, _Brick_Tumbled_2
+02/13/2018 10:45:17: Material was checked, attempting to find shader
+02/13/2018 10:45:17: Material instantiated
+02/13/2018 10:45:17: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: cmps[0] is: Ka
+02/13/2018 10:45:17: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:45:17: L is, Kd 0.529412 0.517647 0.517647
+02/13/2018 10:45:17: cmps[0] is: Kd
+02/13/2018 10:45:17: data is, 0.529412 0.517647 0.517647
+02/13/2018 10:45:17: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: cmps[0] is: Ks
+02/13/2018 10:45:17: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:45:17: L is, map_Kd CIBC/_Brick_Tumbled_1.jpg
+02/13/2018 10:45:17: cmps[0] is: map_Kd
+02/13/2018 10:45:17: data is, CIBC/_Brick_Tumbled_1.jpg
+02/13/2018 10:45:17: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/_Brick_Tumbled_1.jpg
+02/13/2018 10:45:17: L is, 
+02/13/2018 10:45:17: cmps[0] is: 
+02/13/2018 10:45:17: data is, 
+02/13/2018 10:45:17: cmps[0] failed all if checks is: 
+02/13/2018 10:45:23: The screen has been locked with alt
+02/13/2018 10:45:37: The screen has been unlocked with alt
+02/13/2018 10:50:05: The screen is locked
+02/13/2018 10:50:21: The screen has been unlocked with alt
+02/13/2018 10:50:21: The screen has been locked with alt
+02/13/2018 10:50:23: Grid Tile Tagged, Name: TileA1 At X=-41.05335 Y=-41.05335 Z=32.93925
+02/13/2018 10:50:23: The screen has been unlocked with alt
+02/13/2018 10:50:26: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC.mtl
+02/13/2018 10:50:26: Base File Name = CIBC
+02/13/2018 10:50:26: mtl File Directory = /Users/Student/Documents/MyObjects/
+02/13/2018 10:50:26: L is, #
+02/13/2018 10:50:26: cmps[0] is: #
+02/13/2018 10:50:26: data is, #
+02/13/2018 10:50:26: cmps[0] failed all if checks is: #
+02/13/2018 10:50:26: L is, ## Alias OBJ Material File
+02/13/2018 10:50:26: cmps[0] is: ##
+02/13/2018 10:50:26: data is, Alias OBJ Material File
+02/13/2018 10:50:26: cmps[0] failed all if checks is: ##
+02/13/2018 10:50:26: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+02/13/2018 10:50:26: cmps[0] is: #
+02/13/2018 10:50:26: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+02/13/2018 10:50:26: cmps[0] failed all if checks is: #
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl Brick_Antique
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, Brick_Antique
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 0.576471 0.411765 0.278431
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 0.576471 0.411765 0.278431
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, map_Kd CIBC/Brick_Antique.jpg
+02/13/2018 10:50:26: cmps[0] is: map_Kd
+02/13/2018 10:50:26: data is, CIBC/Brick_Antique.jpg
+02/13/2018 10:50:26: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/Brick_Antique.jpg
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl _Cladding_Stucco_White_5
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, _Cladding_Stucco_White_5
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Attempting to add material to a list
+02/13/2018 10:50:26: Material Added, Brick_Antique
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 0.784314 0.784314 0.784314
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 0.784314 0.784314 0.784314
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl _Cladding_Stucco_White_1
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, _Cladding_Stucco_White_1
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Attempting to add material to a list
+02/13/2018 10:50:26: Material Added, _Cladding_Stucco_White_5
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 0.784314 0.784314 0.784314
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 0.784314 0.784314 0.784314
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, map_Kd CIBC/_Cladding_Stucco_White_1.jpg
+02/13/2018 10:50:26: cmps[0] is: map_Kd
+02/13/2018 10:50:26: data is, CIBC/_Cladding_Stucco_White_1.jpg
+02/13/2018 10:50:26: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/_Cladding_Stucco_White_1.jpg
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl _3
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, _3
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Attempting to add material to a list
+02/13/2018 10:50:26: Material Added, _Cladding_Stucco_White_1
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 0.678431 0.000000 0.078431
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 0.678431 0.000000 0.078431
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl Translucent_Glass_Tinted
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, Translucent_Glass_Tinted
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Attempting to add material to a list
+02/13/2018 10:50:26: Material Added, _3
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 0.027451 0.788235 0.941176
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 0.027451 0.788235 0.941176
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, d 0.480000
+02/13/2018 10:50:26: cmps[0] is: d
+02/13/2018 10:50:26: data is, 0.480000
+02/13/2018 10:50:26: L is, map_Kd CIBC/Translucent_Glass_Tinted.jpg
+02/13/2018 10:50:26: cmps[0] is: map_Kd
+02/13/2018 10:50:26: data is, CIBC/Translucent_Glass_Tinted.jpg
+02/13/2018 10:50:26: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/Translucent_Glass_Tinted.jpg
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl _5
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, _5
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Attempting to add material to a list
+02/13/2018 10:50:26: Material Added, Translucent_Glass_Tinted
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 0.721569 0.756863 0.000000
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 0.721569 0.756863 0.000000
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl _LightGray_
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, _LightGray_
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Attempting to add material to a list
+02/13/2018 10:50:26: Material Added, _5
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 0.662745 0.662745 0.662745
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 0.662745 0.662745 0.662745
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl _Brick_Antique_2
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, _Brick_Antique_2
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Attempting to add material to a list
+02/13/2018 10:50:26: Material Added, _LightGray_
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 0.576471 0.411765 0.278431
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 0.576471 0.411765 0.278431
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, map_Kd CIBC/_Brick_Antique_2.jpg
+02/13/2018 10:50:26: cmps[0] is: map_Kd
+02/13/2018 10:50:26: data is, CIBC/_Brick_Antique_2.jpg
+02/13/2018 10:50:26: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/_Brick_Antique_2.jpg
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl BackColor
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, BackColor
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Attempting to add material to a list
+02/13/2018 10:50:26: Material Added, _Brick_Antique_2
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 0.643137 0.698039 0.733333
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 0.643137 0.698039 0.733333
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl _Brick_Antique_3
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, _Brick_Antique_3
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Attempting to add material to a list
+02/13/2018 10:50:26: Material Added, BackColor
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 0.576471 0.411765 0.278431
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 0.576471 0.411765 0.278431
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, map_Kd CIBC/_Brick_Antique_3.jpg
+02/13/2018 10:50:26: cmps[0] is: map_Kd
+02/13/2018 10:50:26: data is, CIBC/_Brick_Antique_3.jpg
+02/13/2018 10:50:26: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/_Brick_Antique_3.jpg
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl _Brick_Antique_1
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, _Brick_Antique_1
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Attempting to add material to a list
+02/13/2018 10:50:26: Material Added, _Brick_Antique_3
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 0.576471 0.411765 0.278431
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 0.576471 0.411765 0.278431
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, map_Kd CIBC/_Brick_Antique_1.jpg
+02/13/2018 10:50:26: cmps[0] is: map_Kd
+02/13/2018 10:50:26: data is, CIBC/_Brick_Antique_1.jpg
+02/13/2018 10:50:26: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/_Brick_Antique_1.jpg
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl _8
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, _8
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Attempting to add material to a list
+02/13/2018 10:50:26: Material Added, _Brick_Antique_1
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 0.980392 1.000000 0.717647
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 0.980392 1.000000 0.717647
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl FrontColor
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, FrontColor
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Attempting to add material to a list
+02/13/2018 10:50:26: Material Added, _8
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 1.000000 1.000000 1.000000
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 1.000000 1.000000 1.000000
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl _Cladding_Stucco_White_4
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, _Cladding_Stucco_White_4
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Attempting to add material to a list
+02/13/2018 10:50:26: Material Added, FrontColor
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 0.784314 0.784314 0.784314
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 0.784314 0.784314 0.784314
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, map_Kd CIBC/_Cladding_Stucco_White_4.jpg
+02/13/2018 10:50:26: cmps[0] is: map_Kd
+02/13/2018 10:50:26: data is, CIBC/_Cladding_Stucco_White_4.jpg
+02/13/2018 10:50:26: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/_Cladding_Stucco_White_4.jpg
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl _7
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, _7
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Attempting to add material to a list
+02/13/2018 10:50:26: Material Added, _Cladding_Stucco_White_4
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 0.298039 0.298039 0.298039
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 0.298039 0.298039 0.298039
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl _Cladding_Stucco_White_3
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, _Cladding_Stucco_White_3
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Attempting to add material to a list
+02/13/2018 10:50:26: Material Added, _7
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 0.784314 0.784314 0.784314
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 0.784314 0.784314 0.784314
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, map_Kd CIBC/_Cladding_Stucco_White_3.jpg
+02/13/2018 10:50:26: cmps[0] is: map_Kd
+02/13/2018 10:50:26: data is, CIBC/_Cladding_Stucco_White_3.jpg
+02/13/2018 10:50:26: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/_Cladding_Stucco_White_3.jpg
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl _6
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, _6
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Attempting to add material to a list
+02/13/2018 10:50:26: Material Added, _Cladding_Stucco_White_3
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 0.298039 0.298039 0.298039
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 0.298039 0.298039 0.298039
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl _Brick_Tumbled_2
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, _Brick_Tumbled_2
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Attempting to add material to a list
+02/13/2018 10:50:26: Material Added, _6
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 0.529412 0.517647 0.517647
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 0.529412 0.517647 0.517647
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, map_Kd CIBC/_Brick_Tumbled_2.jpg
+02/13/2018 10:50:26: cmps[0] is: map_Kd
+02/13/2018 10:50:26: data is, CIBC/_Brick_Tumbled_2.jpg
+02/13/2018 10:50:26: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/_Brick_Tumbled_2.jpg
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:26: L is, newmtl _Brick_Tumbled_1
+02/13/2018 10:50:26: cmps[0] is: newmtl
+02/13/2018 10:50:26: data is, _Brick_Tumbled_1
+02/13/2018 10:50:26: Material Is being checked if it is null
+02/13/2018 10:50:26: Attempting to add material to a list
+02/13/2018 10:50:26: Material Added, _Brick_Tumbled_2
+02/13/2018 10:50:26: Material was checked, attempting to find shader
+02/13/2018 10:50:26: Material instantiated
+02/13/2018 10:50:26: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: cmps[0] is: Ka
+02/13/2018 10:50:26: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:50:26: L is, Kd 0.529412 0.517647 0.517647
+02/13/2018 10:50:26: cmps[0] is: Kd
+02/13/2018 10:50:26: data is, 0.529412 0.517647 0.517647
+02/13/2018 10:50:26: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: cmps[0] is: Ks
+02/13/2018 10:50:26: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:50:26: L is, map_Kd CIBC/_Brick_Tumbled_1.jpg
+02/13/2018 10:50:26: cmps[0] is: map_Kd
+02/13/2018 10:50:26: data is, CIBC/_Brick_Tumbled_1.jpg
+02/13/2018 10:50:26: OBJGetFilePath works, /Users/Student/Documents/MyObjects/CIBC/_Brick_Tumbled_1.jpg
+02/13/2018 10:50:26: L is, 
+02/13/2018 10:50:26: cmps[0] is: 
+02/13/2018 10:50:26: data is, 
+02/13/2018 10:50:26: cmps[0] failed all if checks is: 
+02/13/2018 10:50:29: The screen has been locked with alt
+02/13/2018 10:50:31: Object Tagged, Name: TileA1 At X =-41.05335 Y =-41.05335 Z =32.93925
+02/13/2018 10:50:32: The screen has been unlocked with alt
+02/13/2018 10:50:34: The screen has been locked with alt
+02/13/2018 10:50:38: The screen has been unlocked with alt
+02/13/2018 10:53:05: The screen is locked
+02/13/2018 10:53:08: Grid Tile Tagged, Name: TileA1 At X=-41.05335 Y=-41.05335 Z=32.93925
+02/13/2018 10:53:09: The screen has been unlocked with alt
+02/13/2018 10:53:20: OBJGetFilePath works, /Users/Student/Documents/MyObjects/HOME HARDWARE.mtl
+02/13/2018 10:53:20: Base File Name = HOME HARDWARE
+02/13/2018 10:53:20: mtl File Directory = /Users/Student/Documents/MyObjects/
+02/13/2018 10:53:20: L is, #
+02/13/2018 10:53:20: cmps[0] is: #
+02/13/2018 10:53:20: data is, #
+02/13/2018 10:53:20: cmps[0] failed all if checks is: #
+02/13/2018 10:53:20: L is, ## Alias OBJ Material File
+02/13/2018 10:53:20: cmps[0] is: ##
+02/13/2018 10:53:20: data is, Alias OBJ Material File
+02/13/2018 10:53:20: cmps[0] failed all if checks is: ##
+02/13/2018 10:53:20: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+02/13/2018 10:53:20: cmps[0] is: #
+02/13/2018 10:53:20: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+02/13/2018 10:53:20: cmps[0] failed all if checks is: #
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl IMG_0079_1
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, IMG_0079_1
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.552941 0.341176 0.298039
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.552941 0.341176 0.298039
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, map_Kd HOME HARDWARE/IMG_0079_1.jpg
+02/13/2018 10:53:20: cmps[0] is: map_Kd
+02/13/2018 10:53:20: data is, HOME HARDWARE/IMG_0079_1.jpg
+02/13/2018 10:53:20: OBJGetFilePath works, /Users/Student/Documents/MyObjects/HOME HARDWARE/IMG_0079_1.jpg
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl Color_B21
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, Color_B21
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, IMG_0079_1
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.200000 0.047059 0.000000
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.200000 0.047059 0.000000
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl FrontColor
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, FrontColor
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, Color_B21
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 1.000000 1.000000 1.000000
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 1.000000 1.000000 1.000000
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl Color_000
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, Color_000
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, FrontColor
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 1.000000 1.000000 1.000000
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 1.000000 1.000000 1.000000
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl Color_A06
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, Color_A06
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, Color_000
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.800000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.800000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl M_0046_Gold
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, M_0046_Gold
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, Color_A06
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 1.000000 0.843137 0.000000
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 1.000000 0.843137 0.000000
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl BackColor
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, BackColor
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, M_0046_Gold
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.643137 0.698039 0.733333
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.643137 0.698039 0.733333
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl M_96_96_96
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, M_96_96_96
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, BackColor
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.376471 0.376471 0.376471
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.376471 0.376471 0.376471
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl _Beige_1
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, _Beige_1
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, M_96_96_96
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.827451 0.741176 0.564706
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.827451 0.741176 0.564706
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl Color_B24
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, Color_B24
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, _Beige_1
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.200000 0.137255 0.117647
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.200000 0.137255 0.117647
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl _LightGray_
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, _LightGray_
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, Color_B24
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.662745 0.662745 0.662745
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.662745 0.662745 0.662745
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl M_0135_DarkGray
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, M_0135_DarkGray
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, _LightGray_
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.317647 0.317647 0.317647
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.317647 0.317647 0.317647
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl jean_blue
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, jean_blue
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, M_0135_DarkGray
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.141176 0.184314 0.258824
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.141176 0.184314 0.258824
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl _Charcoal_
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, _Charcoal_
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, jean_blue
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.137255 0.137255 0.137255
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.137255 0.137255 0.137255
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl Color_005
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, Color_005
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, _Charcoal_
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.447059 0.447059 0.447059
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.447059 0.447059 0.447059
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl Wood_OSB
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, Wood_OSB
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, Color_005
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.941176 0.764706 0.478431
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.941176 0.764706 0.478431
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, map_Kd HOME HARDWARE/Wood_OSB.jpg
+02/13/2018 10:53:20: cmps[0] is: map_Kd
+02/13/2018 10:53:20: data is, HOME HARDWARE/Wood_OSB.jpg
+02/13/2018 10:53:20: OBJGetFilePath works, /Users/Student/Documents/MyObjects/HOME HARDWARE/Wood_OSB.jpg
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl Wood_Floor_Light
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, Wood_Floor_Light
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, Wood_OSB
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.800000 0.690196 0.498039
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.800000 0.690196 0.498039
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, map_Kd HOME HARDWARE/Wood_Floor_Light.jpg
+02/13/2018 10:53:20: cmps[0] is: map_Kd
+02/13/2018 10:53:20: data is, HOME HARDWARE/Wood_Floor_Light.jpg
+02/13/2018 10:53:20: OBJGetFilePath works, /Users/Student/Documents/MyObjects/HOME HARDWARE/Wood_Floor_Light.jpg
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl M_0077_DarkGreen
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, M_0077_DarkGreen
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, Wood_Floor_Light
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.000000 0.392157 0.000000
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.000000 0.392157 0.000000
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl M_0104_MediumBlue
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, M_0104_MediumBlue
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, M_0077_DarkGreen
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.000000 0.000000 0.803922
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.803922
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl B
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, B
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, M_0104_MediumBlue
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.400000 0.388235 0.298039
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.400000 0.388235 0.298039
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, d 0.750000
+02/13/2018 10:53:20: cmps[0] is: d
+02/13/2018 10:53:20: data is, 0.750000
+02/13/2018 10:53:20: L is, map_Kd HOME HARDWARE/B.png
+02/13/2018 10:53:20: cmps[0] is: map_Kd
+02/13/2018 10:53:20: data is, HOME HARDWARE/B.png
+02/13/2018 10:53:20: OBJGetFilePath works, /Users/Student/Documents/MyObjects/HOME HARDWARE/B.png
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl NEON_5
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, NEON_5
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, B
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.250980 0.235294 0.098039
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.250980 0.235294 0.098039
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, map_Kd HOME HARDWARE/NEON_5.png
+02/13/2018 10:53:20: cmps[0] is: map_Kd
+02/13/2018 10:53:20: data is, HOME HARDWARE/NEON_5.png
+02/13/2018 10:53:20: OBJGetFilePath works, /Users/Student/Documents/MyObjects/HOME HARDWARE/NEON_5.png
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl Asphalt_New
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, Asphalt_New
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, NEON_5
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.145098 0.129412 0.133333
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.145098 0.129412 0.133333
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, map_Kd HOME HARDWARE/Asphalt_New.jpg
+02/13/2018 10:53:20: cmps[0] is: map_Kd
+02/13/2018 10:53:20: data is, HOME HARDWARE/Asphalt_New.jpg
+02/13/2018 10:53:20: OBJGetFilePath works, /Users/Student/Documents/MyObjects/HOME HARDWARE/Asphalt_New.jpg
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl Color_009
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, Color_009
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, Asphalt_New
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl Translucent_Glass_Gray
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, Translucent_Glass_Gray
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, Color_009
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.501961 0.501961 0.501961
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.501961 0.501961 0.501961
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, d 0.500000
+02/13/2018 10:53:20: cmps[0] is: d
+02/13/2018 10:53:20: data is, 0.500000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl Color_002
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, Color_002
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, Translucent_Glass_Gray
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.776471 0.776471 0.776471
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.776471 0.776471 0.776471
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl BrickFacade0035_1_thumblarge_1
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, BrickFacade0035_1_thumblarge_1
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, Color_002
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.615686 0.611765 0.611765
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.615686 0.611765 0.611765
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, map_Kd HOME HARDWARE/BrickFacade0035_1_thumblarge_1.jpg
+02/13/2018 10:53:20: cmps[0] is: map_Kd
+02/13/2018 10:53:20: data is, HOME HARDWARE/BrickFacade0035_1_thumblarge_1.jpg
+02/13/2018 10:53:20: OBJGetFilePath works, /Users/Student/Documents/MyObjects/HOME HARDWARE/BrickFacade0035_1_thumblarge_1.jpg
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl Concrete_Aggregate_Smoke
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, Concrete_Aggregate_Smoke
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, BrickFacade0035_1_thumblarge_1
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.603922 0.588235 0.580392
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.603922 0.588235 0.580392
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, map_Kd HOME HARDWARE/Concrete_Aggregate_Smoke.jpg
+02/13/2018 10:53:20: cmps[0] is: map_Kd
+02/13/2018 10:53:20: data is, HOME HARDWARE/Concrete_Aggregate_Smoke.jpg
+02/13/2018 10:53:20: OBJGetFilePath works, /Users/Student/Documents/MyObjects/HOME HARDWARE/Concrete_Aggregate_Smoke.jpg
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl Wood_Floor_Parquet
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, Wood_Floor_Parquet
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, Concrete_Aggregate_Smoke
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.568627 0.349020 0.152941
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.568627 0.349020 0.152941
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, map_Kd HOME HARDWARE/Wood_Floor_Parquet.jpg
+02/13/2018 10:53:20: cmps[0] is: map_Kd
+02/13/2018 10:53:20: data is, HOME HARDWARE/Wood_Floor_Parquet.jpg
+02/13/2018 10:53:20: OBJGetFilePath works, /Users/Student/Documents/MyObjects/HOME HARDWARE/Wood_Floor_Parquet.jpg
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl IMG_0095
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, IMG_0095
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, Wood_Floor_Parquet
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.564706 0.525490 0.529412
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.564706 0.525490 0.529412
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, map_Kd HOME HARDWARE/IMG_0095.jpg
+02/13/2018 10:53:20: cmps[0] is: map_Kd
+02/13/2018 10:53:20: data is, HOME HARDWARE/IMG_0095.jpg
+02/13/2018 10:53:20: OBJGetFilePath works, /Users/Student/Documents/MyObjects/HOME HARDWARE/IMG_0095.jpg
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl IMG_0079_2
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, IMG_0079_2
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, IMG_0095
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.600000 0.647059 0.678431
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.600000 0.647059 0.678431
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, map_Kd HOME HARDWARE/IMG_0079_2.jpg
+02/13/2018 10:53:20: cmps[0] is: map_Kd
+02/13/2018 10:53:20: data is, HOME HARDWARE/IMG_0079_2.jpg
+02/13/2018 10:53:20: OBJGetFilePath works, /Users/Student/Documents/MyObjects/HOME HARDWARE/IMG_0079_2.jpg
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl M_0008_LavenderBlush
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, M_0008_LavenderBlush
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, IMG_0079_2
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 1.000000 0.941176 0.960784
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 1.000000 0.941176 0.960784
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl BrickRound0029_1_thumblarge_1
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, BrickRound0029_1_thumblarge_1
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, M_0008_LavenderBlush
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.458824 0.443137 0.419608
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.458824 0.443137 0.419608
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, map_Kd HOME HARDWARE/BrickRound0029_1_thumblarge_1.jpg
+02/13/2018 10:53:20: cmps[0] is: map_Kd
+02/13/2018 10:53:20: data is, HOME HARDWARE/BrickRound0029_1_thumblarge_1.jpg
+02/13/2018 10:53:20: OBJGetFilePath works, /Users/Student/Documents/MyObjects/HOME HARDWARE/BrickRound0029_1_thumblarge_1.jpg
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:20: L is, newmtl IMG_0078
+02/13/2018 10:53:20: cmps[0] is: newmtl
+02/13/2018 10:53:20: data is, IMG_0078
+02/13/2018 10:53:20: Material Is being checked if it is null
+02/13/2018 10:53:20: Attempting to add material to a list
+02/13/2018 10:53:20: Material Added, BrickRound0029_1_thumblarge_1
+02/13/2018 10:53:20: Material was checked, attempting to find shader
+02/13/2018 10:53:20: Material instantiated
+02/13/2018 10:53:20: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: cmps[0] is: Ka
+02/13/2018 10:53:20: data is, 0.000000 0.000000 0.000000
+02/13/2018 10:53:20: L is, Kd 0.572549 0.333333 0.309804
+02/13/2018 10:53:20: cmps[0] is: Kd
+02/13/2018 10:53:20: data is, 0.572549 0.333333 0.309804
+02/13/2018 10:53:20: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: cmps[0] is: Ks
+02/13/2018 10:53:20: data is, 0.330000 0.330000 0.330000
+02/13/2018 10:53:20: L is, map_Kd HOME HARDWARE/IMG_0078.jpg
+02/13/2018 10:53:20: cmps[0] is: map_Kd
+02/13/2018 10:53:20: data is, HOME HARDWARE/IMG_0078.jpg
+02/13/2018 10:53:20: OBJGetFilePath works, /Users/Student/Documents/MyObjects/HOME HARDWARE/IMG_0078.jpg
+02/13/2018 10:53:20: L is, 
+02/13/2018 10:53:20: cmps[0] is: 
+02/13/2018 10:53:20: data is, 
+02/13/2018 10:53:20: cmps[0] failed all if checks is: 
+02/13/2018 10:53:27: The screen has been locked with alt
+02/13/2018 10:53:29: Object Tagged, Name: TileA1 At X =-41.05335 Y =-41.05335 Z =32.93925
+02/13/2018 10:53:35: The screen has been unlocked with alt
+02/13/2018 11:07:30: The screen is locked
+02/13/2018 11:07:34: Grid Tile Tagged, Name: TileA1 At X=-17.44365 Y=-17.44365 Z=-5.05605
+02/13/2018 11:07:35: The screen has been unlocked with alt
+02/13/2018 11:07:37: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren.mtl
+02/13/2018 11:07:37: Base File Name = BMO Warren
+02/13/2018 11:07:37: mtl File Directory = /Users/Student/Documents/MyObjects/
+02/13/2018 11:07:37: L is, #
+02/13/2018 11:07:37: cmps[0] is: #
+02/13/2018 11:07:37: data is, #
+02/13/2018 11:07:37: cmps[0] failed all if checks is: #
+02/13/2018 11:07:37: L is, ## Alias OBJ Material File
+02/13/2018 11:07:37: cmps[0] is: ##
+02/13/2018 11:07:37: data is, Alias OBJ Material File
+02/13/2018 11:07:37: cmps[0] failed all if checks is: ##
+02/13/2018 11:07:37: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+02/13/2018 11:07:37: cmps[0] is: #
+02/13/2018 11:07:37: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+02/13/2018 11:07:37: cmps[0] failed all if checks is: #
+02/13/2018 11:07:37: L is, 
+02/13/2018 11:07:37: cmps[0] is: 
+02/13/2018 11:07:37: data is, 
+02/13/2018 11:07:37: cmps[0] failed all if checks is: 
+02/13/2018 11:07:37: L is, newmtl DSC00318
+02/13/2018 11:07:37: cmps[0] is: newmtl
+02/13/2018 11:07:37: data is, DSC00318
+02/13/2018 11:07:37: Material Is being checked if it is null
+02/13/2018 11:07:37: Material was checked, attempting to find shader
+02/13/2018 11:07:37: Material instantiated
+02/13/2018 11:07:37: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:37: cmps[0] is: Ka
+02/13/2018 11:07:37: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:37: L is, Kd 0.596078 0.588235 0.584314
+02/13/2018 11:07:37: cmps[0] is: Kd
+02/13/2018 11:07:37: data is, 0.596078 0.588235 0.584314
+02/13/2018 11:07:37: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:37: cmps[0] is: Ks
+02/13/2018 11:07:37: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:37: L is, map_Kd BMO Warren/DSC00318.jpg
+02/13/2018 11:07:37: cmps[0] is: map_Kd
+02/13/2018 11:07:37: data is, BMO Warren/DSC00318.jpg
+02/13/2018 11:07:37: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/DSC00318.jpg
+02/13/2018 11:07:37: L is, 
+02/13/2018 11:07:37: cmps[0] is: 
+02/13/2018 11:07:37: data is, 
+02/13/2018 11:07:37: cmps[0] failed all if checks is: 
+02/13/2018 11:07:37: L is, newmtl Concrete_Aggregate_Smoke
+02/13/2018 11:07:37: cmps[0] is: newmtl
+02/13/2018 11:07:37: data is, Concrete_Aggregate_Smoke
+02/13/2018 11:07:37: Material Is being checked if it is null
+02/13/2018 11:07:37: Attempting to add material to a list
+02/13/2018 11:07:37: Material Added, DSC00318
+02/13/2018 11:07:37: Material was checked, attempting to find shader
+02/13/2018 11:07:37: Material instantiated
+02/13/2018 11:07:37: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:37: cmps[0] is: Ka
+02/13/2018 11:07:37: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:37: L is, Kd 0.603922 0.588235 0.580392
+02/13/2018 11:07:37: cmps[0] is: Kd
+02/13/2018 11:07:37: data is, 0.603922 0.588235 0.580392
+02/13/2018 11:07:37: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:37: cmps[0] is: Ks
+02/13/2018 11:07:37: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:37: L is, 
+02/13/2018 11:07:37: cmps[0] is: 
+02/13/2018 11:07:37: data is, 
+02/13/2018 11:07:37: cmps[0] failed all if checks is: 
+02/13/2018 11:07:37: L is, newmtl Color_A12
+02/13/2018 11:07:37: cmps[0] is: newmtl
+02/13/2018 11:07:37: data is, Color_A12
+02/13/2018 11:07:37: Material Is being checked if it is null
+02/13/2018 11:07:37: Attempting to add material to a list
+02/13/2018 11:07:37: Material Added, Concrete_Aggregate_Smoke
+02/13/2018 11:07:37: Material was checked, attempting to find shader
+02/13/2018 11:07:37: Material instantiated
+02/13/2018 11:07:37: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:37: cmps[0] is: Ka
+02/13/2018 11:07:37: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:37: L is, Kd 0.600000 0.117647 0.117647
+02/13/2018 11:07:37: cmps[0] is: Kd
+02/13/2018 11:07:37: data is, 0.600000 0.117647 0.117647
+02/13/2018 11:07:37: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:37: cmps[0] is: Ks
+02/13/2018 11:07:37: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:37: L is, 
+02/13/2018 11:07:37: cmps[0] is: 
+02/13/2018 11:07:37: data is, 
+02/13/2018 11:07:37: cmps[0] failed all if checks is: 
+02/13/2018 11:07:37: L is, newmtl BackColor
+02/13/2018 11:07:37: cmps[0] is: newmtl
+02/13/2018 11:07:37: data is, BackColor
+02/13/2018 11:07:37: Material Is being checked if it is null
+02/13/2018 11:07:37: Attempting to add material to a list
+02/13/2018 11:07:37: Material Added, Color_A12
+02/13/2018 11:07:37: Material was checked, attempting to find shader
+02/13/2018 11:07:37: Material instantiated
+02/13/2018 11:07:37: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:37: cmps[0] is: Ka
+02/13/2018 11:07:37: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:37: L is, Kd 0.643137 0.698039 0.733333
+02/13/2018 11:07:37: cmps[0] is: Kd
+02/13/2018 11:07:37: data is, 0.643137 0.698039 0.733333
+02/13/2018 11:07:37: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:37: cmps[0] is: Ks
+02/13/2018 11:07:37: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:37: L is, 
+02/13/2018 11:07:37: cmps[0] is: 
+02/13/2018 11:07:37: data is, 
+02/13/2018 11:07:37: cmps[0] failed all if checks is: 
+02/13/2018 11:07:37: L is, newmtl FrontColor
+02/13/2018 11:07:37: cmps[0] is: newmtl
+02/13/2018 11:07:37: data is, FrontColor
+02/13/2018 11:07:37: Material Is being checked if it is null
+02/13/2018 11:07:37: Attempting to add material to a list
+02/13/2018 11:07:37: Material Added, BackColor
+02/13/2018 11:07:37: Material was checked, attempting to find shader
+02/13/2018 11:07:37: Material instantiated
+02/13/2018 11:07:37: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:37: cmps[0] is: Ka
+02/13/2018 11:07:37: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:37: L is, Kd 1.000000 1.000000 1.000000
+02/13/2018 11:07:37: cmps[0] is: Kd
+02/13/2018 11:07:37: data is, 1.000000 1.000000 1.000000
+02/13/2018 11:07:37: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:37: cmps[0] is: Ks
+02/13/2018 11:07:37: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:37: L is, 
+02/13/2018 11:07:37: cmps[0] is: 
+02/13/2018 11:07:37: data is, 
+02/13/2018 11:07:37: cmps[0] failed all if checks is: 
+02/13/2018 11:07:37: L is, newmtl Color_000
+02/13/2018 11:07:37: cmps[0] is: newmtl
+02/13/2018 11:07:37: data is, Color_000
+02/13/2018 11:07:37: Material Is being checked if it is null
+02/13/2018 11:07:37: Attempting to add material to a list
+02/13/2018 11:07:37: Material Added, FrontColor
+02/13/2018 11:07:37: Material was checked, attempting to find shader
+02/13/2018 11:07:37: Material instantiated
+02/13/2018 11:07:37: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:37: cmps[0] is: Ka
+02/13/2018 11:07:37: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:37: L is, Kd 1.000000 1.000000 1.000000
+02/13/2018 11:07:37: cmps[0] is: Kd
+02/13/2018 11:07:37: data is, 1.000000 1.000000 1.000000
+02/13/2018 11:07:37: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:37: cmps[0] is: Ks
+02/13/2018 11:07:37: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:37: L is, 
+02/13/2018 11:07:37: cmps[0] is: 
+02/13/2018 11:07:37: data is, 
+02/13/2018 11:07:37: cmps[0] failed all if checks is: 
+02/13/2018 11:07:37: L is, newmtl Photo_Texture
+02/13/2018 11:07:37: cmps[0] is: newmtl
+02/13/2018 11:07:37: data is, Photo_Texture
+02/13/2018 11:07:37: Material Is being checked if it is null
+02/13/2018 11:07:37: Attempting to add material to a list
+02/13/2018 11:07:37: Material Added, Color_000
+02/13/2018 11:07:37: Material was checked, attempting to find shader
+02/13/2018 11:07:37: Material instantiated
+02/13/2018 11:07:37: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:37: cmps[0] is: Ka
+02/13/2018 11:07:37: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:37: L is, Kd 0.623529 0.647059 0.682353
+02/13/2018 11:07:37: cmps[0] is: Kd
+02/13/2018 11:07:37: data is, 0.623529 0.647059 0.682353
+02/13/2018 11:07:37: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:37: cmps[0] is: Ks
+02/13/2018 11:07:37: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:37: L is, map_Kd BMO Warren/Photo_Texture.jpg
+02/13/2018 11:07:37: cmps[0] is: map_Kd
+02/13/2018 11:07:37: data is, BMO Warren/Photo_Texture.jpg
+02/13/2018 11:07:37: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Photo_Texture.jpg
+02/13/2018 11:07:37: L is, 
+02/13/2018 11:07:37: cmps[0] is: 
+02/13/2018 11:07:37: data is, 
+02/13/2018 11:07:37: cmps[0] failed all if checks is: 
+02/13/2018 11:07:37: L is, newmtl DSC00306
+02/13/2018 11:07:37: cmps[0] is: newmtl
+02/13/2018 11:07:37: data is, DSC00306
+02/13/2018 11:07:37: Material Is being checked if it is null
+02/13/2018 11:07:37: Attempting to add material to a list
+02/13/2018 11:07:37: Material Added, Photo_Texture
+02/13/2018 11:07:37: Material was checked, attempting to find shader
+02/13/2018 11:07:37: Material instantiated
+02/13/2018 11:07:37: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:37: cmps[0] is: Ka
+02/13/2018 11:07:37: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:37: L is, Kd 0.623529 0.623529 0.631373
+02/13/2018 11:07:37: cmps[0] is: Kd
+02/13/2018 11:07:37: data is, 0.623529 0.623529 0.631373
+02/13/2018 11:07:37: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:37: cmps[0] is: Ks
+02/13/2018 11:07:37: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:37: L is, map_Kd BMO Warren/DSC00306.jpg
+02/13/2018 11:07:37: cmps[0] is: map_Kd
+02/13/2018 11:07:37: data is, BMO Warren/DSC00306.jpg
+02/13/2018 11:07:37: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/DSC00306.jpg
+02/13/2018 11:07:37: L is, 
+02/13/2018 11:07:37: cmps[0] is: 
+02/13/2018 11:07:37: data is, 
+02/13/2018 11:07:37: cmps[0] failed all if checks is: 
+02/13/2018 11:07:37: L is, newmtl DSC00305
+02/13/2018 11:07:37: cmps[0] is: newmtl
+02/13/2018 11:07:37: data is, DSC00305
+02/13/2018 11:07:37: Material Is being checked if it is null
+02/13/2018 11:07:37: Attempting to add material to a list
+02/13/2018 11:07:37: Material Added, DSC00306
+02/13/2018 11:07:37: Material was checked, attempting to find shader
+02/13/2018 11:07:37: Material instantiated
+02/13/2018 11:07:37: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:37: cmps[0] is: Ka
+02/13/2018 11:07:37: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:37: L is, Kd 0.541176 0.533333 0.525490
+02/13/2018 11:07:37: cmps[0] is: Kd
+02/13/2018 11:07:37: data is, 0.541176 0.533333 0.525490
+02/13/2018 11:07:37: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:37: cmps[0] is: Ks
+02/13/2018 11:07:37: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:37: L is, map_Kd BMO Warren/DSC00305.jpg
+02/13/2018 11:07:37: cmps[0] is: map_Kd
+02/13/2018 11:07:37: data is, BMO Warren/DSC00305.jpg
+02/13/2018 11:07:37: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/DSC00305.jpg
+02/13/2018 11:07:38: L is, 
+02/13/2018 11:07:38: cmps[0] is: 
+02/13/2018 11:07:38: data is, 
+02/13/2018 11:07:38: cmps[0] failed all if checks is: 
+02/13/2018 11:07:38: L is, newmtl DSC00314
+02/13/2018 11:07:38: cmps[0] is: newmtl
+02/13/2018 11:07:38: data is, DSC00314
+02/13/2018 11:07:38: Material Is being checked if it is null
+02/13/2018 11:07:38: Attempting to add material to a list
+02/13/2018 11:07:38: Material Added, DSC00305
+02/13/2018 11:07:38: Material was checked, attempting to find shader
+02/13/2018 11:07:38: Material instantiated
+02/13/2018 11:07:38: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:38: cmps[0] is: Ka
+02/13/2018 11:07:38: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:38: L is, Kd 0.419608 0.501961 0.647059
+02/13/2018 11:07:38: cmps[0] is: Kd
+02/13/2018 11:07:38: data is, 0.419608 0.501961 0.647059
+02/13/2018 11:07:38: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:38: cmps[0] is: Ks
+02/13/2018 11:07:38: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:38: L is, map_Kd BMO Warren/DSC00314.jpg
+02/13/2018 11:07:38: cmps[0] is: map_Kd
+02/13/2018 11:07:38: data is, BMO Warren/DSC00314.jpg
+02/13/2018 11:07:38: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/DSC00314.jpg
+02/13/2018 11:07:38: L is, 
+02/13/2018 11:07:38: cmps[0] is: 
+02/13/2018 11:07:38: data is, 
+02/13/2018 11:07:38: cmps[0] failed all if checks is: 
+02/13/2018 11:07:38: L is, newmtl DSC00319
+02/13/2018 11:07:38: cmps[0] is: newmtl
+02/13/2018 11:07:38: data is, DSC00319
+02/13/2018 11:07:38: Material Is being checked if it is null
+02/13/2018 11:07:38: Attempting to add material to a list
+02/13/2018 11:07:38: Material Added, DSC00314
+02/13/2018 11:07:38: Material was checked, attempting to find shader
+02/13/2018 11:07:38: Material instantiated
+02/13/2018 11:07:38: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:38: cmps[0] is: Ka
+02/13/2018 11:07:38: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:38: L is, Kd 0.462745 0.521569 0.627451
+02/13/2018 11:07:38: cmps[0] is: Kd
+02/13/2018 11:07:38: data is, 0.462745 0.521569 0.627451
+02/13/2018 11:07:38: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:38: cmps[0] is: Ks
+02/13/2018 11:07:38: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:38: L is, map_Kd BMO Warren/DSC00319.jpg
+02/13/2018 11:07:38: cmps[0] is: map_Kd
+02/13/2018 11:07:38: data is, BMO Warren/DSC00319.jpg
+02/13/2018 11:07:38: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/DSC00319.jpg
+02/13/2018 11:07:38: L is, 
+02/13/2018 11:07:38: cmps[0] is: 
+02/13/2018 11:07:38: data is, 
+02/13/2018 11:07:38: cmps[0] failed all if checks is: 
+02/13/2018 11:07:38: L is, newmtl Metal_Seamed
+02/13/2018 11:07:38: cmps[0] is: newmtl
+02/13/2018 11:07:38: data is, Metal_Seamed
+02/13/2018 11:07:38: Material Is being checked if it is null
+02/13/2018 11:07:38: Attempting to add material to a list
+02/13/2018 11:07:38: Material Added, DSC00319
+02/13/2018 11:07:38: Material was checked, attempting to find shader
+02/13/2018 11:07:38: Material instantiated
+02/13/2018 11:07:38: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:38: cmps[0] is: Ka
+02/13/2018 11:07:38: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:38: L is, Kd 0.462745 0.466667 0.450980
+02/13/2018 11:07:38: cmps[0] is: Kd
+02/13/2018 11:07:38: data is, 0.462745 0.466667 0.450980
+02/13/2018 11:07:38: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:38: cmps[0] is: Ks
+02/13/2018 11:07:38: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:38: L is, map_Kd BMO Warren/Metal_Seamed.jpg
+02/13/2018 11:07:38: cmps[0] is: map_Kd
+02/13/2018 11:07:38: data is, BMO Warren/Metal_Seamed.jpg
+02/13/2018 11:07:38: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Metal_Seamed.jpg
+02/13/2018 11:07:38: L is, 
+02/13/2018 11:07:38: cmps[0] is: 
+02/13/2018 11:07:38: data is, 
+02/13/2018 11:07:38: cmps[0] failed all if checks is: 
+02/13/2018 11:07:38: L is, newmtl Color_008
+02/13/2018 11:07:38: cmps[0] is: newmtl
+02/13/2018 11:07:38: data is, Color_008
+02/13/2018 11:07:38: Material Is being checked if it is null
+02/13/2018 11:07:38: Attempting to add material to a list
+02/13/2018 11:07:38: Material Added, Metal_Seamed
+02/13/2018 11:07:38: Material was checked, attempting to find shader
+02/13/2018 11:07:38: Material instantiated
+02/13/2018 11:07:38: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:38: cmps[0] is: Ka
+02/13/2018 11:07:38: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:38: L is, Kd 0.117647 0.117647 0.117647
+02/13/2018 11:07:38: cmps[0] is: Kd
+02/13/2018 11:07:38: data is, 0.117647 0.117647 0.117647
+02/13/2018 11:07:38: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:38: cmps[0] is: Ks
+02/13/2018 11:07:38: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:38: L is, 
+02/13/2018 11:07:38: cmps[0] is: 
+02/13/2018 11:07:38: data is, 
+02/13/2018 11:07:38: cmps[0] failed all if checks is: 
+02/13/2018 11:07:38: L is, newmtl DSC00324
+02/13/2018 11:07:38: cmps[0] is: newmtl
+02/13/2018 11:07:38: data is, DSC00324
+02/13/2018 11:07:38: Material Is being checked if it is null
+02/13/2018 11:07:38: Attempting to add material to a list
+02/13/2018 11:07:38: Material Added, Color_008
+02/13/2018 11:07:38: Material was checked, attempting to find shader
+02/13/2018 11:07:38: Material instantiated
+02/13/2018 11:07:38: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:38: cmps[0] is: Ka
+02/13/2018 11:07:38: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:38: L is, Kd 0.564706 0.596078 0.650980
+02/13/2018 11:07:38: cmps[0] is: Kd
+02/13/2018 11:07:38: data is, 0.564706 0.596078 0.650980
+02/13/2018 11:07:38: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:38: cmps[0] is: Ks
+02/13/2018 11:07:38: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:38: L is, map_Kd BMO Warren/DSC00324.jpg
+02/13/2018 11:07:38: cmps[0] is: map_Kd
+02/13/2018 11:07:38: data is, BMO Warren/DSC00324.jpg
+02/13/2018 11:07:38: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/DSC00324.jpg
+02/13/2018 11:07:38: L is, 
+02/13/2018 11:07:38: cmps[0] is: 
+02/13/2018 11:07:38: data is, 
+02/13/2018 11:07:38: cmps[0] failed all if checks is: 
+02/13/2018 11:07:38: L is, newmtl DSC00324_1_
+02/13/2018 11:07:38: cmps[0] is: newmtl
+02/13/2018 11:07:38: data is, DSC00324_1_
+02/13/2018 11:07:38: Material Is being checked if it is null
+02/13/2018 11:07:38: Attempting to add material to a list
+02/13/2018 11:07:38: Material Added, DSC00324
+02/13/2018 11:07:38: Material was checked, attempting to find shader
+02/13/2018 11:07:38: Material instantiated
+02/13/2018 11:07:38: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:38: cmps[0] is: Ka
+02/13/2018 11:07:38: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:38: L is, Kd 0.564706 0.596078 0.650980
+02/13/2018 11:07:38: cmps[0] is: Kd
+02/13/2018 11:07:38: data is, 0.564706 0.596078 0.650980
+02/13/2018 11:07:38: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:38: cmps[0] is: Ks
+02/13/2018 11:07:38: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:38: L is, map_Kd BMO Warren/DSC00324_1_.jpg
+02/13/2018 11:07:38: cmps[0] is: map_Kd
+02/13/2018 11:07:38: data is, BMO Warren/DSC00324_1_.jpg
+02/13/2018 11:07:38: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/DSC00324_1_.jpg
+02/13/2018 11:07:39: L is, 
+02/13/2018 11:07:39: cmps[0] is: 
+02/13/2018 11:07:39: data is, 
+02/13/2018 11:07:39: cmps[0] failed all if checks is: 
+02/13/2018 11:07:39: L is, newmtl DSC00340
+02/13/2018 11:07:39: cmps[0] is: newmtl
+02/13/2018 11:07:39: data is, DSC00340
+02/13/2018 11:07:39: Material Is being checked if it is null
+02/13/2018 11:07:39: Attempting to add material to a list
+02/13/2018 11:07:39: Material Added, DSC00324_1_
+02/13/2018 11:07:39: Material was checked, attempting to find shader
+02/13/2018 11:07:39: Material instantiated
+02/13/2018 11:07:39: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: cmps[0] is: Ka
+02/13/2018 11:07:39: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: L is, Kd 0.615686 0.611765 0.611765
+02/13/2018 11:07:39: cmps[0] is: Kd
+02/13/2018 11:07:39: data is, 0.615686 0.611765 0.611765
+02/13/2018 11:07:39: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: cmps[0] is: Ks
+02/13/2018 11:07:39: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: L is, map_Kd BMO Warren/DSC00340.jpg
+02/13/2018 11:07:39: cmps[0] is: map_Kd
+02/13/2018 11:07:39: data is, BMO Warren/DSC00340.jpg
+02/13/2018 11:07:39: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/DSC00340.jpg
+02/13/2018 11:07:39: L is, 
+02/13/2018 11:07:39: cmps[0] is: 
+02/13/2018 11:07:39: data is, 
+02/13/2018 11:07:39: cmps[0] failed all if checks is: 
+02/13/2018 11:07:39: L is, newmtl Color_003
+02/13/2018 11:07:39: cmps[0] is: newmtl
+02/13/2018 11:07:39: data is, Color_003
+02/13/2018 11:07:39: Material Is being checked if it is null
+02/13/2018 11:07:39: Attempting to add material to a list
+02/13/2018 11:07:39: Material Added, DSC00340
+02/13/2018 11:07:39: Material was checked, attempting to find shader
+02/13/2018 11:07:39: Material instantiated
+02/13/2018 11:07:39: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: cmps[0] is: Ka
+02/13/2018 11:07:39: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: L is, Kd 0.666667 0.666667 0.666667
+02/13/2018 11:07:39: cmps[0] is: Kd
+02/13/2018 11:07:39: data is, 0.666667 0.666667 0.666667
+02/13/2018 11:07:39: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: cmps[0] is: Ks
+02/13/2018 11:07:39: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: L is, 
+02/13/2018 11:07:39: cmps[0] is: 
+02/13/2018 11:07:39: data is, 
+02/13/2018 11:07:39: cmps[0] failed all if checks is: 
+02/13/2018 11:07:39: L is, newmtl Metal_Rough
+02/13/2018 11:07:39: cmps[0] is: newmtl
+02/13/2018 11:07:39: data is, Metal_Rough
+02/13/2018 11:07:39: Material Is being checked if it is null
+02/13/2018 11:07:39: Attempting to add material to a list
+02/13/2018 11:07:39: Material Added, Color_003
+02/13/2018 11:07:39: Material was checked, attempting to find shader
+02/13/2018 11:07:39: Material instantiated
+02/13/2018 11:07:39: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: cmps[0] is: Ka
+02/13/2018 11:07:39: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: L is, Kd 0.596078 0.615686 0.627451
+02/13/2018 11:07:39: cmps[0] is: Kd
+02/13/2018 11:07:39: data is, 0.596078 0.615686 0.627451
+02/13/2018 11:07:39: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: cmps[0] is: Ks
+02/13/2018 11:07:39: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: L is, map_Kd BMO Warren/Metal_Rough.jpg
+02/13/2018 11:07:39: cmps[0] is: map_Kd
+02/13/2018 11:07:39: data is, BMO Warren/Metal_Rough.jpg
+02/13/2018 11:07:39: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Metal_Rough.jpg
+02/13/2018 11:07:39: L is, 
+02/13/2018 11:07:39: cmps[0] is: 
+02/13/2018 11:07:39: data is, 
+02/13/2018 11:07:39: cmps[0] failed all if checks is: 
+02/13/2018 11:07:39: L is, newmtl Metal_Panel
+02/13/2018 11:07:39: cmps[0] is: newmtl
+02/13/2018 11:07:39: data is, Metal_Panel
+02/13/2018 11:07:39: Material Is being checked if it is null
+02/13/2018 11:07:39: Attempting to add material to a list
+02/13/2018 11:07:39: Material Added, Metal_Rough
+02/13/2018 11:07:39: Material was checked, attempting to find shader
+02/13/2018 11:07:39: Material instantiated
+02/13/2018 11:07:39: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: cmps[0] is: Ka
+02/13/2018 11:07:39: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: L is, Kd 0.560784 0.615686 0.619608
+02/13/2018 11:07:39: cmps[0] is: Kd
+02/13/2018 11:07:39: data is, 0.560784 0.615686 0.619608
+02/13/2018 11:07:39: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: cmps[0] is: Ks
+02/13/2018 11:07:39: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: L is, map_Kd BMO Warren/Metal_Panel.jpg
+02/13/2018 11:07:39: cmps[0] is: map_Kd
+02/13/2018 11:07:39: data is, BMO Warren/Metal_Panel.jpg
+02/13/2018 11:07:39: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Metal_Panel.jpg
+02/13/2018 11:07:39: L is, 
+02/13/2018 11:07:39: cmps[0] is: 
+02/13/2018 11:07:39: data is, 
+02/13/2018 11:07:39: cmps[0] failed all if checks is: 
+02/13/2018 11:07:39: L is, newmtl _Metal_Aluminum_Anodized_2
+02/13/2018 11:07:39: cmps[0] is: newmtl
+02/13/2018 11:07:39: data is, _Metal_Aluminum_Anodized_2
+02/13/2018 11:07:39: Material Is being checked if it is null
+02/13/2018 11:07:39: Attempting to add material to a list
+02/13/2018 11:07:39: Material Added, Metal_Panel
+02/13/2018 11:07:39: Material was checked, attempting to find shader
+02/13/2018 11:07:39: Material instantiated
+02/13/2018 11:07:39: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: cmps[0] is: Ka
+02/13/2018 11:07:39: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: L is, Kd 0.000000 0.019608 0.000000
+02/13/2018 11:07:39: cmps[0] is: Kd
+02/13/2018 11:07:39: data is, 0.000000 0.019608 0.000000
+02/13/2018 11:07:39: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: cmps[0] is: Ks
+02/13/2018 11:07:39: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: L is, map_Kd BMO Warren/_Metal_Aluminum_Anodized_2.jpg
+02/13/2018 11:07:39: cmps[0] is: map_Kd
+02/13/2018 11:07:39: data is, BMO Warren/_Metal_Aluminum_Anodized_2.jpg
+02/13/2018 11:07:39: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/_Metal_Aluminum_Anodized_2.jpg
+02/13/2018 11:07:39: L is, 
+02/13/2018 11:07:39: cmps[0] is: 
+02/13/2018 11:07:39: data is, 
+02/13/2018 11:07:39: cmps[0] failed all if checks is: 
+02/13/2018 11:07:39: L is, newmtl Translucent_Glass_Gray
+02/13/2018 11:07:39: cmps[0] is: newmtl
+02/13/2018 11:07:39: data is, Translucent_Glass_Gray
+02/13/2018 11:07:39: Material Is being checked if it is null
+02/13/2018 11:07:39: Attempting to add material to a list
+02/13/2018 11:07:39: Material Added, _Metal_Aluminum_Anodized_2
+02/13/2018 11:07:39: Material was checked, attempting to find shader
+02/13/2018 11:07:39: Material instantiated
+02/13/2018 11:07:39: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: cmps[0] is: Ka
+02/13/2018 11:07:39: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: L is, Kd 0.501961 0.501961 0.501961
+02/13/2018 11:07:39: cmps[0] is: Kd
+02/13/2018 11:07:39: data is, 0.501961 0.501961 0.501961
+02/13/2018 11:07:39: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: cmps[0] is: Ks
+02/13/2018 11:07:39: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: L is, d 0.500000
+02/13/2018 11:07:39: cmps[0] is: d
+02/13/2018 11:07:39: data is, 0.500000
+02/13/2018 11:07:39: L is, 
+02/13/2018 11:07:39: cmps[0] is: 
+02/13/2018 11:07:39: data is, 
+02/13/2018 11:07:39: cmps[0] failed all if checks is: 
+02/13/2018 11:07:39: L is, newmtl _Metal_Aluminum_Anodized_1
+02/13/2018 11:07:39: cmps[0] is: newmtl
+02/13/2018 11:07:39: data is, _Metal_Aluminum_Anodized_1
+02/13/2018 11:07:39: Material Is being checked if it is null
+02/13/2018 11:07:39: Attempting to add material to a list
+02/13/2018 11:07:39: Material Added, Translucent_Glass_Gray
+02/13/2018 11:07:39: Material was checked, attempting to find shader
+02/13/2018 11:07:39: Material instantiated
+02/13/2018 11:07:39: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: cmps[0] is: Ka
+02/13/2018 11:07:39: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: L is, Kd 0.000000 0.200000 0.164706
+02/13/2018 11:07:39: cmps[0] is: Kd
+02/13/2018 11:07:39: data is, 0.000000 0.200000 0.164706
+02/13/2018 11:07:39: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: cmps[0] is: Ks
+02/13/2018 11:07:39: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: L is, map_Kd BMO Warren/_Metal_Aluminum_Anodized_1.jpg
+02/13/2018 11:07:39: cmps[0] is: map_Kd
+02/13/2018 11:07:39: data is, BMO Warren/_Metal_Aluminum_Anodized_1.jpg
+02/13/2018 11:07:39: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/_Metal_Aluminum_Anodized_1.jpg
+02/13/2018 11:07:39: L is, 
+02/13/2018 11:07:39: cmps[0] is: 
+02/13/2018 11:07:39: data is, 
+02/13/2018 11:07:39: cmps[0] failed all if checks is: 
+02/13/2018 11:07:39: L is, newmtl Translucent_Glass_Gold
+02/13/2018 11:07:39: cmps[0] is: newmtl
+02/13/2018 11:07:39: data is, Translucent_Glass_Gold
+02/13/2018 11:07:39: Material Is being checked if it is null
+02/13/2018 11:07:39: Attempting to add material to a list
+02/13/2018 11:07:39: Material Added, _Metal_Aluminum_Anodized_1
+02/13/2018 11:07:39: Material was checked, attempting to find shader
+02/13/2018 11:07:39: Material instantiated
+02/13/2018 11:07:39: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: cmps[0] is: Ka
+02/13/2018 11:07:39: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: L is, Kd 1.000000 0.996078 0.101961
+02/13/2018 11:07:39: cmps[0] is: Kd
+02/13/2018 11:07:39: data is, 1.000000 0.996078 0.101961
+02/13/2018 11:07:39: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: cmps[0] is: Ks
+02/13/2018 11:07:39: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: L is, d 0.600000
+02/13/2018 11:07:39: cmps[0] is: d
+02/13/2018 11:07:39: data is, 0.600000
+02/13/2018 11:07:39: L is, map_Kd BMO Warren/Translucent_Glass_Gold.jpg
+02/13/2018 11:07:39: cmps[0] is: map_Kd
+02/13/2018 11:07:39: data is, BMO Warren/Translucent_Glass_Gold.jpg
+02/13/2018 11:07:39: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Translucent_Glass_Gold.jpg
+02/13/2018 11:07:39: L is, 
+02/13/2018 11:07:39: cmps[0] is: 
+02/13/2018 11:07:39: data is, 
+02/13/2018 11:07:39: cmps[0] failed all if checks is: 
+02/13/2018 11:07:39: L is, newmtl _Prussian_Blue_
+02/13/2018 11:07:39: cmps[0] is: newmtl
+02/13/2018 11:07:39: data is, _Prussian_Blue_
+02/13/2018 11:07:39: Material Is being checked if it is null
+02/13/2018 11:07:39: Attempting to add material to a list
+02/13/2018 11:07:39: Material Added, Translucent_Glass_Gold
+02/13/2018 11:07:39: Material was checked, attempting to find shader
+02/13/2018 11:07:39: Material instantiated
+02/13/2018 11:07:39: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: cmps[0] is: Ka
+02/13/2018 11:07:39: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: L is, Kd 0.215686 0.290196 0.490196
+02/13/2018 11:07:39: cmps[0] is: Kd
+02/13/2018 11:07:39: data is, 0.215686 0.290196 0.490196
+02/13/2018 11:07:39: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: cmps[0] is: Ks
+02/13/2018 11:07:39: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: L is, 
+02/13/2018 11:07:39: cmps[0] is: 
+02/13/2018 11:07:39: data is, 
+02/13/2018 11:07:39: cmps[0] failed all if checks is: 
+02/13/2018 11:07:39: L is, newmtl _Gray3_
+02/13/2018 11:07:39: cmps[0] is: newmtl
+02/13/2018 11:07:39: data is, _Gray3_
+02/13/2018 11:07:39: Material Is being checked if it is null
+02/13/2018 11:07:39: Attempting to add material to a list
+02/13/2018 11:07:39: Material Added, _Prussian_Blue_
+02/13/2018 11:07:39: Material was checked, attempting to find shader
+02/13/2018 11:07:39: Material instantiated
+02/13/2018 11:07:39: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: cmps[0] is: Ka
+02/13/2018 11:07:39: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: L is, Kd 0.839216 0.839216 0.839216
+02/13/2018 11:07:39: cmps[0] is: Kd
+02/13/2018 11:07:39: data is, 0.839216 0.839216 0.839216
+02/13/2018 11:07:39: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: cmps[0] is: Ks
+02/13/2018 11:07:39: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: L is, 
+02/13/2018 11:07:39: cmps[0] is: 
+02/13/2018 11:07:39: data is, 
+02/13/2018 11:07:39: cmps[0] failed all if checks is: 
+02/13/2018 11:07:39: L is, newmtl _CoolGray8_
+02/13/2018 11:07:39: cmps[0] is: newmtl
+02/13/2018 11:07:39: data is, _CoolGray8_
+02/13/2018 11:07:39: Material Is being checked if it is null
+02/13/2018 11:07:39: Attempting to add material to a list
+02/13/2018 11:07:39: Material Added, _Gray3_
+02/13/2018 11:07:39: Material was checked, attempting to find shader
+02/13/2018 11:07:39: Material instantiated
+02/13/2018 11:07:39: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: cmps[0] is: Ka
+02/13/2018 11:07:39: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: L is, Kd 0.298039 0.313725 0.364706
+02/13/2018 11:07:39: cmps[0] is: Kd
+02/13/2018 11:07:39: data is, 0.298039 0.313725 0.364706
+02/13/2018 11:07:39: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: cmps[0] is: Ks
+02/13/2018 11:07:39: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: L is, 
+02/13/2018 11:07:39: cmps[0] is: 
+02/13/2018 11:07:39: data is, 
+02/13/2018 11:07:39: cmps[0] failed all if checks is: 
+02/13/2018 11:07:39: L is, newmtl _Gray5_
+02/13/2018 11:07:39: cmps[0] is: newmtl
+02/13/2018 11:07:39: data is, _Gray5_
+02/13/2018 11:07:39: Material Is being checked if it is null
+02/13/2018 11:07:39: Attempting to add material to a list
+02/13/2018 11:07:39: Material Added, _CoolGray8_
+02/13/2018 11:07:39: Material was checked, attempting to find shader
+02/13/2018 11:07:39: Material instantiated
+02/13/2018 11:07:39: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: cmps[0] is: Ka
+02/13/2018 11:07:39: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: L is, Kd 0.529412 0.529412 0.529412
+02/13/2018 11:07:39: cmps[0] is: Kd
+02/13/2018 11:07:39: data is, 0.529412 0.529412 0.529412
+02/13/2018 11:07:39: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: cmps[0] is: Ks
+02/13/2018 11:07:39: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: L is, 
+02/13/2018 11:07:39: cmps[0] is: 
+02/13/2018 11:07:39: data is, 
+02/13/2018 11:07:39: cmps[0] failed all if checks is: 
+02/13/2018 11:07:39: L is, newmtl Carpet_Plush_Charcoal
+02/13/2018 11:07:39: cmps[0] is: newmtl
+02/13/2018 11:07:39: data is, Carpet_Plush_Charcoal
+02/13/2018 11:07:39: Material Is being checked if it is null
+02/13/2018 11:07:39: Attempting to add material to a list
+02/13/2018 11:07:39: Material Added, _Gray5_
+02/13/2018 11:07:39: Material was checked, attempting to find shader
+02/13/2018 11:07:39: Material instantiated
+02/13/2018 11:07:39: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: cmps[0] is: Ka
+02/13/2018 11:07:39: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: L is, Kd 0.341176 0.341176 0.341176
+02/13/2018 11:07:39: cmps[0] is: Kd
+02/13/2018 11:07:39: data is, 0.341176 0.341176 0.341176
+02/13/2018 11:07:39: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: cmps[0] is: Ks
+02/13/2018 11:07:39: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: L is, map_Kd BMO Warren/Carpet_Plush_Charcoal.jpg
+02/13/2018 11:07:39: cmps[0] is: map_Kd
+02/13/2018 11:07:39: data is, BMO Warren/Carpet_Plush_Charcoal.jpg
+02/13/2018 11:07:39: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Carpet_Plush_Charcoal.jpg
+02/13/2018 11:07:39: L is, 
+02/13/2018 11:07:39: cmps[0] is: 
+02/13/2018 11:07:39: data is, 
+02/13/2018 11:07:39: cmps[0] failed all if checks is: 
+02/13/2018 11:07:39: L is, newmtl Carpet_Berber_Multi
+02/13/2018 11:07:39: cmps[0] is: newmtl
+02/13/2018 11:07:39: data is, Carpet_Berber_Multi
+02/13/2018 11:07:39: Material Is being checked if it is null
+02/13/2018 11:07:39: Attempting to add material to a list
+02/13/2018 11:07:39: Material Added, Carpet_Plush_Charcoal
+02/13/2018 11:07:39: Material was checked, attempting to find shader
+02/13/2018 11:07:39: Material instantiated
+02/13/2018 11:07:39: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: cmps[0] is: Ka
+02/13/2018 11:07:39: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: L is, Kd 0.592157 0.525490 0.478431
+02/13/2018 11:07:39: cmps[0] is: Kd
+02/13/2018 11:07:39: data is, 0.592157 0.525490 0.478431
+02/13/2018 11:07:39: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: cmps[0] is: Ks
+02/13/2018 11:07:39: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: L is, map_Kd BMO Warren/Carpet_Berber_Multi.jpg
+02/13/2018 11:07:39: cmps[0] is: map_Kd
+02/13/2018 11:07:39: data is, BMO Warren/Carpet_Berber_Multi.jpg
+02/13/2018 11:07:39: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Carpet_Berber_Multi.jpg
+02/13/2018 11:07:39: L is, 
+02/13/2018 11:07:39: cmps[0] is: 
+02/13/2018 11:07:39: data is, 
+02/13/2018 11:07:39: cmps[0] failed all if checks is: 
+02/13/2018 11:07:39: L is, newmtl Carpet_Berber_Pattern_Gray
+02/13/2018 11:07:39: cmps[0] is: newmtl
+02/13/2018 11:07:39: data is, Carpet_Berber_Pattern_Gray
+02/13/2018 11:07:39: Material Is being checked if it is null
+02/13/2018 11:07:39: Attempting to add material to a list
+02/13/2018 11:07:39: Material Added, Carpet_Berber_Multi
+02/13/2018 11:07:39: Material was checked, attempting to find shader
+02/13/2018 11:07:39: Material instantiated
+02/13/2018 11:07:39: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: cmps[0] is: Ka
+02/13/2018 11:07:39: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: L is, Kd 0.647059 0.647059 0.647059
+02/13/2018 11:07:39: cmps[0] is: Kd
+02/13/2018 11:07:39: data is, 0.647059 0.647059 0.647059
+02/13/2018 11:07:39: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: cmps[0] is: Ks
+02/13/2018 11:07:39: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: L is, map_Kd BMO Warren/Carpet_Berber_Pattern_Gray.jpg
+02/13/2018 11:07:39: cmps[0] is: map_Kd
+02/13/2018 11:07:39: data is, BMO Warren/Carpet_Berber_Pattern_Gray.jpg
+02/13/2018 11:07:39: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Carpet_Berber_Pattern_Gray.jpg
+02/13/2018 11:07:39: L is, 
+02/13/2018 11:07:39: cmps[0] is: 
+02/13/2018 11:07:39: data is, 
+02/13/2018 11:07:39: cmps[0] failed all if checks is: 
+02/13/2018 11:07:39: L is, newmtl Crosswalk_Sign_Right
+02/13/2018 11:07:39: cmps[0] is: newmtl
+02/13/2018 11:07:39: data is, Crosswalk_Sign_Right
+02/13/2018 11:07:39: Material Is being checked if it is null
+02/13/2018 11:07:39: Attempting to add material to a list
+02/13/2018 11:07:39: Material Added, Carpet_Berber_Pattern_Gray
+02/13/2018 11:07:39: Material was checked, attempting to find shader
+02/13/2018 11:07:39: Material instantiated
+02/13/2018 11:07:39: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: cmps[0] is: Ka
+02/13/2018 11:07:39: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: L is, Kd 0.776471 0.776471 0.776471
+02/13/2018 11:07:39: cmps[0] is: Kd
+02/13/2018 11:07:39: data is, 0.776471 0.776471 0.776471
+02/13/2018 11:07:39: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: cmps[0] is: Ks
+02/13/2018 11:07:39: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: L is, map_Kd BMO Warren/Crosswalk_Sign_Right.jpg
+02/13/2018 11:07:39: cmps[0] is: map_Kd
+02/13/2018 11:07:39: data is, BMO Warren/Crosswalk_Sign_Right.jpg
+02/13/2018 11:07:39: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Crosswalk_Sign_Right.jpg
+02/13/2018 11:07:39: L is, 
+02/13/2018 11:07:39: cmps[0] is: 
+02/13/2018 11:07:39: data is, 
+02/13/2018 11:07:39: cmps[0] failed all if checks is: 
+02/13/2018 11:07:39: L is, newmtl Asphalt_New
+02/13/2018 11:07:39: cmps[0] is: newmtl
+02/13/2018 11:07:39: data is, Asphalt_New
+02/13/2018 11:07:39: Material Is being checked if it is null
+02/13/2018 11:07:39: Attempting to add material to a list
+02/13/2018 11:07:39: Material Added, Crosswalk_Sign_Right
+02/13/2018 11:07:39: Material was checked, attempting to find shader
+02/13/2018 11:07:39: Material instantiated
+02/13/2018 11:07:39: L is, Ka 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: cmps[0] is: Ka
+02/13/2018 11:07:39: data is, 0.000000 0.000000 0.000000
+02/13/2018 11:07:39: L is, Kd 0.262745 0.235294 0.243137
+02/13/2018 11:07:39: cmps[0] is: Kd
+02/13/2018 11:07:39: data is, 0.262745 0.235294 0.243137
+02/13/2018 11:07:39: L is, Ks 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: cmps[0] is: Ks
+02/13/2018 11:07:39: data is, 0.330000 0.330000 0.330000
+02/13/2018 11:07:39: L is, map_Kd BMO Warren/Asphalt_New.jpg
+02/13/2018 11:07:39: cmps[0] is: map_Kd
+02/13/2018 11:07:39: data is, BMO Warren/Asphalt_New.jpg
+02/13/2018 11:07:39: OBJGetFilePath works, /Users/Student/Documents/MyObjects/BMO Warren/Asphalt_New.jpg
+02/13/2018 11:07:39: L is, 
+02/13/2018 11:07:39: cmps[0] is: 
+02/13/2018 11:07:39: data is, 
+02/13/2018 11:07:39: cmps[0] failed all if checks is: 
+02/13/2018 11:07:50: The screen has been locked with alt
+02/13/2018 11:08:05: The screen has been unlocked with alt
+02/13/2018 11:08:06: The screen has been locked with alt

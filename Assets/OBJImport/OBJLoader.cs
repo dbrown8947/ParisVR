@@ -17,8 +17,11 @@ using UnityEditor;
 
 public class OBJLoader
 {
+	public static TextHandler Logger = new TextHandler();
+	public static Material Mat;
     public static bool splitByMaterial = false;
     public static string[] searchPaths = new string[] { "", "%FileName%_Textures" + Path.DirectorySeparatorChar };
+	public static GameObject parentObject;
     //structures
     struct OBJFace
     {
@@ -30,19 +33,19 @@ public class OBJLoader
 
     //functions
 #if UNITY_EDITOR
-    [MenuItem("GameObject/Import From OBJ")]
-    static void ObjLoadMenu()
-    {
-        string pth = UnityEditor.EditorUtility.OpenFilePanel("Import OBJ", "", "obj");
-        if (!string.IsNullOrEmpty(pth))
-        {
-            System.Diagnostics.Stopwatch s = new System.Diagnostics.Stopwatch();
-            s.Start();
-            LoadOBJFile(pth);
-            Debug.Log("OBJ load took " + s.ElapsedMilliseconds + "ms");
-            s.Stop();
-        }
-        }
+    //[MenuItem("GameObject/Import From OBJ")]
+    //static void ObjLoadMenu()
+    //{
+      //  string pth = UnityEditor.EditorUtility.OpenFilePanel("Import OBJ", "", "obj");
+        //if (!string.IsNullOrEmpty(pth))
+        //{
+          //  System.Diagnostics.Stopwatch s = new System.Diagnostics.Stopwatch();
+            //s.Start();
+            //LoadOBJFile(pth);
+            //Debug.Log("OBJ load took " + s.ElapsedMilliseconds + "ms");
+            //s.Stop();
+        //}
+        //}
 #endif
 
     public static Vector3 ParseVectorFromCMPS(string[] cmps)
@@ -66,42 +69,59 @@ public class OBJLoader
 
     public static string OBJGetFilePath(string path, string basePath, string fileName)
     {
+		
         foreach (string sp in searchPaths)
         {
             string s = sp.Replace("%FileName%", fileName);
             if (File.Exists(basePath + s + path))
             {
+				Logger.WriteToLog ("OBJGetFilePath works, " + basePath + s + path);
                 return basePath + s + path;
             }
             else if (File.Exists(path))
             {
+				Logger.WriteToLog ("OBJGetFilePath works " + path);
                 return path;
             }
         }
 
         return null;
     }
-    public static Material[] LoadMTLFile(string fn)
+	public static Material[] LoadMTLFile(string fn, Material mat)
     {
         Material currentMaterial = null;
         List<Material> matlList = new List<Material>();
         FileInfo mtlFileInfo = new FileInfo(fn);
         string baseFileName = Path.GetFileNameWithoutExtension(fn);
         string mtlFileDirectory = mtlFileInfo.Directory.FullName + Path.DirectorySeparatorChar;
+
+		Logger.WriteToLog ("Base File Name = " + baseFileName);
+		Logger.WriteToLog ("mtl File Directory = " + mtlFileDirectory);
+
+		try{
         foreach (string ln in File.ReadAllLines(fn))
         {
+				
             string l = ln.Trim().Replace("  ", " ");
+				Logger.WriteToLog("L is, "+l);
             string[] cmps = l.Split(' ');
+				Logger.WriteToLog("cmps[0] is: " + cmps[0]);
             string data = l.Remove(0, l.IndexOf(' ') + 1);
+				Logger.WriteToLog("data is, "+data);
 
             if (cmps[0] == "newmtl")
             {
+					Logger.WriteToLog("Material Is being checked if it is null");
                 if (currentMaterial != null)
                 {
+						Logger.WriteToLog("Attempting to add material to a list");
                     matlList.Add(currentMaterial);
+						Logger.WriteToLog("Material Added, "+currentMaterial.name);
                 }
-                currentMaterial = new Material(Shader.Find("Standard (Specular setup)"));
+					Logger.WriteToLog("Material was checked, attempting to find shader");
+					currentMaterial = new Material(mat.shader);
                 currentMaterial.name = data;
+					Logger.WriteToLog("Material instantiated");
             }
             else if (cmps[0] == "Kd")
             {
@@ -118,9 +138,11 @@ public class OBJLoader
             {
                 //TEXTURE
                 string fpth = OBJGetFilePath(data, mtlFileDirectory,baseFileName);
+					Logger.WriteToLog("Filepath for texture: "+fpth);
                 if (fpth != null)
                 {
                     currentMaterial.SetTexture("_BumpMap", TextureLoader.LoadTexture(fpth, true));
+						Logger.WriteToLog("Texture Loader Check");
                     currentMaterial.EnableKeyword("_NORMALMAP");
                 }
             }
@@ -162,16 +184,25 @@ public class OBJLoader
                 currentMaterial.SetFloat("_Glossiness", Ns);
 
             }
+				else
+				{
+					Logger.WriteToLog("cmps[0] failed all if checks is: " + cmps[0]);
+				}
         }
         if(currentMaterial != null)
         {
             matlList.Add(currentMaterial);
         }
+		}
+		catch(Exception e) {
+			Logger.WriteToLog ("Material failed to import, exception: " + e.Message);
+		}
         return matlList.ToArray();
     }
 
-    public static GameObject LoadOBJFile(string fn)
+	public static GameObject LoadOBJFile(string fn, Material mat)
     {
+		try{
 
         string meshName = Path.GetFileNameWithoutExtension(fn);
 
@@ -209,7 +240,7 @@ public class OBJLoader
                     //load cache
                     string pth = OBJGetFilePath(data, OBJFileInfo.Directory.FullName + Path.DirectorySeparatorChar, meshName);
                     if (pth != null)
-                        materialCache = LoadMTLFile(pth);
+                        materialCache = LoadMTLFile(pth, mat);
 
                 }
                 else if ((cmps[0] == "g" || cmps[0] == "o") && splitByMaterial == false)
@@ -343,7 +374,7 @@ public class OBJLoader
             objectNames.Add("default");
        
         //build objects
-        GameObject parentObject = new GameObject(meshName);
+        parentObject = new GameObject(meshName);
         
         
         foreach (string obj in objectNames)
@@ -481,7 +512,10 @@ public class OBJLoader
         BoxCollider bc = parentObject.AddComponent<BoxCollider>();
         bc.center = bounds.center;
         bc.size = bounds.size;
-
+		}
+		catch(Exception e) {
+			Logger.WriteToLog ("Object failed to import, exception: " + e.Message);
+		}
         return parentObject;
         }
     }
