@@ -1,12 +1,11 @@
 ﻿/*
 * FILE			: CameraController.cs
-* PROJECT		: Final Game Dev
+* PROJECT		: ParisVR
 * PROGRAMMERS	: Marco Fontana
 * FIRST VERSION	: 12-26-2017
 * DESCRIPTION   : This file contains the code and functionality required to handle the camera movement based on Unity Lab Code and 
 *                 the tutorial made by Holistic3d found here https://www.youtube.com/watch?v=blO039OzUZc
 */
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,9 +19,9 @@ public class CameraController : MonoBehaviour {
 
 	//Private Variables
 	private Vector3 offset;
-	Vector2 mouseLook;
-	Vector2 smoothV;
-	GameObject obj;
+	private Vector2 mouseLook;
+	private Vector2 smoothV;
+	private GameObject obj;
 
 
 	//FUNCTION      : Start()

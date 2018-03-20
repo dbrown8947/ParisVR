@@ -1,8 +1,24 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Options.cs">
+    <Files>
+      <File FileName="Assets\Scripts\ObjectInfo_cs.cs" Line="3" Column="21" />
+      <File FileName="Assets\Scripts\ImportPress.cs" Line="20" Column="21" />
+      <File FileName="Assets\Scripts\Options.cs" Line="56" Column="1" />
+      <File FileName="Assets\Scripts\PauseScript.cs" Line="105" Column="3" />
+      <File FileName="Assets\Scripts\SLMenuHandler.cs" Line="29" Column="36" />
+      <File FileName="Assets\Scripts\PlayerController.cs" Line="278" Column="39" />
+      <File FileName="Assets\Scripts\Data.cs" Line="3" Column="21" />
+      <File FileName="Assets\Scripts\TextHandler.cs" Line="48" Column="3" />
+      <File FileName="Assets\Scripts\ErrorHandler.cs" Line="3" Column="21" />
+      <File FileName="Assets\Scripts\CameraController.cs" Line="3" Column="21" />
+      <File FileName="Assets\Scripts\LoadingScreen.cs" Line="3" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Marco Fontana\Desktop\ParisVR\Assets\Scripts\Options.cs" line="53" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

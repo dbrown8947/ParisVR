@@ -1,6 +1,6 @@
 /*
 * FILE			: ObjectInfo.cs
-* PROJECT		: ParisVR Tool
+* PROJECT		: ParisVR
 * PROGRAMMERS	: Marco Fontana
 * FIRST VERSION	: 1-18-2018
 * DESCRIPTION   : This file contains the code and functionality required to contain information about a gameobject 

@@ -8,6 +8,8 @@ TagManager:
   - Asset
   - SubAsset
   - GridTile
+  - ImpButton
+  - Menu
   layers:
   - Default
   - TransparentFX

@@ -1,6 +1,6 @@
 ﻿/*
 * FILE			: PauseScript.cs
-* PROJECT		: Final Game Dev
+* PROJECT		: ParisVR
 * PROGRAMMERS	: Marco Fontana
 * FIRST VERSION	: 9-29-2017
 * DESCRIPTION   : This file contains the code and functionality of the pause menu. The pause menu is used to stop the game temporaily, restart the level, or
@@ -102,8 +102,7 @@ public class PauseScript : MonoBehaviour {
 		//Reload our current level
         SceneManager.LoadScene(level);
     }
-
-
+		
 	//FUNCTION      : Restart()
 	//DESCRIPTION   : This Method is responsible for quitting the application in a deployed version
 	//PARAMETERS    : Nothing

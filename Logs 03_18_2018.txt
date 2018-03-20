@@ -1,0 +1,3602 @@
+3/18/2018 11:26:43 AM: Grid Tile Tagged, Name: Lot At X=-54.41093 Y=-54.41093 Z=-59.59797
+3/18/2018 11:26:46 AM: L is, #
+3/18/2018 11:26:46 AM: cmps[0] is: #
+3/18/2018 11:26:46 AM: data is, #
+3/18/2018 11:26:46 AM: cmps[0] failed all if checks is: #
+3/18/2018 11:26:46 AM: L is, ## Alias OBJ Material File
+3/18/2018 11:26:46 AM: cmps[0] is: ##
+3/18/2018 11:26:46 AM: data is, Alias OBJ Material File
+3/18/2018 11:26:46 AM: cmps[0] failed all if checks is: ##
+3/18/2018 11:26:46 AM: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 11:26:46 AM: cmps[0] is: #
+3/18/2018 11:26:46 AM: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 11:26:46 AM: cmps[0] failed all if checks is: #
+3/18/2018 11:26:46 AM: L is, 
+3/18/2018 11:26:46 AM: cmps[0] is: 
+3/18/2018 11:26:46 AM: data is, 
+3/18/2018 11:26:46 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:46 AM: L is, newmtl Brick_Antique
+3/18/2018 11:26:46 AM: cmps[0] is: newmtl
+3/18/2018 11:26:46 AM: data is, Brick_Antique
+3/18/2018 11:26:46 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: cmps[0] is: Ka
+3/18/2018 11:26:46 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:26:46 AM: cmps[0] is: Kd
+3/18/2018 11:26:46 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:26:46 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: cmps[0] is: Ks
+3/18/2018 11:26:46 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: L is, map_Kd CIBC/Brick_Antique.jpg
+3/18/2018 11:26:46 AM: cmps[0] is: map_Kd
+3/18/2018 11:26:46 AM: data is, CIBC/Brick_Antique.jpg
+3/18/2018 11:26:46 AM: L is, 
+3/18/2018 11:26:46 AM: cmps[0] is: 
+3/18/2018 11:26:46 AM: data is, 
+3/18/2018 11:26:46 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:46 AM: L is, newmtl _Cladding_Stucco_White_5
+3/18/2018 11:26:46 AM: cmps[0] is: newmtl
+3/18/2018 11:26:46 AM: data is, _Cladding_Stucco_White_5
+3/18/2018 11:26:46 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: cmps[0] is: Ka
+3/18/2018 11:26:46 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:26:46 AM: cmps[0] is: Kd
+3/18/2018 11:26:46 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:26:46 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: cmps[0] is: Ks
+3/18/2018 11:26:46 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: L is, 
+3/18/2018 11:26:46 AM: cmps[0] is: 
+3/18/2018 11:26:46 AM: data is, 
+3/18/2018 11:26:46 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:46 AM: L is, newmtl _Cladding_Stucco_White_1
+3/18/2018 11:26:46 AM: cmps[0] is: newmtl
+3/18/2018 11:26:46 AM: data is, _Cladding_Stucco_White_1
+3/18/2018 11:26:46 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: cmps[0] is: Ka
+3/18/2018 11:26:46 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:26:46 AM: cmps[0] is: Kd
+3/18/2018 11:26:46 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:26:46 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: cmps[0] is: Ks
+3/18/2018 11:26:46 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: L is, map_Kd CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 11:26:46 AM: cmps[0] is: map_Kd
+3/18/2018 11:26:46 AM: data is, CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 11:26:46 AM: L is, 
+3/18/2018 11:26:46 AM: cmps[0] is: 
+3/18/2018 11:26:46 AM: data is, 
+3/18/2018 11:26:46 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:46 AM: L is, newmtl _3
+3/18/2018 11:26:46 AM: cmps[0] is: newmtl
+3/18/2018 11:26:46 AM: data is, _3
+3/18/2018 11:26:46 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: cmps[0] is: Ka
+3/18/2018 11:26:46 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: L is, Kd 0.678431 0.000000 0.078431
+3/18/2018 11:26:46 AM: cmps[0] is: Kd
+3/18/2018 11:26:46 AM: data is, 0.678431 0.000000 0.078431
+3/18/2018 11:26:46 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: cmps[0] is: Ks
+3/18/2018 11:26:46 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: L is, 
+3/18/2018 11:26:46 AM: cmps[0] is: 
+3/18/2018 11:26:46 AM: data is, 
+3/18/2018 11:26:46 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:46 AM: L is, newmtl Translucent_Glass_Tinted
+3/18/2018 11:26:46 AM: cmps[0] is: newmtl
+3/18/2018 11:26:46 AM: data is, Translucent_Glass_Tinted
+3/18/2018 11:26:46 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: cmps[0] is: Ka
+3/18/2018 11:26:46 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: L is, Kd 0.027451 0.788235 0.941176
+3/18/2018 11:26:46 AM: cmps[0] is: Kd
+3/18/2018 11:26:46 AM: data is, 0.027451 0.788235 0.941176
+3/18/2018 11:26:46 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: cmps[0] is: Ks
+3/18/2018 11:26:46 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: L is, d 0.480000
+3/18/2018 11:26:46 AM: cmps[0] is: d
+3/18/2018 11:26:46 AM: data is, 0.480000
+3/18/2018 11:26:46 AM: L is, map_Kd CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 11:26:46 AM: cmps[0] is: map_Kd
+3/18/2018 11:26:46 AM: data is, CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 11:26:46 AM: L is, 
+3/18/2018 11:26:46 AM: cmps[0] is: 
+3/18/2018 11:26:46 AM: data is, 
+3/18/2018 11:26:46 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:46 AM: L is, newmtl _5
+3/18/2018 11:26:46 AM: cmps[0] is: newmtl
+3/18/2018 11:26:46 AM: data is, _5
+3/18/2018 11:26:46 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: cmps[0] is: Ka
+3/18/2018 11:26:46 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: L is, Kd 0.721569 0.756863 0.000000
+3/18/2018 11:26:46 AM: cmps[0] is: Kd
+3/18/2018 11:26:46 AM: data is, 0.721569 0.756863 0.000000
+3/18/2018 11:26:46 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: cmps[0] is: Ks
+3/18/2018 11:26:46 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: L is, 
+3/18/2018 11:26:46 AM: cmps[0] is: 
+3/18/2018 11:26:46 AM: data is, 
+3/18/2018 11:26:46 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:46 AM: L is, newmtl _LightGray_
+3/18/2018 11:26:46 AM: cmps[0] is: newmtl
+3/18/2018 11:26:46 AM: data is, _LightGray_
+3/18/2018 11:26:46 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: cmps[0] is: Ka
+3/18/2018 11:26:46 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: L is, Kd 0.662745 0.662745 0.662745
+3/18/2018 11:26:46 AM: cmps[0] is: Kd
+3/18/2018 11:26:46 AM: data is, 0.662745 0.662745 0.662745
+3/18/2018 11:26:46 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: cmps[0] is: Ks
+3/18/2018 11:26:46 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: L is, 
+3/18/2018 11:26:46 AM: cmps[0] is: 
+3/18/2018 11:26:46 AM: data is, 
+3/18/2018 11:26:46 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:46 AM: L is, newmtl _Brick_Antique_2
+3/18/2018 11:26:46 AM: cmps[0] is: newmtl
+3/18/2018 11:26:46 AM: data is, _Brick_Antique_2
+3/18/2018 11:26:46 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: cmps[0] is: Ka
+3/18/2018 11:26:46 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:26:46 AM: cmps[0] is: Kd
+3/18/2018 11:26:46 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:26:46 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: cmps[0] is: Ks
+3/18/2018 11:26:46 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: L is, map_Kd CIBC/_Brick_Antique_2.jpg
+3/18/2018 11:26:46 AM: cmps[0] is: map_Kd
+3/18/2018 11:26:46 AM: data is, CIBC/_Brick_Antique_2.jpg
+3/18/2018 11:26:46 AM: L is, 
+3/18/2018 11:26:46 AM: cmps[0] is: 
+3/18/2018 11:26:46 AM: data is, 
+3/18/2018 11:26:46 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:46 AM: L is, newmtl BackColor
+3/18/2018 11:26:46 AM: cmps[0] is: newmtl
+3/18/2018 11:26:46 AM: data is, BackColor
+3/18/2018 11:26:46 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: cmps[0] is: Ka
+3/18/2018 11:26:46 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: L is, Kd 0.643137 0.698039 0.733333
+3/18/2018 11:26:46 AM: cmps[0] is: Kd
+3/18/2018 11:26:46 AM: data is, 0.643137 0.698039 0.733333
+3/18/2018 11:26:46 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: cmps[0] is: Ks
+3/18/2018 11:26:46 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: L is, 
+3/18/2018 11:26:46 AM: cmps[0] is: 
+3/18/2018 11:26:46 AM: data is, 
+3/18/2018 11:26:46 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:46 AM: L is, newmtl _Brick_Antique_3
+3/18/2018 11:26:46 AM: cmps[0] is: newmtl
+3/18/2018 11:26:46 AM: data is, _Brick_Antique_3
+3/18/2018 11:26:46 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: cmps[0] is: Ka
+3/18/2018 11:26:46 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:26:46 AM: cmps[0] is: Kd
+3/18/2018 11:26:46 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:26:46 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: cmps[0] is: Ks
+3/18/2018 11:26:46 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: L is, map_Kd CIBC/_Brick_Antique_3.jpg
+3/18/2018 11:26:46 AM: cmps[0] is: map_Kd
+3/18/2018 11:26:46 AM: data is, CIBC/_Brick_Antique_3.jpg
+3/18/2018 11:26:46 AM: L is, 
+3/18/2018 11:26:46 AM: cmps[0] is: 
+3/18/2018 11:26:46 AM: data is, 
+3/18/2018 11:26:46 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:46 AM: L is, newmtl _Brick_Antique_1
+3/18/2018 11:26:46 AM: cmps[0] is: newmtl
+3/18/2018 11:26:46 AM: data is, _Brick_Antique_1
+3/18/2018 11:26:46 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: cmps[0] is: Ka
+3/18/2018 11:26:46 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:26:46 AM: cmps[0] is: Kd
+3/18/2018 11:26:46 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:26:46 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: cmps[0] is: Ks
+3/18/2018 11:26:46 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:46 AM: L is, map_Kd CIBC/_Brick_Antique_1.jpg
+3/18/2018 11:26:46 AM: cmps[0] is: map_Kd
+3/18/2018 11:26:46 AM: data is, CIBC/_Brick_Antique_1.jpg
+3/18/2018 11:26:46 AM: L is, 
+3/18/2018 11:26:46 AM: cmps[0] is: 
+3/18/2018 11:26:46 AM: data is, 
+3/18/2018 11:26:46 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:46 AM: L is, newmtl _8
+3/18/2018 11:26:46 AM: cmps[0] is: newmtl
+3/18/2018 11:26:46 AM: data is, _8
+3/18/2018 11:26:46 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: cmps[0] is: Ka
+3/18/2018 11:26:46 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:46 AM: L is, Kd 0.980392 1.000000 0.717647
+3/18/2018 11:26:46 AM: cmps[0] is: Kd
+3/18/2018 11:26:46 AM: data is, 0.980392 1.000000 0.717647
+3/18/2018 11:26:46 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:47 AM: cmps[0] is: Ks
+3/18/2018 11:26:47 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:47 AM: L is, 
+3/18/2018 11:26:47 AM: cmps[0] is: 
+3/18/2018 11:26:47 AM: data is, 
+3/18/2018 11:26:47 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:47 AM: L is, newmtl FrontColor
+3/18/2018 11:26:47 AM: cmps[0] is: newmtl
+3/18/2018 11:26:47 AM: data is, FrontColor
+3/18/2018 11:26:47 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:47 AM: cmps[0] is: Ka
+3/18/2018 11:26:47 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:47 AM: L is, Kd 1.000000 1.000000 1.000000
+3/18/2018 11:26:47 AM: cmps[0] is: Kd
+3/18/2018 11:26:47 AM: data is, 1.000000 1.000000 1.000000
+3/18/2018 11:26:47 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:47 AM: cmps[0] is: Ks
+3/18/2018 11:26:47 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:47 AM: L is, 
+3/18/2018 11:26:47 AM: cmps[0] is: 
+3/18/2018 11:26:47 AM: data is, 
+3/18/2018 11:26:47 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:47 AM: L is, newmtl _Cladding_Stucco_White_4
+3/18/2018 11:26:47 AM: cmps[0] is: newmtl
+3/18/2018 11:26:47 AM: data is, _Cladding_Stucco_White_4
+3/18/2018 11:26:47 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:47 AM: cmps[0] is: Ka
+3/18/2018 11:26:47 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:47 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:26:47 AM: cmps[0] is: Kd
+3/18/2018 11:26:47 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:26:47 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:47 AM: cmps[0] is: Ks
+3/18/2018 11:26:47 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:47 AM: L is, map_Kd CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 11:26:47 AM: cmps[0] is: map_Kd
+3/18/2018 11:26:47 AM: data is, CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 11:26:47 AM: L is, 
+3/18/2018 11:26:47 AM: cmps[0] is: 
+3/18/2018 11:26:47 AM: data is, 
+3/18/2018 11:26:47 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:47 AM: L is, newmtl _7
+3/18/2018 11:26:47 AM: cmps[0] is: newmtl
+3/18/2018 11:26:47 AM: data is, _7
+3/18/2018 11:26:47 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:47 AM: cmps[0] is: Ka
+3/18/2018 11:26:47 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:47 AM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 11:26:47 AM: cmps[0] is: Kd
+3/18/2018 11:26:47 AM: data is, 0.298039 0.298039 0.298039
+3/18/2018 11:26:47 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:47 AM: cmps[0] is: Ks
+3/18/2018 11:26:47 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:47 AM: L is, 
+3/18/2018 11:26:47 AM: cmps[0] is: 
+3/18/2018 11:26:47 AM: data is, 
+3/18/2018 11:26:47 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:47 AM: L is, newmtl _Cladding_Stucco_White_3
+3/18/2018 11:26:47 AM: cmps[0] is: newmtl
+3/18/2018 11:26:47 AM: data is, _Cladding_Stucco_White_3
+3/18/2018 11:26:47 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:47 AM: cmps[0] is: Ka
+3/18/2018 11:26:47 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:47 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:26:47 AM: cmps[0] is: Kd
+3/18/2018 11:26:47 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:26:47 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:47 AM: cmps[0] is: Ks
+3/18/2018 11:26:47 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:47 AM: L is, map_Kd CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 11:26:47 AM: cmps[0] is: map_Kd
+3/18/2018 11:26:47 AM: data is, CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 11:26:47 AM: L is, 
+3/18/2018 11:26:47 AM: cmps[0] is: 
+3/18/2018 11:26:47 AM: data is, 
+3/18/2018 11:26:47 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:47 AM: L is, newmtl _6
+3/18/2018 11:26:47 AM: cmps[0] is: newmtl
+3/18/2018 11:26:47 AM: data is, _6
+3/18/2018 11:26:47 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:47 AM: cmps[0] is: Ka
+3/18/2018 11:26:47 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:47 AM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 11:26:47 AM: cmps[0] is: Kd
+3/18/2018 11:26:47 AM: data is, 0.298039 0.298039 0.298039
+3/18/2018 11:26:47 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:47 AM: cmps[0] is: Ks
+3/18/2018 11:26:47 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:47 AM: L is, 
+3/18/2018 11:26:47 AM: cmps[0] is: 
+3/18/2018 11:26:47 AM: data is, 
+3/18/2018 11:26:47 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:47 AM: L is, newmtl _Brick_Tumbled_2
+3/18/2018 11:26:47 AM: cmps[0] is: newmtl
+3/18/2018 11:26:47 AM: data is, _Brick_Tumbled_2
+3/18/2018 11:26:47 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:47 AM: cmps[0] is: Ka
+3/18/2018 11:26:47 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:47 AM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 11:26:47 AM: cmps[0] is: Kd
+3/18/2018 11:26:47 AM: data is, 0.529412 0.517647 0.517647
+3/18/2018 11:26:47 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:47 AM: cmps[0] is: Ks
+3/18/2018 11:26:47 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:47 AM: L is, map_Kd CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 11:26:47 AM: cmps[0] is: map_Kd
+3/18/2018 11:26:47 AM: data is, CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 11:26:47 AM: L is, 
+3/18/2018 11:26:47 AM: cmps[0] is: 
+3/18/2018 11:26:47 AM: data is, 
+3/18/2018 11:26:47 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:26:47 AM: L is, newmtl _Brick_Tumbled_1
+3/18/2018 11:26:47 AM: cmps[0] is: newmtl
+3/18/2018 11:26:47 AM: data is, _Brick_Tumbled_1
+3/18/2018 11:26:47 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:26:47 AM: cmps[0] is: Ka
+3/18/2018 11:26:47 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:26:47 AM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 11:26:47 AM: cmps[0] is: Kd
+3/18/2018 11:26:47 AM: data is, 0.529412 0.517647 0.517647
+3/18/2018 11:26:47 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:26:47 AM: cmps[0] is: Ks
+3/18/2018 11:26:47 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:26:47 AM: L is, map_Kd CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 11:26:47 AM: cmps[0] is: map_Kd
+3/18/2018 11:26:47 AM: data is, CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 11:26:47 AM: L is, 
+3/18/2018 11:26:47 AM: cmps[0] is: 
+3/18/2018 11:26:47 AM: data is, 
+3/18/2018 11:26:47 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:30:20 AM: Grid Tile Tagged, Name: Lot At X=-157.5165 Y=-157.5165 Z=-22.44186
+3/18/2018 11:31:44 AM: Grid Tile Tagged, Name: Lot At X=-89.55574 Y=-89.55574 Z=12.59708
+3/18/2018 11:31:46 AM: L is, #
+3/18/2018 11:31:46 AM: cmps[0] is: #
+3/18/2018 11:31:46 AM: data is, #
+3/18/2018 11:31:46 AM: cmps[0] failed all if checks is: #
+3/18/2018 11:31:46 AM: L is, ## Alias OBJ Material File
+3/18/2018 11:31:46 AM: cmps[0] is: ##
+3/18/2018 11:31:46 AM: data is, Alias OBJ Material File
+3/18/2018 11:31:46 AM: cmps[0] failed all if checks is: ##
+3/18/2018 11:31:46 AM: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 11:31:46 AM: cmps[0] is: #
+3/18/2018 11:31:46 AM: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 11:31:46 AM: cmps[0] failed all if checks is: #
+3/18/2018 11:31:46 AM: L is, 
+3/18/2018 11:31:46 AM: cmps[0] is: 
+3/18/2018 11:31:46 AM: data is, 
+3/18/2018 11:31:46 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:31:46 AM: L is, newmtl Brick_Antique
+3/18/2018 11:31:46 AM: cmps[0] is: newmtl
+3/18/2018 11:31:46 AM: data is, Brick_Antique
+3/18/2018 11:31:46 AM: Material failed to import, exception: get_shader can only be called from the main thread.
+Constructors and field initializers will be executed from the loading thread when loading a scene.
+Don't use this function in the constructor or field initializers, instead move initialization code to the Awake or Start function.
+3/18/2018 11:31:47 AM: Object failed to import, exception: Internal_CreateGameObject can only be called from the main thread.
+Constructors and field initializers will be executed from the loading thread when loading a scene.
+Don't use this function in the constructor or field initializers, instead move initialization code to the Awake or Start function.
+3/18/2018 11:43:46 AM: Grid Tile Tagged, Name: Lot At X=-157.5165 Y=-157.5165 Z=-22.44186
+3/18/2018 11:44:00 AM: L is, #
+3/18/2018 11:44:00 AM: cmps[0] is: #
+3/18/2018 11:44:00 AM: data is, #
+3/18/2018 11:44:00 AM: cmps[0] failed all if checks is: #
+3/18/2018 11:44:00 AM: L is, ## Alias OBJ Material File
+3/18/2018 11:44:00 AM: cmps[0] is: ##
+3/18/2018 11:44:00 AM: data is, Alias OBJ Material File
+3/18/2018 11:44:00 AM: cmps[0] failed all if checks is: ##
+3/18/2018 11:44:00 AM: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 11:44:00 AM: cmps[0] is: #
+3/18/2018 11:44:00 AM: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 11:44:00 AM: cmps[0] failed all if checks is: #
+3/18/2018 11:44:00 AM: L is, 
+3/18/2018 11:44:00 AM: cmps[0] is: 
+3/18/2018 11:44:00 AM: data is, 
+3/18/2018 11:44:00 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:00 AM: L is, newmtl Brick_Antique
+3/18/2018 11:44:00 AM: cmps[0] is: newmtl
+3/18/2018 11:44:00 AM: data is, Brick_Antique
+3/18/2018 11:44:00 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:00 AM: cmps[0] is: Ka
+3/18/2018 11:44:00 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:44:01 AM: cmps[0] is: Kd
+3/18/2018 11:44:01 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:44:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: cmps[0] is: Ks
+3/18/2018 11:44:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: L is, map_Kd CIBC/Brick_Antique.jpg
+3/18/2018 11:44:01 AM: cmps[0] is: map_Kd
+3/18/2018 11:44:01 AM: data is, CIBC/Brick_Antique.jpg
+3/18/2018 11:44:01 AM: L is, 
+3/18/2018 11:44:01 AM: cmps[0] is: 
+3/18/2018 11:44:01 AM: data is, 
+3/18/2018 11:44:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:01 AM: L is, newmtl _Cladding_Stucco_White_5
+3/18/2018 11:44:01 AM: cmps[0] is: newmtl
+3/18/2018 11:44:01 AM: data is, _Cladding_Stucco_White_5
+3/18/2018 11:44:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: cmps[0] is: Ka
+3/18/2018 11:44:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:44:01 AM: cmps[0] is: Kd
+3/18/2018 11:44:01 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:44:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: cmps[0] is: Ks
+3/18/2018 11:44:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: L is, 
+3/18/2018 11:44:01 AM: cmps[0] is: 
+3/18/2018 11:44:01 AM: data is, 
+3/18/2018 11:44:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:01 AM: L is, newmtl _Cladding_Stucco_White_1
+3/18/2018 11:44:01 AM: cmps[0] is: newmtl
+3/18/2018 11:44:01 AM: data is, _Cladding_Stucco_White_1
+3/18/2018 11:44:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: cmps[0] is: Ka
+3/18/2018 11:44:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:44:01 AM: cmps[0] is: Kd
+3/18/2018 11:44:01 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:44:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: cmps[0] is: Ks
+3/18/2018 11:44:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: L is, map_Kd CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 11:44:01 AM: cmps[0] is: map_Kd
+3/18/2018 11:44:01 AM: data is, CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 11:44:01 AM: L is, 
+3/18/2018 11:44:01 AM: cmps[0] is: 
+3/18/2018 11:44:01 AM: data is, 
+3/18/2018 11:44:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:01 AM: L is, newmtl _3
+3/18/2018 11:44:01 AM: cmps[0] is: newmtl
+3/18/2018 11:44:01 AM: data is, _3
+3/18/2018 11:44:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: cmps[0] is: Ka
+3/18/2018 11:44:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: L is, Kd 0.678431 0.000000 0.078431
+3/18/2018 11:44:01 AM: cmps[0] is: Kd
+3/18/2018 11:44:01 AM: data is, 0.678431 0.000000 0.078431
+3/18/2018 11:44:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: cmps[0] is: Ks
+3/18/2018 11:44:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: L is, 
+3/18/2018 11:44:01 AM: cmps[0] is: 
+3/18/2018 11:44:01 AM: data is, 
+3/18/2018 11:44:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:01 AM: L is, newmtl Translucent_Glass_Tinted
+3/18/2018 11:44:01 AM: cmps[0] is: newmtl
+3/18/2018 11:44:01 AM: data is, Translucent_Glass_Tinted
+3/18/2018 11:44:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: cmps[0] is: Ka
+3/18/2018 11:44:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: L is, Kd 0.027451 0.788235 0.941176
+3/18/2018 11:44:01 AM: cmps[0] is: Kd
+3/18/2018 11:44:01 AM: data is, 0.027451 0.788235 0.941176
+3/18/2018 11:44:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: cmps[0] is: Ks
+3/18/2018 11:44:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: L is, d 0.480000
+3/18/2018 11:44:01 AM: cmps[0] is: d
+3/18/2018 11:44:01 AM: data is, 0.480000
+3/18/2018 11:44:01 AM: L is, map_Kd CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 11:44:01 AM: cmps[0] is: map_Kd
+3/18/2018 11:44:01 AM: data is, CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 11:44:01 AM: L is, 
+3/18/2018 11:44:01 AM: cmps[0] is: 
+3/18/2018 11:44:01 AM: data is, 
+3/18/2018 11:44:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:01 AM: L is, newmtl _5
+3/18/2018 11:44:01 AM: cmps[0] is: newmtl
+3/18/2018 11:44:01 AM: data is, _5
+3/18/2018 11:44:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: cmps[0] is: Ka
+3/18/2018 11:44:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: L is, Kd 0.721569 0.756863 0.000000
+3/18/2018 11:44:01 AM: cmps[0] is: Kd
+3/18/2018 11:44:01 AM: data is, 0.721569 0.756863 0.000000
+3/18/2018 11:44:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: cmps[0] is: Ks
+3/18/2018 11:44:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: L is, 
+3/18/2018 11:44:01 AM: cmps[0] is: 
+3/18/2018 11:44:01 AM: data is, 
+3/18/2018 11:44:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:01 AM: L is, newmtl _LightGray_
+3/18/2018 11:44:01 AM: cmps[0] is: newmtl
+3/18/2018 11:44:01 AM: data is, _LightGray_
+3/18/2018 11:44:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: cmps[0] is: Ka
+3/18/2018 11:44:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: L is, Kd 0.662745 0.662745 0.662745
+3/18/2018 11:44:01 AM: cmps[0] is: Kd
+3/18/2018 11:44:01 AM: data is, 0.662745 0.662745 0.662745
+3/18/2018 11:44:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: cmps[0] is: Ks
+3/18/2018 11:44:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: L is, 
+3/18/2018 11:44:01 AM: cmps[0] is: 
+3/18/2018 11:44:01 AM: data is, 
+3/18/2018 11:44:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:01 AM: L is, newmtl _Brick_Antique_2
+3/18/2018 11:44:01 AM: cmps[0] is: newmtl
+3/18/2018 11:44:01 AM: data is, _Brick_Antique_2
+3/18/2018 11:44:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: cmps[0] is: Ka
+3/18/2018 11:44:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:44:01 AM: cmps[0] is: Kd
+3/18/2018 11:44:01 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:44:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: cmps[0] is: Ks
+3/18/2018 11:44:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: L is, map_Kd CIBC/_Brick_Antique_2.jpg
+3/18/2018 11:44:01 AM: cmps[0] is: map_Kd
+3/18/2018 11:44:01 AM: data is, CIBC/_Brick_Antique_2.jpg
+3/18/2018 11:44:01 AM: L is, 
+3/18/2018 11:44:01 AM: cmps[0] is: 
+3/18/2018 11:44:01 AM: data is, 
+3/18/2018 11:44:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:01 AM: L is, newmtl BackColor
+3/18/2018 11:44:01 AM: cmps[0] is: newmtl
+3/18/2018 11:44:01 AM: data is, BackColor
+3/18/2018 11:44:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: cmps[0] is: Ka
+3/18/2018 11:44:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: L is, Kd 0.643137 0.698039 0.733333
+3/18/2018 11:44:01 AM: cmps[0] is: Kd
+3/18/2018 11:44:01 AM: data is, 0.643137 0.698039 0.733333
+3/18/2018 11:44:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: cmps[0] is: Ks
+3/18/2018 11:44:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: L is, 
+3/18/2018 11:44:01 AM: cmps[0] is: 
+3/18/2018 11:44:01 AM: data is, 
+3/18/2018 11:44:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:01 AM: L is, newmtl _Brick_Antique_3
+3/18/2018 11:44:01 AM: cmps[0] is: newmtl
+3/18/2018 11:44:01 AM: data is, _Brick_Antique_3
+3/18/2018 11:44:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: cmps[0] is: Ka
+3/18/2018 11:44:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:44:01 AM: cmps[0] is: Kd
+3/18/2018 11:44:01 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:44:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: cmps[0] is: Ks
+3/18/2018 11:44:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: L is, map_Kd CIBC/_Brick_Antique_3.jpg
+3/18/2018 11:44:01 AM: cmps[0] is: map_Kd
+3/18/2018 11:44:01 AM: data is, CIBC/_Brick_Antique_3.jpg
+3/18/2018 11:44:01 AM: L is, 
+3/18/2018 11:44:01 AM: cmps[0] is: 
+3/18/2018 11:44:01 AM: data is, 
+3/18/2018 11:44:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:01 AM: L is, newmtl _Brick_Antique_1
+3/18/2018 11:44:01 AM: cmps[0] is: newmtl
+3/18/2018 11:44:01 AM: data is, _Brick_Antique_1
+3/18/2018 11:44:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: cmps[0] is: Ka
+3/18/2018 11:44:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:44:01 AM: cmps[0] is: Kd
+3/18/2018 11:44:01 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:44:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: cmps[0] is: Ks
+3/18/2018 11:44:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: L is, map_Kd CIBC/_Brick_Antique_1.jpg
+3/18/2018 11:44:01 AM: cmps[0] is: map_Kd
+3/18/2018 11:44:01 AM: data is, CIBC/_Brick_Antique_1.jpg
+3/18/2018 11:44:01 AM: L is, 
+3/18/2018 11:44:01 AM: cmps[0] is: 
+3/18/2018 11:44:01 AM: data is, 
+3/18/2018 11:44:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:01 AM: L is, newmtl _8
+3/18/2018 11:44:01 AM: cmps[0] is: newmtl
+3/18/2018 11:44:01 AM: data is, _8
+3/18/2018 11:44:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: cmps[0] is: Ka
+3/18/2018 11:44:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: L is, Kd 0.980392 1.000000 0.717647
+3/18/2018 11:44:01 AM: cmps[0] is: Kd
+3/18/2018 11:44:01 AM: data is, 0.980392 1.000000 0.717647
+3/18/2018 11:44:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: cmps[0] is: Ks
+3/18/2018 11:44:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: L is, 
+3/18/2018 11:44:01 AM: cmps[0] is: 
+3/18/2018 11:44:01 AM: data is, 
+3/18/2018 11:44:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:01 AM: L is, newmtl FrontColor
+3/18/2018 11:44:01 AM: cmps[0] is: newmtl
+3/18/2018 11:44:01 AM: data is, FrontColor
+3/18/2018 11:44:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: cmps[0] is: Ka
+3/18/2018 11:44:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: L is, Kd 1.000000 1.000000 1.000000
+3/18/2018 11:44:01 AM: cmps[0] is: Kd
+3/18/2018 11:44:01 AM: data is, 1.000000 1.000000 1.000000
+3/18/2018 11:44:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: cmps[0] is: Ks
+3/18/2018 11:44:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: L is, 
+3/18/2018 11:44:01 AM: cmps[0] is: 
+3/18/2018 11:44:01 AM: data is, 
+3/18/2018 11:44:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:01 AM: L is, newmtl _Cladding_Stucco_White_4
+3/18/2018 11:44:01 AM: cmps[0] is: newmtl
+3/18/2018 11:44:01 AM: data is, _Cladding_Stucco_White_4
+3/18/2018 11:44:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: cmps[0] is: Ka
+3/18/2018 11:44:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:01 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:44:01 AM: cmps[0] is: Kd
+3/18/2018 11:44:01 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:44:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: cmps[0] is: Ks
+3/18/2018 11:44:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:01 AM: L is, map_Kd CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 11:44:01 AM: cmps[0] is: map_Kd
+3/18/2018 11:44:01 AM: data is, CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 11:44:01 AM: L is, 
+3/18/2018 11:44:01 AM: cmps[0] is: 
+3/18/2018 11:44:01 AM: data is, 
+3/18/2018 11:44:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:01 AM: L is, newmtl _7
+3/18/2018 11:44:01 AM: cmps[0] is: newmtl
+3/18/2018 11:44:01 AM: data is, _7
+3/18/2018 11:44:02 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:02 AM: cmps[0] is: Ka
+3/18/2018 11:44:02 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:02 AM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 11:44:02 AM: cmps[0] is: Kd
+3/18/2018 11:44:02 AM: data is, 0.298039 0.298039 0.298039
+3/18/2018 11:44:02 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:02 AM: cmps[0] is: Ks
+3/18/2018 11:44:02 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:02 AM: L is, 
+3/18/2018 11:44:02 AM: cmps[0] is: 
+3/18/2018 11:44:02 AM: data is, 
+3/18/2018 11:44:02 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:02 AM: L is, newmtl _Cladding_Stucco_White_3
+3/18/2018 11:44:02 AM: cmps[0] is: newmtl
+3/18/2018 11:44:02 AM: data is, _Cladding_Stucco_White_3
+3/18/2018 11:44:02 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:02 AM: cmps[0] is: Ka
+3/18/2018 11:44:02 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:02 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:44:02 AM: cmps[0] is: Kd
+3/18/2018 11:44:02 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:44:02 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:02 AM: cmps[0] is: Ks
+3/18/2018 11:44:02 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:02 AM: L is, map_Kd CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 11:44:02 AM: cmps[0] is: map_Kd
+3/18/2018 11:44:02 AM: data is, CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 11:44:02 AM: L is, 
+3/18/2018 11:44:02 AM: cmps[0] is: 
+3/18/2018 11:44:02 AM: data is, 
+3/18/2018 11:44:02 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:02 AM: L is, newmtl _6
+3/18/2018 11:44:02 AM: cmps[0] is: newmtl
+3/18/2018 11:44:02 AM: data is, _6
+3/18/2018 11:44:02 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:02 AM: cmps[0] is: Ka
+3/18/2018 11:44:02 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:02 AM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 11:44:02 AM: cmps[0] is: Kd
+3/18/2018 11:44:02 AM: data is, 0.298039 0.298039 0.298039
+3/18/2018 11:44:02 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:02 AM: cmps[0] is: Ks
+3/18/2018 11:44:02 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:02 AM: L is, 
+3/18/2018 11:44:02 AM: cmps[0] is: 
+3/18/2018 11:44:02 AM: data is, 
+3/18/2018 11:44:02 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:02 AM: L is, newmtl _Brick_Tumbled_2
+3/18/2018 11:44:02 AM: cmps[0] is: newmtl
+3/18/2018 11:44:02 AM: data is, _Brick_Tumbled_2
+3/18/2018 11:44:02 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:02 AM: cmps[0] is: Ka
+3/18/2018 11:44:02 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:02 AM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 11:44:02 AM: cmps[0] is: Kd
+3/18/2018 11:44:02 AM: data is, 0.529412 0.517647 0.517647
+3/18/2018 11:44:02 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:02 AM: cmps[0] is: Ks
+3/18/2018 11:44:02 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:02 AM: L is, map_Kd CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 11:44:02 AM: cmps[0] is: map_Kd
+3/18/2018 11:44:02 AM: data is, CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 11:44:02 AM: L is, 
+3/18/2018 11:44:02 AM: cmps[0] is: 
+3/18/2018 11:44:02 AM: data is, 
+3/18/2018 11:44:02 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:02 AM: L is, newmtl _Brick_Tumbled_1
+3/18/2018 11:44:02 AM: cmps[0] is: newmtl
+3/18/2018 11:44:02 AM: data is, _Brick_Tumbled_1
+3/18/2018 11:44:02 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:44:02 AM: cmps[0] is: Ka
+3/18/2018 11:44:02 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:44:02 AM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 11:44:02 AM: cmps[0] is: Kd
+3/18/2018 11:44:02 AM: data is, 0.529412 0.517647 0.517647
+3/18/2018 11:44:02 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:44:02 AM: cmps[0] is: Ks
+3/18/2018 11:44:02 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:44:02 AM: L is, map_Kd CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 11:44:02 AM: cmps[0] is: map_Kd
+3/18/2018 11:44:02 AM: data is, CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 11:44:02 AM: L is, 
+3/18/2018 11:44:02 AM: cmps[0] is: 
+3/18/2018 11:44:02 AM: data is, 
+3/18/2018 11:44:02 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:44:30 AM: Grid Tile Tagged, Name: Lot At X=-157.5165 Y=-157.5165 Z=-22.44186
+3/18/2018 11:46:45 AM: Grid Tile Tagged, Name: Lot At X=-134.4395 Y=-134.4395 Z=-61.39755
+3/18/2018 11:46:47 AM: L is, #
+3/18/2018 11:46:47 AM: L is, #
+3/18/2018 11:46:47 AM: data is, #
+3/18/2018 11:46:47 AM: cmps[0] is: #
+3/18/2018 11:46:47 AM: cmps[0] failed all if checks is: #
+3/18/2018 11:46:47 AM: cmps[0] failed all if checks is: #
+3/18/2018 11:46:47 AM: L is, ## Alias OBJ Material File
+3/18/2018 11:46:47 AM: data is, Alias OBJ Material File
+3/18/2018 11:46:47 AM: data is, Alias OBJ Material File
+3/18/2018 11:46:47 AM: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 11:46:47 AM: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 11:46:47 AM: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 11:46:47 AM: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 11:46:47 AM: cmps[0] failed all if checks is: #
+3/18/2018 11:46:47 AM: cmps[0] is: 
+3/18/2018 11:46:47 AM: cmps[0] is: 
+3/18/2018 11:46:47 AM: data is, 
+3/18/2018 11:46:47 AM: L is, newmtl Brick_Antique
+3/18/2018 11:46:47 AM: L is, newmtl Brick_Antique
+3/18/2018 11:46:47 AM: data is, Brick_Antique
+3/18/2018 11:46:47 AM: data is, Brick_Antique
+3/18/2018 11:46:47 AM: Material failed to import, exception: get_shader can only be called from the main thread.
+Constructors and field initializers will be executed from the loading thread when loading a scene.
+Don't use this function in the constructor or field initializers, instead move initialization code to the Awake or Start function.
+3/18/2018 11:46:47 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:47 AM: cmps[0] is: Ka
+3/18/2018 11:46:47 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:47 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:46:47 AM: cmps[0] is: Kd
+3/18/2018 11:46:47 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:46:47 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:47 AM: cmps[0] is: Ks
+3/18/2018 11:46:47 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:47 AM: L is, map_Kd CIBC/Brick_Antique.jpg
+3/18/2018 11:46:47 AM: cmps[0] is: map_Kd
+3/18/2018 11:46:47 AM: data is, CIBC/Brick_Antique.jpg
+3/18/2018 11:46:47 AM: L is, 
+3/18/2018 11:46:47 AM: cmps[0] is: 
+3/18/2018 11:46:47 AM: data is, 
+3/18/2018 11:46:47 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:46:47 AM: L is, newmtl _Cladding_Stucco_White_5
+3/18/2018 11:46:47 AM: cmps[0] is: newmtl
+3/18/2018 11:46:47 AM: data is, _Cladding_Stucco_White_5
+3/18/2018 11:46:47 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:47 AM: cmps[0] is: Ka
+3/18/2018 11:46:47 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:47 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:46:47 AM: cmps[0] is: Kd
+3/18/2018 11:46:47 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:46:47 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:47 AM: cmps[0] is: Ks
+3/18/2018 11:46:47 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:47 AM: L is, 
+3/18/2018 11:46:47 AM: cmps[0] is: 
+3/18/2018 11:46:47 AM: data is, 
+3/18/2018 11:46:47 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:46:47 AM: L is, newmtl _Cladding_Stucco_White_1
+3/18/2018 11:46:47 AM: cmps[0] is: newmtl
+3/18/2018 11:46:47 AM: data is, _Cladding_Stucco_White_1
+3/18/2018 11:46:47 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:47 AM: cmps[0] is: Ka
+3/18/2018 11:46:47 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:47 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:46:47 AM: cmps[0] is: Kd
+3/18/2018 11:46:47 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:46:47 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:47 AM: cmps[0] is: Ks
+3/18/2018 11:46:47 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:47 AM: L is, map_Kd CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 11:46:47 AM: cmps[0] is: map_Kd
+3/18/2018 11:46:47 AM: data is, CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 11:46:47 AM: L is, 
+3/18/2018 11:46:47 AM: cmps[0] is: 
+3/18/2018 11:46:47 AM: data is, 
+3/18/2018 11:46:47 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:46:47 AM: L is, newmtl _3
+3/18/2018 11:46:47 AM: cmps[0] is: newmtl
+3/18/2018 11:46:47 AM: data is, _3
+3/18/2018 11:46:47 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:47 AM: cmps[0] is: Ka
+3/18/2018 11:46:47 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:47 AM: L is, Kd 0.678431 0.000000 0.078431
+3/18/2018 11:46:47 AM: cmps[0] is: Kd
+3/18/2018 11:46:47 AM: data is, 0.678431 0.000000 0.078431
+3/18/2018 11:46:47 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:47 AM: cmps[0] is: Ks
+3/18/2018 11:46:47 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:47 AM: L is, 
+3/18/2018 11:46:47 AM: cmps[0] is: 
+3/18/2018 11:46:47 AM: data is, 
+3/18/2018 11:46:47 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:46:47 AM: L is, newmtl Translucent_Glass_Tinted
+3/18/2018 11:46:47 AM: cmps[0] is: newmtl
+3/18/2018 11:46:47 AM: data is, Translucent_Glass_Tinted
+3/18/2018 11:46:47 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:47 AM: cmps[0] is: Ka
+3/18/2018 11:46:47 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:47 AM: L is, Kd 0.027451 0.788235 0.941176
+3/18/2018 11:46:47 AM: cmps[0] is: Kd
+3/18/2018 11:46:47 AM: data is, 0.027451 0.788235 0.941176
+3/18/2018 11:46:47 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:47 AM: cmps[0] is: Ks
+3/18/2018 11:46:47 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:47 AM: L is, d 0.480000
+3/18/2018 11:46:47 AM: cmps[0] is: d
+3/18/2018 11:46:47 AM: data is, 0.480000
+3/18/2018 11:46:47 AM: L is, map_Kd CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 11:46:47 AM: cmps[0] is: map_Kd
+3/18/2018 11:46:47 AM: data is, CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 11:46:47 AM: L is, 
+3/18/2018 11:46:47 AM: cmps[0] is: 
+3/18/2018 11:46:47 AM: data is, 
+3/18/2018 11:46:47 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:46:47 AM: L is, newmtl _5
+3/18/2018 11:46:47 AM: cmps[0] is: newmtl
+3/18/2018 11:46:48 AM: data is, _5
+3/18/2018 11:46:48 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: cmps[0] is: Ka
+3/18/2018 11:46:48 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: L is, Kd 0.721569 0.756863 0.000000
+3/18/2018 11:46:48 AM: cmps[0] is: Kd
+3/18/2018 11:46:48 AM: data is, 0.721569 0.756863 0.000000
+3/18/2018 11:46:48 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: cmps[0] is: Ks
+3/18/2018 11:46:48 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: L is, 
+3/18/2018 11:46:48 AM: Object failed to import, exception: Internal_CreateGameObject can only be called from the main thread.
+Constructors and field initializers will be executed from the loading thread when loading a scene.
+Don't use this function in the constructor or field initializers, instead move initialization code to the Awake or Start function.
+3/18/2018 11:46:48 AM: data is, 
+3/18/2018 11:46:48 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:46:48 AM: L is, newmtl _LightGray_
+3/18/2018 11:46:48 AM: cmps[0] is: newmtl
+3/18/2018 11:46:48 AM: data is, _LightGray_
+3/18/2018 11:46:48 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: cmps[0] is: Ka
+3/18/2018 11:46:48 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: L is, Kd 0.662745 0.662745 0.662745
+3/18/2018 11:46:48 AM: cmps[0] is: Kd
+3/18/2018 11:46:48 AM: data is, 0.662745 0.662745 0.662745
+3/18/2018 11:46:48 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: cmps[0] is: Ks
+3/18/2018 11:46:48 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: L is, 
+3/18/2018 11:46:48 AM: cmps[0] is: 
+3/18/2018 11:46:48 AM: data is, 
+3/18/2018 11:46:48 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:46:48 AM: L is, newmtl _Brick_Antique_2
+3/18/2018 11:46:48 AM: cmps[0] is: newmtl
+3/18/2018 11:46:48 AM: data is, _Brick_Antique_2
+3/18/2018 11:46:48 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: cmps[0] is: Ka
+3/18/2018 11:46:48 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:46:48 AM: cmps[0] is: Kd
+3/18/2018 11:46:48 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:46:48 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: cmps[0] is: Ks
+3/18/2018 11:46:48 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: L is, map_Kd CIBC/_Brick_Antique_2.jpg
+3/18/2018 11:46:48 AM: cmps[0] is: map_Kd
+3/18/2018 11:46:48 AM: data is, CIBC/_Brick_Antique_2.jpg
+3/18/2018 11:46:48 AM: L is, 
+3/18/2018 11:46:48 AM: cmps[0] is: 
+3/18/2018 11:46:48 AM: data is, 
+3/18/2018 11:46:48 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:46:48 AM: L is, newmtl BackColor
+3/18/2018 11:46:48 AM: cmps[0] is: newmtl
+3/18/2018 11:46:48 AM: data is, BackColor
+3/18/2018 11:46:48 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: cmps[0] is: Ka
+3/18/2018 11:46:48 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: L is, Kd 0.643137 0.698039 0.733333
+3/18/2018 11:46:48 AM: cmps[0] is: Kd
+3/18/2018 11:46:48 AM: data is, 0.643137 0.698039 0.733333
+3/18/2018 11:46:48 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: cmps[0] is: Ks
+3/18/2018 11:46:48 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: L is, 
+3/18/2018 11:46:48 AM: cmps[0] is: 
+3/18/2018 11:46:48 AM: data is, 
+3/18/2018 11:46:48 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:46:48 AM: L is, newmtl _Brick_Antique_3
+3/18/2018 11:46:48 AM: cmps[0] is: newmtl
+3/18/2018 11:46:48 AM: data is, _Brick_Antique_3
+3/18/2018 11:46:48 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: cmps[0] is: Ka
+3/18/2018 11:46:48 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:46:48 AM: cmps[0] is: Kd
+3/18/2018 11:46:48 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:46:48 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: cmps[0] is: Ks
+3/18/2018 11:46:48 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: L is, map_Kd CIBC/_Brick_Antique_3.jpg
+3/18/2018 11:46:48 AM: cmps[0] is: map_Kd
+3/18/2018 11:46:48 AM: data is, CIBC/_Brick_Antique_3.jpg
+3/18/2018 11:46:48 AM: L is, 
+3/18/2018 11:46:48 AM: cmps[0] is: 
+3/18/2018 11:46:48 AM: data is, 
+3/18/2018 11:46:48 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:46:48 AM: L is, newmtl _Brick_Antique_1
+3/18/2018 11:46:48 AM: cmps[0] is: newmtl
+3/18/2018 11:46:48 AM: data is, _Brick_Antique_1
+3/18/2018 11:46:48 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: cmps[0] is: Ka
+3/18/2018 11:46:48 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:46:48 AM: cmps[0] is: Kd
+3/18/2018 11:46:48 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:46:48 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: cmps[0] is: Ks
+3/18/2018 11:46:48 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: L is, map_Kd CIBC/_Brick_Antique_1.jpg
+3/18/2018 11:46:48 AM: cmps[0] is: map_Kd
+3/18/2018 11:46:48 AM: data is, CIBC/_Brick_Antique_1.jpg
+3/18/2018 11:46:48 AM: L is, 
+3/18/2018 11:46:48 AM: cmps[0] is: 
+3/18/2018 11:46:48 AM: data is, 
+3/18/2018 11:46:48 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:46:48 AM: L is, newmtl _8
+3/18/2018 11:46:48 AM: cmps[0] is: newmtl
+3/18/2018 11:46:48 AM: data is, _8
+3/18/2018 11:46:48 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: cmps[0] is: Ka
+3/18/2018 11:46:48 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: L is, Kd 0.980392 1.000000 0.717647
+3/18/2018 11:46:48 AM: cmps[0] is: Kd
+3/18/2018 11:46:48 AM: data is, 0.980392 1.000000 0.717647
+3/18/2018 11:46:48 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: cmps[0] is: Ks
+3/18/2018 11:46:48 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: L is, 
+3/18/2018 11:46:48 AM: cmps[0] is: 
+3/18/2018 11:46:48 AM: data is, 
+3/18/2018 11:46:48 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:46:48 AM: L is, newmtl FrontColor
+3/18/2018 11:46:48 AM: cmps[0] is: newmtl
+3/18/2018 11:46:48 AM: data is, FrontColor
+3/18/2018 11:46:48 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: cmps[0] is: Ka
+3/18/2018 11:46:48 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: L is, Kd 1.000000 1.000000 1.000000
+3/18/2018 11:46:48 AM: cmps[0] is: Kd
+3/18/2018 11:46:48 AM: data is, 1.000000 1.000000 1.000000
+3/18/2018 11:46:48 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: cmps[0] is: Ks
+3/18/2018 11:46:48 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: L is, 
+3/18/2018 11:46:48 AM: cmps[0] is: 
+3/18/2018 11:46:48 AM: data is, 
+3/18/2018 11:46:48 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:46:48 AM: L is, newmtl _Cladding_Stucco_White_4
+3/18/2018 11:46:48 AM: cmps[0] is: newmtl
+3/18/2018 11:46:48 AM: data is, _Cladding_Stucco_White_4
+3/18/2018 11:46:48 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: cmps[0] is: Ka
+3/18/2018 11:46:48 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:46:48 AM: cmps[0] is: Kd
+3/18/2018 11:46:48 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:46:48 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: cmps[0] is: Ks
+3/18/2018 11:46:48 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: L is, map_Kd CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 11:46:48 AM: cmps[0] is: map_Kd
+3/18/2018 11:46:48 AM: data is, CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 11:46:48 AM: L is, 
+3/18/2018 11:46:48 AM: cmps[0] is: 
+3/18/2018 11:46:48 AM: data is, 
+3/18/2018 11:46:48 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:46:48 AM: L is, newmtl _7
+3/18/2018 11:46:48 AM: cmps[0] is: newmtl
+3/18/2018 11:46:48 AM: data is, _7
+3/18/2018 11:46:48 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: cmps[0] is: Ka
+3/18/2018 11:46:48 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 11:46:48 AM: cmps[0] is: Kd
+3/18/2018 11:46:48 AM: data is, 0.298039 0.298039 0.298039
+3/18/2018 11:46:48 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: cmps[0] is: Ks
+3/18/2018 11:46:48 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: L is, 
+3/18/2018 11:46:48 AM: cmps[0] is: 
+3/18/2018 11:46:48 AM: data is, 
+3/18/2018 11:46:48 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:46:48 AM: L is, newmtl _Cladding_Stucco_White_3
+3/18/2018 11:46:48 AM: cmps[0] is: newmtl
+3/18/2018 11:46:48 AM: data is, _Cladding_Stucco_White_3
+3/18/2018 11:46:48 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: cmps[0] is: Ka
+3/18/2018 11:46:48 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:46:48 AM: cmps[0] is: Kd
+3/18/2018 11:46:48 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:46:48 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: cmps[0] is: Ks
+3/18/2018 11:46:48 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: L is, map_Kd CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 11:46:48 AM: cmps[0] is: map_Kd
+3/18/2018 11:46:48 AM: data is, CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 11:46:48 AM: L is, 
+3/18/2018 11:46:48 AM: cmps[0] is: 
+3/18/2018 11:46:48 AM: data is, 
+3/18/2018 11:46:48 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:46:48 AM: L is, newmtl _6
+3/18/2018 11:46:48 AM: cmps[0] is: newmtl
+3/18/2018 11:46:48 AM: data is, _6
+3/18/2018 11:46:48 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: cmps[0] is: Ka
+3/18/2018 11:46:48 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 11:46:48 AM: cmps[0] is: Kd
+3/18/2018 11:46:48 AM: data is, 0.298039 0.298039 0.298039
+3/18/2018 11:46:48 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: cmps[0] is: Ks
+3/18/2018 11:46:48 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: L is, 
+3/18/2018 11:46:48 AM: cmps[0] is: 
+3/18/2018 11:46:48 AM: data is, 
+3/18/2018 11:46:48 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:46:48 AM: L is, newmtl _Brick_Tumbled_2
+3/18/2018 11:46:48 AM: cmps[0] is: newmtl
+3/18/2018 11:46:48 AM: data is, _Brick_Tumbled_2
+3/18/2018 11:46:48 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: cmps[0] is: Ka
+3/18/2018 11:46:48 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 11:46:48 AM: cmps[0] is: Kd
+3/18/2018 11:46:48 AM: data is, 0.529412 0.517647 0.517647
+3/18/2018 11:46:48 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: cmps[0] is: Ks
+3/18/2018 11:46:48 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: L is, map_Kd CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 11:46:48 AM: cmps[0] is: map_Kd
+3/18/2018 11:46:48 AM: data is, CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 11:46:48 AM: L is, 
+3/18/2018 11:46:48 AM: cmps[0] is: 
+3/18/2018 11:46:48 AM: data is, 
+3/18/2018 11:46:48 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:46:48 AM: L is, newmtl _Brick_Tumbled_1
+3/18/2018 11:46:48 AM: cmps[0] is: newmtl
+3/18/2018 11:46:48 AM: data is, _Brick_Tumbled_1
+3/18/2018 11:46:48 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: cmps[0] is: Ka
+3/18/2018 11:46:48 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:46:48 AM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 11:46:48 AM: cmps[0] is: Kd
+3/18/2018 11:46:48 AM: data is, 0.529412 0.517647 0.517647
+3/18/2018 11:46:48 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: cmps[0] is: Ks
+3/18/2018 11:46:48 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:46:48 AM: L is, map_Kd CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 11:46:48 AM: cmps[0] is: map_Kd
+3/18/2018 11:46:48 AM: data is, CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 11:46:48 AM: L is, 
+3/18/2018 11:46:48 AM: cmps[0] is: 
+3/18/2018 11:46:48 AM: data is, 
+3/18/2018 11:46:48 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:47:28 AM: Grid Tile Tagged, Name: Lot At X=-157.5165 Y=-157.5165 Z=-22.44186
+3/18/2018 11:47:31 AM: L is, #
+3/18/2018 11:47:31 AM: cmps[0] is: #
+3/18/2018 11:47:31 AM: data is, #
+3/18/2018 11:47:31 AM: cmps[0] failed all if checks is: #
+3/18/2018 11:47:31 AM: L is, ## Alias OBJ Material File
+3/18/2018 11:47:31 AM: cmps[0] is: ##
+3/18/2018 11:47:31 AM: data is, Alias OBJ Material File
+3/18/2018 11:47:31 AM: cmps[0] failed all if checks is: ##
+3/18/2018 11:47:31 AM: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 11:47:31 AM: cmps[0] is: #
+3/18/2018 11:47:31 AM: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 11:47:31 AM: cmps[0] failed all if checks is: #
+3/18/2018 11:47:31 AM: L is, 
+3/18/2018 11:47:31 AM: cmps[0] is: 
+3/18/2018 11:47:31 AM: data is, 
+3/18/2018 11:47:31 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:47:31 AM: L is, newmtl Brick_Antique
+3/18/2018 11:47:31 AM: cmps[0] is: newmtl
+3/18/2018 11:47:31 AM: data is, Brick_Antique
+3/18/2018 11:47:31 AM: Material failed to import, exception: get_shader can only be called from the main thread.
+Constructors and field initializers will be executed from the loading thread when loading a scene.
+Don't use this function in the constructor or field initializers, instead move initialization code to the Awake or Start function.
+3/18/2018 11:47:31 AM: Object failed to import, exception: Internal_CreateGameObject can only be called from the main thread.
+Constructors and field initializers will be executed from the loading thread when loading a scene.
+Don't use this function in the constructor or field initializers, instead move initialization code to the Awake or Start function.
+3/18/2018 11:52:08 AM: Grid Tile Tagged, Name: Lot At X=-157.5165 Y=-157.5165 Z=-22.44186
+3/18/2018 11:52:14 AM: L is, #
+3/18/2018 11:52:14 AM: cmps[0] is: #
+3/18/2018 11:52:14 AM: data is, #
+3/18/2018 11:52:14 AM: cmps[0] failed all if checks is: #
+3/18/2018 11:52:14 AM: L is, ## Alias OBJ Material File
+3/18/2018 11:52:14 AM: cmps[0] is: ##
+3/18/2018 11:52:14 AM: data is, Alias OBJ Material File
+3/18/2018 11:52:14 AM: cmps[0] failed all if checks is: ##
+3/18/2018 11:52:14 AM: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 11:52:14 AM: cmps[0] is: #
+3/18/2018 11:52:14 AM: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 11:52:14 AM: cmps[0] failed all if checks is: #
+3/18/2018 11:52:14 AM: L is, 
+3/18/2018 11:52:14 AM: cmps[0] is: 
+3/18/2018 11:52:14 AM: data is, 
+3/18/2018 11:52:14 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:14 AM: L is, newmtl Brick_Antique
+3/18/2018 11:52:14 AM: cmps[0] is: newmtl
+3/18/2018 11:52:14 AM: data is, Brick_Antique
+3/18/2018 11:52:14 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: cmps[0] is: Ka
+3/18/2018 11:52:14 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:52:14 AM: cmps[0] is: Kd
+3/18/2018 11:52:14 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:52:14 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: cmps[0] is: Ks
+3/18/2018 11:52:14 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: L is, map_Kd CIBC/Brick_Antique.jpg
+3/18/2018 11:52:14 AM: cmps[0] is: map_Kd
+3/18/2018 11:52:14 AM: data is, CIBC/Brick_Antique.jpg
+3/18/2018 11:52:14 AM: L is, 
+3/18/2018 11:52:14 AM: cmps[0] is: 
+3/18/2018 11:52:14 AM: data is, 
+3/18/2018 11:52:14 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:14 AM: L is, newmtl _Cladding_Stucco_White_5
+3/18/2018 11:52:14 AM: cmps[0] is: newmtl
+3/18/2018 11:52:14 AM: data is, _Cladding_Stucco_White_5
+3/18/2018 11:52:14 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: cmps[0] is: Ka
+3/18/2018 11:52:14 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:52:14 AM: cmps[0] is: Kd
+3/18/2018 11:52:14 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:52:14 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: cmps[0] is: Ks
+3/18/2018 11:52:14 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: L is, 
+3/18/2018 11:52:14 AM: cmps[0] is: 
+3/18/2018 11:52:14 AM: data is, 
+3/18/2018 11:52:14 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:14 AM: L is, newmtl _Cladding_Stucco_White_1
+3/18/2018 11:52:14 AM: cmps[0] is: newmtl
+3/18/2018 11:52:14 AM: data is, _Cladding_Stucco_White_1
+3/18/2018 11:52:14 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: cmps[0] is: Ka
+3/18/2018 11:52:14 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:52:14 AM: cmps[0] is: Kd
+3/18/2018 11:52:14 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:52:14 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: cmps[0] is: Ks
+3/18/2018 11:52:14 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: L is, map_Kd CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 11:52:14 AM: cmps[0] is: map_Kd
+3/18/2018 11:52:14 AM: data is, CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 11:52:14 AM: L is, 
+3/18/2018 11:52:14 AM: cmps[0] is: 
+3/18/2018 11:52:14 AM: data is, 
+3/18/2018 11:52:14 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:14 AM: L is, newmtl _3
+3/18/2018 11:52:14 AM: cmps[0] is: newmtl
+3/18/2018 11:52:14 AM: data is, _3
+3/18/2018 11:52:14 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: cmps[0] is: Ka
+3/18/2018 11:52:14 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: L is, Kd 0.678431 0.000000 0.078431
+3/18/2018 11:52:14 AM: cmps[0] is: Kd
+3/18/2018 11:52:14 AM: data is, 0.678431 0.000000 0.078431
+3/18/2018 11:52:14 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: cmps[0] is: Ks
+3/18/2018 11:52:14 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: L is, 
+3/18/2018 11:52:14 AM: cmps[0] is: 
+3/18/2018 11:52:14 AM: data is, 
+3/18/2018 11:52:14 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:14 AM: L is, newmtl Translucent_Glass_Tinted
+3/18/2018 11:52:14 AM: cmps[0] is: newmtl
+3/18/2018 11:52:14 AM: data is, Translucent_Glass_Tinted
+3/18/2018 11:52:14 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: cmps[0] is: Ka
+3/18/2018 11:52:14 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: L is, Kd 0.027451 0.788235 0.941176
+3/18/2018 11:52:14 AM: cmps[0] is: Kd
+3/18/2018 11:52:14 AM: data is, 0.027451 0.788235 0.941176
+3/18/2018 11:52:14 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: cmps[0] is: Ks
+3/18/2018 11:52:14 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: L is, d 0.480000
+3/18/2018 11:52:14 AM: cmps[0] is: d
+3/18/2018 11:52:14 AM: data is, 0.480000
+3/18/2018 11:52:14 AM: L is, map_Kd CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 11:52:14 AM: cmps[0] is: map_Kd
+3/18/2018 11:52:14 AM: data is, CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 11:52:14 AM: L is, 
+3/18/2018 11:52:14 AM: cmps[0] is: 
+3/18/2018 11:52:14 AM: data is, 
+3/18/2018 11:52:14 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:14 AM: L is, newmtl _5
+3/18/2018 11:52:14 AM: cmps[0] is: newmtl
+3/18/2018 11:52:14 AM: data is, _5
+3/18/2018 11:52:14 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: cmps[0] is: Ka
+3/18/2018 11:52:14 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: L is, Kd 0.721569 0.756863 0.000000
+3/18/2018 11:52:14 AM: cmps[0] is: Kd
+3/18/2018 11:52:14 AM: data is, 0.721569 0.756863 0.000000
+3/18/2018 11:52:14 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: cmps[0] is: Ks
+3/18/2018 11:52:14 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: L is, 
+3/18/2018 11:52:14 AM: cmps[0] is: 
+3/18/2018 11:52:14 AM: data is, 
+3/18/2018 11:52:14 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:14 AM: L is, newmtl _LightGray_
+3/18/2018 11:52:14 AM: cmps[0] is: newmtl
+3/18/2018 11:52:14 AM: data is, _LightGray_
+3/18/2018 11:52:14 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: cmps[0] is: Ka
+3/18/2018 11:52:14 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: L is, Kd 0.662745 0.662745 0.662745
+3/18/2018 11:52:14 AM: cmps[0] is: Kd
+3/18/2018 11:52:14 AM: data is, 0.662745 0.662745 0.662745
+3/18/2018 11:52:14 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: cmps[0] is: Ks
+3/18/2018 11:52:14 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: L is, 
+3/18/2018 11:52:14 AM: cmps[0] is: 
+3/18/2018 11:52:14 AM: data is, 
+3/18/2018 11:52:14 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:14 AM: L is, newmtl _Brick_Antique_2
+3/18/2018 11:52:14 AM: cmps[0] is: newmtl
+3/18/2018 11:52:14 AM: data is, _Brick_Antique_2
+3/18/2018 11:52:14 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: cmps[0] is: Ka
+3/18/2018 11:52:14 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:52:14 AM: cmps[0] is: Kd
+3/18/2018 11:52:14 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:52:14 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: cmps[0] is: Ks
+3/18/2018 11:52:14 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: L is, map_Kd CIBC/_Brick_Antique_2.jpg
+3/18/2018 11:52:14 AM: cmps[0] is: map_Kd
+3/18/2018 11:52:14 AM: data is, CIBC/_Brick_Antique_2.jpg
+3/18/2018 11:52:14 AM: L is, 
+3/18/2018 11:52:14 AM: cmps[0] is: 
+3/18/2018 11:52:14 AM: data is, 
+3/18/2018 11:52:14 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:14 AM: L is, newmtl BackColor
+3/18/2018 11:52:14 AM: cmps[0] is: newmtl
+3/18/2018 11:52:14 AM: data is, BackColor
+3/18/2018 11:52:14 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: cmps[0] is: Ka
+3/18/2018 11:52:14 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: L is, Kd 0.643137 0.698039 0.733333
+3/18/2018 11:52:14 AM: cmps[0] is: Kd
+3/18/2018 11:52:14 AM: data is, 0.643137 0.698039 0.733333
+3/18/2018 11:52:14 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: cmps[0] is: Ks
+3/18/2018 11:52:14 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: L is, 
+3/18/2018 11:52:14 AM: cmps[0] is: 
+3/18/2018 11:52:14 AM: data is, 
+3/18/2018 11:52:14 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:14 AM: L is, newmtl _Brick_Antique_3
+3/18/2018 11:52:14 AM: cmps[0] is: newmtl
+3/18/2018 11:52:14 AM: data is, _Brick_Antique_3
+3/18/2018 11:52:14 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: cmps[0] is: Ka
+3/18/2018 11:52:14 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:52:14 AM: cmps[0] is: Kd
+3/18/2018 11:52:14 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:52:14 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: cmps[0] is: Ks
+3/18/2018 11:52:14 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: L is, map_Kd CIBC/_Brick_Antique_3.jpg
+3/18/2018 11:52:14 AM: cmps[0] is: map_Kd
+3/18/2018 11:52:14 AM: data is, CIBC/_Brick_Antique_3.jpg
+3/18/2018 11:52:14 AM: L is, 
+3/18/2018 11:52:14 AM: cmps[0] is: 
+3/18/2018 11:52:14 AM: data is, 
+3/18/2018 11:52:14 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:14 AM: L is, newmtl _Brick_Antique_1
+3/18/2018 11:52:14 AM: cmps[0] is: newmtl
+3/18/2018 11:52:14 AM: data is, _Brick_Antique_1
+3/18/2018 11:52:14 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: cmps[0] is: Ka
+3/18/2018 11:52:14 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:52:14 AM: cmps[0] is: Kd
+3/18/2018 11:52:14 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:52:14 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: cmps[0] is: Ks
+3/18/2018 11:52:14 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: L is, map_Kd CIBC/_Brick_Antique_1.jpg
+3/18/2018 11:52:14 AM: cmps[0] is: map_Kd
+3/18/2018 11:52:14 AM: data is, CIBC/_Brick_Antique_1.jpg
+3/18/2018 11:52:14 AM: L is, 
+3/18/2018 11:52:14 AM: cmps[0] is: 
+3/18/2018 11:52:14 AM: data is, 
+3/18/2018 11:52:14 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:14 AM: L is, newmtl _8
+3/18/2018 11:52:14 AM: cmps[0] is: newmtl
+3/18/2018 11:52:14 AM: data is, _8
+3/18/2018 11:52:14 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: cmps[0] is: Ka
+3/18/2018 11:52:14 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: L is, Kd 0.980392 1.000000 0.717647
+3/18/2018 11:52:14 AM: cmps[0] is: Kd
+3/18/2018 11:52:14 AM: data is, 0.980392 1.000000 0.717647
+3/18/2018 11:52:14 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: cmps[0] is: Ks
+3/18/2018 11:52:14 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: L is, 
+3/18/2018 11:52:14 AM: cmps[0] is: 
+3/18/2018 11:52:14 AM: data is, 
+3/18/2018 11:52:14 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:14 AM: L is, newmtl FrontColor
+3/18/2018 11:52:14 AM: cmps[0] is: newmtl
+3/18/2018 11:52:14 AM: data is, FrontColor
+3/18/2018 11:52:14 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: cmps[0] is: Ka
+3/18/2018 11:52:14 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:14 AM: L is, Kd 1.000000 1.000000 1.000000
+3/18/2018 11:52:14 AM: cmps[0] is: Kd
+3/18/2018 11:52:14 AM: data is, 1.000000 1.000000 1.000000
+3/18/2018 11:52:14 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: cmps[0] is: Ks
+3/18/2018 11:52:14 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:14 AM: L is, 
+3/18/2018 11:52:14 AM: cmps[0] is: 
+3/18/2018 11:52:14 AM: data is, 
+3/18/2018 11:52:14 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:14 AM: L is, newmtl _Cladding_Stucco_White_4
+3/18/2018 11:52:15 AM: cmps[0] is: newmtl
+3/18/2018 11:52:15 AM: data is, _Cladding_Stucco_White_4
+3/18/2018 11:52:15 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:15 AM: cmps[0] is: Ka
+3/18/2018 11:52:15 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:15 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:52:15 AM: cmps[0] is: Kd
+3/18/2018 11:52:15 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:52:15 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:15 AM: cmps[0] is: Ks
+3/18/2018 11:52:15 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:15 AM: L is, map_Kd CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 11:52:15 AM: cmps[0] is: map_Kd
+3/18/2018 11:52:15 AM: data is, CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 11:52:15 AM: L is, 
+3/18/2018 11:52:15 AM: cmps[0] is: 
+3/18/2018 11:52:15 AM: data is, 
+3/18/2018 11:52:15 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:15 AM: L is, newmtl _7
+3/18/2018 11:52:15 AM: cmps[0] is: newmtl
+3/18/2018 11:52:15 AM: data is, _7
+3/18/2018 11:52:15 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:15 AM: cmps[0] is: Ka
+3/18/2018 11:52:15 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:15 AM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 11:52:15 AM: cmps[0] is: Kd
+3/18/2018 11:52:15 AM: data is, 0.298039 0.298039 0.298039
+3/18/2018 11:52:15 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:15 AM: cmps[0] is: Ks
+3/18/2018 11:52:15 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:15 AM: L is, 
+3/18/2018 11:52:15 AM: cmps[0] is: 
+3/18/2018 11:52:15 AM: data is, 
+3/18/2018 11:52:15 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:15 AM: L is, newmtl _Cladding_Stucco_White_3
+3/18/2018 11:52:15 AM: cmps[0] is: newmtl
+3/18/2018 11:52:15 AM: data is, _Cladding_Stucco_White_3
+3/18/2018 11:52:15 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:15 AM: cmps[0] is: Ka
+3/18/2018 11:52:15 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:15 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:52:15 AM: cmps[0] is: Kd
+3/18/2018 11:52:15 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:52:15 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:15 AM: cmps[0] is: Ks
+3/18/2018 11:52:15 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:15 AM: L is, map_Kd CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 11:52:15 AM: cmps[0] is: map_Kd
+3/18/2018 11:52:15 AM: data is, CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 11:52:15 AM: L is, 
+3/18/2018 11:52:15 AM: cmps[0] is: 
+3/18/2018 11:52:15 AM: data is, 
+3/18/2018 11:52:15 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:15 AM: L is, newmtl _6
+3/18/2018 11:52:15 AM: cmps[0] is: newmtl
+3/18/2018 11:52:15 AM: data is, _6
+3/18/2018 11:52:15 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:15 AM: cmps[0] is: Ka
+3/18/2018 11:52:15 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:15 AM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 11:52:15 AM: cmps[0] is: Kd
+3/18/2018 11:52:15 AM: data is, 0.298039 0.298039 0.298039
+3/18/2018 11:52:15 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:15 AM: cmps[0] is: Ks
+3/18/2018 11:52:15 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:15 AM: L is, 
+3/18/2018 11:52:15 AM: cmps[0] is: 
+3/18/2018 11:52:15 AM: data is, 
+3/18/2018 11:52:15 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:15 AM: L is, newmtl _Brick_Tumbled_2
+3/18/2018 11:52:15 AM: cmps[0] is: newmtl
+3/18/2018 11:52:15 AM: data is, _Brick_Tumbled_2
+3/18/2018 11:52:15 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:15 AM: cmps[0] is: Ka
+3/18/2018 11:52:15 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:15 AM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 11:52:15 AM: cmps[0] is: Kd
+3/18/2018 11:52:15 AM: data is, 0.529412 0.517647 0.517647
+3/18/2018 11:52:15 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:15 AM: cmps[0] is: Ks
+3/18/2018 11:52:15 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:15 AM: L is, map_Kd CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 11:52:15 AM: cmps[0] is: map_Kd
+3/18/2018 11:52:15 AM: data is, CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 11:52:15 AM: L is, 
+3/18/2018 11:52:15 AM: cmps[0] is: 
+3/18/2018 11:52:15 AM: data is, 
+3/18/2018 11:52:15 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:52:15 AM: L is, newmtl _Brick_Tumbled_1
+3/18/2018 11:52:15 AM: cmps[0] is: newmtl
+3/18/2018 11:52:15 AM: data is, _Brick_Tumbled_1
+3/18/2018 11:52:15 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:52:15 AM: cmps[0] is: Ka
+3/18/2018 11:52:15 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:52:15 AM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 11:52:15 AM: cmps[0] is: Kd
+3/18/2018 11:52:15 AM: data is, 0.529412 0.517647 0.517647
+3/18/2018 11:52:15 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:52:15 AM: cmps[0] is: Ks
+3/18/2018 11:52:15 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:52:15 AM: L is, map_Kd CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 11:52:15 AM: cmps[0] is: map_Kd
+3/18/2018 11:52:15 AM: data is, CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 11:52:15 AM: L is, 
+3/18/2018 11:52:15 AM: cmps[0] is: 
+3/18/2018 11:52:15 AM: data is, 
+3/18/2018 11:52:15 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:54:55 AM: Grid Tile Tagged, Name: Lot At X=-89.55574 Y=-89.55574 Z=12.59708
+3/18/2018 11:55:00 AM: L is, #
+3/18/2018 11:55:00 AM: cmps[0] is: #
+3/18/2018 11:55:00 AM: data is, #
+3/18/2018 11:55:00 AM: cmps[0] failed all if checks is: #
+3/18/2018 11:55:00 AM: L is, ## Alias OBJ Material File
+3/18/2018 11:55:00 AM: cmps[0] is: ##
+3/18/2018 11:55:00 AM: data is, Alias OBJ Material File
+3/18/2018 11:55:00 AM: cmps[0] failed all if checks is: ##
+3/18/2018 11:55:00 AM: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 11:55:00 AM: cmps[0] is: #
+3/18/2018 11:55:00 AM: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 11:55:00 AM: cmps[0] failed all if checks is: #
+3/18/2018 11:55:00 AM: L is, 
+3/18/2018 11:55:00 AM: cmps[0] is: 
+3/18/2018 11:55:00 AM: data is, 
+3/18/2018 11:55:00 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:00 AM: L is, newmtl Brick_Antique
+3/18/2018 11:55:00 AM: cmps[0] is: newmtl
+3/18/2018 11:55:00 AM: data is, Brick_Antique
+3/18/2018 11:55:00 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: cmps[0] is: Ka
+3/18/2018 11:55:00 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:55:00 AM: cmps[0] is: Kd
+3/18/2018 11:55:00 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:55:00 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:00 AM: cmps[0] is: Ks
+3/18/2018 11:55:00 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:00 AM: L is, map_Kd CIBC/Brick_Antique.jpg
+3/18/2018 11:55:00 AM: cmps[0] is: map_Kd
+3/18/2018 11:55:00 AM: data is, CIBC/Brick_Antique.jpg
+3/18/2018 11:55:00 AM: L is, 
+3/18/2018 11:55:00 AM: cmps[0] is: 
+3/18/2018 11:55:00 AM: data is, 
+3/18/2018 11:55:00 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:00 AM: L is, newmtl _Cladding_Stucco_White_5
+3/18/2018 11:55:00 AM: cmps[0] is: newmtl
+3/18/2018 11:55:00 AM: data is, _Cladding_Stucco_White_5
+3/18/2018 11:55:00 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: cmps[0] is: Ka
+3/18/2018 11:55:00 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:55:00 AM: cmps[0] is: Kd
+3/18/2018 11:55:00 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:55:00 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:00 AM: cmps[0] is: Ks
+3/18/2018 11:55:00 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:00 AM: L is, 
+3/18/2018 11:55:00 AM: cmps[0] is: 
+3/18/2018 11:55:00 AM: data is, 
+3/18/2018 11:55:00 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:00 AM: L is, newmtl _Cladding_Stucco_White_1
+3/18/2018 11:55:00 AM: cmps[0] is: newmtl
+3/18/2018 11:55:00 AM: data is, _Cladding_Stucco_White_1
+3/18/2018 11:55:00 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: cmps[0] is: Ka
+3/18/2018 11:55:00 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:55:00 AM: cmps[0] is: Kd
+3/18/2018 11:55:00 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:55:00 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:00 AM: cmps[0] is: Ks
+3/18/2018 11:55:00 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:00 AM: L is, map_Kd CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 11:55:00 AM: cmps[0] is: map_Kd
+3/18/2018 11:55:00 AM: data is, CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 11:55:00 AM: L is, 
+3/18/2018 11:55:00 AM: cmps[0] is: 
+3/18/2018 11:55:00 AM: data is, 
+3/18/2018 11:55:00 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:00 AM: L is, newmtl _3
+3/18/2018 11:55:00 AM: cmps[0] is: newmtl
+3/18/2018 11:55:00 AM: data is, _3
+3/18/2018 11:55:00 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: cmps[0] is: Ka
+3/18/2018 11:55:00 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: L is, Kd 0.678431 0.000000 0.078431
+3/18/2018 11:55:00 AM: cmps[0] is: Kd
+3/18/2018 11:55:00 AM: data is, 0.678431 0.000000 0.078431
+3/18/2018 11:55:00 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:00 AM: cmps[0] is: Ks
+3/18/2018 11:55:00 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:00 AM: L is, 
+3/18/2018 11:55:00 AM: cmps[0] is: 
+3/18/2018 11:55:00 AM: data is, 
+3/18/2018 11:55:00 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:00 AM: L is, newmtl Translucent_Glass_Tinted
+3/18/2018 11:55:00 AM: cmps[0] is: newmtl
+3/18/2018 11:55:00 AM: data is, Translucent_Glass_Tinted
+3/18/2018 11:55:00 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: cmps[0] is: Ka
+3/18/2018 11:55:00 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: L is, Kd 0.027451 0.788235 0.941176
+3/18/2018 11:55:00 AM: cmps[0] is: Kd
+3/18/2018 11:55:00 AM: data is, 0.027451 0.788235 0.941176
+3/18/2018 11:55:00 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:00 AM: cmps[0] is: Ks
+3/18/2018 11:55:00 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:00 AM: L is, d 0.480000
+3/18/2018 11:55:00 AM: cmps[0] is: d
+3/18/2018 11:55:00 AM: data is, 0.480000
+3/18/2018 11:55:00 AM: L is, map_Kd CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 11:55:00 AM: cmps[0] is: map_Kd
+3/18/2018 11:55:00 AM: data is, CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 11:55:00 AM: L is, 
+3/18/2018 11:55:00 AM: cmps[0] is: 
+3/18/2018 11:55:00 AM: data is, 
+3/18/2018 11:55:00 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:00 AM: L is, newmtl _5
+3/18/2018 11:55:00 AM: cmps[0] is: newmtl
+3/18/2018 11:55:00 AM: data is, _5
+3/18/2018 11:55:00 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: cmps[0] is: Ka
+3/18/2018 11:55:00 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: L is, Kd 0.721569 0.756863 0.000000
+3/18/2018 11:55:00 AM: cmps[0] is: Kd
+3/18/2018 11:55:00 AM: data is, 0.721569 0.756863 0.000000
+3/18/2018 11:55:00 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:00 AM: cmps[0] is: Ks
+3/18/2018 11:55:00 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:00 AM: L is, 
+3/18/2018 11:55:00 AM: cmps[0] is: 
+3/18/2018 11:55:00 AM: data is, 
+3/18/2018 11:55:00 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:00 AM: L is, newmtl _LightGray_
+3/18/2018 11:55:00 AM: cmps[0] is: newmtl
+3/18/2018 11:55:00 AM: data is, _LightGray_
+3/18/2018 11:55:00 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: cmps[0] is: Ka
+3/18/2018 11:55:00 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: L is, Kd 0.662745 0.662745 0.662745
+3/18/2018 11:55:00 AM: cmps[0] is: Kd
+3/18/2018 11:55:00 AM: data is, 0.662745 0.662745 0.662745
+3/18/2018 11:55:00 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:00 AM: cmps[0] is: Ks
+3/18/2018 11:55:00 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:00 AM: L is, 
+3/18/2018 11:55:00 AM: cmps[0] is: 
+3/18/2018 11:55:00 AM: data is, 
+3/18/2018 11:55:00 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:00 AM: L is, newmtl _Brick_Antique_2
+3/18/2018 11:55:00 AM: cmps[0] is: newmtl
+3/18/2018 11:55:00 AM: data is, _Brick_Antique_2
+3/18/2018 11:55:00 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: cmps[0] is: Ka
+3/18/2018 11:55:00 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:55:00 AM: cmps[0] is: Kd
+3/18/2018 11:55:00 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:55:00 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:00 AM: cmps[0] is: Ks
+3/18/2018 11:55:00 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:00 AM: L is, map_Kd CIBC/_Brick_Antique_2.jpg
+3/18/2018 11:55:00 AM: cmps[0] is: map_Kd
+3/18/2018 11:55:00 AM: data is, CIBC/_Brick_Antique_2.jpg
+3/18/2018 11:55:00 AM: L is, 
+3/18/2018 11:55:00 AM: cmps[0] is: 
+3/18/2018 11:55:00 AM: data is, 
+3/18/2018 11:55:00 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:00 AM: L is, newmtl BackColor
+3/18/2018 11:55:00 AM: cmps[0] is: newmtl
+3/18/2018 11:55:00 AM: data is, BackColor
+3/18/2018 11:55:00 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: cmps[0] is: Ka
+3/18/2018 11:55:00 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: L is, Kd 0.643137 0.698039 0.733333
+3/18/2018 11:55:00 AM: cmps[0] is: Kd
+3/18/2018 11:55:00 AM: data is, 0.643137 0.698039 0.733333
+3/18/2018 11:55:00 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:00 AM: cmps[0] is: Ks
+3/18/2018 11:55:00 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:00 AM: L is, 
+3/18/2018 11:55:00 AM: cmps[0] is: 
+3/18/2018 11:55:00 AM: data is, 
+3/18/2018 11:55:00 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:00 AM: L is, newmtl _Brick_Antique_3
+3/18/2018 11:55:00 AM: cmps[0] is: newmtl
+3/18/2018 11:55:00 AM: data is, _Brick_Antique_3
+3/18/2018 11:55:00 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: cmps[0] is: Ka
+3/18/2018 11:55:00 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:00 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:55:00 AM: cmps[0] is: Kd
+3/18/2018 11:55:01 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:55:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: cmps[0] is: Ks
+3/18/2018 11:55:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: L is, map_Kd CIBC/_Brick_Antique_3.jpg
+3/18/2018 11:55:01 AM: cmps[0] is: map_Kd
+3/18/2018 11:55:01 AM: data is, CIBC/_Brick_Antique_3.jpg
+3/18/2018 11:55:01 AM: L is, 
+3/18/2018 11:55:01 AM: cmps[0] is: 
+3/18/2018 11:55:01 AM: data is, 
+3/18/2018 11:55:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:01 AM: L is, newmtl _Brick_Antique_1
+3/18/2018 11:55:01 AM: cmps[0] is: newmtl
+3/18/2018 11:55:01 AM: data is, _Brick_Antique_1
+3/18/2018 11:55:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:01 AM: cmps[0] is: Ka
+3/18/2018 11:55:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:01 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:55:01 AM: cmps[0] is: Kd
+3/18/2018 11:55:01 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:55:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: cmps[0] is: Ks
+3/18/2018 11:55:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: L is, map_Kd CIBC/_Brick_Antique_1.jpg
+3/18/2018 11:55:01 AM: cmps[0] is: map_Kd
+3/18/2018 11:55:01 AM: data is, CIBC/_Brick_Antique_1.jpg
+3/18/2018 11:55:01 AM: L is, 
+3/18/2018 11:55:01 AM: cmps[0] is: 
+3/18/2018 11:55:01 AM: data is, 
+3/18/2018 11:55:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:01 AM: L is, newmtl _8
+3/18/2018 11:55:01 AM: cmps[0] is: newmtl
+3/18/2018 11:55:01 AM: data is, _8
+3/18/2018 11:55:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:01 AM: cmps[0] is: Ka
+3/18/2018 11:55:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:01 AM: L is, Kd 0.980392 1.000000 0.717647
+3/18/2018 11:55:01 AM: cmps[0] is: Kd
+3/18/2018 11:55:01 AM: data is, 0.980392 1.000000 0.717647
+3/18/2018 11:55:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: cmps[0] is: Ks
+3/18/2018 11:55:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: L is, 
+3/18/2018 11:55:01 AM: cmps[0] is: 
+3/18/2018 11:55:01 AM: data is, 
+3/18/2018 11:55:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:01 AM: L is, newmtl FrontColor
+3/18/2018 11:55:01 AM: cmps[0] is: newmtl
+3/18/2018 11:55:01 AM: data is, FrontColor
+3/18/2018 11:55:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:01 AM: cmps[0] is: Ka
+3/18/2018 11:55:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:01 AM: L is, Kd 1.000000 1.000000 1.000000
+3/18/2018 11:55:01 AM: cmps[0] is: Kd
+3/18/2018 11:55:01 AM: data is, 1.000000 1.000000 1.000000
+3/18/2018 11:55:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: cmps[0] is: Ks
+3/18/2018 11:55:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: L is, 
+3/18/2018 11:55:01 AM: cmps[0] is: 
+3/18/2018 11:55:01 AM: data is, 
+3/18/2018 11:55:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:01 AM: L is, newmtl _Cladding_Stucco_White_4
+3/18/2018 11:55:01 AM: cmps[0] is: newmtl
+3/18/2018 11:55:01 AM: data is, _Cladding_Stucco_White_4
+3/18/2018 11:55:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:01 AM: cmps[0] is: Ka
+3/18/2018 11:55:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:01 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:55:01 AM: cmps[0] is: Kd
+3/18/2018 11:55:01 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:55:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: cmps[0] is: Ks
+3/18/2018 11:55:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: L is, map_Kd CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 11:55:01 AM: cmps[0] is: map_Kd
+3/18/2018 11:55:01 AM: data is, CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 11:55:01 AM: L is, 
+3/18/2018 11:55:01 AM: cmps[0] is: 
+3/18/2018 11:55:01 AM: data is, 
+3/18/2018 11:55:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:01 AM: L is, newmtl _7
+3/18/2018 11:55:01 AM: cmps[0] is: newmtl
+3/18/2018 11:55:01 AM: data is, _7
+3/18/2018 11:55:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:01 AM: cmps[0] is: Ka
+3/18/2018 11:55:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:01 AM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 11:55:01 AM: cmps[0] is: Kd
+3/18/2018 11:55:01 AM: data is, 0.298039 0.298039 0.298039
+3/18/2018 11:55:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: cmps[0] is: Ks
+3/18/2018 11:55:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: L is, 
+3/18/2018 11:55:01 AM: cmps[0] is: 
+3/18/2018 11:55:01 AM: data is, 
+3/18/2018 11:55:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:01 AM: L is, newmtl _Cladding_Stucco_White_3
+3/18/2018 11:55:01 AM: cmps[0] is: newmtl
+3/18/2018 11:55:01 AM: data is, _Cladding_Stucco_White_3
+3/18/2018 11:55:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:01 AM: cmps[0] is: Ka
+3/18/2018 11:55:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:01 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:55:01 AM: cmps[0] is: Kd
+3/18/2018 11:55:01 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:55:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: cmps[0] is: Ks
+3/18/2018 11:55:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: L is, map_Kd CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 11:55:01 AM: cmps[0] is: map_Kd
+3/18/2018 11:55:01 AM: data is, CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 11:55:01 AM: L is, 
+3/18/2018 11:55:01 AM: cmps[0] is: 
+3/18/2018 11:55:01 AM: data is, 
+3/18/2018 11:55:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:01 AM: L is, newmtl _6
+3/18/2018 11:55:01 AM: cmps[0] is: newmtl
+3/18/2018 11:55:01 AM: data is, _6
+3/18/2018 11:55:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:01 AM: cmps[0] is: Ka
+3/18/2018 11:55:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:01 AM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 11:55:01 AM: cmps[0] is: Kd
+3/18/2018 11:55:01 AM: data is, 0.298039 0.298039 0.298039
+3/18/2018 11:55:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: cmps[0] is: Ks
+3/18/2018 11:55:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: L is, 
+3/18/2018 11:55:01 AM: cmps[0] is: 
+3/18/2018 11:55:01 AM: data is, 
+3/18/2018 11:55:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:01 AM: L is, newmtl _Brick_Tumbled_2
+3/18/2018 11:55:01 AM: cmps[0] is: newmtl
+3/18/2018 11:55:01 AM: data is, _Brick_Tumbled_2
+3/18/2018 11:55:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:01 AM: cmps[0] is: Ka
+3/18/2018 11:55:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:01 AM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 11:55:01 AM: cmps[0] is: Kd
+3/18/2018 11:55:01 AM: data is, 0.529412 0.517647 0.517647
+3/18/2018 11:55:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: cmps[0] is: Ks
+3/18/2018 11:55:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: L is, map_Kd CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 11:55:01 AM: cmps[0] is: map_Kd
+3/18/2018 11:55:01 AM: data is, CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 11:55:01 AM: L is, 
+3/18/2018 11:55:01 AM: cmps[0] is: 
+3/18/2018 11:55:01 AM: data is, 
+3/18/2018 11:55:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:55:01 AM: L is, newmtl _Brick_Tumbled_1
+3/18/2018 11:55:01 AM: cmps[0] is: newmtl
+3/18/2018 11:55:01 AM: data is, _Brick_Tumbled_1
+3/18/2018 11:55:01 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:55:01 AM: cmps[0] is: Ka
+3/18/2018 11:55:01 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:55:01 AM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 11:55:01 AM: cmps[0] is: Kd
+3/18/2018 11:55:01 AM: data is, 0.529412 0.517647 0.517647
+3/18/2018 11:55:01 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: cmps[0] is: Ks
+3/18/2018 11:55:01 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:55:01 AM: L is, map_Kd CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 11:55:01 AM: cmps[0] is: map_Kd
+3/18/2018 11:55:01 AM: data is, CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 11:55:01 AM: L is, 
+3/18/2018 11:55:01 AM: cmps[0] is: 
+3/18/2018 11:55:01 AM: data is, 
+3/18/2018 11:55:01 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:17 AM: Grid Tile Tagged, Name: Lot At X=-157.5165 Y=-157.5165 Z=-22.44186
+3/18/2018 11:59:34 AM: L is, #
+3/18/2018 11:59:34 AM: cmps[0] is: #
+3/18/2018 11:59:34 AM: data is, #
+3/18/2018 11:59:34 AM: cmps[0] failed all if checks is: #
+3/18/2018 11:59:34 AM: L is, ## Alias OBJ Material File
+3/18/2018 11:59:34 AM: cmps[0] is: ##
+3/18/2018 11:59:34 AM: data is, Alias OBJ Material File
+3/18/2018 11:59:34 AM: cmps[0] failed all if checks is: ##
+3/18/2018 11:59:34 AM: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 11:59:34 AM: cmps[0] is: #
+3/18/2018 11:59:34 AM: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 11:59:34 AM: cmps[0] failed all if checks is: #
+3/18/2018 11:59:34 AM: L is, 
+3/18/2018 11:59:34 AM: cmps[0] is: 
+3/18/2018 11:59:34 AM: data is, 
+3/18/2018 11:59:34 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:34 AM: L is, newmtl Brick_Antique
+3/18/2018 11:59:34 AM: cmps[0] is: newmtl
+3/18/2018 11:59:34 AM: data is, Brick_Antique
+3/18/2018 11:59:34 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: cmps[0] is: Ka
+3/18/2018 11:59:34 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:59:34 AM: cmps[0] is: Kd
+3/18/2018 11:59:34 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:59:34 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: cmps[0] is: Ks
+3/18/2018 11:59:34 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: L is, map_Kd CIBC/Brick_Antique.jpg
+3/18/2018 11:59:34 AM: cmps[0] is: map_Kd
+3/18/2018 11:59:34 AM: data is, CIBC/Brick_Antique.jpg
+3/18/2018 11:59:34 AM: L is, 
+3/18/2018 11:59:34 AM: cmps[0] is: 
+3/18/2018 11:59:34 AM: data is, 
+3/18/2018 11:59:34 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:34 AM: L is, newmtl _Cladding_Stucco_White_5
+3/18/2018 11:59:34 AM: cmps[0] is: newmtl
+3/18/2018 11:59:34 AM: data is, _Cladding_Stucco_White_5
+3/18/2018 11:59:34 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: cmps[0] is: Ka
+3/18/2018 11:59:34 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:59:34 AM: cmps[0] is: Kd
+3/18/2018 11:59:34 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:59:34 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: cmps[0] is: Ks
+3/18/2018 11:59:34 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: L is, 
+3/18/2018 11:59:34 AM: cmps[0] is: 
+3/18/2018 11:59:34 AM: data is, 
+3/18/2018 11:59:34 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:34 AM: L is, newmtl _Cladding_Stucco_White_1
+3/18/2018 11:59:34 AM: cmps[0] is: newmtl
+3/18/2018 11:59:34 AM: data is, _Cladding_Stucco_White_1
+3/18/2018 11:59:34 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: cmps[0] is: Ka
+3/18/2018 11:59:34 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:59:34 AM: cmps[0] is: Kd
+3/18/2018 11:59:34 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:59:34 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: cmps[0] is: Ks
+3/18/2018 11:59:34 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: L is, map_Kd CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 11:59:34 AM: cmps[0] is: map_Kd
+3/18/2018 11:59:34 AM: data is, CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 11:59:34 AM: L is, 
+3/18/2018 11:59:34 AM: cmps[0] is: 
+3/18/2018 11:59:34 AM: data is, 
+3/18/2018 11:59:34 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:34 AM: L is, newmtl _3
+3/18/2018 11:59:34 AM: cmps[0] is: newmtl
+3/18/2018 11:59:34 AM: data is, _3
+3/18/2018 11:59:34 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: cmps[0] is: Ka
+3/18/2018 11:59:34 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: L is, Kd 0.678431 0.000000 0.078431
+3/18/2018 11:59:34 AM: cmps[0] is: Kd
+3/18/2018 11:59:34 AM: data is, 0.678431 0.000000 0.078431
+3/18/2018 11:59:34 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: cmps[0] is: Ks
+3/18/2018 11:59:34 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: L is, 
+3/18/2018 11:59:34 AM: cmps[0] is: 
+3/18/2018 11:59:34 AM: data is, 
+3/18/2018 11:59:34 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:34 AM: L is, newmtl Translucent_Glass_Tinted
+3/18/2018 11:59:34 AM: cmps[0] is: newmtl
+3/18/2018 11:59:34 AM: data is, Translucent_Glass_Tinted
+3/18/2018 11:59:34 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: cmps[0] is: Ka
+3/18/2018 11:59:34 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: L is, Kd 0.027451 0.788235 0.941176
+3/18/2018 11:59:34 AM: cmps[0] is: Kd
+3/18/2018 11:59:34 AM: data is, 0.027451 0.788235 0.941176
+3/18/2018 11:59:34 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: cmps[0] is: Ks
+3/18/2018 11:59:34 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: L is, d 0.480000
+3/18/2018 11:59:34 AM: cmps[0] is: d
+3/18/2018 11:59:34 AM: data is, 0.480000
+3/18/2018 11:59:34 AM: L is, map_Kd CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 11:59:34 AM: cmps[0] is: map_Kd
+3/18/2018 11:59:34 AM: data is, CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 11:59:34 AM: L is, 
+3/18/2018 11:59:34 AM: cmps[0] is: 
+3/18/2018 11:59:34 AM: data is, 
+3/18/2018 11:59:34 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:34 AM: L is, newmtl _5
+3/18/2018 11:59:34 AM: cmps[0] is: newmtl
+3/18/2018 11:59:34 AM: data is, _5
+3/18/2018 11:59:34 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: cmps[0] is: Ka
+3/18/2018 11:59:34 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: L is, Kd 0.721569 0.756863 0.000000
+3/18/2018 11:59:34 AM: cmps[0] is: Kd
+3/18/2018 11:59:34 AM: data is, 0.721569 0.756863 0.000000
+3/18/2018 11:59:34 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: cmps[0] is: Ks
+3/18/2018 11:59:34 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: L is, 
+3/18/2018 11:59:34 AM: cmps[0] is: 
+3/18/2018 11:59:34 AM: data is, 
+3/18/2018 11:59:34 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:34 AM: L is, newmtl _LightGray_
+3/18/2018 11:59:34 AM: cmps[0] is: newmtl
+3/18/2018 11:59:34 AM: data is, _LightGray_
+3/18/2018 11:59:34 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: cmps[0] is: Ka
+3/18/2018 11:59:34 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: L is, Kd 0.662745 0.662745 0.662745
+3/18/2018 11:59:34 AM: cmps[0] is: Kd
+3/18/2018 11:59:34 AM: data is, 0.662745 0.662745 0.662745
+3/18/2018 11:59:34 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: cmps[0] is: Ks
+3/18/2018 11:59:34 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: L is, 
+3/18/2018 11:59:34 AM: cmps[0] is: 
+3/18/2018 11:59:34 AM: data is, 
+3/18/2018 11:59:34 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:34 AM: L is, newmtl _Brick_Antique_2
+3/18/2018 11:59:34 AM: cmps[0] is: newmtl
+3/18/2018 11:59:34 AM: data is, _Brick_Antique_2
+3/18/2018 11:59:34 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: cmps[0] is: Ka
+3/18/2018 11:59:34 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:59:34 AM: cmps[0] is: Kd
+3/18/2018 11:59:34 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:59:34 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: cmps[0] is: Ks
+3/18/2018 11:59:34 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: L is, map_Kd CIBC/_Brick_Antique_2.jpg
+3/18/2018 11:59:34 AM: cmps[0] is: map_Kd
+3/18/2018 11:59:34 AM: data is, CIBC/_Brick_Antique_2.jpg
+3/18/2018 11:59:34 AM: L is, 
+3/18/2018 11:59:34 AM: cmps[0] is: 
+3/18/2018 11:59:34 AM: data is, 
+3/18/2018 11:59:34 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:34 AM: L is, newmtl BackColor
+3/18/2018 11:59:34 AM: cmps[0] is: newmtl
+3/18/2018 11:59:34 AM: data is, BackColor
+3/18/2018 11:59:34 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: cmps[0] is: Ka
+3/18/2018 11:59:34 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: L is, Kd 0.643137 0.698039 0.733333
+3/18/2018 11:59:34 AM: cmps[0] is: Kd
+3/18/2018 11:59:34 AM: data is, 0.643137 0.698039 0.733333
+3/18/2018 11:59:34 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: cmps[0] is: Ks
+3/18/2018 11:59:34 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: L is, 
+3/18/2018 11:59:34 AM: cmps[0] is: 
+3/18/2018 11:59:34 AM: data is, 
+3/18/2018 11:59:34 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:34 AM: L is, newmtl _Brick_Antique_3
+3/18/2018 11:59:34 AM: cmps[0] is: newmtl
+3/18/2018 11:59:34 AM: data is, _Brick_Antique_3
+3/18/2018 11:59:34 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: cmps[0] is: Ka
+3/18/2018 11:59:34 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:59:34 AM: cmps[0] is: Kd
+3/18/2018 11:59:34 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:59:34 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: cmps[0] is: Ks
+3/18/2018 11:59:34 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: L is, map_Kd CIBC/_Brick_Antique_3.jpg
+3/18/2018 11:59:34 AM: cmps[0] is: map_Kd
+3/18/2018 11:59:34 AM: data is, CIBC/_Brick_Antique_3.jpg
+3/18/2018 11:59:34 AM: L is, 
+3/18/2018 11:59:34 AM: cmps[0] is: 
+3/18/2018 11:59:34 AM: data is, 
+3/18/2018 11:59:34 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:34 AM: L is, newmtl _Brick_Antique_1
+3/18/2018 11:59:34 AM: cmps[0] is: newmtl
+3/18/2018 11:59:34 AM: data is, _Brick_Antique_1
+3/18/2018 11:59:34 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: cmps[0] is: Ka
+3/18/2018 11:59:34 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 11:59:34 AM: cmps[0] is: Kd
+3/18/2018 11:59:34 AM: data is, 0.576471 0.411765 0.278431
+3/18/2018 11:59:34 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: cmps[0] is: Ks
+3/18/2018 11:59:34 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: L is, map_Kd CIBC/_Brick_Antique_1.jpg
+3/18/2018 11:59:34 AM: cmps[0] is: map_Kd
+3/18/2018 11:59:34 AM: data is, CIBC/_Brick_Antique_1.jpg
+3/18/2018 11:59:34 AM: L is, 
+3/18/2018 11:59:34 AM: cmps[0] is: 
+3/18/2018 11:59:34 AM: data is, 
+3/18/2018 11:59:34 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:34 AM: L is, newmtl _8
+3/18/2018 11:59:34 AM: cmps[0] is: newmtl
+3/18/2018 11:59:34 AM: data is, _8
+3/18/2018 11:59:34 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: cmps[0] is: Ka
+3/18/2018 11:59:34 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: L is, Kd 0.980392 1.000000 0.717647
+3/18/2018 11:59:34 AM: cmps[0] is: Kd
+3/18/2018 11:59:34 AM: data is, 0.980392 1.000000 0.717647
+3/18/2018 11:59:34 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: cmps[0] is: Ks
+3/18/2018 11:59:34 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: L is, 
+3/18/2018 11:59:34 AM: cmps[0] is: 
+3/18/2018 11:59:34 AM: data is, 
+3/18/2018 11:59:34 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:34 AM: L is, newmtl FrontColor
+3/18/2018 11:59:34 AM: cmps[0] is: newmtl
+3/18/2018 11:59:34 AM: data is, FrontColor
+3/18/2018 11:59:34 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: cmps[0] is: Ka
+3/18/2018 11:59:34 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:34 AM: L is, Kd 1.000000 1.000000 1.000000
+3/18/2018 11:59:34 AM: cmps[0] is: Kd
+3/18/2018 11:59:34 AM: data is, 1.000000 1.000000 1.000000
+3/18/2018 11:59:34 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: cmps[0] is: Ks
+3/18/2018 11:59:34 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:34 AM: L is, 
+3/18/2018 11:59:34 AM: cmps[0] is: 
+3/18/2018 11:59:34 AM: data is, 
+3/18/2018 11:59:34 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:34 AM: L is, newmtl _Cladding_Stucco_White_4
+3/18/2018 11:59:35 AM: cmps[0] is: newmtl
+3/18/2018 11:59:35 AM: data is, _Cladding_Stucco_White_4
+3/18/2018 11:59:35 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:35 AM: cmps[0] is: Ka
+3/18/2018 11:59:35 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:35 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:59:35 AM: cmps[0] is: Kd
+3/18/2018 11:59:35 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:59:35 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:35 AM: cmps[0] is: Ks
+3/18/2018 11:59:35 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:35 AM: L is, map_Kd CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 11:59:35 AM: cmps[0] is: map_Kd
+3/18/2018 11:59:35 AM: data is, CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 11:59:35 AM: L is, 
+3/18/2018 11:59:35 AM: cmps[0] is: 
+3/18/2018 11:59:35 AM: data is, 
+3/18/2018 11:59:35 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:35 AM: L is, newmtl _7
+3/18/2018 11:59:35 AM: cmps[0] is: newmtl
+3/18/2018 11:59:35 AM: data is, _7
+3/18/2018 11:59:35 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:35 AM: cmps[0] is: Ka
+3/18/2018 11:59:35 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:35 AM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 11:59:35 AM: cmps[0] is: Kd
+3/18/2018 11:59:35 AM: data is, 0.298039 0.298039 0.298039
+3/18/2018 11:59:35 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:35 AM: cmps[0] is: Ks
+3/18/2018 11:59:35 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:35 AM: L is, 
+3/18/2018 11:59:35 AM: cmps[0] is: 
+3/18/2018 11:59:35 AM: data is, 
+3/18/2018 11:59:35 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:35 AM: L is, newmtl _Cladding_Stucco_White_3
+3/18/2018 11:59:35 AM: cmps[0] is: newmtl
+3/18/2018 11:59:35 AM: data is, _Cladding_Stucco_White_3
+3/18/2018 11:59:35 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:35 AM: cmps[0] is: Ka
+3/18/2018 11:59:35 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:35 AM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 11:59:35 AM: cmps[0] is: Kd
+3/18/2018 11:59:35 AM: data is, 0.784314 0.784314 0.784314
+3/18/2018 11:59:35 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:35 AM: cmps[0] is: Ks
+3/18/2018 11:59:35 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:35 AM: L is, map_Kd CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 11:59:35 AM: cmps[0] is: map_Kd
+3/18/2018 11:59:35 AM: data is, CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 11:59:35 AM: L is, 
+3/18/2018 11:59:35 AM: cmps[0] is: 
+3/18/2018 11:59:35 AM: data is, 
+3/18/2018 11:59:35 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:35 AM: L is, newmtl _6
+3/18/2018 11:59:35 AM: cmps[0] is: newmtl
+3/18/2018 11:59:35 AM: data is, _6
+3/18/2018 11:59:35 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:35 AM: cmps[0] is: Ka
+3/18/2018 11:59:35 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:35 AM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 11:59:35 AM: cmps[0] is: Kd
+3/18/2018 11:59:35 AM: data is, 0.298039 0.298039 0.298039
+3/18/2018 11:59:35 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:35 AM: cmps[0] is: Ks
+3/18/2018 11:59:35 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:35 AM: L is, 
+3/18/2018 11:59:35 AM: cmps[0] is: 
+3/18/2018 11:59:35 AM: data is, 
+3/18/2018 11:59:35 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:35 AM: L is, newmtl _Brick_Tumbled_2
+3/18/2018 11:59:35 AM: cmps[0] is: newmtl
+3/18/2018 11:59:35 AM: data is, _Brick_Tumbled_2
+3/18/2018 11:59:35 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:35 AM: cmps[0] is: Ka
+3/18/2018 11:59:35 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:35 AM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 11:59:35 AM: cmps[0] is: Kd
+3/18/2018 11:59:35 AM: data is, 0.529412 0.517647 0.517647
+3/18/2018 11:59:35 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:35 AM: cmps[0] is: Ks
+3/18/2018 11:59:35 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:35 AM: L is, map_Kd CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 11:59:35 AM: cmps[0] is: map_Kd
+3/18/2018 11:59:35 AM: data is, CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 11:59:35 AM: L is, 
+3/18/2018 11:59:35 AM: cmps[0] is: 
+3/18/2018 11:59:35 AM: data is, 
+3/18/2018 11:59:35 AM: cmps[0] failed all if checks is: 
+3/18/2018 11:59:35 AM: L is, newmtl _Brick_Tumbled_1
+3/18/2018 11:59:35 AM: cmps[0] is: newmtl
+3/18/2018 11:59:35 AM: data is, _Brick_Tumbled_1
+3/18/2018 11:59:35 AM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 11:59:35 AM: cmps[0] is: Ka
+3/18/2018 11:59:35 AM: data is, 0.000000 0.000000 0.000000
+3/18/2018 11:59:35 AM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 11:59:35 AM: cmps[0] is: Kd
+3/18/2018 11:59:35 AM: data is, 0.529412 0.517647 0.517647
+3/18/2018 11:59:35 AM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 11:59:35 AM: cmps[0] is: Ks
+3/18/2018 11:59:35 AM: data is, 0.330000 0.330000 0.330000
+3/18/2018 11:59:35 AM: L is, map_Kd CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 11:59:35 AM: cmps[0] is: map_Kd
+3/18/2018 11:59:35 AM: data is, CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 11:59:35 AM: L is, 
+3/18/2018 11:59:35 AM: cmps[0] is: 
+3/18/2018 11:59:35 AM: data is, 
+3/18/2018 11:59:35 AM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:15 PM: Grid Tile Tagged, Name: Lot At X=-134.4395 Y=-134.4395 Z=-61.39755
+3/18/2018 12:00:22 PM: L is, #
+3/18/2018 12:00:22 PM: cmps[0] is: #
+3/18/2018 12:00:22 PM: data is, #
+3/18/2018 12:00:22 PM: cmps[0] failed all if checks is: #
+3/18/2018 12:00:22 PM: L is, ## Alias OBJ Material File
+3/18/2018 12:00:22 PM: cmps[0] is: ##
+3/18/2018 12:00:22 PM: data is, Alias OBJ Material File
+3/18/2018 12:00:22 PM: cmps[0] failed all if checks is: ##
+3/18/2018 12:00:22 PM: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 12:00:22 PM: cmps[0] is: #
+3/18/2018 12:00:22 PM: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 12:00:22 PM: cmps[0] failed all if checks is: #
+3/18/2018 12:00:22 PM: L is, 
+3/18/2018 12:00:22 PM: cmps[0] is: 
+3/18/2018 12:00:22 PM: data is, 
+3/18/2018 12:00:22 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:22 PM: L is, newmtl Brick_Antique
+3/18/2018 12:00:22 PM: cmps[0] is: newmtl
+3/18/2018 12:00:22 PM: data is, Brick_Antique
+3/18/2018 12:00:22 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:22 PM: cmps[0] is: Ka
+3/18/2018 12:00:22 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:22 PM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 12:00:22 PM: cmps[0] is: Kd
+3/18/2018 12:00:22 PM: data is, 0.576471 0.411765 0.278431
+3/18/2018 12:00:22 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:22 PM: cmps[0] is: Ks
+3/18/2018 12:00:22 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:22 PM: L is, map_Kd CIBC/Brick_Antique.jpg
+3/18/2018 12:00:22 PM: cmps[0] is: map_Kd
+3/18/2018 12:00:22 PM: data is, CIBC/Brick_Antique.jpg
+3/18/2018 12:00:22 PM: L is, 
+3/18/2018 12:00:22 PM: cmps[0] is: 
+3/18/2018 12:00:22 PM: data is, 
+3/18/2018 12:00:22 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:22 PM: L is, newmtl _Cladding_Stucco_White_5
+3/18/2018 12:00:22 PM: cmps[0] is: newmtl
+3/18/2018 12:00:22 PM: data is, _Cladding_Stucco_White_5
+3/18/2018 12:00:22 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:22 PM: cmps[0] is: Ka
+3/18/2018 12:00:22 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:22 PM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 12:00:22 PM: cmps[0] is: Kd
+3/18/2018 12:00:22 PM: data is, 0.784314 0.784314 0.784314
+3/18/2018 12:00:22 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:22 PM: cmps[0] is: Ks
+3/18/2018 12:00:22 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:22 PM: L is, 
+3/18/2018 12:00:22 PM: cmps[0] is: 
+3/18/2018 12:00:22 PM: data is, 
+3/18/2018 12:00:22 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:22 PM: L is, newmtl _Cladding_Stucco_White_1
+3/18/2018 12:00:22 PM: cmps[0] is: newmtl
+3/18/2018 12:00:22 PM: data is, _Cladding_Stucco_White_1
+3/18/2018 12:00:22 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:22 PM: cmps[0] is: Ka
+3/18/2018 12:00:22 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:22 PM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 12:00:22 PM: cmps[0] is: Kd
+3/18/2018 12:00:22 PM: data is, 0.784314 0.784314 0.784314
+3/18/2018 12:00:22 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:22 PM: cmps[0] is: Ks
+3/18/2018 12:00:22 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:22 PM: L is, map_Kd CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 12:00:22 PM: cmps[0] is: map_Kd
+3/18/2018 12:00:22 PM: data is, CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 12:00:22 PM: L is, 
+3/18/2018 12:00:22 PM: cmps[0] is: 
+3/18/2018 12:00:22 PM: data is, 
+3/18/2018 12:00:22 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:22 PM: L is, newmtl _3
+3/18/2018 12:00:22 PM: cmps[0] is: newmtl
+3/18/2018 12:00:22 PM: data is, _3
+3/18/2018 12:00:22 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:22 PM: cmps[0] is: Ka
+3/18/2018 12:00:22 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:22 PM: L is, Kd 0.678431 0.000000 0.078431
+3/18/2018 12:00:22 PM: cmps[0] is: Kd
+3/18/2018 12:00:22 PM: data is, 0.678431 0.000000 0.078431
+3/18/2018 12:00:22 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:22 PM: cmps[0] is: Ks
+3/18/2018 12:00:22 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:22 PM: L is, 
+3/18/2018 12:00:22 PM: cmps[0] is: 
+3/18/2018 12:00:22 PM: data is, 
+3/18/2018 12:00:22 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:22 PM: L is, newmtl Translucent_Glass_Tinted
+3/18/2018 12:00:22 PM: cmps[0] is: newmtl
+3/18/2018 12:00:22 PM: data is, Translucent_Glass_Tinted
+3/18/2018 12:00:22 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:22 PM: cmps[0] is: Ka
+3/18/2018 12:00:22 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:22 PM: L is, Kd 0.027451 0.788235 0.941176
+3/18/2018 12:00:22 PM: cmps[0] is: Kd
+3/18/2018 12:00:22 PM: data is, 0.027451 0.788235 0.941176
+3/18/2018 12:00:22 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:22 PM: cmps[0] is: Ks
+3/18/2018 12:00:22 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:22 PM: L is, d 0.480000
+3/18/2018 12:00:22 PM: cmps[0] is: d
+3/18/2018 12:00:22 PM: data is, 0.480000
+3/18/2018 12:00:22 PM: L is, map_Kd CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 12:00:22 PM: cmps[0] is: map_Kd
+3/18/2018 12:00:22 PM: data is, CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 12:00:22 PM: L is, 
+3/18/2018 12:00:22 PM: cmps[0] is: 
+3/18/2018 12:00:22 PM: data is, 
+3/18/2018 12:00:22 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:22 PM: L is, newmtl _5
+3/18/2018 12:00:22 PM: cmps[0] is: newmtl
+3/18/2018 12:00:22 PM: data is, _5
+3/18/2018 12:00:23 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: cmps[0] is: Ka
+3/18/2018 12:00:23 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: L is, Kd 0.721569 0.756863 0.000000
+3/18/2018 12:00:23 PM: cmps[0] is: Kd
+3/18/2018 12:00:23 PM: data is, 0.721569 0.756863 0.000000
+3/18/2018 12:00:23 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: cmps[0] is: Ks
+3/18/2018 12:00:23 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: L is, 
+3/18/2018 12:00:23 PM: cmps[0] is: 
+3/18/2018 12:00:23 PM: data is, 
+3/18/2018 12:00:23 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:23 PM: L is, newmtl _LightGray_
+3/18/2018 12:00:23 PM: cmps[0] is: newmtl
+3/18/2018 12:00:23 PM: data is, _LightGray_
+3/18/2018 12:00:23 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: cmps[0] is: Ka
+3/18/2018 12:00:23 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: L is, Kd 0.662745 0.662745 0.662745
+3/18/2018 12:00:23 PM: cmps[0] is: Kd
+3/18/2018 12:00:23 PM: data is, 0.662745 0.662745 0.662745
+3/18/2018 12:00:23 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: cmps[0] is: Ks
+3/18/2018 12:00:23 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: L is, 
+3/18/2018 12:00:23 PM: cmps[0] is: 
+3/18/2018 12:00:23 PM: data is, 
+3/18/2018 12:00:23 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:23 PM: L is, newmtl _Brick_Antique_2
+3/18/2018 12:00:23 PM: cmps[0] is: newmtl
+3/18/2018 12:00:23 PM: data is, _Brick_Antique_2
+3/18/2018 12:00:23 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: cmps[0] is: Ka
+3/18/2018 12:00:23 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 12:00:23 PM: cmps[0] is: Kd
+3/18/2018 12:00:23 PM: data is, 0.576471 0.411765 0.278431
+3/18/2018 12:00:23 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: cmps[0] is: Ks
+3/18/2018 12:00:23 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: L is, map_Kd CIBC/_Brick_Antique_2.jpg
+3/18/2018 12:00:23 PM: cmps[0] is: map_Kd
+3/18/2018 12:00:23 PM: data is, CIBC/_Brick_Antique_2.jpg
+3/18/2018 12:00:23 PM: L is, 
+3/18/2018 12:00:23 PM: cmps[0] is: 
+3/18/2018 12:00:23 PM: data is, 
+3/18/2018 12:00:23 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:23 PM: L is, newmtl BackColor
+3/18/2018 12:00:23 PM: cmps[0] is: newmtl
+3/18/2018 12:00:23 PM: data is, BackColor
+3/18/2018 12:00:23 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: cmps[0] is: Ka
+3/18/2018 12:00:23 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: L is, Kd 0.643137 0.698039 0.733333
+3/18/2018 12:00:23 PM: cmps[0] is: Kd
+3/18/2018 12:00:23 PM: data is, 0.643137 0.698039 0.733333
+3/18/2018 12:00:23 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: cmps[0] is: Ks
+3/18/2018 12:00:23 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: L is, 
+3/18/2018 12:00:23 PM: cmps[0] is: 
+3/18/2018 12:00:23 PM: data is, 
+3/18/2018 12:00:23 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:23 PM: L is, newmtl _Brick_Antique_3
+3/18/2018 12:00:23 PM: cmps[0] is: newmtl
+3/18/2018 12:00:23 PM: data is, _Brick_Antique_3
+3/18/2018 12:00:23 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: cmps[0] is: Ka
+3/18/2018 12:00:23 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 12:00:23 PM: cmps[0] is: Kd
+3/18/2018 12:00:23 PM: data is, 0.576471 0.411765 0.278431
+3/18/2018 12:00:23 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: cmps[0] is: Ks
+3/18/2018 12:00:23 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: L is, map_Kd CIBC/_Brick_Antique_3.jpg
+3/18/2018 12:00:23 PM: cmps[0] is: map_Kd
+3/18/2018 12:00:23 PM: data is, CIBC/_Brick_Antique_3.jpg
+3/18/2018 12:00:23 PM: L is, 
+3/18/2018 12:00:23 PM: cmps[0] is: 
+3/18/2018 12:00:23 PM: data is, 
+3/18/2018 12:00:23 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:23 PM: L is, newmtl _Brick_Antique_1
+3/18/2018 12:00:23 PM: cmps[0] is: newmtl
+3/18/2018 12:00:23 PM: data is, _Brick_Antique_1
+3/18/2018 12:00:23 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: cmps[0] is: Ka
+3/18/2018 12:00:23 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 12:00:23 PM: cmps[0] is: Kd
+3/18/2018 12:00:23 PM: data is, 0.576471 0.411765 0.278431
+3/18/2018 12:00:23 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: cmps[0] is: Ks
+3/18/2018 12:00:23 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: L is, map_Kd CIBC/_Brick_Antique_1.jpg
+3/18/2018 12:00:23 PM: cmps[0] is: map_Kd
+3/18/2018 12:00:23 PM: data is, CIBC/_Brick_Antique_1.jpg
+3/18/2018 12:00:23 PM: L is, 
+3/18/2018 12:00:23 PM: cmps[0] is: 
+3/18/2018 12:00:23 PM: data is, 
+3/18/2018 12:00:23 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:23 PM: L is, newmtl _8
+3/18/2018 12:00:23 PM: cmps[0] is: newmtl
+3/18/2018 12:00:23 PM: data is, _8
+3/18/2018 12:00:23 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: cmps[0] is: Ka
+3/18/2018 12:00:23 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: L is, Kd 0.980392 1.000000 0.717647
+3/18/2018 12:00:23 PM: cmps[0] is: Kd
+3/18/2018 12:00:23 PM: data is, 0.980392 1.000000 0.717647
+3/18/2018 12:00:23 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: cmps[0] is: Ks
+3/18/2018 12:00:23 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: L is, 
+3/18/2018 12:00:23 PM: cmps[0] is: 
+3/18/2018 12:00:23 PM: data is, 
+3/18/2018 12:00:23 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:23 PM: L is, newmtl FrontColor
+3/18/2018 12:00:23 PM: cmps[0] is: newmtl
+3/18/2018 12:00:23 PM: data is, FrontColor
+3/18/2018 12:00:23 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: cmps[0] is: Ka
+3/18/2018 12:00:23 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: L is, Kd 1.000000 1.000000 1.000000
+3/18/2018 12:00:23 PM: cmps[0] is: Kd
+3/18/2018 12:00:23 PM: data is, 1.000000 1.000000 1.000000
+3/18/2018 12:00:23 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: cmps[0] is: Ks
+3/18/2018 12:00:23 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: L is, 
+3/18/2018 12:00:23 PM: cmps[0] is: 
+3/18/2018 12:00:23 PM: data is, 
+3/18/2018 12:00:23 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:23 PM: L is, newmtl _Cladding_Stucco_White_4
+3/18/2018 12:00:23 PM: cmps[0] is: newmtl
+3/18/2018 12:00:23 PM: data is, _Cladding_Stucco_White_4
+3/18/2018 12:00:23 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: cmps[0] is: Ka
+3/18/2018 12:00:23 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 12:00:23 PM: cmps[0] is: Kd
+3/18/2018 12:00:23 PM: data is, 0.784314 0.784314 0.784314
+3/18/2018 12:00:23 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: cmps[0] is: Ks
+3/18/2018 12:00:23 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: L is, map_Kd CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 12:00:23 PM: cmps[0] is: map_Kd
+3/18/2018 12:00:23 PM: data is, CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 12:00:23 PM: L is, 
+3/18/2018 12:00:23 PM: cmps[0] is: 
+3/18/2018 12:00:23 PM: data is, 
+3/18/2018 12:00:23 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:23 PM: L is, newmtl _7
+3/18/2018 12:00:23 PM: cmps[0] is: newmtl
+3/18/2018 12:00:23 PM: data is, _7
+3/18/2018 12:00:23 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: cmps[0] is: Ka
+3/18/2018 12:00:23 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 12:00:23 PM: cmps[0] is: Kd
+3/18/2018 12:00:23 PM: data is, 0.298039 0.298039 0.298039
+3/18/2018 12:00:23 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: cmps[0] is: Ks
+3/18/2018 12:00:23 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: L is, 
+3/18/2018 12:00:23 PM: cmps[0] is: 
+3/18/2018 12:00:23 PM: data is, 
+3/18/2018 12:00:23 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:23 PM: L is, newmtl _Cladding_Stucco_White_3
+3/18/2018 12:00:23 PM: cmps[0] is: newmtl
+3/18/2018 12:00:23 PM: data is, _Cladding_Stucco_White_3
+3/18/2018 12:00:23 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: cmps[0] is: Ka
+3/18/2018 12:00:23 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 12:00:23 PM: cmps[0] is: Kd
+3/18/2018 12:00:23 PM: data is, 0.784314 0.784314 0.784314
+3/18/2018 12:00:23 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: cmps[0] is: Ks
+3/18/2018 12:00:23 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: L is, map_Kd CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 12:00:23 PM: cmps[0] is: map_Kd
+3/18/2018 12:00:23 PM: data is, CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 12:00:23 PM: L is, 
+3/18/2018 12:00:23 PM: cmps[0] is: 
+3/18/2018 12:00:23 PM: data is, 
+3/18/2018 12:00:23 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:23 PM: L is, newmtl _6
+3/18/2018 12:00:23 PM: cmps[0] is: newmtl
+3/18/2018 12:00:23 PM: data is, _6
+3/18/2018 12:00:23 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: cmps[0] is: Ka
+3/18/2018 12:00:23 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 12:00:23 PM: cmps[0] is: Kd
+3/18/2018 12:00:23 PM: data is, 0.298039 0.298039 0.298039
+3/18/2018 12:00:23 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: cmps[0] is: Ks
+3/18/2018 12:00:23 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: L is, 
+3/18/2018 12:00:23 PM: cmps[0] is: 
+3/18/2018 12:00:23 PM: data is, 
+3/18/2018 12:00:23 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:23 PM: L is, newmtl _Brick_Tumbled_2
+3/18/2018 12:00:23 PM: cmps[0] is: newmtl
+3/18/2018 12:00:23 PM: data is, _Brick_Tumbled_2
+3/18/2018 12:00:23 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: cmps[0] is: Ka
+3/18/2018 12:00:23 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 12:00:23 PM: cmps[0] is: Kd
+3/18/2018 12:00:23 PM: data is, 0.529412 0.517647 0.517647
+3/18/2018 12:00:23 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: cmps[0] is: Ks
+3/18/2018 12:00:23 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: L is, map_Kd CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 12:00:23 PM: cmps[0] is: map_Kd
+3/18/2018 12:00:23 PM: data is, CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 12:00:23 PM: L is, 
+3/18/2018 12:00:23 PM: cmps[0] is: 
+3/18/2018 12:00:23 PM: data is, 
+3/18/2018 12:00:23 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:00:23 PM: L is, newmtl _Brick_Tumbled_1
+3/18/2018 12:00:23 PM: cmps[0] is: newmtl
+3/18/2018 12:00:23 PM: data is, _Brick_Tumbled_1
+3/18/2018 12:00:23 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: cmps[0] is: Ka
+3/18/2018 12:00:23 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 12:00:23 PM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 12:00:23 PM: cmps[0] is: Kd
+3/18/2018 12:00:23 PM: data is, 0.529412 0.517647 0.517647
+3/18/2018 12:00:23 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: cmps[0] is: Ks
+3/18/2018 12:00:23 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 12:00:23 PM: L is, map_Kd CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 12:00:23 PM: cmps[0] is: map_Kd
+3/18/2018 12:00:23 PM: data is, CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 12:00:23 PM: L is, 
+3/18/2018 12:00:23 PM: cmps[0] is: 
+3/18/2018 12:00:23 PM: data is, 
+3/18/2018 12:00:23 PM: cmps[0] failed all if checks is: 
+3/18/2018 12:09:27 PM: Grid Tile Tagged, Name: Lot At X=-134.4395 Y=-134.4395 Z=-61.39755
+3/18/2018 6:04:46 PM: Grid Tile Tagged, Name: Lot At X=-89.55574 Y=-89.55574 Z=12.59708
+3/18/2018 6:04:55 PM: L is, #
+3/18/2018 6:04:55 PM: cmps[0] is: #
+3/18/2018 6:04:55 PM: data is, #
+3/18/2018 6:04:55 PM: cmps[0] failed all if checks is: #
+3/18/2018 6:04:55 PM: L is, ## Alias OBJ Material File
+3/18/2018 6:04:55 PM: cmps[0] is: ##
+3/18/2018 6:04:55 PM: data is, Alias OBJ Material File
+3/18/2018 6:04:55 PM: cmps[0] failed all if checks is: ##
+3/18/2018 6:04:55 PM: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 6:04:55 PM: cmps[0] is: #
+3/18/2018 6:04:55 PM: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 6:04:55 PM: cmps[0] failed all if checks is: #
+3/18/2018 6:04:55 PM: L is, 
+3/18/2018 6:04:55 PM: cmps[0] is: 
+3/18/2018 6:04:55 PM: data is, 
+3/18/2018 6:04:55 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:55 PM: L is, newmtl Brick_Antique
+3/18/2018 6:04:55 PM: cmps[0] is: newmtl
+3/18/2018 6:04:55 PM: data is, Brick_Antique
+3/18/2018 6:04:55 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: cmps[0] is: Ka
+3/18/2018 6:04:55 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 6:04:55 PM: cmps[0] is: Kd
+3/18/2018 6:04:55 PM: data is, 0.576471 0.411765 0.278431
+3/18/2018 6:04:55 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: cmps[0] is: Ks
+3/18/2018 6:04:55 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: L is, map_Kd CIBC/Brick_Antique.jpg
+3/18/2018 6:04:55 PM: cmps[0] is: map_Kd
+3/18/2018 6:04:55 PM: data is, CIBC/Brick_Antique.jpg
+3/18/2018 6:04:55 PM: L is, 
+3/18/2018 6:04:55 PM: cmps[0] is: 
+3/18/2018 6:04:55 PM: data is, 
+3/18/2018 6:04:55 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:55 PM: L is, newmtl _Cladding_Stucco_White_5
+3/18/2018 6:04:55 PM: cmps[0] is: newmtl
+3/18/2018 6:04:55 PM: data is, _Cladding_Stucco_White_5
+3/18/2018 6:04:55 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: cmps[0] is: Ka
+3/18/2018 6:04:55 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 6:04:55 PM: cmps[0] is: Kd
+3/18/2018 6:04:55 PM: data is, 0.784314 0.784314 0.784314
+3/18/2018 6:04:55 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: cmps[0] is: Ks
+3/18/2018 6:04:55 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: L is, 
+3/18/2018 6:04:55 PM: cmps[0] is: 
+3/18/2018 6:04:55 PM: data is, 
+3/18/2018 6:04:55 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:55 PM: L is, newmtl _Cladding_Stucco_White_1
+3/18/2018 6:04:55 PM: cmps[0] is: newmtl
+3/18/2018 6:04:55 PM: data is, _Cladding_Stucco_White_1
+3/18/2018 6:04:55 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: cmps[0] is: Ka
+3/18/2018 6:04:55 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 6:04:55 PM: cmps[0] is: Kd
+3/18/2018 6:04:55 PM: data is, 0.784314 0.784314 0.784314
+3/18/2018 6:04:55 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: cmps[0] is: Ks
+3/18/2018 6:04:55 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: L is, map_Kd CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 6:04:55 PM: cmps[0] is: map_Kd
+3/18/2018 6:04:55 PM: data is, CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 6:04:55 PM: L is, 
+3/18/2018 6:04:55 PM: cmps[0] is: 
+3/18/2018 6:04:55 PM: data is, 
+3/18/2018 6:04:55 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:55 PM: L is, newmtl _3
+3/18/2018 6:04:55 PM: cmps[0] is: newmtl
+3/18/2018 6:04:55 PM: data is, _3
+3/18/2018 6:04:55 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: cmps[0] is: Ka
+3/18/2018 6:04:55 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: L is, Kd 0.678431 0.000000 0.078431
+3/18/2018 6:04:55 PM: cmps[0] is: Kd
+3/18/2018 6:04:55 PM: data is, 0.678431 0.000000 0.078431
+3/18/2018 6:04:55 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: cmps[0] is: Ks
+3/18/2018 6:04:55 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: L is, 
+3/18/2018 6:04:55 PM: cmps[0] is: 
+3/18/2018 6:04:55 PM: data is, 
+3/18/2018 6:04:55 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:55 PM: L is, newmtl Translucent_Glass_Tinted
+3/18/2018 6:04:55 PM: cmps[0] is: newmtl
+3/18/2018 6:04:55 PM: data is, Translucent_Glass_Tinted
+3/18/2018 6:04:55 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: cmps[0] is: Ka
+3/18/2018 6:04:55 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: L is, Kd 0.027451 0.788235 0.941176
+3/18/2018 6:04:55 PM: cmps[0] is: Kd
+3/18/2018 6:04:55 PM: data is, 0.027451 0.788235 0.941176
+3/18/2018 6:04:55 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: cmps[0] is: Ks
+3/18/2018 6:04:55 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: L is, d 0.480000
+3/18/2018 6:04:55 PM: cmps[0] is: d
+3/18/2018 6:04:55 PM: data is, 0.480000
+3/18/2018 6:04:55 PM: L is, map_Kd CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 6:04:55 PM: cmps[0] is: map_Kd
+3/18/2018 6:04:55 PM: data is, CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 6:04:55 PM: L is, 
+3/18/2018 6:04:55 PM: cmps[0] is: 
+3/18/2018 6:04:55 PM: data is, 
+3/18/2018 6:04:55 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:55 PM: L is, newmtl _5
+3/18/2018 6:04:55 PM: cmps[0] is: newmtl
+3/18/2018 6:04:55 PM: data is, _5
+3/18/2018 6:04:55 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: cmps[0] is: Ka
+3/18/2018 6:04:55 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: L is, Kd 0.721569 0.756863 0.000000
+3/18/2018 6:04:55 PM: cmps[0] is: Kd
+3/18/2018 6:04:55 PM: data is, 0.721569 0.756863 0.000000
+3/18/2018 6:04:55 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: cmps[0] is: Ks
+3/18/2018 6:04:55 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: L is, 
+3/18/2018 6:04:55 PM: cmps[0] is: 
+3/18/2018 6:04:55 PM: data is, 
+3/18/2018 6:04:55 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:55 PM: L is, newmtl _LightGray_
+3/18/2018 6:04:55 PM: cmps[0] is: newmtl
+3/18/2018 6:04:55 PM: data is, _LightGray_
+3/18/2018 6:04:55 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: cmps[0] is: Ka
+3/18/2018 6:04:55 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: L is, Kd 0.662745 0.662745 0.662745
+3/18/2018 6:04:55 PM: cmps[0] is: Kd
+3/18/2018 6:04:55 PM: data is, 0.662745 0.662745 0.662745
+3/18/2018 6:04:55 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: cmps[0] is: Ks
+3/18/2018 6:04:55 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: L is, 
+3/18/2018 6:04:55 PM: cmps[0] is: 
+3/18/2018 6:04:55 PM: data is, 
+3/18/2018 6:04:55 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:55 PM: L is, newmtl _Brick_Antique_2
+3/18/2018 6:04:55 PM: cmps[0] is: newmtl
+3/18/2018 6:04:55 PM: data is, _Brick_Antique_2
+3/18/2018 6:04:55 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: cmps[0] is: Ka
+3/18/2018 6:04:55 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 6:04:55 PM: cmps[0] is: Kd
+3/18/2018 6:04:55 PM: data is, 0.576471 0.411765 0.278431
+3/18/2018 6:04:55 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: cmps[0] is: Ks
+3/18/2018 6:04:55 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: L is, map_Kd CIBC/_Brick_Antique_2.jpg
+3/18/2018 6:04:55 PM: cmps[0] is: map_Kd
+3/18/2018 6:04:55 PM: data is, CIBC/_Brick_Antique_2.jpg
+3/18/2018 6:04:55 PM: L is, 
+3/18/2018 6:04:55 PM: cmps[0] is: 
+3/18/2018 6:04:55 PM: data is, 
+3/18/2018 6:04:55 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:55 PM: L is, newmtl BackColor
+3/18/2018 6:04:55 PM: cmps[0] is: newmtl
+3/18/2018 6:04:55 PM: data is, BackColor
+3/18/2018 6:04:55 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: cmps[0] is: Ka
+3/18/2018 6:04:55 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: L is, Kd 0.643137 0.698039 0.733333
+3/18/2018 6:04:55 PM: cmps[0] is: Kd
+3/18/2018 6:04:55 PM: data is, 0.643137 0.698039 0.733333
+3/18/2018 6:04:55 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: cmps[0] is: Ks
+3/18/2018 6:04:55 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: L is, 
+3/18/2018 6:04:55 PM: cmps[0] is: 
+3/18/2018 6:04:55 PM: data is, 
+3/18/2018 6:04:55 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:55 PM: L is, newmtl _Brick_Antique_3
+3/18/2018 6:04:55 PM: cmps[0] is: newmtl
+3/18/2018 6:04:55 PM: data is, _Brick_Antique_3
+3/18/2018 6:04:55 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: cmps[0] is: Ka
+3/18/2018 6:04:55 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 6:04:55 PM: cmps[0] is: Kd
+3/18/2018 6:04:55 PM: data is, 0.576471 0.411765 0.278431
+3/18/2018 6:04:55 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: cmps[0] is: Ks
+3/18/2018 6:04:55 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: L is, map_Kd CIBC/_Brick_Antique_3.jpg
+3/18/2018 6:04:55 PM: cmps[0] is: map_Kd
+3/18/2018 6:04:55 PM: data is, CIBC/_Brick_Antique_3.jpg
+3/18/2018 6:04:55 PM: L is, 
+3/18/2018 6:04:55 PM: cmps[0] is: 
+3/18/2018 6:04:55 PM: data is, 
+3/18/2018 6:04:55 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:55 PM: L is, newmtl _Brick_Antique_1
+3/18/2018 6:04:55 PM: cmps[0] is: newmtl
+3/18/2018 6:04:55 PM: data is, _Brick_Antique_1
+3/18/2018 6:04:55 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: cmps[0] is: Ka
+3/18/2018 6:04:55 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:55 PM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 6:04:55 PM: cmps[0] is: Kd
+3/18/2018 6:04:55 PM: data is, 0.576471 0.411765 0.278431
+3/18/2018 6:04:55 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: cmps[0] is: Ks
+3/18/2018 6:04:55 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:55 PM: L is, map_Kd CIBC/_Brick_Antique_1.jpg
+3/18/2018 6:04:56 PM: cmps[0] is: map_Kd
+3/18/2018 6:04:56 PM: data is, CIBC/_Brick_Antique_1.jpg
+3/18/2018 6:04:56 PM: L is, 
+3/18/2018 6:04:56 PM: cmps[0] is: 
+3/18/2018 6:04:56 PM: data is, 
+3/18/2018 6:04:56 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:56 PM: L is, newmtl _8
+3/18/2018 6:04:56 PM: cmps[0] is: newmtl
+3/18/2018 6:04:56 PM: data is, _8
+3/18/2018 6:04:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:56 PM: cmps[0] is: Ka
+3/18/2018 6:04:56 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:56 PM: L is, Kd 0.980392 1.000000 0.717647
+3/18/2018 6:04:56 PM: cmps[0] is: Kd
+3/18/2018 6:04:56 PM: data is, 0.980392 1.000000 0.717647
+3/18/2018 6:04:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:56 PM: cmps[0] is: Ks
+3/18/2018 6:04:56 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:56 PM: L is, 
+3/18/2018 6:04:56 PM: cmps[0] is: 
+3/18/2018 6:04:56 PM: data is, 
+3/18/2018 6:04:56 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:56 PM: L is, newmtl FrontColor
+3/18/2018 6:04:56 PM: cmps[0] is: newmtl
+3/18/2018 6:04:56 PM: data is, FrontColor
+3/18/2018 6:04:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:56 PM: cmps[0] is: Ka
+3/18/2018 6:04:56 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:56 PM: L is, Kd 1.000000 1.000000 1.000000
+3/18/2018 6:04:56 PM: cmps[0] is: Kd
+3/18/2018 6:04:56 PM: data is, 1.000000 1.000000 1.000000
+3/18/2018 6:04:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:56 PM: cmps[0] is: Ks
+3/18/2018 6:04:56 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:56 PM: L is, 
+3/18/2018 6:04:56 PM: cmps[0] is: 
+3/18/2018 6:04:56 PM: data is, 
+3/18/2018 6:04:56 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:56 PM: L is, newmtl _Cladding_Stucco_White_4
+3/18/2018 6:04:56 PM: cmps[0] is: newmtl
+3/18/2018 6:04:56 PM: data is, _Cladding_Stucco_White_4
+3/18/2018 6:04:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:56 PM: cmps[0] is: Ka
+3/18/2018 6:04:56 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:56 PM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 6:04:56 PM: cmps[0] is: Kd
+3/18/2018 6:04:56 PM: data is, 0.784314 0.784314 0.784314
+3/18/2018 6:04:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:56 PM: cmps[0] is: Ks
+3/18/2018 6:04:56 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:56 PM: L is, map_Kd CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 6:04:56 PM: cmps[0] is: map_Kd
+3/18/2018 6:04:56 PM: data is, CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 6:04:56 PM: L is, 
+3/18/2018 6:04:56 PM: cmps[0] is: 
+3/18/2018 6:04:56 PM: data is, 
+3/18/2018 6:04:56 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:56 PM: L is, newmtl _7
+3/18/2018 6:04:56 PM: cmps[0] is: newmtl
+3/18/2018 6:04:56 PM: data is, _7
+3/18/2018 6:04:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:56 PM: cmps[0] is: Ka
+3/18/2018 6:04:56 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:56 PM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 6:04:56 PM: cmps[0] is: Kd
+3/18/2018 6:04:56 PM: data is, 0.298039 0.298039 0.298039
+3/18/2018 6:04:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:56 PM: cmps[0] is: Ks
+3/18/2018 6:04:56 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:56 PM: L is, 
+3/18/2018 6:04:56 PM: cmps[0] is: 
+3/18/2018 6:04:56 PM: data is, 
+3/18/2018 6:04:56 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:56 PM: L is, newmtl _Cladding_Stucco_White_3
+3/18/2018 6:04:56 PM: cmps[0] is: newmtl
+3/18/2018 6:04:56 PM: data is, _Cladding_Stucco_White_3
+3/18/2018 6:04:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:56 PM: cmps[0] is: Ka
+3/18/2018 6:04:56 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:56 PM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 6:04:56 PM: cmps[0] is: Kd
+3/18/2018 6:04:56 PM: data is, 0.784314 0.784314 0.784314
+3/18/2018 6:04:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:56 PM: cmps[0] is: Ks
+3/18/2018 6:04:56 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:56 PM: L is, map_Kd CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 6:04:56 PM: cmps[0] is: map_Kd
+3/18/2018 6:04:56 PM: data is, CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 6:04:56 PM: L is, 
+3/18/2018 6:04:56 PM: cmps[0] is: 
+3/18/2018 6:04:56 PM: data is, 
+3/18/2018 6:04:56 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:56 PM: L is, newmtl _6
+3/18/2018 6:04:56 PM: cmps[0] is: newmtl
+3/18/2018 6:04:56 PM: data is, _6
+3/18/2018 6:04:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:56 PM: cmps[0] is: Ka
+3/18/2018 6:04:56 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:56 PM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 6:04:56 PM: cmps[0] is: Kd
+3/18/2018 6:04:56 PM: data is, 0.298039 0.298039 0.298039
+3/18/2018 6:04:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:56 PM: cmps[0] is: Ks
+3/18/2018 6:04:56 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:56 PM: L is, 
+3/18/2018 6:04:56 PM: cmps[0] is: 
+3/18/2018 6:04:56 PM: data is, 
+3/18/2018 6:04:56 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:56 PM: L is, newmtl _Brick_Tumbled_2
+3/18/2018 6:04:56 PM: cmps[0] is: newmtl
+3/18/2018 6:04:56 PM: data is, _Brick_Tumbled_2
+3/18/2018 6:04:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:56 PM: cmps[0] is: Ka
+3/18/2018 6:04:56 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:56 PM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 6:04:56 PM: cmps[0] is: Kd
+3/18/2018 6:04:56 PM: data is, 0.529412 0.517647 0.517647
+3/18/2018 6:04:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:56 PM: cmps[0] is: Ks
+3/18/2018 6:04:56 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:56 PM: L is, map_Kd CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 6:04:56 PM: cmps[0] is: map_Kd
+3/18/2018 6:04:56 PM: data is, CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 6:04:56 PM: L is, 
+3/18/2018 6:04:56 PM: cmps[0] is: 
+3/18/2018 6:04:56 PM: data is, 
+3/18/2018 6:04:56 PM: cmps[0] failed all if checks is: 
+3/18/2018 6:04:56 PM: L is, newmtl _Brick_Tumbled_1
+3/18/2018 6:04:56 PM: cmps[0] is: newmtl
+3/18/2018 6:04:56 PM: data is, _Brick_Tumbled_1
+3/18/2018 6:04:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 6:04:56 PM: cmps[0] is: Ka
+3/18/2018 6:04:56 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 6:04:56 PM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 6:04:56 PM: cmps[0] is: Kd
+3/18/2018 6:04:56 PM: data is, 0.529412 0.517647 0.517647
+3/18/2018 6:04:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 6:04:56 PM: cmps[0] is: Ks
+3/18/2018 6:04:56 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 6:04:56 PM: L is, map_Kd CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 6:04:56 PM: cmps[0] is: map_Kd
+3/18/2018 6:04:56 PM: data is, CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 6:04:56 PM: L is, 
+3/18/2018 6:04:56 PM: cmps[0] is: 
+3/18/2018 6:04:56 PM: data is, 
+3/18/2018 6:04:56 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:07 PM: Grid Tile Tagged, Name: Lot At X=-89.55574 Y=-89.55574 Z=12.59708
+3/18/2018 7:16:10 PM: L is, #
+3/18/2018 7:16:10 PM: cmps[0] is: #
+3/18/2018 7:16:10 PM: data is, #
+3/18/2018 7:16:10 PM: cmps[0] failed all if checks is: #
+3/18/2018 7:16:10 PM: L is, ## Alias OBJ Material File
+3/18/2018 7:16:10 PM: cmps[0] is: ##
+3/18/2018 7:16:10 PM: data is, Alias OBJ Material File
+3/18/2018 7:16:10 PM: cmps[0] failed all if checks is: ##
+3/18/2018 7:16:10 PM: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 7:16:10 PM: cmps[0] is: #
+3/18/2018 7:16:10 PM: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 7:16:10 PM: cmps[0] failed all if checks is: #
+3/18/2018 7:16:10 PM: L is, 
+3/18/2018 7:16:10 PM: cmps[0] is: 
+3/18/2018 7:16:10 PM: data is, 
+3/18/2018 7:16:10 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:10 PM: L is, newmtl Brick_Antique
+3/18/2018 7:16:10 PM: cmps[0] is: newmtl
+3/18/2018 7:16:10 PM: data is, Brick_Antique
+3/18/2018 7:16:10 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:10 PM: cmps[0] is: Ka
+3/18/2018 7:16:10 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:10 PM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 7:16:10 PM: cmps[0] is: Kd
+3/18/2018 7:16:10 PM: data is, 0.576471 0.411765 0.278431
+3/18/2018 7:16:10 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:10 PM: cmps[0] is: Ks
+3/18/2018 7:16:10 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:10 PM: L is, map_Kd CIBC/Brick_Antique.jpg
+3/18/2018 7:16:10 PM: cmps[0] is: map_Kd
+3/18/2018 7:16:10 PM: data is, CIBC/Brick_Antique.jpg
+3/18/2018 7:16:10 PM: L is, 
+3/18/2018 7:16:10 PM: cmps[0] is: 
+3/18/2018 7:16:10 PM: data is, 
+3/18/2018 7:16:10 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:10 PM: L is, newmtl _Cladding_Stucco_White_5
+3/18/2018 7:16:10 PM: cmps[0] is: newmtl
+3/18/2018 7:16:10 PM: data is, _Cladding_Stucco_White_5
+3/18/2018 7:16:10 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:10 PM: cmps[0] is: Ka
+3/18/2018 7:16:10 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:10 PM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 7:16:10 PM: cmps[0] is: Kd
+3/18/2018 7:16:10 PM: data is, 0.784314 0.784314 0.784314
+3/18/2018 7:16:10 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:10 PM: cmps[0] is: Ks
+3/18/2018 7:16:10 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:10 PM: L is, 
+3/18/2018 7:16:10 PM: cmps[0] is: 
+3/18/2018 7:16:10 PM: data is, 
+3/18/2018 7:16:10 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:10 PM: L is, newmtl _Cladding_Stucco_White_1
+3/18/2018 7:16:10 PM: cmps[0] is: newmtl
+3/18/2018 7:16:10 PM: data is, _Cladding_Stucco_White_1
+3/18/2018 7:16:10 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:10 PM: cmps[0] is: Ka
+3/18/2018 7:16:10 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:10 PM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 7:16:10 PM: cmps[0] is: Kd
+3/18/2018 7:16:10 PM: data is, 0.784314 0.784314 0.784314
+3/18/2018 7:16:10 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:10 PM: cmps[0] is: Ks
+3/18/2018 7:16:10 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:10 PM: L is, map_Kd CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 7:16:10 PM: cmps[0] is: map_Kd
+3/18/2018 7:16:10 PM: data is, CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 7:16:10 PM: L is, 
+3/18/2018 7:16:10 PM: cmps[0] is: 
+3/18/2018 7:16:10 PM: data is, 
+3/18/2018 7:16:10 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:10 PM: L is, newmtl _3
+3/18/2018 7:16:10 PM: cmps[0] is: newmtl
+3/18/2018 7:16:10 PM: data is, _3
+3/18/2018 7:16:10 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:10 PM: cmps[0] is: Ka
+3/18/2018 7:16:10 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:10 PM: L is, Kd 0.678431 0.000000 0.078431
+3/18/2018 7:16:10 PM: cmps[0] is: Kd
+3/18/2018 7:16:10 PM: data is, 0.678431 0.000000 0.078431
+3/18/2018 7:16:10 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:10 PM: cmps[0] is: Ks
+3/18/2018 7:16:10 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:10 PM: L is, 
+3/18/2018 7:16:10 PM: cmps[0] is: 
+3/18/2018 7:16:10 PM: data is, 
+3/18/2018 7:16:10 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:10 PM: L is, newmtl Translucent_Glass_Tinted
+3/18/2018 7:16:10 PM: cmps[0] is: newmtl
+3/18/2018 7:16:10 PM: data is, Translucent_Glass_Tinted
+3/18/2018 7:16:10 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:10 PM: cmps[0] is: Ka
+3/18/2018 7:16:10 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:10 PM: L is, Kd 0.027451 0.788235 0.941176
+3/18/2018 7:16:10 PM: cmps[0] is: Kd
+3/18/2018 7:16:10 PM: data is, 0.027451 0.788235 0.941176
+3/18/2018 7:16:10 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:10 PM: cmps[0] is: Ks
+3/18/2018 7:16:10 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:10 PM: L is, d 0.480000
+3/18/2018 7:16:10 PM: cmps[0] is: d
+3/18/2018 7:16:10 PM: data is, 0.480000
+3/18/2018 7:16:10 PM: L is, map_Kd CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 7:16:10 PM: cmps[0] is: map_Kd
+3/18/2018 7:16:10 PM: data is, CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 7:16:10 PM: L is, 
+3/18/2018 7:16:10 PM: cmps[0] is: 
+3/18/2018 7:16:10 PM: data is, 
+3/18/2018 7:16:10 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:10 PM: L is, newmtl _5
+3/18/2018 7:16:10 PM: cmps[0] is: newmtl
+3/18/2018 7:16:10 PM: data is, _5
+3/18/2018 7:16:10 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:10 PM: cmps[0] is: Ka
+3/18/2018 7:16:10 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:10 PM: L is, Kd 0.721569 0.756863 0.000000
+3/18/2018 7:16:10 PM: cmps[0] is: Kd
+3/18/2018 7:16:10 PM: data is, 0.721569 0.756863 0.000000
+3/18/2018 7:16:10 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:10 PM: cmps[0] is: Ks
+3/18/2018 7:16:10 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:10 PM: L is, 
+3/18/2018 7:16:10 PM: cmps[0] is: 
+3/18/2018 7:16:10 PM: data is, 
+3/18/2018 7:16:10 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:10 PM: L is, newmtl _LightGray_
+3/18/2018 7:16:10 PM: cmps[0] is: newmtl
+3/18/2018 7:16:10 PM: data is, _LightGray_
+3/18/2018 7:16:10 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:10 PM: cmps[0] is: Ka
+3/18/2018 7:16:10 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:10 PM: L is, Kd 0.662745 0.662745 0.662745
+3/18/2018 7:16:10 PM: cmps[0] is: Kd
+3/18/2018 7:16:10 PM: data is, 0.662745 0.662745 0.662745
+3/18/2018 7:16:10 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:10 PM: cmps[0] is: Ks
+3/18/2018 7:16:10 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:10 PM: L is, 
+3/18/2018 7:16:10 PM: cmps[0] is: 
+3/18/2018 7:16:10 PM: data is, 
+3/18/2018 7:16:10 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:10 PM: L is, newmtl _Brick_Antique_2
+3/18/2018 7:16:10 PM: cmps[0] is: newmtl
+3/18/2018 7:16:10 PM: data is, _Brick_Antique_2
+3/18/2018 7:16:10 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:10 PM: cmps[0] is: Ka
+3/18/2018 7:16:10 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 7:16:11 PM: cmps[0] is: Kd
+3/18/2018 7:16:11 PM: data is, 0.576471 0.411765 0.278431
+3/18/2018 7:16:11 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: cmps[0] is: Ks
+3/18/2018 7:16:11 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: L is, map_Kd CIBC/_Brick_Antique_2.jpg
+3/18/2018 7:16:11 PM: cmps[0] is: map_Kd
+3/18/2018 7:16:11 PM: data is, CIBC/_Brick_Antique_2.jpg
+3/18/2018 7:16:11 PM: L is, 
+3/18/2018 7:16:11 PM: cmps[0] is: 
+3/18/2018 7:16:11 PM: data is, 
+3/18/2018 7:16:11 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:11 PM: L is, newmtl BackColor
+3/18/2018 7:16:11 PM: cmps[0] is: newmtl
+3/18/2018 7:16:11 PM: data is, BackColor
+3/18/2018 7:16:11 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: cmps[0] is: Ka
+3/18/2018 7:16:11 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: L is, Kd 0.643137 0.698039 0.733333
+3/18/2018 7:16:11 PM: cmps[0] is: Kd
+3/18/2018 7:16:11 PM: data is, 0.643137 0.698039 0.733333
+3/18/2018 7:16:11 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: cmps[0] is: Ks
+3/18/2018 7:16:11 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: L is, 
+3/18/2018 7:16:11 PM: cmps[0] is: 
+3/18/2018 7:16:11 PM: data is, 
+3/18/2018 7:16:11 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:11 PM: L is, newmtl _Brick_Antique_3
+3/18/2018 7:16:11 PM: cmps[0] is: newmtl
+3/18/2018 7:16:11 PM: data is, _Brick_Antique_3
+3/18/2018 7:16:11 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: cmps[0] is: Ka
+3/18/2018 7:16:11 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 7:16:11 PM: cmps[0] is: Kd
+3/18/2018 7:16:11 PM: data is, 0.576471 0.411765 0.278431
+3/18/2018 7:16:11 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: cmps[0] is: Ks
+3/18/2018 7:16:11 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: L is, map_Kd CIBC/_Brick_Antique_3.jpg
+3/18/2018 7:16:11 PM: cmps[0] is: map_Kd
+3/18/2018 7:16:11 PM: data is, CIBC/_Brick_Antique_3.jpg
+3/18/2018 7:16:11 PM: L is, 
+3/18/2018 7:16:11 PM: cmps[0] is: 
+3/18/2018 7:16:11 PM: data is, 
+3/18/2018 7:16:11 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:11 PM: L is, newmtl _Brick_Antique_1
+3/18/2018 7:16:11 PM: cmps[0] is: newmtl
+3/18/2018 7:16:11 PM: data is, _Brick_Antique_1
+3/18/2018 7:16:11 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: cmps[0] is: Ka
+3/18/2018 7:16:11 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 7:16:11 PM: cmps[0] is: Kd
+3/18/2018 7:16:11 PM: data is, 0.576471 0.411765 0.278431
+3/18/2018 7:16:11 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: cmps[0] is: Ks
+3/18/2018 7:16:11 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: L is, map_Kd CIBC/_Brick_Antique_1.jpg
+3/18/2018 7:16:11 PM: cmps[0] is: map_Kd
+3/18/2018 7:16:11 PM: data is, CIBC/_Brick_Antique_1.jpg
+3/18/2018 7:16:11 PM: L is, 
+3/18/2018 7:16:11 PM: cmps[0] is: 
+3/18/2018 7:16:11 PM: data is, 
+3/18/2018 7:16:11 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:11 PM: L is, newmtl _8
+3/18/2018 7:16:11 PM: cmps[0] is: newmtl
+3/18/2018 7:16:11 PM: data is, _8
+3/18/2018 7:16:11 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: cmps[0] is: Ka
+3/18/2018 7:16:11 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: L is, Kd 0.980392 1.000000 0.717647
+3/18/2018 7:16:11 PM: cmps[0] is: Kd
+3/18/2018 7:16:11 PM: data is, 0.980392 1.000000 0.717647
+3/18/2018 7:16:11 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: cmps[0] is: Ks
+3/18/2018 7:16:11 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: L is, 
+3/18/2018 7:16:11 PM: cmps[0] is: 
+3/18/2018 7:16:11 PM: data is, 
+3/18/2018 7:16:11 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:11 PM: L is, newmtl FrontColor
+3/18/2018 7:16:11 PM: cmps[0] is: newmtl
+3/18/2018 7:16:11 PM: data is, FrontColor
+3/18/2018 7:16:11 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: cmps[0] is: Ka
+3/18/2018 7:16:11 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: L is, Kd 1.000000 1.000000 1.000000
+3/18/2018 7:16:11 PM: cmps[0] is: Kd
+3/18/2018 7:16:11 PM: data is, 1.000000 1.000000 1.000000
+3/18/2018 7:16:11 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: cmps[0] is: Ks
+3/18/2018 7:16:11 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: L is, 
+3/18/2018 7:16:11 PM: cmps[0] is: 
+3/18/2018 7:16:11 PM: data is, 
+3/18/2018 7:16:11 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:11 PM: L is, newmtl _Cladding_Stucco_White_4
+3/18/2018 7:16:11 PM: cmps[0] is: newmtl
+3/18/2018 7:16:11 PM: data is, _Cladding_Stucco_White_4
+3/18/2018 7:16:11 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: cmps[0] is: Ka
+3/18/2018 7:16:11 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 7:16:11 PM: cmps[0] is: Kd
+3/18/2018 7:16:11 PM: data is, 0.784314 0.784314 0.784314
+3/18/2018 7:16:11 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: cmps[0] is: Ks
+3/18/2018 7:16:11 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: L is, map_Kd CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 7:16:11 PM: cmps[0] is: map_Kd
+3/18/2018 7:16:11 PM: data is, CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 7:16:11 PM: L is, 
+3/18/2018 7:16:11 PM: cmps[0] is: 
+3/18/2018 7:16:11 PM: data is, 
+3/18/2018 7:16:11 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:11 PM: L is, newmtl _7
+3/18/2018 7:16:11 PM: cmps[0] is: newmtl
+3/18/2018 7:16:11 PM: data is, _7
+3/18/2018 7:16:11 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: cmps[0] is: Ka
+3/18/2018 7:16:11 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 7:16:11 PM: cmps[0] is: Kd
+3/18/2018 7:16:11 PM: data is, 0.298039 0.298039 0.298039
+3/18/2018 7:16:11 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: cmps[0] is: Ks
+3/18/2018 7:16:11 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: L is, 
+3/18/2018 7:16:11 PM: cmps[0] is: 
+3/18/2018 7:16:11 PM: data is, 
+3/18/2018 7:16:11 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:11 PM: L is, newmtl _Cladding_Stucco_White_3
+3/18/2018 7:16:11 PM: cmps[0] is: newmtl
+3/18/2018 7:16:11 PM: data is, _Cladding_Stucco_White_3
+3/18/2018 7:16:11 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: cmps[0] is: Ka
+3/18/2018 7:16:11 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 7:16:11 PM: cmps[0] is: Kd
+3/18/2018 7:16:11 PM: data is, 0.784314 0.784314 0.784314
+3/18/2018 7:16:11 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: cmps[0] is: Ks
+3/18/2018 7:16:11 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: L is, map_Kd CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 7:16:11 PM: cmps[0] is: map_Kd
+3/18/2018 7:16:11 PM: data is, CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 7:16:11 PM: L is, 
+3/18/2018 7:16:11 PM: cmps[0] is: 
+3/18/2018 7:16:11 PM: data is, 
+3/18/2018 7:16:11 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:11 PM: L is, newmtl _6
+3/18/2018 7:16:11 PM: cmps[0] is: newmtl
+3/18/2018 7:16:11 PM: data is, _6
+3/18/2018 7:16:11 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: cmps[0] is: Ka
+3/18/2018 7:16:11 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 7:16:11 PM: cmps[0] is: Kd
+3/18/2018 7:16:11 PM: data is, 0.298039 0.298039 0.298039
+3/18/2018 7:16:11 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: cmps[0] is: Ks
+3/18/2018 7:16:11 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: L is, 
+3/18/2018 7:16:11 PM: cmps[0] is: 
+3/18/2018 7:16:11 PM: data is, 
+3/18/2018 7:16:11 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:11 PM: L is, newmtl _Brick_Tumbled_2
+3/18/2018 7:16:11 PM: cmps[0] is: newmtl
+3/18/2018 7:16:11 PM: data is, _Brick_Tumbled_2
+3/18/2018 7:16:11 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: cmps[0] is: Ka
+3/18/2018 7:16:11 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 7:16:11 PM: cmps[0] is: Kd
+3/18/2018 7:16:11 PM: data is, 0.529412 0.517647 0.517647
+3/18/2018 7:16:11 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: cmps[0] is: Ks
+3/18/2018 7:16:11 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: L is, map_Kd CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 7:16:11 PM: cmps[0] is: map_Kd
+3/18/2018 7:16:11 PM: data is, CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 7:16:11 PM: L is, 
+3/18/2018 7:16:11 PM: cmps[0] is: 
+3/18/2018 7:16:11 PM: data is, 
+3/18/2018 7:16:11 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:16:11 PM: L is, newmtl _Brick_Tumbled_1
+3/18/2018 7:16:11 PM: cmps[0] is: newmtl
+3/18/2018 7:16:11 PM: data is, _Brick_Tumbled_1
+3/18/2018 7:16:11 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: cmps[0] is: Ka
+3/18/2018 7:16:11 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:16:11 PM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 7:16:11 PM: cmps[0] is: Kd
+3/18/2018 7:16:11 PM: data is, 0.529412 0.517647 0.517647
+3/18/2018 7:16:11 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: cmps[0] is: Ks
+3/18/2018 7:16:11 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:16:11 PM: L is, map_Kd CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 7:16:11 PM: cmps[0] is: map_Kd
+3/18/2018 7:16:11 PM: data is, CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 7:16:11 PM: L is, 
+3/18/2018 7:16:11 PM: cmps[0] is: 
+3/18/2018 7:16:11 PM: data is, 
+3/18/2018 7:16:11 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:25 PM: Grid Tile Tagged, Name: Lot At X=-134.4395 Y=-134.4395 Z=-61.39755
+3/18/2018 7:22:28 PM: L is, #
+3/18/2018 7:22:28 PM: cmps[0] is: #
+3/18/2018 7:22:28 PM: data is, #
+3/18/2018 7:22:28 PM: cmps[0] failed all if checks is: #
+3/18/2018 7:22:28 PM: L is, ## Alias OBJ Material File
+3/18/2018 7:22:28 PM: cmps[0] is: ##
+3/18/2018 7:22:28 PM: data is, Alias OBJ Material File
+3/18/2018 7:22:28 PM: cmps[0] failed all if checks is: ##
+3/18/2018 7:22:28 PM: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 7:22:28 PM: cmps[0] is: #
+3/18/2018 7:22:28 PM: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/18/2018 7:22:28 PM: cmps[0] failed all if checks is: #
+3/18/2018 7:22:28 PM: L is, 
+3/18/2018 7:22:28 PM: cmps[0] is: 
+3/18/2018 7:22:28 PM: data is, 
+3/18/2018 7:22:28 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:28 PM: L is, newmtl Brick_Antique
+3/18/2018 7:22:28 PM: cmps[0] is: newmtl
+3/18/2018 7:22:28 PM: data is, Brick_Antique
+3/18/2018 7:22:29 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: cmps[0] is: Ka
+3/18/2018 7:22:29 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 7:22:29 PM: cmps[0] is: Kd
+3/18/2018 7:22:29 PM: data is, 0.576471 0.411765 0.278431
+3/18/2018 7:22:29 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: cmps[0] is: Ks
+3/18/2018 7:22:29 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: L is, map_Kd CIBC/Brick_Antique.jpg
+3/18/2018 7:22:29 PM: cmps[0] is: map_Kd
+3/18/2018 7:22:29 PM: data is, CIBC/Brick_Antique.jpg
+3/18/2018 7:22:29 PM: L is, 
+3/18/2018 7:22:29 PM: cmps[0] is: 
+3/18/2018 7:22:29 PM: data is, 
+3/18/2018 7:22:29 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:29 PM: L is, newmtl _Cladding_Stucco_White_5
+3/18/2018 7:22:29 PM: cmps[0] is: newmtl
+3/18/2018 7:22:29 PM: data is, _Cladding_Stucco_White_5
+3/18/2018 7:22:29 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: cmps[0] is: Ka
+3/18/2018 7:22:29 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 7:22:29 PM: cmps[0] is: Kd
+3/18/2018 7:22:29 PM: data is, 0.784314 0.784314 0.784314
+3/18/2018 7:22:29 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: cmps[0] is: Ks
+3/18/2018 7:22:29 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: L is, 
+3/18/2018 7:22:29 PM: cmps[0] is: 
+3/18/2018 7:22:29 PM: data is, 
+3/18/2018 7:22:29 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:29 PM: L is, newmtl _Cladding_Stucco_White_1
+3/18/2018 7:22:29 PM: cmps[0] is: newmtl
+3/18/2018 7:22:29 PM: data is, _Cladding_Stucco_White_1
+3/18/2018 7:22:29 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: cmps[0] is: Ka
+3/18/2018 7:22:29 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 7:22:29 PM: cmps[0] is: Kd
+3/18/2018 7:22:29 PM: data is, 0.784314 0.784314 0.784314
+3/18/2018 7:22:29 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: cmps[0] is: Ks
+3/18/2018 7:22:29 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: L is, map_Kd CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 7:22:29 PM: cmps[0] is: map_Kd
+3/18/2018 7:22:29 PM: data is, CIBC/_Cladding_Stucco_White_1.jpg
+3/18/2018 7:22:29 PM: L is, 
+3/18/2018 7:22:29 PM: cmps[0] is: 
+3/18/2018 7:22:29 PM: data is, 
+3/18/2018 7:22:29 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:29 PM: L is, newmtl _3
+3/18/2018 7:22:29 PM: cmps[0] is: newmtl
+3/18/2018 7:22:29 PM: data is, _3
+3/18/2018 7:22:29 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: cmps[0] is: Ka
+3/18/2018 7:22:29 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: L is, Kd 0.678431 0.000000 0.078431
+3/18/2018 7:22:29 PM: cmps[0] is: Kd
+3/18/2018 7:22:29 PM: data is, 0.678431 0.000000 0.078431
+3/18/2018 7:22:29 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: cmps[0] is: Ks
+3/18/2018 7:22:29 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: L is, 
+3/18/2018 7:22:29 PM: cmps[0] is: 
+3/18/2018 7:22:29 PM: data is, 
+3/18/2018 7:22:29 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:29 PM: L is, newmtl Translucent_Glass_Tinted
+3/18/2018 7:22:29 PM: cmps[0] is: newmtl
+3/18/2018 7:22:29 PM: data is, Translucent_Glass_Tinted
+3/18/2018 7:22:29 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: cmps[0] is: Ka
+3/18/2018 7:22:29 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: L is, Kd 0.027451 0.788235 0.941176
+3/18/2018 7:22:29 PM: cmps[0] is: Kd
+3/18/2018 7:22:29 PM: data is, 0.027451 0.788235 0.941176
+3/18/2018 7:22:29 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: cmps[0] is: Ks
+3/18/2018 7:22:29 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: L is, d 0.480000
+3/18/2018 7:22:29 PM: cmps[0] is: d
+3/18/2018 7:22:29 PM: data is, 0.480000
+3/18/2018 7:22:29 PM: L is, map_Kd CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 7:22:29 PM: cmps[0] is: map_Kd
+3/18/2018 7:22:29 PM: data is, CIBC/Translucent_Glass_Tinted.jpg
+3/18/2018 7:22:29 PM: L is, 
+3/18/2018 7:22:29 PM: cmps[0] is: 
+3/18/2018 7:22:29 PM: data is, 
+3/18/2018 7:22:29 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:29 PM: L is, newmtl _5
+3/18/2018 7:22:29 PM: cmps[0] is: newmtl
+3/18/2018 7:22:29 PM: data is, _5
+3/18/2018 7:22:29 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: cmps[0] is: Ka
+3/18/2018 7:22:29 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: L is, Kd 0.721569 0.756863 0.000000
+3/18/2018 7:22:29 PM: cmps[0] is: Kd
+3/18/2018 7:22:29 PM: data is, 0.721569 0.756863 0.000000
+3/18/2018 7:22:29 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: cmps[0] is: Ks
+3/18/2018 7:22:29 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: L is, 
+3/18/2018 7:22:29 PM: cmps[0] is: 
+3/18/2018 7:22:29 PM: data is, 
+3/18/2018 7:22:29 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:29 PM: L is, newmtl _LightGray_
+3/18/2018 7:22:29 PM: cmps[0] is: newmtl
+3/18/2018 7:22:29 PM: data is, _LightGray_
+3/18/2018 7:22:29 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: cmps[0] is: Ka
+3/18/2018 7:22:29 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: L is, Kd 0.662745 0.662745 0.662745
+3/18/2018 7:22:29 PM: cmps[0] is: Kd
+3/18/2018 7:22:29 PM: data is, 0.662745 0.662745 0.662745
+3/18/2018 7:22:29 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: cmps[0] is: Ks
+3/18/2018 7:22:29 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: L is, 
+3/18/2018 7:22:29 PM: cmps[0] is: 
+3/18/2018 7:22:29 PM: data is, 
+3/18/2018 7:22:29 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:29 PM: L is, newmtl _Brick_Antique_2
+3/18/2018 7:22:29 PM: cmps[0] is: newmtl
+3/18/2018 7:22:29 PM: data is, _Brick_Antique_2
+3/18/2018 7:22:29 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: cmps[0] is: Ka
+3/18/2018 7:22:29 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 7:22:29 PM: cmps[0] is: Kd
+3/18/2018 7:22:29 PM: data is, 0.576471 0.411765 0.278431
+3/18/2018 7:22:29 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: cmps[0] is: Ks
+3/18/2018 7:22:29 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: L is, map_Kd CIBC/_Brick_Antique_2.jpg
+3/18/2018 7:22:29 PM: cmps[0] is: map_Kd
+3/18/2018 7:22:29 PM: data is, CIBC/_Brick_Antique_2.jpg
+3/18/2018 7:22:29 PM: L is, 
+3/18/2018 7:22:29 PM: cmps[0] is: 
+3/18/2018 7:22:29 PM: data is, 
+3/18/2018 7:22:29 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:29 PM: L is, newmtl BackColor
+3/18/2018 7:22:29 PM: cmps[0] is: newmtl
+3/18/2018 7:22:29 PM: data is, BackColor
+3/18/2018 7:22:29 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: cmps[0] is: Ka
+3/18/2018 7:22:29 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: L is, Kd 0.643137 0.698039 0.733333
+3/18/2018 7:22:29 PM: cmps[0] is: Kd
+3/18/2018 7:22:29 PM: data is, 0.643137 0.698039 0.733333
+3/18/2018 7:22:29 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: cmps[0] is: Ks
+3/18/2018 7:22:29 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: L is, 
+3/18/2018 7:22:29 PM: cmps[0] is: 
+3/18/2018 7:22:29 PM: data is, 
+3/18/2018 7:22:29 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:29 PM: L is, newmtl _Brick_Antique_3
+3/18/2018 7:22:29 PM: cmps[0] is: newmtl
+3/18/2018 7:22:29 PM: data is, _Brick_Antique_3
+3/18/2018 7:22:29 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: cmps[0] is: Ka
+3/18/2018 7:22:29 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 7:22:29 PM: cmps[0] is: Kd
+3/18/2018 7:22:29 PM: data is, 0.576471 0.411765 0.278431
+3/18/2018 7:22:29 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: cmps[0] is: Ks
+3/18/2018 7:22:29 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: L is, map_Kd CIBC/_Brick_Antique_3.jpg
+3/18/2018 7:22:29 PM: cmps[0] is: map_Kd
+3/18/2018 7:22:29 PM: data is, CIBC/_Brick_Antique_3.jpg
+3/18/2018 7:22:29 PM: L is, 
+3/18/2018 7:22:29 PM: cmps[0] is: 
+3/18/2018 7:22:29 PM: data is, 
+3/18/2018 7:22:29 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:29 PM: L is, newmtl _Brick_Antique_1
+3/18/2018 7:22:29 PM: cmps[0] is: newmtl
+3/18/2018 7:22:29 PM: data is, _Brick_Antique_1
+3/18/2018 7:22:29 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: cmps[0] is: Ka
+3/18/2018 7:22:29 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: L is, Kd 0.576471 0.411765 0.278431
+3/18/2018 7:22:29 PM: cmps[0] is: Kd
+3/18/2018 7:22:29 PM: data is, 0.576471 0.411765 0.278431
+3/18/2018 7:22:29 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: cmps[0] is: Ks
+3/18/2018 7:22:29 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: L is, map_Kd CIBC/_Brick_Antique_1.jpg
+3/18/2018 7:22:29 PM: cmps[0] is: map_Kd
+3/18/2018 7:22:29 PM: data is, CIBC/_Brick_Antique_1.jpg
+3/18/2018 7:22:29 PM: L is, 
+3/18/2018 7:22:29 PM: cmps[0] is: 
+3/18/2018 7:22:29 PM: data is, 
+3/18/2018 7:22:29 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:29 PM: L is, newmtl _8
+3/18/2018 7:22:29 PM: cmps[0] is: newmtl
+3/18/2018 7:22:29 PM: data is, _8
+3/18/2018 7:22:29 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: cmps[0] is: Ka
+3/18/2018 7:22:29 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: L is, Kd 0.980392 1.000000 0.717647
+3/18/2018 7:22:29 PM: cmps[0] is: Kd
+3/18/2018 7:22:29 PM: data is, 0.980392 1.000000 0.717647
+3/18/2018 7:22:29 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: cmps[0] is: Ks
+3/18/2018 7:22:29 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: L is, 
+3/18/2018 7:22:29 PM: cmps[0] is: 
+3/18/2018 7:22:29 PM: data is, 
+3/18/2018 7:22:29 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:29 PM: L is, newmtl FrontColor
+3/18/2018 7:22:29 PM: cmps[0] is: newmtl
+3/18/2018 7:22:29 PM: data is, FrontColor
+3/18/2018 7:22:29 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: cmps[0] is: Ka
+3/18/2018 7:22:29 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: L is, Kd 1.000000 1.000000 1.000000
+3/18/2018 7:22:29 PM: cmps[0] is: Kd
+3/18/2018 7:22:29 PM: data is, 1.000000 1.000000 1.000000
+3/18/2018 7:22:29 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: cmps[0] is: Ks
+3/18/2018 7:22:29 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: L is, 
+3/18/2018 7:22:29 PM: cmps[0] is: 
+3/18/2018 7:22:29 PM: data is, 
+3/18/2018 7:22:29 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:29 PM: L is, newmtl _Cladding_Stucco_White_4
+3/18/2018 7:22:29 PM: cmps[0] is: newmtl
+3/18/2018 7:22:29 PM: data is, _Cladding_Stucco_White_4
+3/18/2018 7:22:29 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: cmps[0] is: Ka
+3/18/2018 7:22:29 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 7:22:29 PM: cmps[0] is: Kd
+3/18/2018 7:22:29 PM: data is, 0.784314 0.784314 0.784314
+3/18/2018 7:22:29 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: cmps[0] is: Ks
+3/18/2018 7:22:29 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: L is, map_Kd CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 7:22:29 PM: cmps[0] is: map_Kd
+3/18/2018 7:22:29 PM: data is, CIBC/_Cladding_Stucco_White_4.jpg
+3/18/2018 7:22:29 PM: L is, 
+3/18/2018 7:22:29 PM: cmps[0] is: 
+3/18/2018 7:22:29 PM: data is, 
+3/18/2018 7:22:29 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:29 PM: L is, newmtl _7
+3/18/2018 7:22:29 PM: cmps[0] is: newmtl
+3/18/2018 7:22:29 PM: data is, _7
+3/18/2018 7:22:29 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: cmps[0] is: Ka
+3/18/2018 7:22:29 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 7:22:29 PM: cmps[0] is: Kd
+3/18/2018 7:22:29 PM: data is, 0.298039 0.298039 0.298039
+3/18/2018 7:22:29 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: cmps[0] is: Ks
+3/18/2018 7:22:29 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: L is, 
+3/18/2018 7:22:29 PM: cmps[0] is: 
+3/18/2018 7:22:29 PM: data is, 
+3/18/2018 7:22:29 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:29 PM: L is, newmtl _Cladding_Stucco_White_3
+3/18/2018 7:22:29 PM: cmps[0] is: newmtl
+3/18/2018 7:22:29 PM: data is, _Cladding_Stucco_White_3
+3/18/2018 7:22:29 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: cmps[0] is: Ka
+3/18/2018 7:22:29 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:29 PM: L is, Kd 0.784314 0.784314 0.784314
+3/18/2018 7:22:29 PM: cmps[0] is: Kd
+3/18/2018 7:22:29 PM: data is, 0.784314 0.784314 0.784314
+3/18/2018 7:22:29 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: cmps[0] is: Ks
+3/18/2018 7:22:29 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:29 PM: L is, map_Kd CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 7:22:29 PM: cmps[0] is: map_Kd
+3/18/2018 7:22:29 PM: data is, CIBC/_Cladding_Stucco_White_3.jpg
+3/18/2018 7:22:29 PM: L is, 
+3/18/2018 7:22:29 PM: cmps[0] is: 
+3/18/2018 7:22:29 PM: data is, 
+3/18/2018 7:22:29 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:29 PM: L is, newmtl _6
+3/18/2018 7:22:29 PM: cmps[0] is: newmtl
+3/18/2018 7:22:30 PM: data is, _6
+3/18/2018 7:22:30 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:30 PM: cmps[0] is: Ka
+3/18/2018 7:22:30 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:30 PM: L is, Kd 0.298039 0.298039 0.298039
+3/18/2018 7:22:30 PM: cmps[0] is: Kd
+3/18/2018 7:22:30 PM: data is, 0.298039 0.298039 0.298039
+3/18/2018 7:22:30 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:30 PM: cmps[0] is: Ks
+3/18/2018 7:22:30 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:30 PM: L is, 
+3/18/2018 7:22:30 PM: cmps[0] is: 
+3/18/2018 7:22:30 PM: data is, 
+3/18/2018 7:22:30 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:30 PM: L is, newmtl _Brick_Tumbled_2
+3/18/2018 7:22:30 PM: cmps[0] is: newmtl
+3/18/2018 7:22:30 PM: data is, _Brick_Tumbled_2
+3/18/2018 7:22:30 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:30 PM: cmps[0] is: Ka
+3/18/2018 7:22:30 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:30 PM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 7:22:30 PM: cmps[0] is: Kd
+3/18/2018 7:22:30 PM: data is, 0.529412 0.517647 0.517647
+3/18/2018 7:22:30 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:30 PM: cmps[0] is: Ks
+3/18/2018 7:22:30 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:30 PM: L is, map_Kd CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 7:22:30 PM: cmps[0] is: map_Kd
+3/18/2018 7:22:30 PM: data is, CIBC/_Brick_Tumbled_2.jpg
+3/18/2018 7:22:30 PM: L is, 
+3/18/2018 7:22:30 PM: cmps[0] is: 
+3/18/2018 7:22:30 PM: data is, 
+3/18/2018 7:22:30 PM: cmps[0] failed all if checks is: 
+3/18/2018 7:22:30 PM: L is, newmtl _Brick_Tumbled_1
+3/18/2018 7:22:30 PM: cmps[0] is: newmtl
+3/18/2018 7:22:30 PM: data is, _Brick_Tumbled_1
+3/18/2018 7:22:30 PM: L is, Ka 0.000000 0.000000 0.000000
+3/18/2018 7:22:30 PM: cmps[0] is: Ka
+3/18/2018 7:22:30 PM: data is, 0.000000 0.000000 0.000000
+3/18/2018 7:22:30 PM: L is, Kd 0.529412 0.517647 0.517647
+3/18/2018 7:22:30 PM: cmps[0] is: Kd
+3/18/2018 7:22:30 PM: data is, 0.529412 0.517647 0.517647
+3/18/2018 7:22:30 PM: L is, Ks 0.330000 0.330000 0.330000
+3/18/2018 7:22:30 PM: cmps[0] is: Ks
+3/18/2018 7:22:30 PM: data is, 0.330000 0.330000 0.330000
+3/18/2018 7:22:30 PM: L is, map_Kd CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 7:22:30 PM: cmps[0] is: map_Kd
+3/18/2018 7:22:30 PM: data is, CIBC/_Brick_Tumbled_1.jpg
+3/18/2018 7:22:30 PM: L is, 
+3/18/2018 7:22:30 PM: cmps[0] is: 
+3/18/2018 7:22:30 PM: data is, 
+3/18/2018 7:22:30 PM: cmps[0] failed all if checks is: 

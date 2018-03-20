@@ -29,6 +29,9 @@ public class Options : MonoBehaviour
 	//InputFields
 	public InputField saveFolder;
 	public InputField assetFolder;
+	public InputField osmFile;
+
+	private ErrorHandler errorHandler;
 
 	/*
 	*  METHOD	    : Start()
@@ -47,8 +50,12 @@ public class Options : MonoBehaviour
 		int hold = 0;
 		bool found = false;
 
-		saveFolder.text = PlayerPrefs.GetString ("save", @"C:\Users\Marco Fontana\Documents\MyObjects");
-		assetFolder.text = PlayerPrefs.GetString ("asset", @"C:\Users\Marco Fontana\Documents\MyObjects");
+		errorHandler = GameObject.FindWithTag ("Menu").GetComponent<ErrorHandler> ();
+
+		//Find the appropriate information relating to the locations of the save, asset and xml folders/files
+		saveFolder.text = PlayerPrefs.GetString ("save", Application.dataPath + @"/Saves");
+		assetFolder.text = PlayerPrefs.GetString ("asset", Application.dataPath + @"/MyObjects");
+		osmFile.text = PlayerPrefs.GetString ("xml", Application.dataPath + @"\map.osm-roads.xml");
 
 		//For each support resolution found
 		foreach (Resolution rez in resolutions)
@@ -144,21 +151,7 @@ public class Options : MonoBehaviour
 	{
 
 	}
-
-
-	/*
-	*  METHOD	    : OnResolutionChange()
-    *  DESCRIPTION  : This Method is called when the user tries to switch between different resolutions.
-    *                 This is an OnClick handler
-	*  PARAMETERS	: int index : The selected value in the dropdown menu
-    *  RETURNS  	: Nothing
-    * 
-	*/
-	public void OnScaleChange()
-	{
-
-	}
-
+		
 	/*
 	*  METHOD	    : BrowseSaveFolder()
     *  DESCRIPTION  : This Method is called when the user tries to find a save folder.
@@ -169,7 +162,7 @@ public class Options : MonoBehaviour
 	*/
 	public void BrowseSaveFolder()
 	{
-		SaveLoadFolderHandler ("Save Folder", false);
+		FileFolderHandler ("Save Folder", 0);
 	}
 
 	/*
@@ -182,50 +175,68 @@ public class Options : MonoBehaviour
 	*/
 	public void BrowseAssetFolder()
 	{
-		SaveLoadFolderHandler ("Asset Folder", true);
+		FileFolderHandler ("Asset Folder", 1);
 	}
 
 
 	/*
-	*  METHOD	    : SaveLoadFolderHandler()
-    *  DESCRIPTION  : This Method is called when the user tries to pick a folder location.
+	*  METHOD	    : BrowseOSMFile()
+    *  DESCRIPTION  : This Method is called when the user tries to find an osm File.
     *                 This is an OnClick handler
-	*  PARAMETERS	: string menu : The Name name of the menu
-	* 				  bool type   : What kind of menu to open
+	*  PARAMETERS	: Nothing
     *  RETURNS  	: Nothing
     * 
 	*/
-	private void SaveLoadFolderHandler(string menu, bool type)
+	public void BrowseOSMFile()
+	{
+		FileFolderHandler ("OSM XML File", 3);
+	}
+
+
+	/*
+	*  METHOD	    : FileFolderHandler()
+    *  DESCRIPTION  : This Method is called when the user tries to pick a folder/file location.
+    *                 This is an OnClick handler
+	*  PARAMETERS	: string menu : The Name name of the menu
+	* 				  int type    : What kind of menu to open
+    *  RETURNS  	: Nothing
+    * 
+	*/
+	private void FileFolderHandler(string menu, int type)
 	{
 		try
 		{
 			string path = "";
 
 			//Depending on the type launch the appropriate menu
-			if(!type)
+			if(type == 3)
 			{
-				//Open the save folder menu to select an save folder
-				path = StandaloneFileBrowser.OpenFolderPanel("Save Folder", "",false)[0];
-				PlayerPrefs.SetString ("save", path);
+				//Open the file menu to select an osm file
+				path = MenuHandler(false, menu);
 			}
 			else
 			{
-				//Open the asset folder menu to select an asset folder
-				path = StandaloneFileBrowser.OpenFolderPanel("Asset Folder", "",false)[0];
-				PlayerPrefs.SetString ("asset", path);
+				path = MenuHandler(true, menu);
 			}	
 
 			//If the path is found
 			if(path.Length != 0)
 			{
 				//Depending on the type set the appropriate text
-				if(!type)
+				if(type == 0)
 				{
 					saveFolder.text = path;
+					PlayerPrefs.SetString ("save", path);
+				}
+				else if (type == 1)
+				{
+					assetFolder.text = path;
+					PlayerPrefs.SetString ("asset", path);
 				}
 				else
 				{
-					assetFolder.text = path;
+					osmFile.text = path;
+					PlayerPrefs.SetString ("xml", path);
 				}
 			}
 			else //Otherwise throw an exception
@@ -237,7 +248,29 @@ public class Options : MonoBehaviour
 		{
 			//Display the error to the user if one occurs
 			//EditorUtility.DisplayDialog(menu + " Menu Error", e.Message, "OK");
+		}			
+	}
+
+	private string MenuHandler(bool isFolder, string title)
+	{
+		string path = "";
+
+		try
+		{
+			if(isFolder)
+			{
+				path = StandaloneFileBrowser.OpenFolderPanel(title, Application.dataPath,false)[0];
+			}
+			else
+			{
+				path = StandaloneFileBrowser.OpenFilePanel(title, Application.dataPath, "xml", false)[0];
+			}				
 		}
-			
+		catch(Exception e)
+		{
+			throw e;
+		}
+
+		return path;
 	}
 }

@@ -1,16 +1,14 @@
 ﻿/*
 * FILE			: PlayerController.cs
-* PROJECT		: PARISVR
-* PROGRAMMERS	: Marco Fontana & Dustin Brown
+* PROJECT		: ParisVR
+* PROGRAMMERS	: Marco Fontana
 * FIRST VERSION	: 12-26-2017
 * DESCRIPTION   : This file contains the code and functionality required to handle the player's functions 
 */
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
 
 public class PlayerController : MonoBehaviour
 {
@@ -46,15 +44,21 @@ public class PlayerController : MonoBehaviour
     private bool locked;
     private bool creative;
 
+	//Locked property. Used to access the locked flag
 	public bool Locked
 	{
+		/*
+		 *  Name		: get (info)
+		 *	Description : Accessor for the info list
+		 *	Parameters	: Nothing
+		 *  Returns		: List<Asset> info, the list of assets in the gameworld.
+		*/
 		get
 		{
 			return locked;
 		}
 	}
-
-
+		
     //FUNCTION      : Start()
     //DESCRIPTION   : This Method is launched when the level is loaded and is used to gather
     //                information or initalize other variables
@@ -247,6 +251,7 @@ public class PlayerController : MonoBehaviour
                 UpdateTextFields();
             }
 
+			//Depending on the use of the scroll wheel change the postion of the object +/- .5f
             if(Input.GetAxis("Mouse ScrollWheel") > 0f)
             {
 				obj.transform.position = new Vector3 (obj.transform.position.x, obj.transform.position.y + .5f, obj.transform.position.z);
@@ -262,12 +267,15 @@ public class PlayerController : MonoBehaviour
 		//Activate Creative Mode
         if(Input.GetKeyDown(KeyCode.C))
         {
+			//If creative mode is off
             if(creative == false)
             {
+				//turn it on
                 creative = true;
             }
             else
             {
+				//Otherwise turn off creative mode
                 creative = false;
             }
         }

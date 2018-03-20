@@ -55,11 +55,14 @@
      <Compile Include="Assets\OBJImport\TextureLoader.cs" />
      <Compile Include="Assets\Scripts\AddObjectsHandler.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\ChangeShape.cs" />
      <Compile Include="Assets\Scripts\CreateGrid.cs" />
      <Compile Include="Assets\Scripts\Data.cs" />
+     <Compile Include="Assets\Scripts\ErrorHandler.cs" />
+     <Compile Include="Assets\Scripts\GrahamScan.cs" />
      <Compile Include="Assets\Scripts\ImportDropDown.cs" />
-     <Compile Include="Assets\Scripts\ImportOBJToUnity.cs" />
      <Compile Include="Assets\Scripts\ImportPress.cs" />
+     <Compile Include="Assets\Scripts\LoadingScreen.cs" />
      <Compile Include="Assets\Scripts\MenuHandler.cs" />
      <Compile Include="Assets\Scripts\ObjectInfo_cs.cs" />
      <Compile Include="Assets\Scripts\Options.cs" />
@@ -67,12 +70,15 @@
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\RotatingLotIcon.cs" />
      <Compile Include="Assets\Scripts\SLMenuHandler.cs" />
+     <Compile Include="Assets\Scripts\TestObjectPlacement.cs" />
      <Compile Include="Assets\Scripts\TextHandler.cs" />
      <Compile Include="Assets\StandaloneFileBrowser\IStandaloneFileBrowser.cs" />
      <Compile Include="Assets\StandaloneFileBrowser\StandaloneFileBrowser.cs" />
      <Compile Include="Assets\StandaloneFileBrowser\StandaloneFileBrowserEditor.cs" />
      <Compile Include="Assets\StandaloneFileBrowser\StandaloneFileBrowserMac.cs" />
      <Compile Include="Assets\StandaloneFileBrowser\StandaloneFileBrowserWindows.cs" />
+     <None Include="Assets\map.osm-roads.xml" />
+     <None Include="Assets\Materials\Outline.shader" />
      <None Include="Assets\OBJImport\readme.txt" />
  <Reference Include="Vuforia.UnityExtensions.Editor">
  <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
@@ -150,10 +156,10 @@
  <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Ookii.Dialogs">
- <HintPath>C:/Users/Marco Fontana/Documents/GitHub/ParisVR/Assets/StandaloneFileBrowser/Plugins/Ookii.Dialogs.dll</HintPath>
+ <HintPath>C:/Users/Marco Fontana/Desktop/ParisVR/Assets/StandaloneFileBrowser/Plugins/Ookii.Dialogs.dll</HintPath>
  </Reference>
  <Reference Include="System.Windows.Forms">
- <HintPath>C:/Users/Marco Fontana/Documents/GitHub/ParisVR/Assets/StandaloneFileBrowser/Plugins/System.Windows.Forms.dll</HintPath>
+ <HintPath>C:/Users/Marco Fontana/Desktop/ParisVR/Assets/StandaloneFileBrowser/Plugins/System.Windows.Forms.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/Marco Fontana/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>

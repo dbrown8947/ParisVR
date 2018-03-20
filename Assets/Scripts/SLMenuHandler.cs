@@ -1,11 +1,10 @@
 /*
 * FILE			: SLMenuHandler.cs
-* PROJECT		: ParisVR Tool
+* PROJECT		: ParisVR
 * PROGRAMMERS	: Marco Fontana
 * FIRST VERSION	: 1-20-2018
 * DESCRIPTION   : This file contains the code and functionality required handle the menus required to save and load game worlds
 */
-
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -26,15 +25,11 @@ public class SLMenuHandler : MonoBehaviour
 {
 
 	//Private Variables
+	private Data data; //The class that handles saving and loading
+	private ErrorHandler errorHandler;
 
-	//The class that handles saving and loading
-	private Data data; 
-
-	//Error Handler Variables
-	public Transform errorMenu;
-	public Text eLabel;
-	public Text eText;
-
+	//Public Variables
+	public Button btn;
 
 	/*
 	*  METHOD	    : Start()
@@ -47,40 +42,11 @@ public class SLMenuHandler : MonoBehaviour
 	void Start () 
 	{
 		//Initalize private variables
-		data = new Data ();
+		data = new Data (btn);
 		data.Info = new List<Asset> ();
+		errorHandler = GameObject.FindWithTag ("Menu").GetComponent<ErrorHandler> ();
 	}
-
-
-	/*
-	*  METHOD	    : ErrorHandler()
-    *  DESCRIPTION  : This method is responsible for displaying an error and the text involved with 
-    *                 that error to the user.
-	*  PARAMETERS	: string errorType : The error type i.e save error
-	* 				  string error     : The contents of the error i.e what went wrong
-    *  RETURNS  	: Nothing
-	*/
-	void ErrorHandler(string errorType, string error)
-	{
-		//Display the error to the user with the proper information
-		eLabel.text = errorType + " Error";
-		eText.text = error;	
-		errorMenu.gameObject.SetActive (true);
-	}
-
-	/*
-	*  METHOD	    : CloseErrorHandler()
-    *  DESCRIPTION  : This method is responsible for closing the error handler after the user is done with it.
-    *                 This is an onclick handler.
-	*  PARAMETERS	: Nothing
-    *  RETURNS  	: Nothing
-	*/
-	public void CloseErrorHandler()
-	{
-		//Close the error handler and enable the save/load buttons again
-		errorMenu.gameObject.SetActive (false);
-	}
-
+		
 	/*
 	*  METHOD	    : OpenLoad()
     *  DESCRIPTION  : This method is responsible for changing the save/load menu into the load format and
@@ -93,7 +59,7 @@ public class SLMenuHandler : MonoBehaviour
         try
         {
 			//Open the file using the standalonefilebrowser plugin
-			string path = StandaloneFileBrowser.OpenFilePanel("Load Game World", "", "dat", false)[0];
+			string path = StandaloneFileBrowser.OpenFilePanel("Load Game World", Application.dataPath + @"\Saves", "dat", false)[0];
 
 			//If the path length is zero thorw an exception
             if(path.Length == 0)
@@ -109,7 +75,7 @@ public class SLMenuHandler : MonoBehaviour
         catch (Exception e)
         {
             //If we are Saving make sure that the error displays as a save error
-			ErrorHandler ("Load", e.Message);           
+			errorHandler.Error("Load Error", e.Message);           
         }
     }
 
@@ -125,13 +91,13 @@ public class SLMenuHandler : MonoBehaviour
         try
         {
 			//Save the file using the standalonefilebrowser plugin
-			string path = StandaloneFileBrowser.SaveFilePanel("Save Game World", "", "newSave.dat", "dat");
+			string path = StandaloneFileBrowser.SaveFilePanel("Save Game World", Application.dataPath + @"\Saves", "newSave.dat", "dat");
 
 			//If the path length is zero thorw an exception
            if(path.Length == 0)
            {
                 throw new Exception("No File Selected, Or The File Was Not Found");
-            }
+           }
            else
            {
 				//Otherwise save the data through the data class
@@ -141,11 +107,16 @@ public class SLMenuHandler : MonoBehaviour
         catch(Exception e)
         {
             //If we are Saving make sure that the error displays as a save error
-			ErrorHandler ("Save", e.Message);
+			errorHandler.Error("Save Error", e.Message);
         }
     }
 
-
+	/*
+	*  METHOD	    : AddToAssetList()
+    *  DESCRIPTION  : This method is responsible for adding assets to the asset list
+	*  PARAMETERS	: Asset asset : the asset you are trying to add to the data class
+    *  RETURNS  	: Nothing
+	*/
 	public void AddToAssetList(Asset asset)
 	{
 		data.Info.Add(asset);
