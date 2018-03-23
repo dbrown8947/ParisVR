@@ -25,7 +25,32 @@ using System.Runtime.Serialization.Formatters.Binary;
 public class Data : MonoBehaviour
 {
 	//Private class variable(s)
-	private List<ObjectInfo> info;
+	private List<Asset> info;
+	private Button btn;
+
+	public List<Asset> Info
+	{
+		get 
+		{
+			return info;
+		}
+		set
+		{
+			info = value;
+		}
+	}
+
+	public Data(Button bbtn)
+	{
+		btn = bbtn;
+	}
+		
+	void Start()
+	{
+		//Create the info list to hold all the game object information
+		info = new List<Asset> ();
+	}
+
 
 	/*
 	*  METHOD	    : Save()
@@ -37,36 +62,37 @@ public class Data : MonoBehaviour
 	*/
 	public void Save(string saveName)
 	{
+		//int counter = 0;
+
 		try
 		{
 			//Create the binary formatter and save file so we can save the object info
 			BinaryFormatter formatter = new BinaryFormatter ();
-			FileStream file = File.Open (saveName, FileMode.Open);
+			FileStream file = File.Open (saveName, FileMode.OpenOrCreate);
 
-			//Create the info list to hold all the game object information
-			info = new List<ObjectInfo> ();
-
-			//Grab every asset in the game world that uses the Assets tag
-			GameObject[] assets = GameObject.FindGameObjectsWithTag ("Asset");
+            //Grab every asset in the game world that uses the Assets tag
+            GameObject[] assets = GameObject.FindGameObjectsWithTag ("Asset");
 
 			//For evert gameobject with the Asset Tag
 			foreach (GameObject asset in assets) 
 			{
-				ObjectInfo obj = new ObjectInfo ();
+                Asset obj = new Asset ();
 
-				//Save all the important information about the game object into the ObjectInfo container
-				obj.Position = asset.transform.position;
-				obj.Rotation = asset.transform.localEulerAngles;
-				obj.Scale = asset.transform.localScale;
-				obj.Name = asset.gameObject.name;
-				obj.Tag = asset.GetComponent<UnityEngine.UI.Text> ().text;
-
-				//Add the object into the info list
-				info.Add (obj);
+				for(int i=0; i < info.Count; i++)
+				{
+					if(info[i].ParentInfo.Tile.CompareTo(asset.transform.parent.name) == 0 && info[i].ParentInfo.Area.CompareTo(asset.transform.parent.parent.name) == 0)
+					{
+						//Save all the important information about the game object into the ObjectInfo container s
+						info[i].ParentInfo.Position = new TempVector(asset.transform.parent.localPosition.x, asset.transform.parent.localPosition.y, asset.transform.parent.localPosition.z); //asset.transform.position;
+						info[i].ParentInfo.Rotation = new TempVector(asset.transform.parent.localEulerAngles.x, asset.transform.parent.localEulerAngles.y, asset.transform.parent.transform.localEulerAngles.z); //asset.transform.localEulerAngles;
+						info[i].ParentInfo.Scale = new TempVector(asset.transform.parent.localScale.x, asset.transform.parent.localScale.y, asset.transform.parent.localScale.z); //asset.transform.localScale;
+						break;
+					}					
+				}
 			}
 
-			//Write the information inside the list into the save file in a binary format
-			formatter.Serialize (file, info);
+            //Write the information inside the list into the save file in a binary format
+            formatter.Serialize (file, info);
 			file.Close();
 		}
 		catch(Exception e) // For testing purposes, more generics to be used later
@@ -88,23 +114,27 @@ public class Data : MonoBehaviour
 	{
 		try
 		{
-			//Only try and open the file if it actually exists
-			if (File.Exists (saveName))
+			ImportPress import = btn.GetComponent<ImportPress>(); //hold.GetComponent<ImportPress>();
+
+            //Only try and open the file if it actually exists
+            if (File.Exists (saveName))
 			{
 				//Create the info list to hold all the game object information
-				info = new List<ObjectInfo> ();
+				info = new List<Asset> ();
 
 				//Create the binary formatter and save file so we can load the object info
 				BinaryFormatter formatter = new BinaryFormatter ();
 				FileStream file = File.Open (saveName, FileMode.Open);
 
 				//Read the list of object info from the file and then close the file
-				info = (List<ObjectInfo>)formatter.Deserialize (file);
-				file.Close();	
+				info = (List<Asset>)formatter.Deserialize (file);
+				file.Close();
 
-				//*********************************************************************
-				//THIS IS WHERE YOU WOULD IMPORT ASSETS AND PLACE THEM BACK IN POSITION
-				//*********************************************************************
+				for(int i =0; i < info.Count; i++)
+				{
+                    import.ApplySettings(info[i].ParentInfo.Position, info[i].ParentInfo.Rotation, info[i].ParentInfo.Scale, info[i].ParentInfo.Area, info[i].ParentInfo.Tile, info[i].ParentInfo.FileName);
+				}
+											
 			}
 			else 
 			{
@@ -119,4 +149,6 @@ public class Data : MonoBehaviour
 		}
 			
 	}
+
+
 }

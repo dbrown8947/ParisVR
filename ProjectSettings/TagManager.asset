@@ -4,14 +4,16 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - VRUINumericBoxKey
+  - ImpButton
   - GridTile
   - Button
   - VRUIDropdownClosed
   - VRUIDropdownElement
-  - VRUIScroll
   - VRUIDropdownScrollUp
   - VRUIDropdownScrollDown
-  - VRUINumericBoxKey
+  - Asset
+  - SubAsset
   layers:
   - Default
   - TransparentFX

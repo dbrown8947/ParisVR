@@ -4,7 +4,7 @@
 * PROGRAMMERS	: Marco Fontana
 * FIRST VERSION	: 1-20-2018
 * DESCRIPTION   : This file contains the code and functionality required handle the menus required to save and load game worlds
-
+*/
 
 using System;
 using System.Collections;
@@ -12,7 +12,9 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEditor;
+using SFB;
+using UnityEngine.VR;
 
 
 /*
@@ -20,7 +22,7 @@ using UnityEngine.UI;
 * DESCRIPTION   : This class is responsible for handling any menuing involving the save and load features of the application. This class
 *                 will launch the save/load menu and pass errors to an error handler so that the user can see problems that occur and allows
 *                 them to save/load game worlds.
-*
+*/
 public class SLMenuHandler : MonoBehaviour
 {
 
@@ -29,6 +31,14 @@ public class SLMenuHandler : MonoBehaviour
 	//The class that handles saving and loading
 	private Data data; 
 
+	//Error Handler Variables
+	public Transform errorMenu;
+	public Text eLabel;
+	public Text eText;
+
+	public Button btn;
+
+
 
 	/*
 	*  METHOD	    : Start()
@@ -36,13 +46,45 @@ public class SLMenuHandler : MonoBehaviour
 	*                 information or initalize other variable
 	*  PARAMETERS	: Nothing
     *  RETURNS  	: Nothing
-	*
+    * 
+	*/
 	void Start () 
 	{
 		//Initalize private variables
-		data = new Data ();
+		data = new Data (btn);
+		data.Info = new List<Asset> ();
+
 	}
 
+
+	/*
+	*  METHOD	    : ErrorHandler()
+    *  DESCRIPTION  : This method is responsible for displaying an error and the text involved with 
+    *                 that error to the user.
+	*  PARAMETERS	: string errorType : The error type i.e save error
+	* 				  string error     : The contents of the error i.e what went wrong
+    *  RETURNS  	: Nothing
+	*/
+	void ErrorHandler(string errorType, string error)
+	{
+		//Display the error to the user with the proper information
+		eLabel.text = errorType + " Error";
+		eText.text = error;	
+		errorMenu.gameObject.SetActive (true);
+	}
+
+	/*
+	*  METHOD	    : CloseErrorHandler()
+    *  DESCRIPTION  : This method is responsible for closing the error handler after the user is done with it.
+    *                 This is an onclick handler.
+	*  PARAMETERS	: Nothing
+    *  RETURNS  	: Nothing
+	*/
+	public void CloseErrorHandler()
+	{
+		//Close the error handler and enable the save/load buttons again
+		errorMenu.gameObject.SetActive (false);
+	}
 
 	/*
 	*  METHOD	    : OpenLoad()
@@ -50,28 +92,31 @@ public class SLMenuHandler : MonoBehaviour
     *                 activating it. This is an onclick handler.
 	*  PARAMETERS	: Nothing
     *  RETURNS  	: Nothing
-	*
+	*/
 	public void OpenLoad()
 	{
-        try
-        {
-            //string path = EditorUtility.OpenFilePanel("Load Game World", "", "dat");
+		try
+		{
+			//Open the file using the standalonefilebrowser plugin
+			string path = StandaloneFileBrowser.OpenFilePanel("Load Game World", "", "dat", false)[0];
 
-            if(path.Length == 0)
-            {
-                throw new Exception("No File Selected, Or The File Was Not Found");
-            }
-            else
-            {
-                data.Load(path);
-            }
-        }
-        catch (Exception e)
-        {
-            //If we are Saving make sure that the error displays as a save error
-            //EditorUtility.DisplayDialog("Load Error", e.Message, "OK");
-        }
-    }
+			//If the path length is zero thorw an exception
+			if(path.Length == 0)
+			{
+				throw new Exception("No File Selected, Or The File Was Not Found");
+			}
+			else
+			{
+				//Load the file through the data class.
+				data.Load(path);
+			}
+		}
+		catch (Exception e)
+		{
+			//If we are Saving make sure that the error displays as a save error
+			ErrorHandler ("Load", e.Message);           
+		}
+	}
 
 	/*
 	*  METHOD	    : OpenSave()
@@ -79,27 +124,40 @@ public class SLMenuHandler : MonoBehaviour
     *                 activating it. This is an onclick handler.
 	*  PARAMETERS	: Nothing
     *  RETURNS  	: Nothing
-	*
+	*/
 	public void OpenSave()
 	{
-        try
-        {
-           //string path = EditorUtility.SaveFilePanel("Save Game World", "", "newSave.dat", "dat");
+		try
+		{
+			//Save the file using the standalonefilebrowser plugin
+			string path = StandaloneFileBrowser.SaveFilePanel("Save Game World", "", "newSave.dat", "dat");
 
-           if(path.Length == 0)
-           {
-                throw new Exception("No File Selected, Or The File Was Not Found");
-            }
-           else
-           {
-                data.Save(path);
-           }
-        }
-        catch(Exception e)
-        {
-            //If we are Saving make sure that the error displays as a save error
-            //EditorUtility.DisplayDialog("Save Error", e.Message, "OK");
-        }
-    }
+			//If the path length is zero thorw an exception
+			if(path.Length == 0)
+			{
+				throw new Exception("No File Selected, Or The File Was Not Found");
+			}
+			else
+			{
+				//Otherwise save the data through the data class
+				data.Save(path);
+			}
+		}
+		catch(Exception e)
+		{
+			//If we are Saving make sure that the error displays as a save error
+			ErrorHandler ("Save", e.Message);
+		}
+	}
+
+	public void ToggleVR(GameObject player)
+	{
+		player.GetComponent<VRToggle>().setVRMode(true);
+		GetComponent<PauseScript> ().Resume ();
+	}
+
+	public void AddToAssetList(Asset asset)
+	{
+		data.Info.Add(asset);
+	}
 }
-*/

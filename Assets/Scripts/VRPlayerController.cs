@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 public class VRPlayerController : MonoBehaviour
 {
@@ -27,18 +27,22 @@ public class VRPlayerController : MonoBehaviour
 
 
     /* 
-    *  FUNCTION      : Start 
+    *  FUNCTION      : onEnable 
     * 
     *  DESCRIPTION   : Gets necassary gameobjects for the player controller
     */
-    void Start()
+    public void OnEnable()
     {
         leftHandInterface = leftHand.GetComponent<WandInterface>(); //get interface for controllers
         rightHandInterface = rightHand.GetComponent<WandInterface>();
 
         //get the dropdown and button controls
         importDropdown = ImportMenu.transform.GetChild(0).gameObject;
-        importButton = importButton.transform.GetChild(1).gameObject;
+		importButton = ImportMenu.transform.GetChild(1).gameObject;
+
+
+
+	
 
     }
 
@@ -47,6 +51,7 @@ public class VRPlayerController : MonoBehaviour
     * 
     *  DESCRIPTION   : Check for movement or VRControl input every frame
     */
+
     void Update()
     {
         //Enter the movement handler
@@ -116,7 +121,7 @@ public class VRPlayerController : MonoBehaviour
                 GameObject hitParentGameObject = hit.transform.parent.gameObject; // parent of hit gameobject
                 GameObject hitGameObject = hit.transform.gameObject; //hit gameobject
 
-                if (hitParentGameObject.tag == "GridTile") //gridtile selected
+				if (hitGameObject.tag == "GridTile") //gridtile selected
                 {
                     //FIXME: Why have GridTile, obj, and Parent. Only need 1.
                     MainMenu.SetActive(false); //close main menu
@@ -198,44 +203,62 @@ public class VRPlayerController : MonoBehaviour
                 }
                 
                 //if we find a button
-                if(hitParentGameObject.tag == "Button")
+				if(hitParentGameObject.tag == "Button" || hitGameObject.tag == "Button")
                 {
                     //if it's the import button
                     //FIXME: change name of the import button to be more relevant
-                    if(hitParentGameObject.name == "VRUIDropdownButton")
-                    {
-                        //create new gameobject for the building
-                        GameObject building = OBJLoader.LoadOBJFile(importDropdown.GetComponent<DropDownScript>().getSelectedElement(), mat );
-                        //destroy until we make transformations
-                        Destroy(building);
-                        building.transform.position = new Vector3(0, 0, 0);
+					if (hitGameObject.name == "ImportButton") {
+						//create new gameobject for the building
+						GameObject building = OBJLoader.LoadOBJFile (importDropdown.GetComponent<DropDownScript> ().getSelectedElement (), mat);
+						//destroy until we make transformations
+						Destroy (building);
+						building.transform.position = new Vector3 (0, 0, 0);
 
-                        Vector3 center = Vector3.zero;
-                        Vector3 Test = Vector3.zero;
+						Vector3 center = Vector3.zero;
+						Vector3 Test = Vector3.zero;
 
-                        foreach (Transform child in building.transform)
-                        {
-                            center += child.gameObject.GetComponent<Renderer>().bounds.center;
-                        }
-                        center /= building.transform.childCount; //center is average center of children
+						foreach (Transform child in building.transform) {
+							center += child.gameObject.GetComponent<Renderer> ().bounds.center;
+						}
+						center /= building.transform.childCount; //center is average center of children
 
-                        center = (center * 0.3048f) / 12;//Real unity center for object
+						center = (center * 0.3048f) / 12;//Real unity center for object
 
-                        building.tag = "Asset";
-                        building.transform.localScale = new Vector3(0.0257f, 0.0257f, 0.0257f);
+						building.tag = "Asset";
+						building.transform.localScale = new Vector3 (0.0257f, 0.0257f, 0.0257f);
 
-                        GameObject newBuilding = Instantiate(building, Parent.transform);
-                        float x = center.x;
-                        float y = center.y;
-                        float z = center.z;
-                        newBuilding.transform.localPosition = new Vector3(newBuilding.transform.localPosition.x - (x), newBuilding.transform.localPosition.y - (y), newBuilding.transform.localPosition.z - (z));
-                        //close all the menus
-                        ImportMenu.SetActive(false);
-                        obj.SetActive(false);
-                        gridSelected = false;
+						GameObject newBuilding = Instantiate (building, Parent.transform);
+						float x = center.x;
+						float y = center.y;
+						float z = center.z;
+						newBuilding.transform.localPosition = new Vector3 (newBuilding.transform.localPosition.x - (x), newBuilding.transform.localPosition.y - (y), newBuilding.transform.localPosition.z - (z));
+						//close all the menus
+						ImportMenu.SetActive (false);
+						obj.SetActive (false);
+						gridSelected = false;
                       
-                    }
-                }
+					} else if (hitGameObject.name == "BtnQuitVR") {
+					
+						GetComponent<VRToggle> ().setVRMode (false);
+					
+					} else if (hitGameObject.name == "BtnResume") {
+					
+		
+
+					} else if (hitGameObject.name == "BtnSave") {
+					
+					} else if (hitGameObject.name == "BtnLoad") {
+					} else if (hitGameObject.name == "BtnRestart") {
+						//Find out which level we are on
+						string level = SceneManager.GetActiveScene().name;    
+						//Relsoad our current level
+						SceneManager.LoadScene(level);
+					} else if (hitGameObject.name == "BtnQuit") {
+
+						Application.Quit ();
+
+					}
+						
 
             }
         }
@@ -256,4 +279,5 @@ public class VRPlayerController : MonoBehaviour
         }
 
     }
+	}
 }

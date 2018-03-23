@@ -12,7 +12,7 @@ public class VRUICanvas : MonoBehaviour {
 
     public GameObject VRCanvis;
 
-    public SteamVR_Camera camera;
+	public GameObject camera;
 
     /* 
     *  FUNCTION      : Update 
@@ -21,7 +21,8 @@ public class VRUICanvas : MonoBehaviour {
     */
     void Update () {
         Vector3 pos = camera.transform.position; //get player condition
-        pos.z += 30; //place canvas 30 units ahead of the player
+		pos.y +=3;
+		pos.z += 10; //place canvas 30 units ahead of the player
         VRCanvis.transform.position = pos;
 	}
 }
