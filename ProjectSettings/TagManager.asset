@@ -10,6 +10,7 @@ TagManager:
   - GridTile
   - ImpButton
   - Menu
+  - Highlight
   layers:
   - Default
   - TransparentFX

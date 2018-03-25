@@ -21,7 +21,6 @@ public class PauseScript : MonoBehaviour {
 	//A bool flag to tell us when we are paused
     private bool paused;
 
-
 	//FUNCTION      : Start()
 	//DESCRIPTION   : This Method is launched when the level is loaded and is used to gather
 	//                information or initalize other variables

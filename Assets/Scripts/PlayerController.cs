@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
     public int escCount;
     public GameObject obj;
     public GameObject Parent;
+	public GameObject lighter;
     public InputField posX;
     public InputField posY;
     public InputField posZ;
@@ -34,6 +35,8 @@ public class PlayerController : MonoBehaviour
     public InputField scleZ;
     public InputField tagger;
     public bool gridSelected = false;
+	public Material highlightShader;
+	public Material baseShader;
 
     //Private Variables
     private TextHandler Logger;
@@ -43,6 +46,9 @@ public class PlayerController : MonoBehaviour
     private GameObject parentObj;
     private bool locked;
     private bool creative;
+	private GameObject baseObj;
+	private Transform safety;
+
 
 	//Locked property. Used to access the locked flag
 	public bool Locked
@@ -70,6 +76,7 @@ public class PlayerController : MonoBehaviour
         escCount = 0;
         locked = false;
         creative = false;
+		safety = null;
     }
 
     //FUNCTION      : Update()
@@ -156,6 +163,8 @@ public class PlayerController : MonoBehaviour
                 //Create a new raycast starting from the location where the mouse is (in this case the center of the screen)
                 if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
                 {
+					GameObject GetHighLight;
+
                     if (hit.transform.gameObject.tag == "Asset")
                     {
                         //Reset the esc counter
@@ -166,7 +175,11 @@ public class PlayerController : MonoBehaviour
 
                         //Toggle the selected flag and access the object so we can modify it.
                         selected = true;
+
+						//Start the highlighting an selection process
                         obj = hit.transform.parent.gameObject;
+						GetHighLight = hit.transform.gameObject;
+						HighLighter (GetHighLight,false);
 
                         Logger.WriteToLog("Object Tagged, Name: " + obj.gameObject.name + " At X =" + obj.gameObject.transform.position.x + " Y =" + obj.gameObject.transform.position.x + " Z =" + obj.gameObject.transform.position.z);
 						           
@@ -183,13 +196,15 @@ public class PlayerController : MonoBehaviour
                     else if (hit.transform.gameObject.tag == "GridTile")
                     {
                         escCount = 0;
-
+						safety = hit.transform;
                         //Activate the modifcation menu
                         importMenu.SetActive(true);
                         selected = true;
                         gridSelected = true;
 
-                        obj = hit.transform.gameObject;
+						obj = hit.transform.gameObject;
+                        
+						HighLighter (obj,true);
 
                         TileName.text = "Selected Tile: " + hit.transform.parent.gameObject.name + " In " + hit.transform.parent.parent.parent.gameObject.name + " In " + hit.transform.parent.parent.parent.parent.gameObject.name;
 
@@ -228,7 +243,34 @@ public class PlayerController : MonoBehaviour
         objName.text = "Object Name: " + obj.transform.gameObject.name;
     }
 
+	//FUNCTION      : HotKeys()
+	//DESCRIPTION   : This Method is responsible for activating hotkeys based on user input
+	//PARAMETERS    : GameObject SetHighLighter : The object we want to highlight
+	//              : Bool type				    : Is the object is a grid tile or not
+	//RETURNS		: Nothing
+	void HighLighter(GameObject SetHighLighter, bool isGrid)
+	{
+		float scaler = 0.0254f;
+			
+		if (isGrid)
+		{
+			baseObj = obj.transform.GetChild(0).gameObject;
+			baseObj.GetComponent<Renderer> ().material = highlightShader;
+		}
+		else 
+		{
+			lighter.SetActive (true);
+			Vector3 assetSize = (SetHighLighter.GetComponent<BoxCollider> ().size * scaler);
+			Vector3 center = (SetHighLighter.GetComponent<BoxCollider> ().center * scaler);
+			//assetSize = new Vector3 (assetSize.x * scaler, assetSize.y * scaler, assetSize.z * scaler);
 
+			lighter.transform.position = SetHighLighter.transform.position + center;
+			lighter.transform.localScale = assetSize;
+			lighter.transform.localEulerAngles = obj.transform.localEulerAngles;
+		}
+			
+	}
+		
     //FUNCTION      : HotKeys()
     //DESCRIPTION   : This Method is responsible for activating hotkeys based on user input
     //PARAMETERS    : Nothing
@@ -289,10 +331,19 @@ public class PlayerController : MonoBehaviour
                 //Increase the esc counter more
                 escCount++;
             }
+			else
+			{
+				if (safety.gameObject.tag == "GridTile")
+				{
+					baseObj.GetComponent<Renderer> ().material = baseShader;
+					safety = null;
+				}
+			}
 
             //Deactivate the modifaction menu and increase the esc counter
             screen.SetActive(false);
             importMenu.SetActive(false);
+			lighter.SetActive(false);
             selected = false;
             gridSelected = false;
             escCount++;

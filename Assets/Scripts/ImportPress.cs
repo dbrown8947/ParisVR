@@ -98,7 +98,6 @@ public class ImportPress : MonoBehaviour
 		float y = center.y;
 		float z = center.z;
 
-
 		newBuilding.transform.localPosition = new Vector3 (newBuilding.transform.localPosition.x - (x), newBuilding.transform.localPosition.y  - (y), newBuilding.transform.localPosition.z  - (z));
 
         //Populate

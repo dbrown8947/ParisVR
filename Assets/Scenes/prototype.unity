@@ -752,6 +752,7 @@ MonoBehaviour:
   escCount: 0
   obj: {fileID: 0}
   Parent: {fileID: 0}
+  lighter: {fileID: 712093749}
   posX: {fileID: 767715214}
   posY: {fileID: 1479890944}
   posZ: {fileID: 1642092287}
@@ -763,6 +764,8 @@ MonoBehaviour:
   scleZ: {fileID: 511826839}
   tagger: {fileID: 1366945108}
   gridSelected: 0
+  highlightShader: {fileID: 2100000, guid: 43b6addf47127d84f982ac8b562268fb, type: 2}
+  baseShader: {fileID: 2100000, guid: 60ac82b538eba4746a89114b47a8dac1, type: 2}
 --- !u!143 &333628239
 CharacterController:
   m_ObjectHideFlags: 0
@@ -2454,7 +2457,7 @@ GameObject:
   - component: {fileID: 712093750}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Highlight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4095,6 +4098,21 @@ Prefab:
       propertyPath: TileName
       value: 
       objectReference: {fileID: 1620948067}
+    - target: {fileID: 114719793661623798, guid: fefd4ee6fc12e1b46b5582c4c497cdfa,
+        type: 2}
+      propertyPath: lighter
+      value: 
+      objectReference: {fileID: 712093749}
+    - target: {fileID: 114719793661623798, guid: fefd4ee6fc12e1b46b5582c4c497cdfa,
+        type: 2}
+      propertyPath: highlightShader
+      value: 
+      objectReference: {fileID: 2100000, guid: 43b6addf47127d84f982ac8b562268fb, type: 2}
+    - target: {fileID: 114719793661623798, guid: fefd4ee6fc12e1b46b5582c4c497cdfa,
+        type: 2}
+      propertyPath: baseShader
+      value: 
+      objectReference: {fileID: 2100000, guid: 60ac82b538eba4746a89114b47a8dac1, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fefd4ee6fc12e1b46b5582c4c497cdfa, type: 2}
   m_IsPrefabParent: 0
