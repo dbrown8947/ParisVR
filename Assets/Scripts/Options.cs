@@ -147,9 +147,9 @@ public class Options : MonoBehaviour
     *  RETURNS  	: Nothing
     * 
 	*/
-	public void OnDetailsChange()
+	public void OnDetailsChange(int index)
 	{
-
+		QualitySettings.SetQualityLevel (index);
 	}
 		
 	/*
@@ -251,18 +251,29 @@ public class Options : MonoBehaviour
 		}			
 	}
 
+	/*
+	*  METHOD	    : MenuHandler()
+    *  DESCRIPTION  : This Method is called when the user tries to pick a folder/file location.
+	*  PARAMETERS	: bool isFolder : Is the menu looking for a folder or no
+	* 				  string title  : The title of the menu
+    *  RETURNS  	: string path   : the file or folder location
+    * 
+	*/
 	private string MenuHandler(bool isFolder, string title)
 	{
 		string path = "";
 
 		try
 		{
+			//if the item we are lookinf for is a folder
 			if(isFolder)
 			{
+				//Open the File menu
 				path = StandaloneFileBrowser.OpenFolderPanel(title, Application.dataPath,false)[0];
 			}
 			else
 			{
+				//Otherwise open the file menu
 				path = StandaloneFileBrowser.OpenFilePanel(title, Application.dataPath, "xml", false)[0];
 			}				
 		}

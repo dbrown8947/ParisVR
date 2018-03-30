@@ -17,6 +17,7 @@ public class PauseScript : MonoBehaviour {
     public Transform pauseMenu;
 	public GameObject plyr;
 	public Transform cross;
+	public GameObject hotKeys;
 
 	//A bool flag to tell us when we are paused
     private bool paused;
@@ -124,6 +125,27 @@ public class PauseScript : MonoBehaviour {
 		//Reload the menu scene
         SceneManager.LoadScene("Menu");
     }
+
+
+	//FUNCTION      : HotKeys()
+	//DESCRIPTION   : This Method is responsible for opening the hotkeys menu
+	//PARAMETERS    : Nothing
+	//RETURNS		: Nothing
+	public void HotKeys()
+	{
+		hotKeys.SetActive (true);
+		pauseMenu.gameObject.SetActive (false);
+	}
+
+	//FUNCTION      : HotKeysClose()
+	//DESCRIPTION   : This Method is responsible for closing the hotkeys menu
+	//PARAMETERS    : Nothing
+	//RETURNS		: Nothing
+	public void HotKeysClose()
+	{
+		hotKeys.SetActive (false);
+		pauseMenu.gameObject.SetActive (true);
+	}
 }
 
 

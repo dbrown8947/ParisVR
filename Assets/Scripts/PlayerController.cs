@@ -304,6 +304,13 @@ public class PlayerController : MonoBehaviour
 				obj.transform.position = new Vector3 (obj.transform.position.x, obj.transform.position.y - .5f, obj.transform.position.z);
 				UpdateTextFields ();
             }
+
+			if (Input.GetKey (KeyCode.Delete)) 
+			{
+				obj.transform.parent.transform.GetChild (0).gameObject.SetActive (true);
+				Destroy (obj);
+				EscCommands ();
+			}
         }
 
 		//Activate Creative Mode
@@ -341,12 +348,7 @@ public class PlayerController : MonoBehaviour
 			}
 
             //Deactivate the modifaction menu and increase the esc counter
-            screen.SetActive(false);
-            importMenu.SetActive(false);
-			lighter.SetActive(false);
-            selected = false;
-            gridSelected = false;
-            escCount++;
+			EscCommands();
         }
 
         //If the player has pressed the left alt button
@@ -369,4 +371,15 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+	void EscCommands()
+	{
+		//Deactivate the modifaction menu and increase the esc counter
+		screen.SetActive(false);
+		importMenu.SetActive(false);
+		lighter.SetActive(false);
+		selected = false;
+		gridSelected = false;
+		escCount++;
+	}
 }

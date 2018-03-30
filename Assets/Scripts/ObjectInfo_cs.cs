@@ -54,14 +54,14 @@ public class ObjectInfo
 		}
 	}
 
-	//Name property, used to access the name variable
+	//FileName property, used to access the fileName variable
 	public string FileName
 	{
 		/*
-		 *  Name		: get (name)
-		 *	Description : Accessor for the name string
+		 *  Name		: get (fileName)
+		 *	Description : Accessor for the fileName string
 		 *	Parameters	: Nothing
-		 *  Returns		: string name, the name of the object in the game world.
+		 *  Returns		: string fileName, the fileName of the object in the game world.
 		*/
 		get
 		{
@@ -69,9 +69,9 @@ public class ObjectInfo
 		}
 
 		/*
-		 *  Name		: set (name)
-		 *	Description : Mutator for the name string
-		 *	Parameters	: string value : the name of the object in the game world. 
+		 *  Name		: set (fileName)
+		 *	Description : Mutator for the fileName string
+		 *	Parameters	: string value : the fileName of the object in the game world. 
 		 *  Returns		: Nothing
 		*/
 		set
@@ -353,9 +353,15 @@ public class Asset
 	}
 }
 
+/*
+* Class Name	: TempVector
+* DESCRIPTION   : This is a serializable class that will be used model a unity vector3 object but 
+*                 with the ability to be serialized so that we can save this information into a file
+*/
 [System.Serializable]
 public class TempVector
 {
+	//Private Variables for coordinates
     private float x;
     private float y;
     private float z;
@@ -365,6 +371,12 @@ public class TempVector
     {
         get
         {
+		/*
+		 *  Name		: get (childInfo)
+		 *	Description : Accessor for the childInfo Object
+		 *	Parameters	: Nothing
+		 *  Returns		: SubObjectInfo childInfo, the information about the child object(s)
+		*/
             return x;
         }
         set

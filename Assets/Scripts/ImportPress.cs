@@ -99,6 +99,8 @@ public class ImportPress : MonoBehaviour
 		float z = center.z;
 
 		newBuilding.transform.localPosition = new Vector3 (newBuilding.transform.localPosition.x - (x), newBuilding.transform.localPosition.y  - (y), newBuilding.transform.localPosition.z  - (z));
+		newBuilding.AddComponent<Text> ();
+
 
         //Populate
         asset.ParentInfo.Name = newBuilding.name;
@@ -108,6 +110,8 @@ public class ImportPress : MonoBehaviour
 
         obj.SetActive(false);
 		Menu.SetActive (false);
+		GameObject lot = Parent.transform.GetChild (0).gameObject; 
+		lot.SetActive (false);
 		plyr.GetComponent<PlayerController> ().gridSelected = false;
 		plyr.GetComponent<PlayerController> ().selected = false;
 		GameObject.Find("PauseMenu").GetComponent<SLMenuHandler>().AddToAssetList(asset);
@@ -120,7 +124,7 @@ public class ImportPress : MonoBehaviour
         Parent = FindTileParent(area, tile);
         Quaternion rotation = new Quaternion(0, 0, 0, 0);
 
-        Parent.transform.Find("HitBox").gameObject.SetActive(false);
+        //Parent.transform.Find("HitBox").gameObject.SetActive(false);
 
         // building = GameObject.Find(parentName);
         Destroy(building);
@@ -148,11 +152,14 @@ public class ImportPress : MonoBehaviour
         float z = center.z;
 
         newBuilding.transform.localPosition = new Vector3(newBuilding.transform.localPosition.x - (x), newBuilding.transform.localPosition.y - (y), newBuilding.transform.localPosition.z - (z));
+		newBuilding.AddComponent<Text> ();
 
         Parent.transform.localPosition = new Vector3(pos.X, pos.Y, pos.Z);
         Parent.transform.localEulerAngles = new Vector3(rot.X, rot.Y, rot.Z);
         Parent.transform.localScale = new Vector3(scale.X, scale.Y, scale.Z);
 
+		GameObject lot = Parent.transform.GetChild (0).gameObject; 
+		lot.SetActive (false);
     }
 		
     GameObject FindTileParent(string name, string tile)

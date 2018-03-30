@@ -59,7 +59,7 @@ public class SLMenuHandler : MonoBehaviour
         try
         {
 			//Open the file using the standalonefilebrowser plugin
-			string path = StandaloneFileBrowser.OpenFilePanel("Load Game World", Application.dataPath + @"\Saves", "dat", false)[0];
+			string path = StandaloneFileBrowser.OpenFilePanel("Load Game World", PlayerPrefs.GetString ("save", Application.dataPath + @"/Saves"), "dat", false)[0];
 
 			//If the path length is zero thorw an exception
             if(path.Length == 0)
@@ -69,7 +69,10 @@ public class SLMenuHandler : MonoBehaviour
             else
             {
 				//Load the file through the data class.
-                data.Load(path);
+                //data.Load(path);
+
+				PlayerPrefs.SetString("lLoc", path);
+				PlayerPrefs.SetInt("flag", 1);
             }
         }
         catch (Exception e)
@@ -91,7 +94,7 @@ public class SLMenuHandler : MonoBehaviour
         try
         {
 			//Save the file using the standalonefilebrowser plugin
-			string path = StandaloneFileBrowser.SaveFilePanel("Save Game World", Application.dataPath + @"\Saves", "newSave.dat", "dat");
+			string path = StandaloneFileBrowser.SaveFilePanel("Save Game World", PlayerPrefs.GetString ("save", Application.dataPath + @"/Saves"), "newSave.dat", "dat");
 
 			//If the path length is zero thorw an exception
            if(path.Length == 0)

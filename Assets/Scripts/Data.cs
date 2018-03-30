@@ -65,6 +65,18 @@ public class Data : MonoBehaviour
 	}
 
 	/*
+	*  METHOD	    : Data()
+    *  DESCRIPTION  : This Method is a constructor for the Data class
+	*  PARAMETERS	: Nothing
+    *  RETURNS  	: Nothing
+    * 
+	*/
+	public Data()
+	{
+		btn = null;
+	}
+
+	/*
 	*  METHOD	    : Start()
     *  DESCRIPTION  : This Method is launched when the level is loaded and is used to gather
 	*                 information or initalize other variable
