@@ -9,6 +9,7 @@ public class LoadRoads : MonoBehaviour
 {
 	public GameObject roadStarter;
 	public GameObject roadMesh;
+	public GameObject parentStart;
 	public static    TestObjectPlacement objectloader = new TestObjectPlacement();
 	public List<List<OSMPositionNode>> ListOfRoads = new List<List<OSMPositionNode>>();
 	public List<GameObject> listOfTmp = new List<GameObject>();
@@ -190,7 +191,7 @@ public class LoadRoads : MonoBehaviour
 		foreach (List<OSMPositionNode> listOfNodes in ListOfRoads)
 		{
 
-			GameObject Organizer = Instantiate(roadStarter);
+			GameObject Organizer = Instantiate(roadStarter,parentStart.transform);
 			Organizer.name = "Base Road " + OrganizerNumber;
 			listOfTmp.Add(Organizer);
 

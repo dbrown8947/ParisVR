@@ -61,7 +61,7 @@ namespace Importer{
 		public List<List<OSMPositionNode>> ImportNodes () {
 
 			//read osm 
-			StreamReader sr = new StreamReader (Application.dataPath + @"\map.osm-roads.xml");
+			StreamReader sr = new StreamReader (@"/Users/student/Documents/OSM/map.osm-roads.xml");
 			string line = sr.ReadLine ();
 			OSMMap map = new OSMMap ();
 
@@ -193,7 +193,7 @@ namespace Importer{
 		public List<List<OSMPositionNode>> ImportRoads () {
 
 			//read osm 
-			StreamReader sr = new StreamReader (@"C:\Users\Dustin\Documents\OSM\map.osm.xml");
+			StreamReader sr = new StreamReader (@"/Users/student/Documents/OSM/map.osm-roads.xml");
 			string line = sr.ReadLine ();
 			OSMMap map = new OSMMap ();
 

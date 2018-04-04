@@ -12,7 +12,7 @@ public class CreateRoad : MonoBehaviour {
 	public Vector3[] TangentExtraPoints;
 	private int extraPointCount = 0;
 	public Vector3[] vertices = new Vector3[4];
-	public float Muliplier = 0.5f;
+	public float Muliplier = 0.13f;
 
 
 	public Vector3[] GetTangentPoints(List<Vector3> Points)
@@ -114,9 +114,9 @@ public class CreateRoad : MonoBehaviour {
 				Vector3 tangent;
 				position = CatmullSpline.Interpolate(p0, p1, m0, m1, t, out tangent);
 
-				TangentExtraPoints [extraPointCount] = (position + (Vector3.Cross(tangent, Vector3.up).normalized)/0.13f);
+				TangentExtraPoints [extraPointCount] = (position + (Vector3.Cross(tangent, Vector3.up).normalized)/0.19f);
 				extraPointCount++;
-				TangentExtraPoints [extraPointCount] = (position - (Vector3.Cross(tangent, Vector3.up).normalized)/0.13f);
+				TangentExtraPoints [extraPointCount] = (position - (Vector3.Cross(tangent, Vector3.up).normalized)/0.19f);
 				extraPointCount++;
 				CurveCoordinates[i * CurveResolution + j] = position;
 				Tangents[i * CurveResolution + j] = tangent;
