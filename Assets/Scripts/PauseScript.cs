@@ -1,6 +1,6 @@
 ﻿/*
 * FILE			: PauseScript.cs
-* PROJECT		: Final Game Dev
+* PROJECT		: ParisVR
 * PROGRAMMERS	: Marco Fontana
 * FIRST VERSION	: 9-29-2017
 * DESCRIPTION   : This file contains the code and functionality of the pause menu. The pause menu is used to stop the game temporaily, restart the level, or
@@ -17,10 +17,10 @@ public class PauseScript : MonoBehaviour {
     public Transform pauseMenu;
 	public GameObject plyr;
 	public Transform cross;
+	public GameObject hotKeys;
 
 	//A bool flag to tell us when we are paused
     private bool paused;
-
 
 	//FUNCTION      : Start()
 	//DESCRIPTION   : This Method is launched when the level is loaded and is used to gather
@@ -102,8 +102,7 @@ public class PauseScript : MonoBehaviour {
 		//Reload our current level
         SceneManager.LoadScene(level);
     }
-
-
+		
 	//FUNCTION      : Restart()
 	//DESCRIPTION   : This Method is responsible for quitting the application in a deployed version
 	//PARAMETERS    : Nothing
@@ -126,6 +125,27 @@ public class PauseScript : MonoBehaviour {
 		//Reload the menu scene
         SceneManager.LoadScene("Menu");
     }
+
+
+	//FUNCTION      : HotKeys()
+	//DESCRIPTION   : This Method is responsible for opening the hotkeys menu
+	//PARAMETERS    : Nothing
+	//RETURNS		: Nothing
+	public void HotKeys()
+	{
+		hotKeys.SetActive (true);
+		pauseMenu.gameObject.SetActive (false);
+	}
+
+	//FUNCTION      : HotKeysClose()
+	//DESCRIPTION   : This Method is responsible for closing the hotkeys menu
+	//PARAMETERS    : Nothing
+	//RETURNS		: Nothing
+	public void HotKeysClose()
+	{
+		hotKeys.SetActive (false);
+		pauseMenu.gameObject.SetActive (true);
+	}
 }
 
 

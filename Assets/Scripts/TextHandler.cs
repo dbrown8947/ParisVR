@@ -1,6 +1,6 @@
 ﻿/*
 * FILE			: TextHandler.cs
-* PROJECT		: Final Game Dev
+* PROJECT		: ParisVR
 * PROGRAMMERS	: Marco Fontana
 * FIRST VERSION	: 12-26-2017
 * DESCRIPTION   : This file contains the code and functionality required to modify a gameobject based on user input,
@@ -32,7 +32,22 @@ public class TextHandler : MonoBehaviour {
 
 	//Private variables
 	private GameObject obj;
+	private ErrorHandler errorHandler;
 
+	/*
+	*  METHOD	    : Start()
+    *  DESCRIPTION  : This Method is launched when the level is loaded and is used to gather
+	*                 information or initalize other variable
+	*  PARAMETERS	: Nothing
+    *  RETURNS  	: Nothing
+    * 
+	*/
+	void Start () 
+	{
+		//Initalize private variables
+		errorHandler = GameObject.FindWithTag ("Menu").GetComponent<ErrorHandler> ();
+	}
+		
 	//FUNCTION      : PosXModifier()
 	//DESCRIPTION   : This method parses user input to change the X value for Position
 	//PARAMETERS    : Nothing
@@ -124,7 +139,7 @@ public class TextHandler : MonoBehaviour {
 		if (float.TryParse (rotY.text, out value)) 
 		{
 			//change the objects Rotation based on the inputted number
-			obj.transform.localEulerAngles = new Vector3(obj.transform.rotation.x, value, obj.transform.rotation.z);
+			obj.transform.localEulerAngles = new Vector3(obj.transform.localEulerAngles.x, value, obj.transform.localEulerAngles.z);
 		}
 	}
 
@@ -258,7 +273,6 @@ public class TextHandler : MonoBehaviour {
 			//Set the text in the object to the text in the tagger
 		    obj.GetComponent<UnityEngine.UI.Text> ().text = tagger.text;
 
-
 		    //get the current date
 			today = DateTime.Now;
 			
@@ -291,9 +305,8 @@ public class TextHandler : MonoBehaviour {
 		}
 		catch (Exception)
 		{
-			//Do nothing
+			errorHandler.Error("Tagger Error", "Error when attempting to save tag information to file/Asset"); 
 		}
-
 	}
 
 	//FUNCTION      : WriteToLog()
@@ -310,7 +323,7 @@ public class TextHandler : MonoBehaviour {
 		DateTime today = new DateTime();
 
 		//Restart the time scale
-		Time.timeScale = 1.0f;
+		//Time.timeScale = 1.0f;
 
 		try
 		{
@@ -343,7 +356,7 @@ public class TextHandler : MonoBehaviour {
 		}
 		catch (Exception)
 		{
-			//Do nothing
+			errorHandler.Error("Logger Error", "Error when attempting to write to log file"); 
 		}
 
 	}

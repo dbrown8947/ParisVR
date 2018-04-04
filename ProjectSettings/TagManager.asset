@@ -4,10 +4,19 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Construction
+  - VRUINumericBoxKey
+  - ImpButton
+  - GridTile
+  - Button
+  - VRUIDropdownClosed
+  - VRUIDropdownElement
+  - VRUIDropdownScrollUp
+  - VRUIDropdownScrollDown
   - Asset
   - SubAsset
-  - GridTile
+  - NumericBox
+  - Menu
+  - Highlight
   layers:
   - Default
   - TransparentFX

@@ -1,18 +1,18 @@
 /*
 * FILE			: SLMenuHandler.cs
-* PROJECT		: ParisVR Tool
+* PROJECT		: ParisVR
 * PROGRAMMERS	: Marco Fontana
 * FIRST VERSION	: 1-20-2018
 * DESCRIPTION   : This file contains the code and functionality required handle the menus required to save and load game worlds
-
-
+*/
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEditor;
+using SFB;
 
 
 /*
@@ -20,15 +20,16 @@ using UnityEngine.UI;
 * DESCRIPTION   : This class is responsible for handling any menuing involving the save and load features of the application. This class
 *                 will launch the save/load menu and pass errors to an error handler so that the user can see problems that occur and allows
 *                 them to save/load game worlds.
-*
+*/
 public class SLMenuHandler : MonoBehaviour
 {
 
 	//Private Variables
+	private Data data; //The class that handles saving and loading
+	private ErrorHandler errorHandler;
 
-	//The class that handles saving and loading
-	private Data data; 
-
+	//Public Variables
+	public Button btn;
 
 	/*
 	*  METHOD	    : Start()
@@ -36,40 +37,48 @@ public class SLMenuHandler : MonoBehaviour
 	*                 information or initalize other variable
 	*  PARAMETERS	: Nothing
     *  RETURNS  	: Nothing
-	*
+    * 
+	*/
 	void Start () 
 	{
 		//Initalize private variables
-		data = new Data ();
+		data = new Data (btn);
+		data.Info = new List<Asset> ();
+		errorHandler = GameObject.FindWithTag ("Menu").GetComponent<ErrorHandler> ();
 	}
-
-
+		
 	/*
 	*  METHOD	    : OpenLoad()
     *  DESCRIPTION  : This method is responsible for changing the save/load menu into the load format and
     *                 activating it. This is an onclick handler.
 	*  PARAMETERS	: Nothing
     *  RETURNS  	: Nothing
-	*
+	*/
 	public void OpenLoad()
 	{
         try
         {
-            //string path = EditorUtility.OpenFilePanel("Load Game World", "", "dat");
+			//Open the file using the standalonefilebrowser plugin
+			string path = StandaloneFileBrowser.OpenFilePanel("Load Game World", PlayerPrefs.GetString ("save", Application.dataPath + @"/Saves"), "dat", false)[0];
 
+			//If the path length is zero thorw an exception
             if(path.Length == 0)
             {
                 throw new Exception("No File Selected, Or The File Was Not Found");
             }
             else
             {
-                data.Load(path);
+				//Load the file through the data class.
+                //data.Load(path);
+
+				PlayerPrefs.SetString("lLoc", path);
+				PlayerPrefs.SetInt("flag", 1);
             }
         }
         catch (Exception e)
         {
             //If we are Saving make sure that the error displays as a save error
-            //EditorUtility.DisplayDialog("Load Error", e.Message, "OK");
+			errorHandler.Error("Load Error", e.Message);           
         }
     }
 
@@ -79,27 +88,40 @@ public class SLMenuHandler : MonoBehaviour
     *                 activating it. This is an onclick handler.
 	*  PARAMETERS	: Nothing
     *  RETURNS  	: Nothing
-	*
+	*/
 	public void OpenSave()
 	{
         try
         {
-           //string path = EditorUtility.SaveFilePanel("Save Game World", "", "newSave.dat", "dat");
+			//Save the file using the standalonefilebrowser plugin
+			string path = StandaloneFileBrowser.SaveFilePanel("Save Game World", PlayerPrefs.GetString ("save", Application.dataPath + @"/Saves"), "newSave.dat", "dat");
 
+			//If the path length is zero thorw an exception
            if(path.Length == 0)
            {
                 throw new Exception("No File Selected, Or The File Was Not Found");
-            }
+           }
            else
            {
+				//Otherwise save the data through the data class
                 data.Save(path);
            }
         }
         catch(Exception e)
         {
             //If we are Saving make sure that the error displays as a save error
-            //EditorUtility.DisplayDialog("Save Error", e.Message, "OK");
+			errorHandler.Error("Save Error", e.Message);
         }
     }
+
+	/*
+	*  METHOD	    : AddToAssetList()
+    *  DESCRIPTION  : This method is responsible for adding assets to the asset list
+	*  PARAMETERS	: Asset asset : the asset you are trying to add to the data class
+    *  RETURNS  	: Nothing
+	*/
+	public void AddToAssetList(Asset asset)
+	{
+		data.Info.Add(asset);
+	}
 }
-*/

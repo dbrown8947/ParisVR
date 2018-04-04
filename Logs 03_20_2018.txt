@@ -1,0 +1,1491 @@
+3/20/2018 1:25:15 PM: Grid Tile Tagged, Name: Lot At X=-18.41927 Y=-18.41927 Z=-5.92804
+3/20/2018 1:25:18 PM: L is, #
+3/20/2018 1:25:18 PM: cmps[0] is: #
+3/20/2018 1:25:18 PM: data is, #
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: #
+3/20/2018 1:25:18 PM: L is, ## Alias OBJ Material File
+3/20/2018 1:25:18 PM: cmps[0] is: ##
+3/20/2018 1:25:18 PM: data is, Alias OBJ Material File
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: ##
+3/20/2018 1:25:18 PM: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/20/2018 1:25:18 PM: cmps[0] is: #
+3/20/2018 1:25:18 PM: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: #
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl Derrick_Shoes
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, Derrick_Shoes
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.400000 0.278431 0.239216
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.400000 0.278431 0.239216
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl Derrick_Shirt
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, Derrick_Shirt
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.478431 0.478431 0.600000
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.478431 0.478431 0.600000
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl Derrick_Hair
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, Derrick_Hair
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.337255 0.298039 0.278431
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.337255 0.298039 0.278431
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl Derrick_Pager
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, Derrick_Pager
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.137255 0.137255 0.137255
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.137255 0.137255 0.137255
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl Derrick_Sweater
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, Derrick_Sweater
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.556863 0.556863 0.556863
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.556863 0.556863 0.556863
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl Derrick_T_shirt
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, Derrick_T_shirt
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.886275 0.886275 0.886275
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.886275 0.886275 0.886275
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl Derrick_Pants
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, Derrick_Pants
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.600000 0.537255 0.478431
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.600000 0.537255 0.478431
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl Derrick
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, Derrick
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.823529 0.705882 0.549020
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.823529 0.705882 0.549020
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl Translucent_Glass_Gold
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, Translucent_Glass_Gold
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.941176 1.000000 0.741176
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.941176 1.000000 0.741176
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, d 0.760000
+3/20/2018 1:25:18 PM: cmps[0] is: d
+3/20/2018 1:25:18 PM: data is, 0.760000
+3/20/2018 1:25:18 PM: L is, map_Kd Browndog cafe/Translucent_Glass_Gold.jpg
+3/20/2018 1:25:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:25:18 PM: data is, Browndog cafe/Translucent_Glass_Gold.jpg
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl FrontColor
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, FrontColor
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 1.000000 1.000000 1.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 1.000000 1.000000 1.000000
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl Color_009
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, Color_009
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl BackColor
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, BackColor
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.643137 0.698039 0.733333
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.643137 0.698039 0.733333
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl Color_006
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, Color_006
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.337255 0.337255 0.337255
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.337255 0.337255 0.337255
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl Translucent_Glass_Gray
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, Translucent_Glass_Gray
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.949020 0.968627 0.792157
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.949020 0.968627 0.792157
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, d 0.480000
+3/20/2018 1:25:18 PM: cmps[0] is: d
+3/20/2018 1:25:18 PM: data is, 0.480000
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl M_2005696_stone_texture_large_bricks_in_a_brown_beige_sandstone_wall_background
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, M_2005696_stone_texture_large_bricks_in_a_brown_beige_sandstone_wall_background
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.796078 0.756863 0.705882
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.796078 0.756863 0.705882
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, map_Kd Browndog cafe/M_2005696_stone_texture_large_bricks_in_a_brown_beige_sandstone_wall_background.jpg
+3/20/2018 1:25:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:25:18 PM: data is, Browndog cafe/M_2005696_stone_texture_large_bricks_in_a_brown_beige_sandstone_wall_background.jpg
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl M_2999482474_16bcc21e21_z
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, M_2999482474_16bcc21e21_z
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.713725 0.462745 0.341176
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.713725 0.462745 0.341176
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, map_Kd Browndog cafe/M_2999482474_16bcc21e21_z.jpg
+3/20/2018 1:25:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:25:18 PM: data is, Browndog cafe/M_2999482474_16bcc21e21_z.jpg
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl _Translucent_Glass_Gray_1
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, _Translucent_Glass_Gray_1
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, d 0.500000
+3/20/2018 1:25:18 PM: cmps[0] is: d
+3/20/2018 1:25:18 PM: data is, 0.500000
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl untitled
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, untitled
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.270588 0.294118 0.282353
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.270588 0.294118 0.282353
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, map_Kd Browndog cafe/untitled.bmp
+3/20/2018 1:25:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:25:18 PM: data is, Browndog cafe/untitled.bmp
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl Image2
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, Image2
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.152941 0.188235 0.203922
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.152941 0.188235 0.203922
+3/20/2018 1:25:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:25:18 PM: L is, map_Kd Browndog cafe/Image2.bmp
+3/20/2018 1:25:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:25:18 PM: data is, Browndog cafe/Image2.bmp
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl untitled1_
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, untitled1_
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:25:18 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, map_Kd Browndog cafe/untitled1_.bmp
+3/20/2018 1:25:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:25:18 PM: data is, Browndog cafe/untitled1_.bmp
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl bd
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, bd
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:25:18 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, map_Kd Browndog cafe/bd.bmp
+3/20/2018 1:25:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:25:18 PM: data is, Browndog cafe/bd.bmp
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl jgf
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, jgf
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:25:18 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, map_Kd Browndog cafe/jgf.bmp
+3/20/2018 1:25:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:25:18 PM: data is, Browndog cafe/jgf.bmp
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl lh
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, lh
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:25:18 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, map_Kd Browndog cafe/lh.bmp
+3/20/2018 1:25:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:25:18 PM: data is, Browndog cafe/lh.bmp
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl lh1_
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, lh1_
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:25:18 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, map_Kd Browndog cafe/lh1_.bmp
+3/20/2018 1:25:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:25:18 PM: data is, Browndog cafe/lh1_.bmp
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl lh2_
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, lh2_
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:25:18 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, map_Kd Browndog cafe/lh2_.bmp
+3/20/2018 1:25:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:25:18 PM: data is, Browndog cafe/lh2_.bmp
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl lh3_
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, lh3_
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:25:18 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, map_Kd Browndog cafe/lh3_.bmp
+3/20/2018 1:25:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:25:18 PM: data is, Browndog cafe/lh3_.bmp
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:18 PM: L is, newmtl logo
+3/20/2018 1:25:18 PM: cmps[0] is: newmtl
+3/20/2018 1:25:18 PM: data is, logo
+3/20/2018 1:25:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ka
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:25:18 PM: cmps[0] is: Kd
+3/20/2018 1:25:18 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:25:18 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: cmps[0] is: Ks
+3/20/2018 1:25:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:25:18 PM: L is, map_Kd Browndog cafe/logo.png
+3/20/2018 1:25:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:25:18 PM: data is, Browndog cafe/logo.png
+3/20/2018 1:25:18 PM: L is, 
+3/20/2018 1:25:18 PM: cmps[0] is: 
+3/20/2018 1:25:18 PM: data is, 
+3/20/2018 1:25:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:25:19 PM: Object Tagged, Name: Lot At X =-18.41927 Y =-18.41927 Z =-5.92804
+3/20/2018 1:32:54 PM: Grid Tile Tagged, Name: Lot At X=-18.41927 Y=-18.41927 Z=-5.92804
+3/20/2018 1:32:56 PM: L is, #
+3/20/2018 1:32:56 PM: cmps[0] is: #
+3/20/2018 1:32:56 PM: data is, #
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: #
+3/20/2018 1:32:56 PM: L is, ## Alias OBJ Material File
+3/20/2018 1:32:56 PM: cmps[0] is: ##
+3/20/2018 1:32:56 PM: data is, Alias OBJ Material File
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: ##
+3/20/2018 1:32:56 PM: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/20/2018 1:32:56 PM: cmps[0] is: #
+3/20/2018 1:32:56 PM: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: #
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl Derrick_Shoes
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, Derrick_Shoes
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.400000 0.278431 0.239216
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.400000 0.278431 0.239216
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl Derrick_Shirt
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, Derrick_Shirt
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.478431 0.478431 0.600000
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.478431 0.478431 0.600000
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl Derrick_Hair
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, Derrick_Hair
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.337255 0.298039 0.278431
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.337255 0.298039 0.278431
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl Derrick_Pager
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, Derrick_Pager
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.137255 0.137255 0.137255
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.137255 0.137255 0.137255
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl Derrick_Sweater
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, Derrick_Sweater
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.556863 0.556863 0.556863
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.556863 0.556863 0.556863
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl Derrick_T_shirt
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, Derrick_T_shirt
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.886275 0.886275 0.886275
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.886275 0.886275 0.886275
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl Derrick_Pants
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, Derrick_Pants
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.600000 0.537255 0.478431
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.600000 0.537255 0.478431
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl Derrick
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, Derrick
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.823529 0.705882 0.549020
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.823529 0.705882 0.549020
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl Translucent_Glass_Gold
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, Translucent_Glass_Gold
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.941176 1.000000 0.741176
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.941176 1.000000 0.741176
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, d 0.760000
+3/20/2018 1:32:56 PM: cmps[0] is: d
+3/20/2018 1:32:56 PM: data is, 0.760000
+3/20/2018 1:32:56 PM: L is, map_Kd Browndog cafe/Translucent_Glass_Gold.jpg
+3/20/2018 1:32:56 PM: cmps[0] is: map_Kd
+3/20/2018 1:32:56 PM: data is, Browndog cafe/Translucent_Glass_Gold.jpg
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl FrontColor
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, FrontColor
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 1.000000 1.000000 1.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 1.000000 1.000000 1.000000
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl Color_009
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, Color_009
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl BackColor
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, BackColor
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.643137 0.698039 0.733333
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.643137 0.698039 0.733333
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl Color_006
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, Color_006
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.337255 0.337255 0.337255
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.337255 0.337255 0.337255
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl Translucent_Glass_Gray
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, Translucent_Glass_Gray
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.949020 0.968627 0.792157
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.949020 0.968627 0.792157
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, d 0.480000
+3/20/2018 1:32:56 PM: cmps[0] is: d
+3/20/2018 1:32:56 PM: data is, 0.480000
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl M_2005696_stone_texture_large_bricks_in_a_brown_beige_sandstone_wall_background
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, M_2005696_stone_texture_large_bricks_in_a_brown_beige_sandstone_wall_background
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.796078 0.756863 0.705882
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.796078 0.756863 0.705882
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, map_Kd Browndog cafe/M_2005696_stone_texture_large_bricks_in_a_brown_beige_sandstone_wall_background.jpg
+3/20/2018 1:32:56 PM: cmps[0] is: map_Kd
+3/20/2018 1:32:56 PM: data is, Browndog cafe/M_2005696_stone_texture_large_bricks_in_a_brown_beige_sandstone_wall_background.jpg
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl M_2999482474_16bcc21e21_z
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, M_2999482474_16bcc21e21_z
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.713725 0.462745 0.341176
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.713725 0.462745 0.341176
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, map_Kd Browndog cafe/M_2999482474_16bcc21e21_z.jpg
+3/20/2018 1:32:56 PM: cmps[0] is: map_Kd
+3/20/2018 1:32:56 PM: data is, Browndog cafe/M_2999482474_16bcc21e21_z.jpg
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl _Translucent_Glass_Gray_1
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, _Translucent_Glass_Gray_1
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, d 0.500000
+3/20/2018 1:32:56 PM: cmps[0] is: d
+3/20/2018 1:32:56 PM: data is, 0.500000
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl untitled
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, untitled
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.270588 0.294118 0.282353
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.270588 0.294118 0.282353
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, map_Kd Browndog cafe/untitled.bmp
+3/20/2018 1:32:56 PM: cmps[0] is: map_Kd
+3/20/2018 1:32:56 PM: data is, Browndog cafe/untitled.bmp
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl Image2
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, Image2
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.152941 0.188235 0.203922
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.152941 0.188235 0.203922
+3/20/2018 1:32:56 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:32:56 PM: L is, map_Kd Browndog cafe/Image2.bmp
+3/20/2018 1:32:56 PM: cmps[0] is: map_Kd
+3/20/2018 1:32:56 PM: data is, Browndog cafe/Image2.bmp
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl untitled1_
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, untitled1_
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:32:56 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, map_Kd Browndog cafe/untitled1_.bmp
+3/20/2018 1:32:56 PM: cmps[0] is: map_Kd
+3/20/2018 1:32:56 PM: data is, Browndog cafe/untitled1_.bmp
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl bd
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, bd
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:32:56 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, map_Kd Browndog cafe/bd.bmp
+3/20/2018 1:32:56 PM: cmps[0] is: map_Kd
+3/20/2018 1:32:56 PM: data is, Browndog cafe/bd.bmp
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl jgf
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, jgf
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:32:56 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, map_Kd Browndog cafe/jgf.bmp
+3/20/2018 1:32:56 PM: cmps[0] is: map_Kd
+3/20/2018 1:32:56 PM: data is, Browndog cafe/jgf.bmp
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl lh
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, lh
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:32:56 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, map_Kd Browndog cafe/lh.bmp
+3/20/2018 1:32:56 PM: cmps[0] is: map_Kd
+3/20/2018 1:32:56 PM: data is, Browndog cafe/lh.bmp
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl lh1_
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, lh1_
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:32:56 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, map_Kd Browndog cafe/lh1_.bmp
+3/20/2018 1:32:56 PM: cmps[0] is: map_Kd
+3/20/2018 1:32:56 PM: data is, Browndog cafe/lh1_.bmp
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl lh2_
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, lh2_
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:32:56 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, map_Kd Browndog cafe/lh2_.bmp
+3/20/2018 1:32:56 PM: cmps[0] is: map_Kd
+3/20/2018 1:32:56 PM: data is, Browndog cafe/lh2_.bmp
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl lh3_
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, lh3_
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:32:56 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, map_Kd Browndog cafe/lh3_.bmp
+3/20/2018 1:32:56 PM: cmps[0] is: map_Kd
+3/20/2018 1:32:56 PM: data is, Browndog cafe/lh3_.bmp
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:32:56 PM: L is, newmtl logo
+3/20/2018 1:32:56 PM: cmps[0] is: newmtl
+3/20/2018 1:32:56 PM: data is, logo
+3/20/2018 1:32:56 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ka
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:32:56 PM: cmps[0] is: Kd
+3/20/2018 1:32:56 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:32:56 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: cmps[0] is: Ks
+3/20/2018 1:32:56 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:32:56 PM: L is, map_Kd Browndog cafe/logo.png
+3/20/2018 1:32:56 PM: cmps[0] is: map_Kd
+3/20/2018 1:32:56 PM: data is, Browndog cafe/logo.png
+3/20/2018 1:32:56 PM: L is, 
+3/20/2018 1:32:56 PM: cmps[0] is: 
+3/20/2018 1:32:56 PM: data is, 
+3/20/2018 1:32:56 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, #
+3/20/2018 1:33:18 PM: cmps[0] is: #
+3/20/2018 1:33:18 PM: data is, #
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: #
+3/20/2018 1:33:18 PM: L is, ## Alias OBJ Material File
+3/20/2018 1:33:18 PM: cmps[0] is: ##
+3/20/2018 1:33:18 PM: data is, Alias OBJ Material File
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: ##
+3/20/2018 1:33:18 PM: L is, # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/20/2018 1:33:18 PM: cmps[0] is: #
+3/20/2018 1:33:18 PM: data is, Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: #
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl Derrick_Shoes
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, Derrick_Shoes
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.400000 0.278431 0.239216
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.400000 0.278431 0.239216
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl Derrick_Shirt
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, Derrick_Shirt
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.478431 0.478431 0.600000
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.478431 0.478431 0.600000
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl Derrick_Hair
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, Derrick_Hair
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.337255 0.298039 0.278431
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.337255 0.298039 0.278431
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl Derrick_Pager
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, Derrick_Pager
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.137255 0.137255 0.137255
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.137255 0.137255 0.137255
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl Derrick_Sweater
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, Derrick_Sweater
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.556863 0.556863 0.556863
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.556863 0.556863 0.556863
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl Derrick_T_shirt
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, Derrick_T_shirt
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.886275 0.886275 0.886275
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.886275 0.886275 0.886275
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl Derrick_Pants
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, Derrick_Pants
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.600000 0.537255 0.478431
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.600000 0.537255 0.478431
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl Derrick
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, Derrick
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.823529 0.705882 0.549020
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.823529 0.705882 0.549020
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl Translucent_Glass_Gold
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, Translucent_Glass_Gold
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.941176 1.000000 0.741176
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.941176 1.000000 0.741176
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, d 0.760000
+3/20/2018 1:33:18 PM: cmps[0] is: d
+3/20/2018 1:33:18 PM: data is, 0.760000
+3/20/2018 1:33:18 PM: L is, map_Kd Browndog cafe/Translucent_Glass_Gold.jpg
+3/20/2018 1:33:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:33:18 PM: data is, Browndog cafe/Translucent_Glass_Gold.jpg
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl FrontColor
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, FrontColor
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 1.000000 1.000000 1.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 1.000000 1.000000 1.000000
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl Color_009
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, Color_009
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl BackColor
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, BackColor
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.643137 0.698039 0.733333
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.643137 0.698039 0.733333
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl Color_006
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, Color_006
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.337255 0.337255 0.337255
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.337255 0.337255 0.337255
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl Translucent_Glass_Gray
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, Translucent_Glass_Gray
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.949020 0.968627 0.792157
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.949020 0.968627 0.792157
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, d 0.480000
+3/20/2018 1:33:18 PM: cmps[0] is: d
+3/20/2018 1:33:18 PM: data is, 0.480000
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl M_2005696_stone_texture_large_bricks_in_a_brown_beige_sandstone_wall_background
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, M_2005696_stone_texture_large_bricks_in_a_brown_beige_sandstone_wall_background
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.796078 0.756863 0.705882
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.796078 0.756863 0.705882
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, map_Kd Browndog cafe/M_2005696_stone_texture_large_bricks_in_a_brown_beige_sandstone_wall_background.jpg
+3/20/2018 1:33:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:33:18 PM: data is, Browndog cafe/M_2005696_stone_texture_large_bricks_in_a_brown_beige_sandstone_wall_background.jpg
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl M_2999482474_16bcc21e21_z
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, M_2999482474_16bcc21e21_z
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.713725 0.462745 0.341176
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.713725 0.462745 0.341176
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, map_Kd Browndog cafe/M_2999482474_16bcc21e21_z.jpg
+3/20/2018 1:33:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:33:18 PM: data is, Browndog cafe/M_2999482474_16bcc21e21_z.jpg
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl _Translucent_Glass_Gray_1
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, _Translucent_Glass_Gray_1
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, d 0.500000
+3/20/2018 1:33:18 PM: cmps[0] is: d
+3/20/2018 1:33:18 PM: data is, 0.500000
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl untitled
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, untitled
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.270588 0.294118 0.282353
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.270588 0.294118 0.282353
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, map_Kd Browndog cafe/untitled.bmp
+3/20/2018 1:33:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:33:18 PM: data is, Browndog cafe/untitled.bmp
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl Image2
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, Image2
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.152941 0.188235 0.203922
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.152941 0.188235 0.203922
+3/20/2018 1:33:18 PM: L is, Ks 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.330000 0.330000 0.330000
+3/20/2018 1:33:18 PM: L is, map_Kd Browndog cafe/Image2.bmp
+3/20/2018 1:33:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:33:18 PM: data is, Browndog cafe/Image2.bmp
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl untitled1_
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, untitled1_
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:33:18 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, map_Kd Browndog cafe/untitled1_.bmp
+3/20/2018 1:33:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:33:18 PM: data is, Browndog cafe/untitled1_.bmp
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl bd
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, bd
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:33:18 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, map_Kd Browndog cafe/bd.bmp
+3/20/2018 1:33:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:33:18 PM: data is, Browndog cafe/bd.bmp
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl jgf
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, jgf
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:33:18 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, map_Kd Browndog cafe/jgf.bmp
+3/20/2018 1:33:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:33:18 PM: data is, Browndog cafe/jgf.bmp
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl lh
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, lh
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:33:18 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, map_Kd Browndog cafe/lh.bmp
+3/20/2018 1:33:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:33:18 PM: data is, Browndog cafe/lh.bmp
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl lh1_
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, lh1_
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:33:18 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ks
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, map_Kd Browndog cafe/lh1_.bmp
+3/20/2018 1:33:18 PM: cmps[0] is: map_Kd
+3/20/2018 1:33:18 PM: data is, Browndog cafe/lh1_.bmp
+3/20/2018 1:33:18 PM: L is, 
+3/20/2018 1:33:18 PM: cmps[0] is: 
+3/20/2018 1:33:18 PM: data is, 
+3/20/2018 1:33:18 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:18 PM: L is, newmtl lh2_
+3/20/2018 1:33:18 PM: cmps[0] is: newmtl
+3/20/2018 1:33:18 PM: data is, lh2_
+3/20/2018 1:33:18 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: cmps[0] is: Ka
+3/20/2018 1:33:18 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:18 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:33:18 PM: cmps[0] is: Kd
+3/20/2018 1:33:18 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:33:19 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:33:19 PM: cmps[0] is: Ks
+3/20/2018 1:33:19 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:19 PM: L is, map_Kd Browndog cafe/lh2_.bmp
+3/20/2018 1:33:19 PM: cmps[0] is: map_Kd
+3/20/2018 1:33:19 PM: data is, Browndog cafe/lh2_.bmp
+3/20/2018 1:33:19 PM: L is, 
+3/20/2018 1:33:19 PM: cmps[0] is: 
+3/20/2018 1:33:19 PM: data is, 
+3/20/2018 1:33:19 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:19 PM: L is, newmtl lh3_
+3/20/2018 1:33:19 PM: cmps[0] is: newmtl
+3/20/2018 1:33:19 PM: data is, lh3_
+3/20/2018 1:33:19 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:19 PM: cmps[0] is: Ka
+3/20/2018 1:33:19 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:19 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:33:19 PM: cmps[0] is: Kd
+3/20/2018 1:33:19 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:33:19 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:33:19 PM: cmps[0] is: Ks
+3/20/2018 1:33:19 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:19 PM: L is, map_Kd Browndog cafe/lh3_.bmp
+3/20/2018 1:33:19 PM: cmps[0] is: map_Kd
+3/20/2018 1:33:19 PM: data is, Browndog cafe/lh3_.bmp
+3/20/2018 1:33:19 PM: L is, 
+3/20/2018 1:33:19 PM: cmps[0] is: 
+3/20/2018 1:33:19 PM: data is, 
+3/20/2018 1:33:19 PM: cmps[0] failed all if checks is: 
+3/20/2018 1:33:19 PM: L is, newmtl logo
+3/20/2018 1:33:19 PM: cmps[0] is: newmtl
+3/20/2018 1:33:19 PM: data is, logo
+3/20/2018 1:33:19 PM: L is, Ka 0.000000 0.000000 0.000000
+3/20/2018 1:33:19 PM: cmps[0] is: Ka
+3/20/2018 1:33:19 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:19 PM: L is, Kd 0.501961 0.501961 0.501961
+3/20/2018 1:33:19 PM: cmps[0] is: Kd
+3/20/2018 1:33:19 PM: data is, 0.501961 0.501961 0.501961
+3/20/2018 1:33:19 PM: L is, Ks 0.000000 0.000000 0.000000
+3/20/2018 1:33:19 PM: cmps[0] is: Ks
+3/20/2018 1:33:19 PM: data is, 0.000000 0.000000 0.000000
+3/20/2018 1:33:19 PM: L is, map_Kd Browndog cafe/logo.png
+3/20/2018 1:33:19 PM: cmps[0] is: map_Kd
+3/20/2018 1:33:19 PM: data is, Browndog cafe/logo.png
+3/20/2018 1:33:19 PM: L is, 
+3/20/2018 1:33:19 PM: cmps[0] is: 
+3/20/2018 1:33:19 PM: data is, 
+3/20/2018 1:33:19 PM: cmps[0] failed all if checks is: 
