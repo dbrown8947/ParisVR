@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class ImportPress : MonoBehaviour
 {
-    public Button btn;
-    public Dropdown dropdown;
+	public Button btn;
+	public Dropdown dropdown;
 	public GameObject plyr;
 	public GameObject obj;
 	public GameObject Parent;
@@ -14,47 +14,47 @@ public class ImportPress : MonoBehaviour
 	public GameObject Camera;
 	public Material defaultMat;
 
-    private GameObject building;
-    // Use this for initialization
+	private GameObject building;
+	// Use this for initialization
 
 
-    /*
+	/*
     * FUNCTION : Start
     *
     * DESCRIPTION : start click listener
     */
-    void Start()
-    {
-        btn.onClick.AddListener(onClick);
-    }
+	void Start()
+	{
+		btn.onClick.AddListener(onClick);
+	}
 
-    /*
+	/*
     * FUNCTION : onClick
     *
     * DESCRIPTION : When Import button is clicked
     */
-    void onClick()
-    {
+	void onClick()
+	{
 
 		if (plyr.GetComponent<PlayerController>().gridSelected) {
-        
+
 			building = OBJLoader.LoadOBJFile (dropdown.options [dropdown.value].text,defaultMat);
 
 			obj = plyr.GetComponent<PlayerController>().obj;
 			Parent = plyr.GetComponent<PlayerController>().Parent;
 			ApplySettings ();
-        
+
 		}
 
-    }
+	}
 
-    /*
+	/*
     * FUNCTION : ApplySettings
     *
     * DESCRIPTION : Applies properties to an import object
     */
-    void ApplySettings()
-    {
+	void ApplySettings()
+	{
 
 
 		Destroy(building);
@@ -90,6 +90,6 @@ public class ImportPress : MonoBehaviour
 		Menu.SetActive (false);
 		plyr.GetComponent<PlayerController> ().gridSelected = false;
 		plyr.GetComponent<PlayerController> ().selected = false;
-    }
+	}
 
 }

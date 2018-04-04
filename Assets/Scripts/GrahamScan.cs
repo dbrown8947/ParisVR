@@ -214,11 +214,11 @@ namespace GrahamScan
 				Verticies = CreateVerticies (listOfGrahamScanPoints);
 			}
 
-				Vector3 position = GetPosition (Verticies);
+			Vector3 position = GetPosition (Verticies);
 
-				Quaternion rot = new Quaternion (0, 0, 0, 0);
+			Quaternion rot = new Quaternion (0, 0, 0, 0);
 
-				GameObject building = Instantiate (BaseLot,position,rot,World.transform);
+			GameObject building = Instantiate (BaseLot,position,rot,World.transform);
 
 			building.name = "Lot " + BuildingNum;
 			BuildingNum++;
@@ -246,7 +246,7 @@ namespace GrahamScan
 				//building.transform.localPosition = position;
 				ground.transform.localPosition = -position;
 
-				//Hitbox.transform.localEulerAngles = GetRotation(Verticies [0], Verticies [1],position);
+				Hitbox.transform.localEulerAngles = GetRotation(Verticies [0], Verticies [1],position);
 
 		}
 		/*List<OSMPositionNode> CaliperPoints = caliper.FindCalipers (listOfGrahamScanPoints);
