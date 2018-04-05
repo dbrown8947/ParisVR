@@ -311,39 +311,60 @@ namespace Importer
 			if (!fileRead) {
 				ReadFile ();
 			}
-			//iterate through relations
-			foreach (OSMRelation relation in map.relations) {
-				foreach (OSMTag tag in relation.tags) {
-					bool isRiverbank = false;
-					//if there is a riverbank, flag it
-					if (tag.key == "waterway" && tag.value == "riverbank") {
-						isRiverbank = true;
+
+			GameObject parentTerrain = new GameObject("TerrainParent");
+			Terrain terrain = new Terrain();
+			TerrainData _terrainData = new TerrainData();
+			_terrainData.size = new Vector3((map.maxLon - map.minLon), 0.0f, (map.maxLat - map.minLat));
+			//_terrainData.size = new Vector3((1000000) * 10, 0.0f, (1000000) * 10);
+			GameObject _Terrain = Terrain.CreateTerrainGameObject(_terrainData);
+			_Terrain.transform.parent = parentTerrain.transform;
+			parentTerrain.transform.localPosition = new Vector3(0.0f, -10.0f, 0.0f);
+			parentTerrain.transform.position = new Vector3((map.maxLat * 10f)/2, -1.0f, (map.maxLon * 10f)/2f);
+			Vector3 TS = _Terrain.GetComponent<Terrain>().terrainData.size;
+			_Terrain.transform.position = new Vector3((-TS.x / 2), -0.01f, (-TS.z / 2));
+
+			SplatPrototype[] terrainTexture = new SplatPrototype[1];
+			terrainTexture[0] = new SplatPrototype();
+			terrainTexture[0].texture = (Texture2D)Resources.Load("Hand_Painted_Grass");
+			_terrainData.splatPrototypes = terrainTexture;
+
+			foreach (OSMWay way in map.ways)
+			{
+				bool waterway = false;
+				//check if the way has any relevant tags
+				foreach (OSMTag t in way.tags)
+				{
+					if (t.key == "waterway" && (t.value == "river"))
+					{
+						waterway = true;
+						break;
 					}
-					if (isRiverbank) {
-						bool outer = false;
-						foreach (OSMMember m in relation.members) {
-							if (m.role == "outer") { //read the outer nodes of the waterway
-								outer = true;
-							}
-							if (outer) {
-								OSMWay way = getWayByID (m.reference);
-								if (way == null) {
-									break;
-								}
-								List<OSMPositionNode> listOfNodes = new List<OSMPositionNode> ();
-								int numberOfPoints = 0;
-								foreach (long p in way.nodeReferences) { //collect nodes
-									OSMPositionNode node = getNodeByID (p);
-									listOfNodes.Add (node);
-									numberOfPoints++;
-								}
-								ListOfWaterways.Add (listOfNodes); //add waterway to list
-							}
-						}
+				}
+				//if way was a building
+				if (waterway)
+				{
+					List<OSMPositionNode> listOfNodes = new List<OSMPositionNode>();
+					//find the most northern, southern, eastern, western nodes to draw the box
+					//(replace with better algo later)
+					//DO CALCULATIONS HERE
+					int numberofPoints = 0;
+					//Collect all the nodes
+					foreach (long p in way.nodeReferences)
+					{
+						OSMPositionNode node = getNodeByID(p);
+						listOfNodes.Add(node);
+						numberofPoints++;
 					}
+					//listOfNodes.RemoveAt (numberofPoints -1);
+					ListOfWaterways.Add(listOfNodes);
+					//listOfNodes.Clear ();
+					//Gets the convex points
+					//List<OSMPositionNode> convexPoints = calculator.ConvexHaul(listOfNodes);
 				}
 			}
 			return ListOfWaterways;
+		
 		}
 
 
@@ -386,10 +407,10 @@ namespace Importer
 	*/
 	class OSMMap
 	{
-		public double minLat;
-		public double minLon;
-		public double maxLat;
-		public double maxLon;
+		public float minLat;
+		public float minLon;
+		public float maxLat;
+		public float maxLon;
 		public List<OSMPositionNode> posNodes = new List<OSMPositionNode> ();
 		public List<OSMWay> ways = new List<OSMWay> ();
 		public List<OSMRelation> relations = new List<OSMRelation> ();

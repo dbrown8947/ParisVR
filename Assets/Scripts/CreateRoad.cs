@@ -160,10 +160,10 @@ public class CreateRoad : MonoBehaviour {
 
 		Vector2[] uv = new Vector2[4];
 
-		uv[0] = new Vector2(vertices[0].x, vertices[0].y);
-		uv[1] = new Vector2(vertices[1].x, vertices[1].y);
-		uv[2] = new Vector2(vertices[2].x, vertices[2].y);
-		uv[3] = new Vector2(vertices[3].x, vertices[3].y);
+		uv[0] = new Vector2(0, 0);
+		uv[1] = new Vector2(1,0);
+		uv[2] = new Vector2(0,1);
+		uv[3] = new Vector2(1,1);
 
 		mesh.uv = uv;
 

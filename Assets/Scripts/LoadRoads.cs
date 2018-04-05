@@ -194,7 +194,7 @@ public class LoadRoads : MonoBehaviour
 			GameObject Organizer = Instantiate(roadStarter,parentStart.transform);
 			Organizer.name = "Base Road " + OrganizerNumber;
 			listOfTmp.Add(Organizer);
-
+			Organizer.transform.localPosition = new Vector3 (0f, 0.01f, 0f);
 			OrganizerNumber++;
 			roadCount++;
 			int count = 0;
