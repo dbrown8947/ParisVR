@@ -6347,3 +6347,5 @@ You probably need to reassign the defaultMat variable of the 'ImportPress' scrip
 4/9/2018 1:25:52 PM: data is, 
 4/9/2018 1:25:52 PM: cmps[0] failed all if checks is: 
 4/9/2018 1:25:55 PM: Object Tagged, Name: Lot At X =-89.55574 Y =-89.55574 Z =12.59708
+04/09/2018 14:46:49: Grid Tile Tagged, Name: Lot At X=3.599167 Y=3.599167 Z=16.09039
+04/09/2018 14:51:31: Grid Tile Tagged, Name: Lot At X=3.599167 Y=3.599167 Z=16.09039

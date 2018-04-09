@@ -199,6 +199,7 @@
      <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
      <None Include="Assets\map.osm-roads.xml" />
      <None Include="Assets\Materials\Outline.shader" />
+     <None Include="Assets\map.osm-4.xml" />
      <None Include="Assets\OBJImport\readme.txt" />
      <None Include="Assets\Prefabs\RiverWater\RiverWater.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
