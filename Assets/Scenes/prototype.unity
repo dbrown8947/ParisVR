@@ -7450,6 +7450,7 @@ MonoBehaviour:
     type: 2}
   waterMesh: {fileID: 1734679689916264, guid: fb74ef50760954ae7be8d91eecd7b0ee, type: 2}
   parentStart: {fileID: 608655360}
+  TerrainBox: {fileID: 0}
   listOfTmp: []
   vertices: []
   betweenNodeCount: 10

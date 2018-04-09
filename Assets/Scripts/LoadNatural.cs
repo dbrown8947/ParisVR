@@ -12,6 +12,7 @@ public class LoadNatural : MonoBehaviour {
 	public GameObject waterStarter;
 	public GameObject waterMesh;
 	public GameObject parentStart;
+	public GameObject TerrainBox;
     public static TestObjectPlacement objectloader = new TestObjectPlacement();
     public List<List<OSMPositionNode>> ListOfWaterWays = new List<List<OSMPositionNode>>();
     public List<GameObject> listOfTmp = new List<GameObject>();
@@ -40,13 +41,6 @@ public class LoadNatural : MonoBehaviour {
 
     void Start()
     {
-        List<OSMPositionNode> tempList = new List<OSMPositionNode>();
-        List<OSMPositionNode> newList = new List<OSMPositionNode>();
-
-
-
-
-
       int OrganizerNumber = 1;
 		int roadCount = 0;
 		//List<List<OSMPositionNode>> ListOfRoads = objectloader.ImportRoads();
@@ -60,7 +54,6 @@ public class LoadNatural : MonoBehaviour {
 
 			OrganizerNumber++;
 			roadCount++;
-			int count = 0;
 
 
 			List<Vector3> listOfPoints = ConvertToVector3List (listOfNodes);

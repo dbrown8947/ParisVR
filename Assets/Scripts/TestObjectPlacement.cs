@@ -163,6 +163,10 @@ namespace Importer
 					o.longitude = (o.longitude - lonOffset) * 111000f;
 					o.latidude = (o.latidude - latOffset) * 111000f;
 				}
+				map.maxLat += 1500;
+				map.maxLon += 1500;
+				map.minLon -= 1500;
+				map.minLat -= 1500;
 			}
 			fileRead = true;
 		}
@@ -209,7 +213,12 @@ namespace Importer
 						node.name = roadName;
 						if (node.latidude != 0 && node.longitude != 0) { //ignore the node if it is zeroed
 							
-							listOfNodes.Add (node);
+							if (node.longitude < map.maxLon || node.longitude > map.minLon) {
+
+								if (node.latidude < map.maxLat || node.latidude > map.minLat) {
+									listOfNodes.Add (node);
+								}
+							}
 						} else {
 
 						}
@@ -320,10 +329,48 @@ namespace Importer
 			//_terrainData.size = new Vector3((1000000) * 10, 0.0f, (1000000) * 10);
 			GameObject _Terrain = Terrain.CreateTerrainGameObject(_terrainData);
 			_Terrain.transform.parent = parentTerrain.transform;
-			parentTerrain.transform.localPosition = new Vector3(0.0f, -10.0f, 0.0f);
-			parentTerrain.transform.position = new Vector3((map.maxLat * 10f)/2, -1.0f, (map.maxLon * 10f)/2f);
+			//parentTerrain.transform.position = new Vector3((map.maxLat * 10f)/2, -1.0f, (map.maxLon * 10f)/2f);
 			Vector3 TS = _Terrain.GetComponent<Terrain>().terrainData.size;
 			_Terrain.transform.position = new Vector3((-TS.x / 2), -0.01f, (-TS.z / 2));
+
+			GameObject wallNorth = Instantiate (new GameObject ("WallNorth"), _Terrain.transform);
+			GameObject wallSouth = Instantiate (new GameObject ("WallSouth"), _Terrain.transform);
+			GameObject wallEast = Instantiate (new GameObject ("WallEast"), _Terrain.transform);
+			GameObject wallWest = Instantiate (new GameObject ("WallWest"), _Terrain.transform);
+			GameObject wallRoof = Instantiate (new GameObject ("WallRoof"), _Terrain.transform);
+
+			wallNorth.AddComponent<BoxCollider>();
+			wallSouth.AddComponent<BoxCollider>();
+			wallEast.AddComponent<BoxCollider>();
+			wallWest.AddComponent<BoxCollider>();
+			wallRoof.AddComponent<BoxCollider>();
+
+			BoxCollider wallNorthBox = wallNorth.GetComponent<BoxCollider> ();
+			BoxCollider wallSouthBox = wallSouth.GetComponent<BoxCollider> ();
+			BoxCollider wallEastBox = wallEast.GetComponent<BoxCollider> ();
+			BoxCollider wallWestBox = wallWest.GetComponent<BoxCollider> ();
+			BoxCollider wallRoofBox = wallRoof.GetComponent<BoxCollider> ();
+
+			wallEastBox.size = new Vector3 (0, (map.maxLat - map.minLat), ((map.maxLat - 1500) - (map.minLat + 1500)));
+			wallWestBox.size = new Vector3 (0, (map.maxLat - map.minLat), ((map.maxLat - 1500) - (map.minLat + 1500)));
+			wallNorthBox.size = new Vector3 (((map.maxLon-1500) - (map.minLon + 1500)), (map.maxLat - map.minLat), 0);
+			wallSouthBox.size = new Vector3 (((map.maxLon-1500) - (map.minLon + 1500)), (map.maxLat - map.minLat), 0);
+			wallRoofBox.size = new Vector3 (((map.maxLon-1500) - (map.minLon + 1500)), 0.0f, ((map.maxLat - 1500) - (map.minLat + 1500)));
+
+			wallNorthBox.center = new Vector3 (((TS.x/2)),(map.maxLat - map.minLat)/2,(TS.z/2)+ (TS.z/2 -1500));
+			wallSouthBox.center = new Vector3 ((TS.x/2),(map.maxLat - map.minLat)/2,(TS.z/2)- (TS.z/2 -1500));
+			wallEastBox.center = new Vector3 ((TS.x/2)+ ((TS.x/2 - 1500)),(map.maxLat - map.minLat)/2,(TS.z/2));
+			wallWestBox.center = new Vector3 ((TS.x/2)- (TS.x/2 - 1500),(map.maxLat - map.minLat)/2,(TS.z/2));
+			wallRoofBox.center = new Vector3((TS.x/2),(map.maxLat - map.minLat),(TS.z/2));
+
+			//_Terrain.AddComponent<BoxCollider>();
+
+			//BoxCollider TerrainBox = _Terrain.GetComponent<BoxCollider> ();
+
+			//Vector3 terrainSize = new Vector3 (((map.maxLon-1500) - (map.minLon + 1500)), (map.maxLon - map.minLon), ((map.maxLat - 1500) - (map.minLat + 1500)));
+
+			//TerrainBox.size = terrainSize;
+			//TerrainBox.center = new Vector3((TS.x/2),0f,(TS.z/2));
 
 			SplatPrototype[] terrainTexture = new SplatPrototype[1];
 			terrainTexture[0] = new SplatPrototype();
@@ -354,7 +401,12 @@ namespace Importer
 					foreach (long p in way.nodeReferences)
 					{
 						OSMPositionNode node = getNodeByID(p);
-						listOfNodes.Add(node);
+						if (node.longitude < map.maxLon && node.longitude > map.minLon) {
+
+							if (node.latidude < map.maxLat && node.latidude > map.minLat) {
+								listOfNodes.Add (node);
+							}
+						}
 						numberofPoints++;
 					}
 					//listOfNodes.RemoveAt (numberofPoints -1);
@@ -367,7 +419,7 @@ namespace Importer
 			return ListOfWaterways;
 		
 		}
-
+			
 
 		/* 
 		*  METHOD        : getNodeByID 
@@ -416,7 +468,13 @@ namespace Importer
 		public List<OSMWay> ways = new List<OSMWay> ();
 		public List<OSMRelation> relations = new List<OSMRelation> ();
 	}
-
+	class OSMMapBounds
+	{
+		public float minLat;
+		public float minLon;
+		public float maxLat;
+		public float maxLon;
+	}
 	/*
 	*   NAME    : OSMTag 
 	*   PURPOSE : Represents an OSM Tag element
