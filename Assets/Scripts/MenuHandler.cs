@@ -60,4 +60,13 @@ public class MenuHandler : MonoBehaviour
 	{
 		
 	}
+
+	//FUNCTION      : Options()
+	//DESCRIPTION   : This Method is responsible for opening thew options menu
+	//PARAMETERS    : Nothing
+	//RETURNS		: Nothing
+	public void Options()
+	{
+		SceneManager.LoadScene ("Options");
+	}
 }

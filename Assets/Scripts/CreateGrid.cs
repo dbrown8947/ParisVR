@@ -11,9 +11,23 @@ public class CreateGrid : MonoBehaviour {
     public int tileZ = 10;
 
 	private int tileNumber = 1;
+
+	void Awake()
+	{
+		CreateWorld();
+
+		if (PlayerPrefs.GetInt ("flag", 0) == 1) 
+		{
+			PlayerPrefs.SetInt ("flag", 0);
+			Data data = new Data ();
+			data.Load(PlayerPrefs.GetString(""));
+		}
+		GameObject.Find ("LoadingScreen").SetActive (false);
+	}
+
 	// Use this for initialization
 	void Start () {
-        CreateWorld();
+        
     }
 	
 	// Update is called once per frame
