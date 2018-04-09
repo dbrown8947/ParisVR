@@ -519,14 +519,14 @@ namespace GrahamScan
 	}
 }
 
-	public class OSMPositionNode
+	/*public class OSMPositionNode
 	{
 		public long id;
 		public float longitude { get; set; }
 		public float latidude { get; set; }
 		public string name { get; set; }
 
-	}
+	}*/
 
 public class PolarAngle
 {

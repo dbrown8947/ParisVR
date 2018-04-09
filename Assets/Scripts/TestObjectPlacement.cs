@@ -208,6 +208,7 @@ namespace Importer
 						OSMPositionNode node = getNodeByID (p); //get all the nodes in the way
 						node.name = roadName;
 						if (node.latidude != 0 && node.longitude != 0) { //ignore the node if it is zeroed
+							
 							listOfNodes.Add (node);
 						} else {
 
