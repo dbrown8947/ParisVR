@@ -1,8 +1,14 @@
-﻿<Properties StartupItem="ParisVR.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ImportPress.cs">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PauseScript.cs">
     <Files>
-      <File FileName="Assets\Scripts\ImportPress.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ImportPress.cs" Line="6" Column="11" />
+      <File FileName="Assets\Scripts\SLMenuHandler.cs" Line="167" Column="74" />
+      <File FileName="Assets\Scripts\MenuHandler.cs" Line="23" Column="33" />
+      <File FileName="Assets\Scripts\Data.cs" Line="181" Column="97" />
+      <File FileName="Assets\Scripts\PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PauseScript.cs" Line="34" Column="37" />
+      <File FileName="Assets\Scripts\TextHandler.cs" Line="155" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

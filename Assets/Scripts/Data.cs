@@ -174,12 +174,11 @@ public class Data : MonoBehaviour
 				{
 					if(info[i].MapName.CompareTo(PlayerPrefs.GetString ("xml", Application.dataPath + @"\map.osm-roads.xml")) == 0)
 					{
-						Debug.Log(info[i].ParentInfo.Tag);
 						import.ApplySettings(info[i].ParentInfo.Position, info[i].ParentInfo.Rotation, info[i].ParentInfo.Scale, info[i].ParentInfo.Area, info[i].ParentInfo.Tile, info[i].ParentInfo.FileName, info[i].ParentInfo.Tag);
 					}
 					else
 					{
-						throw new Exception("Map Does Not Match Previous");
+						throw new Exception("Map Does Not Match Current xml file. Please find  " + info[i].MapName);
 					}
 				}
 											

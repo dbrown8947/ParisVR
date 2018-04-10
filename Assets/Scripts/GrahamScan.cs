@@ -1,6 +1,10 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
+using UnityEngine.UI;
+using System.Threading;
 using UnityEngine;
 using Importer;
 
@@ -10,6 +14,7 @@ namespace GrahamScan
 	{
 	public GameObject World;
 	public GameObject BaseLot;
+		public GameObject loadScreen;
 		TestObjectPlacement objectloader = new TestObjectPlacement();
 
 	void Start()
@@ -261,8 +266,14 @@ namespace GrahamScan
 			}
 			count = 0;*/
 
-
+			if (PlayerPrefs.GetInt ("flag", 0) == 1) 
+			{
+				PlayerPrefs.SetInt ("flag", 0);
+				Debug.Log (PlayerPrefs.GetString ("lLoc"));
+				GameObject.Find("PauseMenu").GetComponent<SLMenuHandler>().Load(PlayerPrefs.GetString("lLoc"));
+			}
 	}
+			
 
 		//This function should find the rotation for the object
 		static public Vector3 GetRotation(Vector3 point1, Vector3 point2,Vector3 center)

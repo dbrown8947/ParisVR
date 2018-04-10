@@ -5,13 +5,24 @@
 * FIRST VERSION	: 9-29-2017
 * DESCRIPTION   : This file contains the code and functionality required to handle the button click events on the main menu. Repurposed from my Game Dev assignment 1
 */
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using SFB;
 
 public class MenuHandler : MonoBehaviour
 {
+	public GameObject loadScreen;
+
+
+	void Start()
+	{
+		PlayerPrefs.SetInt("flag", 0);
+	}
+
 	//FUNCTION      : srtBtn()
 	//DESCRIPTION   : This Method is responsible for launching the game from the menu
 	//PARAMETERS    : Nothing
@@ -58,8 +69,32 @@ public class MenuHandler : MonoBehaviour
 	//RETURNS		: Nothing
 	public void Load()
 	{
-		
+			string[] hold;
+
+			//Open the file using the standalonefilebrowser plugin
+			hold = StandaloneFileBrowser.OpenFilePanel("Load Game World", PlayerPrefs.GetString ("save", Application.dataPath), "dat", false);
+
+			//If the path length is zero thorw an exception
+			if(hold.Length != 0)
+			{
+				PlayerPrefs.SetString("lLoc", hold[0]);
+				PlayerPrefs.SetInt("flag", 1);
+
+			   StartCoroutine (StartLoad ());
+			}
 	}
+		
+
+	IEnumerator StartLoad()
+	{
+		loadScreen.SetActive (true);
+
+		yield return new WaitForFixedUpdate ();
+
+		srtBtn ();
+
+	}
+
 
 	//FUNCTION      : Options()
 	//DESCRIPTION   : This Method is responsible for opening thew options menu

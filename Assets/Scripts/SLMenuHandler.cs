@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using SFB;
 
 
@@ -29,6 +30,9 @@ public class SLMenuHandler : MonoBehaviour
 
 	//Public Variables
 	public Button btn;
+	public GameObject loadScreen;
+
+
 
 	/*
 	*  METHOD	    : Start()
@@ -69,18 +73,15 @@ public class SLMenuHandler : MonoBehaviour
             }
             else
             {
-				//Load the file through the data class.
-                //data.Load(path);
-				string path = hold[0];
+			    PlayerPrefs.SetString("lLoc", hold[0]);
+			    PlayerPrefs.SetInt("flag", 1);
 
-				data.Load(path);
-				//PlayerPrefs.SetString("lLoc", path);
-				//PlayerPrefs.SetInt("flag", 1);
+				StartCoroutine (StartLoad ());
             }
         }
         catch (Exception e)
         {
-            //If we are Saving make sure that the error displays as a save error
+            //If we are loading make sure that the error displays as a load error
 			errorHandler.Error("Load Error", e.Message);           
         }
     }
@@ -102,7 +103,7 @@ public class SLMenuHandler : MonoBehaviour
 			//If the path length is zero thorw an exception
            if(path.Length == 0)
            {
-                throw new Exception("No File Selected, Or The File Was Not Found");
+              
            }
            else
            {
@@ -145,5 +146,28 @@ public class SLMenuHandler : MonoBehaviour
 				break;
 			}
 		}
+	}
+
+	public void Load(string path)
+	{
+		try
+		{
+			data.Load (path);
+		}
+		catch(Exception e) 
+		{
+			errorHandler.Error("Load Error", e.Message); 
+		}
+	}
+
+	IEnumerator StartLoad()
+	{
+		loadScreen.SetActive (true);
+
+		GameObject.FindWithTag ("Menu").GetComponent<PauseScript> ().Resume ();
+
+		yield return new WaitForFixedUpdate ();
+
+		SceneManager.LoadScene ("prototype");
 	}
 }
