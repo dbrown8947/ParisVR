@@ -112,8 +112,6 @@ public class Data : MonoBehaviour
 			//For evert gameobject with the Asset Tag
 			foreach (GameObject asset in assets) 
 			{
-                Asset obj = new Asset ();
-
 				for(int i=0; i < info.Count; i++)
 				{
 					//Make sure to capture the appropriate information for the assets we are trying to save
@@ -192,7 +190,7 @@ public class Data : MonoBehaviour
 		catch(Exception e) // For testing purposes, more generics to be used later
 		{
 			//Show the error message in the log
-			throw new Exception("Error in Loading Process. Make sure assets still exist in thier folders");
+			throw e;
 		}
 			
 	}

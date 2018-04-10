@@ -5,7 +5,6 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Threading;
-using UnityEngine;
 using Importer;
 
 namespace GrahamScan

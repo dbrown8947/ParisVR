@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using Importer;
 using GrahamScan;
-using UnityEditor;
 using System.Linq;
 
 public class LoadNatural : MonoBehaviour {
