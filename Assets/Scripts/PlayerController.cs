@@ -182,9 +182,7 @@ public class PlayerController : MonoBehaviour
 						//Start the highlighting an selection process
                         obj = hit.transform.parent.gameObject;
 						GetHighLight = hit.transform.gameObject;
-
-                        //HighLighter (GetHighLight,false);
-                        obj.transform.GetChild(2).gameObject.SetActive(true);
+						HighLighter (GetHighLight,false);
 
                         Logger.WriteToLog("Object Tagged, Name: " + obj.gameObject.name + " At X =" + obj.gameObject.transform.position.x + " Y =" + obj.gameObject.transform.position.x + " Z =" + obj.gameObject.transform.position.z);
 						           
@@ -392,8 +390,7 @@ public class PlayerController : MonoBehaviour
 		lighter.SetActive(false);
 		selected = false;
 		gridSelected = false;
-        obj.transform.GetChild(2).gameObject.SetActive(false);
-        escCount++;
+		escCount++;
 	}
 
 
