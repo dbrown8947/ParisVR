@@ -119,7 +119,16 @@ public class ImportPress : MonoBehaviour
 		GameObject lot = Parent.transform.GetChild (0).gameObject; 
 		lot.SetActive (false);
 
-		plyr.GetComponent<PlayerController> ().gridSelected = false;
+        Vector3 assetSize = (building.GetComponent<BoxCollider>().size * 0.0254f);
+
+        Vector3 buildingCenter = (building.GetComponent<BoxCollider>().center * 0.0254f);
+
+        GameObject HighlightBox = Parent.transform.GetChild(2).gameObject;
+
+        HighlightBox.transform.localScale = assetSize;
+        HighlightBox.transform.position = newBuilding.transform.position + buildingCenter;
+
+        plyr.GetComponent<PlayerController> ().gridSelected = false;
 		plyr.GetComponent<PlayerController> ().selected = false;
 		GameObject.Find("PauseMenu").GetComponent<SLMenuHandler>().AddToAssetList(asset);
     }
