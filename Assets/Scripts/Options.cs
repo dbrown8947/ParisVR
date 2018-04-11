@@ -105,11 +105,14 @@ public class Options : MonoBehaviour
 		//Depending on the selected index change the fullscreen bool
 		if (wind.value == 0)
 		{
-			Screen.fullScreen = true;
+			//Screen.fullScreen = true;
+			Screen.SetResolution(Screen.currentResolution.width , Screen.currentResolution.height,true);
 		} 
 		else
 		{
-			Screen.fullScreen = false;
+			//Screen.fullScreen = false;
+			Screen.SetResolution(Screen.currentResolution.width , Screen.currentResolution.height,false);
+
 		}			
 	}
 
@@ -129,11 +132,11 @@ public class Options : MonoBehaviour
 		//Depending on the selected screen type change the resoltion accordingly
 		if (wind.value == 0)
 		{
-			Screen.SetResolution(rez.width, rez.width,true);
+			Screen.SetResolution(rez.width, rez.height,true);
 		} 
 		else
 		{
-			Screen.SetResolution(rez.width, rez.width,false);
+			Screen.SetResolution(rez.width, rez.height,false);
 		}			
 	}
 

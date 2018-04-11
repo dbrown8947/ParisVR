@@ -13,6 +13,7 @@ namespace GrahamScan
 	{
 	public GameObject World;
 	public GameObject BaseLot;
+		public List<ObjectInfo> objs;
 		public GameObject loadScreen;
 		TestObjectPlacement objectloader = new TestObjectPlacement();
 
@@ -265,10 +266,24 @@ namespace GrahamScan
 			}
 			count = 0;*/
 
+			GameObject[] tiles = GameObject.FindGameObjectsWithTag("GridTile");
+			objs = new List<ObjectInfo> ();
+
+			foreach (GameObject obj in tiles)
+			{
+				ObjectInfo info = new ObjectInfo ();
+				if (obj.name.Contains ("Lot")) {
+					info.Name = obj.transform.name;
+					info.Position = new TempVector (obj.transform.GetChild (0).transform.position.x, obj.transform.GetChild (0).transform.position.y, obj.transform.GetChild (0).transform.position.z);
+					info.Rotation = new TempVector (obj.transform.GetChild (0).transform.localEulerAngles.x, obj.transform.GetChild (0).transform.localEulerAngles.y, obj.transform.GetChild (0).transform.localEulerAngles.z);
+					info.Scale = new TempVector (obj.transform.GetChild (0).transform.localScale.x, obj.transform.GetChild (0).transform.localScale.y, obj.transform.GetChild (0).transform.localScale.z);
+					objs.Add (info);
+				}
+			}
+	
 			if (PlayerPrefs.GetInt ("flag", 0) == 1) 
 			{
 				PlayerPrefs.SetInt ("flag", 0);
-				Debug.Log (PlayerPrefs.GetString ("lLoc"));
 				GameObject.Find("PauseMenu").GetComponent<SLMenuHandler>().Load(PlayerPrefs.GetString("lLoc"));
 			}
 	}

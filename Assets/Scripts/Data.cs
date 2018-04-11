@@ -170,14 +170,14 @@ public class Data : MonoBehaviour
 				//For every asset found in the list reimport the objects and apply thier preivous states
 				for(int i =0; i < info.Count; i++)
 				{
-					if(info[i].MapName.CompareTo(PlayerPrefs.GetString ("xml", Application.dataPath + @"\map.osm-roads.xml")) == 0)
-					{
+					//if(info[i].MapName.CompareTo(PlayerPrefs.GetString ("xml", Application.dataPath + @"\map.osm-roads.xml")) == 0)
+					//{
 						import.ApplySettings(info[i].ParentInfo.Position, info[i].ParentInfo.Rotation, info[i].ParentInfo.Scale, info[i].ParentInfo.Area, info[i].ParentInfo.Tile, info[i].ParentInfo.FileName, info[i].ParentInfo.Tag);
-					}
-					else
-					{
-						throw new Exception("Map Does Not Match Current xml file. Please find  " + info[i].MapName);
-					}
+					//}
+					//else
+					//{
+						//throw new Exception("Map Does Not Match Current xml file. Please find  " + info[i].MapName);
+					//}
 				}
 											
 			}

@@ -34,6 +34,9 @@ public class TextHandler : MonoBehaviour {
 	private GameObject obj;
 	private ErrorHandler errorHandler;
 
+	//Public variables
+	public GameObject lighter;
+
 	/*
 	*  METHOD	    : Start()
     *  DESCRIPTION  : This Method is launched when the level is loaded and is used to gather
@@ -64,6 +67,8 @@ public class TextHandler : MonoBehaviour {
 		{
 			//change the objects Position based on the inputted number
 			obj.transform.position = new Vector3(value, obj.transform.position.y, obj.transform.position.z);
+			AdjustHighlight ();
+			plyr.GetComponent<PlayerController> ().UpdateTextFields ();
 		}
 	}
 
@@ -83,6 +88,7 @@ public class TextHandler : MonoBehaviour {
 		{
 			//change the objects Position based on the inputted number
 			obj.transform.position = new Vector3(obj.transform.position.x, value, obj.transform.position.z);
+			AdjustHighlight ();
 		}
 	}
 
@@ -102,6 +108,7 @@ public class TextHandler : MonoBehaviour {
 		{
 			//change the objects Position based on the inputted number
 			obj.transform.position = new Vector3(obj.transform.position.x, obj.transform.position.y, value);
+			AdjustHighlight ();
 		}
 	}
 
@@ -121,6 +128,7 @@ public class TextHandler : MonoBehaviour {
 		{
 			//change the objects Rotation based on the inputted number
 			obj.transform.localEulerAngles = new Vector3(value, obj.transform.localEulerAngles.y, obj.transform.localEulerAngles.z);
+			AdjustHighlight ();
 		}
 	}
 
@@ -140,6 +148,7 @@ public class TextHandler : MonoBehaviour {
 		{
 			//change the objects Rotation based on the inputted number
 			obj.transform.localEulerAngles = new Vector3(obj.transform.localEulerAngles.x, value, obj.transform.localEulerAngles.z);
+			AdjustHighlight ();
 		}
 	}
 
@@ -159,6 +168,7 @@ public class TextHandler : MonoBehaviour {
 		{
 			//change the objects Rotation based on the inputted number
 			obj.transform.localEulerAngles = new Vector3(obj.transform.localEulerAngles.x, obj.transform.localEulerAngles.y, value);
+			AdjustHighlight ();
 		}
 	}
 
@@ -178,6 +188,7 @@ public class TextHandler : MonoBehaviour {
 		{
 			//change the objects Scale based on the inputted number
 			obj.transform.localScale = new Vector3(value, obj.transform.localScale.y, obj.transform.localScale.z);
+			AdjustHighlight ();
 		}
 	}
 
@@ -197,6 +208,7 @@ public class TextHandler : MonoBehaviour {
 		{
 			//change the objects Scale based on the inputted number
 			obj.transform.localScale = new Vector3(obj.transform.localScale.x, value, obj.transform.localScale.z);
+			AdjustHighlight ();
 		}
 	}
 
@@ -216,6 +228,7 @@ public class TextHandler : MonoBehaviour {
 		{
 			//change the objects Scale based on the inputted number
 			obj.transform.localScale = new Vector3(obj.transform.localScale.x, obj.transform.localScale.y, value);
+			AdjustHighlight ();
 		}
 	}
 
@@ -365,6 +378,22 @@ public class TextHandler : MonoBehaviour {
 			errorHandler.Error("Logger Error", "Error when attempting to write to log file"); 
 		}
 
+	}
+
+	void AdjustHighlight()
+	{
+		float scaler = 0.0254f;
+
+		GameObject setHighLighter = obj.transform.GetChild(2).gameObject;
+
+
+		Vector3 assetSize = (setHighLighter.GetComponent<BoxCollider> ().size * scaler);
+		Vector3 center = (setHighLighter.GetComponent<BoxCollider> ().center * scaler);
+		//assetSize = new Vector3 (assetSize.x * scaler, assetSize.y * scaler, assetSize.z * scaler);
+
+		lighter.transform.position = setHighLighter.transform.position + new Vector3 (center.x * obj.transform.localScale.x, center.y * obj.transform.localScale.y, center.z * obj.transform.localScale.z);
+		lighter.transform.localScale = new Vector3 (assetSize.x * obj.transform.localScale.x, assetSize.y * obj.transform.localScale.y, assetSize.z * obj.transform.localScale.z);
+		lighter.transform.rotation= obj.transform.rotation;
 	}
 
 }
