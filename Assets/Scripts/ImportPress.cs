@@ -109,7 +109,9 @@ public class ImportPress : MonoBehaviour
         asset.ParentInfo.FileName = path;
         asset.ParentInfo.Area = newBuilding.transform.parent.parent.name;
         asset.ParentInfo.Tile = newBuilding.transform.parent.name;
-		asset.MapName = PlayerPrefs.GetString ("xml");
+		asset.MapName = PlayerPrefs.GetString ("xml", Application.dataPath + @"\map.osm-roads.xml");
+
+		Debug.Log (newBuilding.transform.parent.parent.name.ToString ());
 
 		GameObject baseObj = obj.transform.GetChild(0).gameObject;
 		baseObj.GetComponent<Renderer> ().material = plyr.GetComponent<PlayerController>().baseShader;

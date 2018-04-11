@@ -9,7 +9,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using GrahamScan;
 
 public class PlayerController : MonoBehaviour
 {
@@ -98,7 +97,6 @@ public class PlayerController : MonoBehaviour
 
         //Enter the Hotkeys Handler
         HotKeys();
-
     }
 
     //FUNCTION      : Movement()
@@ -189,6 +187,13 @@ public class PlayerController : MonoBehaviour
                         obj.transform.GetChild(2).gameObject.SetActive(true);
 
                         Logger.WriteToLog("Object Tagged, Name: " + obj.gameObject.name + " At X =" + obj.gameObject.transform.position.x + " Y =" + obj.gameObject.transform.position.x + " Z =" + obj.gameObject.transform.position.z);
+						           
+                        //If the object has a text field
+                        if (obj.GetComponent<UnityEngine.UI.Text>() != null)
+                        {
+                             //Update the tagger with the text located on the object.
+                             tagger.text = obj.GetComponent<UnityEngine.UI.Text>().text;
+                        }
 
                         //Update the rest of the menu text
                         UpdateTextFields();
@@ -222,7 +227,7 @@ public class PlayerController : MonoBehaviour
     //                selects a game object in the world
     //PARAMETERS    : Nothing
     //RETURNS		: Nothing
-    public void UpdateTextFields()
+    void UpdateTextFields()
     {
         //Change the position text fields based on location of the targeted object
         posX.text = obj.transform.position.x.ToString();
@@ -262,14 +267,13 @@ public class PlayerController : MonoBehaviour
 		else 
 		{
 			lighter.SetActive (true);
-
 			Vector3 assetSize = (SetHighLighter.GetComponent<BoxCollider> ().size * scaler);
 			Vector3 center = (SetHighLighter.GetComponent<BoxCollider> ().center * scaler);
 			//assetSize = new Vector3 (assetSize.x * scaler, assetSize.y * scaler, assetSize.z * scaler);
 
-			lighter.transform.position = SetHighLighter.transform.position + new Vector3 (center.x * obj.transform.localScale.x, center.y * obj.transform.localScale.y, center.z * obj.transform.localScale.z);
-			lighter.transform.localScale = new Vector3 (assetSize.x * obj.transform.localScale.x, assetSize.y * obj.transform.localScale.y, assetSize.z * obj.transform.localScale.z);
-			lighter.transform.rotation= obj.transform.rotation;
+			lighter.transform.position = SetHighLighter.transform.position + center;
+			lighter.transform.localScale = assetSize;
+			lighter.transform.localEulerAngles = obj.transform.localEulerAngles;
 		}
 			
 	}
@@ -314,7 +318,6 @@ public class PlayerController : MonoBehaviour
 				obj.transform.GetChild (0).gameObject.SetActive (true);
 				obj.transform.GetChild (1).gameObject.SetActive (true);
 				Destroy (obj.transform.GetChild(2).gameObject);
-				ResetTile ();
 				EscCommands ();
 			}
         }
@@ -398,22 +401,6 @@ public class PlayerController : MonoBehaviour
 	{
 		GameObject del = obj.transform.parent.gameObject;
 		GameObject.Find ("PauseMenu").GetComponent<SLMenuHandler> ().RemoveAssetFromList (del);
-	}
-
-	void ResetTile()
-	{
-		List<ObjectInfo> tiles = GameObject.Find ("GeneratedWorld").GetComponent<GrahamScan.GrahamScan> ().objs;
-
-		foreach (ObjectInfo obje in tiles) 
-		{
-			if (obje.Name.CompareTo (obj.transform.name) == 0) 
-			{
-				obj.transform.localPosition = new Vector3 (obje.Position.X, obje.Position.Y, obje.Position.Z);
-				obj.transform.localEulerAngles = new Vector3 (obje.Rotation.X, obje.Rotation.Y, obje.Rotation.Z);
-				obj.transform.localScale = new Vector3 (obje.Scale.X, obje.Scale.Y, obje.Scale.Z);
-				break;
-			}
-		}
 	}
 
 }
