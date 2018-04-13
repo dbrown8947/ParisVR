@@ -33,11 +33,11 @@ public class VRImportDropdown : MonoBehaviour
 		}
 
 		for (int i = 0; i < tempPath.Length; i++) { //add files to the dropdown
-			//tempPath[i].TrimStart(@PlayerPrefs.GetString (playerPrefFilepath, Application.dataPath));
+
 			tempPath [i] = tempPath [i].Substring (@PlayerPrefs.GetString (playerPrefFilepath, Application.dataPath).Length + 1, tempPath [i].Length - @PlayerPrefs.GetString (playerPrefFilepath, Application.dataPath).Length - 1);
 			dropdown.GetComponent<DropDownScript> ().addElement (tempPath [i]);
 		}
 
 	}
-	
+
 }

@@ -10,7 +10,7 @@ public class LoadRoads : MonoBehaviour
 	public GameObject roadStarter;
 	public GameObject roadMesh;
 	public GameObject parentStart;
-	public static    TestObjectPlacement objectloader = new TestObjectPlacement();
+	public TestObjectPlacement objectloader;
 	public List<List<OSMPositionNode>> ListOfRoads = new List<List<OSMPositionNode>>();
 	public List<GameObject> listOfTmp = new List<GameObject>();
 
@@ -25,6 +25,7 @@ public class LoadRoads : MonoBehaviour
 
 	private void Awake()
 	{
+		objectloader = new TestObjectPlacement ();
 		ListOfRoads = objectloader.ImportRoads();
 	}
 

@@ -80,14 +80,14 @@ public class ObjectInfo
 		}
 	}
 
-    //Name property, used to access the name variable
+    //Area property, used to access the area variable
     public string Area
     {
         /*
-		 *  Name		: get (name)
-		 *	Description : Accessor for the name string
+		 *  Name		: get (area)
+		 *	Description : Accessor for the area string
 		 *	Parameters	: Nothing
-		 *  Returns		: string name, the name of the object in the game world.
+		 *  Returns		: string area, the name of the area in the game world.
 		*/
         get
         {
@@ -95,9 +95,9 @@ public class ObjectInfo
         }
 
         /*
-		 *  Name		: set (name)
-		 *	Description : Mutator for the name string
-		 *	Parameters	: string value : the name of the object in the game world. 
+		 *  Name		: set (area)
+		 *	Description : Mutator for the area string
+		 *	Parameters	: string value : the name of the area in the game world. 
 		 *  Returns		: Nothing
 		*/
         set
@@ -106,14 +106,14 @@ public class ObjectInfo
         }
     }
 
-    //Name property, used to access the name variable
+    //Tile property, used to access the tile variable
     public string Tile
     {
         /*
-		 *  Name		: get (name)
-		 *	Description : Accessor for the name string
+		 *  Name		: get (tile)
+		 *	Description : Accessor for the tile string
 		 *	Parameters	: Nothing
-		 *  Returns		: string name, the name of the object in the game world.
+		 *  Returns		: string tile, the name of the tile in the game world.
 		*/
         get
         {
@@ -121,9 +121,9 @@ public class ObjectInfo
         }
 
         /*
-		 *  Name		: set (name)
-		 *	Description : Mutator for the name string
-		 *	Parameters	: string value : the name of the object in the game world. 
+		 *  Name		: set (tile)
+		 *	Description : Mutator for the tile string
+		 *	Parameters	: string value : the name of the tile in the game world. 
 		 *  Returns		: Nothing
 		*/
         set
@@ -295,18 +295,37 @@ public class Asset
 	private List<SubObjectInfo> childInfo;
 	private string mapName;
 
+	/*
+	*   Name		: Asset()
+    *	Description : Constructor for the asset class
+    *	Parameters	: Nothing
+    *   Returns		: Nothing
+	*/
 	public Asset()
 	{
 		parentInfo = new ObjectInfo ();
 		childInfo = new List<SubObjectInfo> ();
 	}
 		
+    //MapName Property, used to modify the mapName varaiable
 	public string MapName
 	{
+		/*
+		 *  Name		: get (mapInfo)
+		 *	Description : Accessor for the mapName string
+		 *	Parameters	: Nothing
+		 *  Returns		: string mapName, the name of the map for the asset
+		 */
 		get 
 		{
 			return mapName;
 		}
+		/*
+		 *  Name		: set (mapInfo)
+		 *	Description : Mutator for the mapName string
+		 *	Parameters	: value, the new string for mapName
+		 *  Returns		: Nothing
+		 */
 		set
 		{
 			mapName = value;
@@ -379,51 +398,90 @@ public class TempVector
     private float y;
     private float z;
 
-
+	//X property, allows for the modification of the x value
     public float X
     {
+		/*
+		 *  Name		: get (x)
+		 *	Description : Accessor for the x value
+		 *	Parameters	: Nothing
+		 *  Returns		: float x, the floating point value of x
+		*/
         get
         {
-		/*
-		 *  Name		: get (childInfo)
-		 *	Description : Accessor for the childInfo Object
-		 *	Parameters	: Nothing
-		 *  Returns		: SubObjectInfo childInfo, the information about the child object(s)
-		*/
             return x;
         }
+		/*
+		 *  Name		: set (x)
+		 *	Description : Mutator for the x value
+		 *	Parameters	: value, the new value of x
+		 *  Returns		: Nothing
+		*/
         set
         {
             x = value;
         }
     }
 
+	//Y property, allows for the modification of the y value
     public float Y
     {
+		/*
+		 *  Name		: get (y)
+		 *	Description : Accessor for the y value
+		 *	Parameters	: Nothing
+		 *  Returns		: float y, the floating point value of y
+		*/
         get
         {
             return y;
         }
+		/*
+		 *  Name		: set (y)
+		 *	Description : Mutator for the y value
+		 *	Parameters	: value, the new value of y
+		 *  Returns		: Nothing
+		*/
         set
         {
             y = value;
         }
     }
 
+	//Z property, allows for the modification of the z value
     public float Z
     {
+		/*
+		 *  Name		: get (x)
+		 *	Description : Accessor for the x value
+		 *	Parameters	: Nothing
+		 *  Returns		: float x, the floating point value of x
+		*/
         get
         {
             return z;
         }
+		/*
+		 *  Name		: set (z)
+		 *	Description : Mutator for the z value
+		 *	Parameters	: value, the new value of z
+		 *  Returns		: Nothing
+		*/
         set
         {
             z = value;
         }
     }
 
+	/*
+	*  Name		: TempVector()
+	*	Description : Constructor for the tempvector class
+	*	Parameters	: float nX,nY,nZ : new 3d coordinate values
+    *  Returns		: Nothing
+    */
     public TempVector(float nX, float nY, float nZ)
     {
+		//initalize the class
         x = nX;
         y = nY;
         z = nZ;

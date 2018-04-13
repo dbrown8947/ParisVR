@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 2
+  m_CurrentQuality: 0
   m_QualitySettings:
   - serializedVersion: 2
     name: High
@@ -97,7 +97,7 @@ QualitySettings:
     PS4: 2
     PSM: 2
     PSP2: 1
-    Standalone: 2
+    Standalone: 0
     Tizen: 1
     WebGL: 2
     WiiU: 2

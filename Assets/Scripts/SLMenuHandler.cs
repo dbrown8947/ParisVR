@@ -23,7 +23,6 @@ using SFB;
 */
 public class SLMenuHandler : MonoBehaviour
 {
-
 	//Private Variables
 	private Data data;
 	//The class that handles saving and loading
@@ -33,7 +32,12 @@ public class SLMenuHandler : MonoBehaviour
 	public Button btn;
 	public GameObject loadScreen;
 
-
+	void Awake ()
+	{
+		//Initalize private variables
+		data = new Data (btn);
+		data.Info = new List<Asset> ();
+	}
 
 	/*
 	*  METHOD	    : Start()
@@ -45,9 +49,7 @@ public class SLMenuHandler : MonoBehaviour
 	*/
 	void Start ()
 	{
-		//Initalize private variables
-		data = new Data (btn);
-		data.Info = new List<Asset> ();
+
 		errorHandler = GameObject.FindWithTag ("Menu").GetComponent<ErrorHandler> ();
 	}
 		
@@ -68,7 +70,7 @@ public class SLMenuHandler : MonoBehaviour
 
 			//If the path length is zero thorw an exception
 			if (hold.Length == 0) {
-				//throw new Exception("No File Selected, Or The File Was Not Found");
+				//Do Nothing
 			} else {
 				PlayerPrefs.SetString ("lLoc", hold [0]);
 				PlayerPrefs.SetInt ("flag", 1);
@@ -96,7 +98,7 @@ public class SLMenuHandler : MonoBehaviour
 
 			//If the path length is zero thorw an exception
 			if (path.Length == 0) {
-              
+				//Do nothing
 			} else {
 				//Otherwise save the data through the data class
 				data.Save (path);
@@ -135,25 +137,46 @@ public class SLMenuHandler : MonoBehaviour
 		}
 	}
 
+	/*
+	*  METHOD	    : Load()
+    *  DESCRIPTION  : This Method is responsible for loading a save file
+	*  PARAMETERS	: string path  : the location of the save file
+    *  RETURNS  	: Nothing
+	*/
 	public void Load (string path)
 	{
 		try {
+			//Load the file at the data string
 			data.Load (path);
 		} catch (Exception e) {
+			//If there is an error display the error
 			errorHandler.Error ("Load Error", e.Message); 
 		}
 	}
 
+	/*
+	*  METHOD	    : StartLoad()
+    *  DESCRIPTION  : This Method is used to start the load process so that a load screen will appear and the
+    * 				  user will be unable to see the world rendering. Addtionally, this is will make it so the game
+    *                 doesnt look like it is locking up
+	*  PARAMETERS	: Nothing
+    *  RETURNS  	: IEnumerator
+    * 
+	*/
 	IEnumerator StartLoad ()
 	{
+		//Activate the loadScreen
 		loadScreen.SetActive (true);
 
+		//Resume the game so the load process can continue
 		GameObject.FindWithTag ("Menu").GetComponent<PauseScript> ().Resume ();
 
 		yield return new WaitForFixedUpdate ();
 
+		//Load the next scene
 		SceneManager.LoadScene ("prototype");
 	}
+
 
 	/*
 	*  METHOD	    : ToggleVR()
@@ -177,9 +200,10 @@ public class SLMenuHandler : MonoBehaviour
 	public void VRLoad (string filename)
 	{		
 
-		string file = PlayerPrefs.GetString ("save", Application.dataPath) + "/" + filename + ".dat";
+		string file = PlayerPrefs.GetString ("save", Application.dataPath) + "/" + filename;
 		PlayerPrefs.SetString ("lLoc", file);
 		PlayerPrefs.SetInt ("flag", 1);
+		PlayerPrefs.SetInt ("VR", 1);
 		SceneManager.LoadScene ("prototype");
 
 		//data.Load (file);

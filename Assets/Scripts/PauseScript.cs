@@ -18,6 +18,7 @@ public class PauseScript : MonoBehaviour {
 	public GameObject plyr;
 	public Transform cross;
 	public GameObject hotKeys;
+	public GameObject loadScreen;
 
 	//A bool flag to tell us when we are paused
     private bool paused;
@@ -93,14 +94,11 @@ public class PauseScript : MonoBehaviour {
 	//RETURNS		: Nothing
     public void Restart()
     {
-		//Find out which level we are on
-        string level = SceneManager.GetActiveScene().name;
-
 		//Call resume for saftey
         Resume();     
 
 		//Reload our current level
-        SceneManager.LoadScene(level);
+		StartCoroutine (StartLoad ());
     }
 		
 	//FUNCTION      : Restart()
@@ -145,6 +143,26 @@ public class PauseScript : MonoBehaviour {
 	{
 		hotKeys.SetActive (false);
 		pauseMenu.gameObject.SetActive (true);
+	}
+
+	/*
+	*  METHOD	    : StartLoad()
+    *  DESCRIPTION  : This Method is used to start the load process so that a load screen will appear and the
+    * 				  user will be unable to see the world rendering. Addtionally, this is will make it so the game
+    *                 doesnt look like it is locking up
+	*  PARAMETERS	: Nothing
+    *  RETURNS  	: IEnumerator
+    * 
+	*/
+	IEnumerator StartLoad()
+	{
+		//Activate the load screen
+		loadScreen.SetActive (true);
+
+		yield return new WaitForFixedUpdate ();
+
+		//Load the first level of the game
+		SceneManager.LoadScene("prototype");
 	}
 }
 

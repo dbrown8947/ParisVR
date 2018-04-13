@@ -114,6 +114,8 @@ public class Data : MonoBehaviour
 			{
 				for(int i=0; i < info.Count; i++)
 				{
+					Debug.Log(asset.transform.parent.name);
+					Debug.Log(asset.transform.parent.parent.name);
 					//Make sure to capture the appropriate information for the assets we are trying to save
 					if(info[i].ParentInfo.Tile.CompareTo(asset.transform.parent.name) == 0 && info[i].ParentInfo.Area.CompareTo(asset.transform.parent.parent.name) == 0)
 					{
@@ -122,7 +124,7 @@ public class Data : MonoBehaviour
 						info[i].ParentInfo.Rotation = new TempVector(asset.transform.parent.localEulerAngles.x, asset.transform.parent.localEulerAngles.y, asset.transform.parent.transform.localEulerAngles.z); //asset.transform.localEulerAngles;
 						info[i].ParentInfo.Scale = new TempVector(asset.transform.parent.localScale.x, asset.transform.parent.localScale.y, asset.transform.parent.localScale.z); //asset.transform.localScale;
 						info[i].ParentInfo.Tag = asset.GetComponent<UnityEngine.UI.Text> ().text;
-						Debug.Log(info[i].ParentInfo.Tag);
+//						Debug.Log(info[i].ParentInfo.Tag);
 						break;
 					}					
 				}
@@ -151,7 +153,7 @@ public class Data : MonoBehaviour
 	{
 		try
 		{
-			ImportPress import = btn.GetComponent<ImportPress>(); //hold.GetComponent<ImportPress>();
+			ImportPress import = btn.GetComponent<ImportPress>(); 
 
             //Only try and open the file if it actually exists
             if (File.Exists (saveName))
@@ -167,17 +169,22 @@ public class Data : MonoBehaviour
 				info = (List<Asset>)formatter.Deserialize (file);
 				file.Close();
 
+				//Get the file name to see if this is the correct file to load on
+				string[] splits = PlayerPrefs.GetString ("xml").Split ('\\', '/');
+				string fileName = splits[splits.Length - 1];
+
 				//For every asset found in the list reimport the objects and apply thier preivous states
 				for(int i =0; i < info.Count; i++)
 				{
-					//if(info[i].MapName.CompareTo(PlayerPrefs.GetString ("xml", Application.dataPath + @"\map.osm-roads.xml")) == 0)
-					//{
+					//As long as the map matches load all the saved assets
+					if(info[i].MapName.CompareTo(fileName) == 0)
+					{
 						import.ApplySettings(info[i].ParentInfo.Position, info[i].ParentInfo.Rotation, info[i].ParentInfo.Scale, info[i].ParentInfo.Area, info[i].ParentInfo.Tile, info[i].ParentInfo.FileName, info[i].ParentInfo.Tag);
-					//}
-					//else
-					//{
-						//throw new Exception("Map Does Not Match Current xml file. Please find  " + info[i].MapName);
-					//}
+					}
+					else
+					{
+						throw new Exception("Map Does Not Match Current xml file. Please find  " + info[i].MapName);
+					}
 				}
 											
 			}
@@ -194,6 +201,5 @@ public class Data : MonoBehaviour
 		}
 			
 	}
-
-
+		
 }

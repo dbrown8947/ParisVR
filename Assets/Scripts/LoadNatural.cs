@@ -11,7 +11,7 @@ public class LoadNatural : MonoBehaviour {
 	public GameObject waterStarter;
 	public GameObject waterMesh;
 	public GameObject parentStart;
-    public static TestObjectPlacement objectloader = new TestObjectPlacement();
+	public  TestObjectPlacement objectloader;
     public List<List<OSMPositionNode>> ListOfWaterWays = new List<List<OSMPositionNode>>();
     public List<GameObject> listOfTmp = new List<GameObject>();
     public List<Vector3> vertices = new List<Vector3>();
@@ -32,7 +32,7 @@ public class LoadNatural : MonoBehaviour {
     //public Terrain terrain;
     private void Awake()
     {
-
+		objectloader = new TestObjectPlacement();
         ListOfWaterWays = objectloader.ImportWaterways();
     }
     // Use this for initialization

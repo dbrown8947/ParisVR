@@ -15,7 +15,8 @@ using UnityEngine.UI;
 using System.Text;
 using System.IO;
 
-public class TextHandler : MonoBehaviour {
+public class TextHandler : MonoBehaviour
+{
 
 	//Public variables
 	public InputField tagger;
@@ -34,9 +35,6 @@ public class TextHandler : MonoBehaviour {
 	private GameObject obj;
 	private ErrorHandler errorHandler;
 
-	//Public variables
-	public GameObject lighter;
-
 	/*
 	*  METHOD	    : Start()
     *  DESCRIPTION  : This Method is launched when the level is loaded and is used to gather
@@ -45,7 +43,7 @@ public class TextHandler : MonoBehaviour {
     *  RETURNS  	: Nothing
     * 
 	*/
-	void Start () 
+	void Start ()
 	{
 		//Initalize private variables
 		errorHandler = GameObject.FindWithTag ("Menu").GetComponent<ErrorHandler> ();
@@ -55,20 +53,17 @@ public class TextHandler : MonoBehaviour {
 	//DESCRIPTION   : This method parses user input to change the X value for Position
 	//PARAMETERS    : Nothing
 	//RETURNS		: Nothing
-	public void PosXModifier()
+	public void PosXModifier ()
 	{
 		float value = 0.0f;
 
 		//Get the player script so we can access the selected building
-		obj = plyr.GetComponent<PlayerController>().obj;
+		obj = plyr.GetComponent<PlayerController> ().obj;
 
 		//Attempt to parse the value from the inputbox
-		if (float.TryParse (posX.text, out value)) 
-		{
+		if (float.TryParse (posX.text, out value)) {
 			//change the objects Position based on the inputted number
-			obj.transform.position = new Vector3(value, obj.transform.position.y, obj.transform.position.z);
-			AdjustHighlight ();
-			plyr.GetComponent<PlayerController> ().UpdateTextFields ();
+			obj.transform.position = new Vector3 (value, obj.transform.position.y, obj.transform.position.z);
 		}
 	}
 
@@ -76,19 +71,17 @@ public class TextHandler : MonoBehaviour {
 	//DESCRIPTION   : This method parses user input to change the Y value for Position
 	//PARAMETERS    : Nothing
 	//RETURNS		: Nothing
-	public void PosYModifier()
+	public void PosYModifier ()
 	{
 		float value = 0.0f;
 
 		//Get the player script so we can access the selected building
-		obj = plyr.GetComponent<PlayerController>().obj;
+		obj = plyr.GetComponent<PlayerController> ().obj;
 
 		//Attempt to parse the value from the inputbox
-		if (float.TryParse (posY.text, out value)) 
-		{
+		if (float.TryParse (posY.text, out value)) {
 			//change the objects Position based on the inputted number
-			obj.transform.position = new Vector3(obj.transform.position.x, value, obj.transform.position.z);
-			AdjustHighlight ();
+			obj.transform.position = new Vector3 (obj.transform.position.x, value, obj.transform.position.z);
 		}
 	}
 
@@ -96,19 +89,17 @@ public class TextHandler : MonoBehaviour {
 	//DESCRIPTION   : This method parses user input to change the Z value for Position
 	//PARAMETERS    : Nothing
 	//RETURNS		: Nothing
-	public void PosZModifier()
+	public void PosZModifier ()
 	{
 		float value = 0.0f;
 
 		//Get the player script so we can access the selected building
-		obj = plyr.GetComponent<PlayerController>().obj;
+		obj = plyr.GetComponent<PlayerController> ().obj;
 
 		//Attempt to parse the value from the inputbox
-		if (float.TryParse (posZ.text, out value)) 
-		{
+		if (float.TryParse (posZ.text, out value)) {
 			//change the objects Position based on the inputted number
-			obj.transform.position = new Vector3(obj.transform.position.x, obj.transform.position.y, value);
-			AdjustHighlight ();
+			obj.transform.position = new Vector3 (obj.transform.position.x, obj.transform.position.y, value);
 		}
 	}
 
@@ -116,20 +107,18 @@ public class TextHandler : MonoBehaviour {
 	//DESCRIPTION   : This method parses user input to change the X value for Rotation
 	//PARAMETERS    : Nothing
 	//RETURNS		: Nothing
-	public void RotXModifier()
+	public void RotXModifier ()
 	{
 		float value = 0.0f;
 
 		//Get the player script so we can access the selected building
-		obj = plyr.GetComponent<PlayerController>().obj;
+		obj = plyr.GetComponent<PlayerController> ().obj;
 
 		//Attempt to parse the value from the inputbox
-		if (float.TryParse (rotX.text, out value)) 
-		{
+		if (float.TryParse (rotX.text, out value)) {
 			//change the objects Rotation based on the inputted number
-			//obj.transform.localEulerAngles = new Vector3(value, obj.transform.localEulerAngles.y, obj.transform.localEulerAngles.z);
-			obj.transform.rotation =  Quaternion.Euler( new Vector3(value, obj.transform.rotation.y, obj.transform.rotation.z));
-			AdjustHighlight ();
+			obj.transform.localEulerAngles = new Vector3 (value, obj.transform.localEulerAngles.y, obj.transform.localEulerAngles.z);
+
 		}
 	}
 
@@ -137,21 +126,17 @@ public class TextHandler : MonoBehaviour {
 	//DESCRIPTION   : This method parses user input to change the Y value for Rotation
 	//PARAMETERS    : Nothing
 	//RETURNS		: Nothing
-	public void RotYModifier()
+	public void RotYModifier ()
 	{
 		float value = 0.0f;
 
 		//Get the player script so we can access the selected building
-		obj = plyr.GetComponent<PlayerController>().obj;
+		obj = plyr.GetComponent<PlayerController> ().obj;
 
 		//Attempt to parse the value from the inputbox
-		if (float.TryParse (rotY.text, out value)) 
-		{
+		if (float.TryParse (rotY.text, out value)) {
 			//change the objects Rotation based on the inputted number
-			//obj.transform.localEulerAngles = new Vector3(obj.transform.localEulerAngles.x, value, obj.transform.localEulerAngles.z);
-			obj.transform.rotation =  Quaternion.Euler( new Vector3(obj.transform.rotation.x, value, obj.transform.rotation.z));
-
-			AdjustHighlight ();
+			obj.transform.localEulerAngles = new Vector3 (obj.transform.localEulerAngles.x, value, obj.transform.localEulerAngles.z);
 		}
 	}
 
@@ -159,21 +144,18 @@ public class TextHandler : MonoBehaviour {
 	//DESCRIPTION   : This method parses user input to change the Y value for Rotation
 	//PARAMETERS    : Nothing
 	//RETURNS		: Nothing
-	public void RotZModifier()
+	public void RotZModifier ()
 	{
 		float value = 0.0f;
 
 		//Get the player script so we can access the selected building
-		obj = plyr.GetComponent<PlayerController>().obj;
+		obj = plyr.GetComponent<PlayerController> ().obj;
 
 		//Attempt to parse the value from the inputbox
-		if (float.TryParse (rotZ.text, out value)) 
-		{
+		if (float.TryParse (rotZ.text, out value)) {
 			//change the objects Rotation based on the inputted number
-			//obj.transform.localEulerAngles = new Vector3(obj.transform.localEulerAngles.x, obj.transform.localEulerAngles.y, value);
-			obj.transform.rotation =  Quaternion.Euler( new Vector3(obj.transform.rotation.x, obj.transform.rotation.y, value));
+			obj.transform.localEulerAngles = new Vector3 (obj.transform.localEulerAngles.x, obj.transform.localEulerAngles.y, value);
 
-			AdjustHighlight ();
 		}
 	}
 
@@ -181,19 +163,17 @@ public class TextHandler : MonoBehaviour {
 	//DESCRIPTION   : This method parses user input to change the X value for Scale
 	//PARAMETERS    : Nothing
 	//RETURNS		: Nothing
-	public void ScaleXModifier()
+	public void ScaleXModifier ()
 	{
 		float value = 0.0f;
 
 		//Get the player script so we can access the selected building
-		obj = plyr.GetComponent<PlayerController>().obj;
+		obj = plyr.GetComponent<PlayerController> ().obj;
 
 		//Attempt to parse the value from the inputbox
-		if (float.TryParse (scleX.text, out value)) 
-		{
+		if (float.TryParse (scleX.text, out value)) {
 			//change the objects Scale based on the inputted number
-			obj.transform.localScale = new Vector3(value, obj.transform.localScale.y, obj.transform.localScale.z);
-			AdjustHighlight ();
+			obj.transform.localScale = new Vector3 (value, obj.transform.localScale.y, obj.transform.localScale.z);
 		}
 	}
 
@@ -201,19 +181,17 @@ public class TextHandler : MonoBehaviour {
 	//DESCRIPTION   : This method parses user input to change the Y value for Scale
 	//PARAMETERS    : Nothing
 	//RETURNS		: Nothing
-	public void ScaleYModifier()
+	public void ScaleYModifier ()
 	{
 		float value = 0.0f;
 
 		//Get the player script so we can access the selected building
-		obj = plyr.GetComponent<PlayerController>().obj;
+		obj = plyr.GetComponent<PlayerController> ().obj;
 
 		//Attempt to parse the value from the inputbox
-		if (float.TryParse (scleY.text, out value)) 
-		{
+		if (float.TryParse (scleY.text, out value)) {
 			//change the objects Scale based on the inputted number
-			obj.transform.localScale = new Vector3(obj.transform.localScale.x, value, obj.transform.localScale.z);
-			AdjustHighlight ();
+			obj.transform.localScale = new Vector3 (obj.transform.localScale.x, value, obj.transform.localScale.z);
 		}
 	}
 
@@ -221,19 +199,17 @@ public class TextHandler : MonoBehaviour {
 	//DESCRIPTION   : This method parses user input to change the Z value for Scale
 	//PARAMETERS    : Nothing
 	//RETURNS		: Nothing
-	public void ScaleZModifier()
+	public void ScaleZModifier ()
 	{
 		float value = 0.0f;
 
 		//Get the player script so we can access the selected building
-		obj = plyr.GetComponent<PlayerController>().obj;
+		obj = plyr.GetComponent<PlayerController> ().obj;
 
 		//Attempt to parse the value from the inputbox
-		if (float.TryParse (scleZ.text, out value)) 
-		{
+		if (float.TryParse (scleZ.text, out value)) {
 			//change the objects Scale based on the inputted number
-			obj.transform.localScale = new Vector3(obj.transform.localScale.x, obj.transform.localScale.y, value);
-			AdjustHighlight ();
+			obj.transform.localScale = new Vector3 (obj.transform.localScale.x, obj.transform.localScale.y, value);
 		}
 	}
 
@@ -241,95 +217,70 @@ public class TextHandler : MonoBehaviour {
 	//DESCRIPTION   : This method clears the tagger text
 	//PARAMETERS    : Nothing
 	//RETURNS		: Nothing
-	public void Clear()
+	public void Clear ()
 	{
 		//reset the tagger text
 		tagger.text = "";
 
-		obj = plyr.GetComponent<PlayerController> ().obj.transform.GetChild(2).gameObject;
+		obj = plyr.GetComponent<PlayerController> ().obj.transform.GetChild (3).gameObject;
 		obj.GetComponent<UnityEngine.UI.Text> ().text = tagger.text;
 
 		Time.timeScale = 1.0f;
 	}
-
-	//FUNCTION      : Inputs()
-	//DESCRIPTION   : This method pauses time while the user inputs a tag
-	//PARAMETERS    : Nothing
-	//RETURNS		: Nothing
-	public void Inputs()
-	{
-		Time.timeScale = 0.0f;
-	}
-
-	//FUNCTION      : Resume()
-	//DESCRIPTION   : This method resets the time after the user has finish with input
-	//PARAMETERS    : Nothing
-	//RETURNS		: Nothing
-	public void Resume()
-	{
-		Time.timeScale = 1.0f;
-	}
-
-
+		
 	//FUNCTION      : WriteToLog()
 	//DESCRIPTION   : This method is responsible for creating and writing to a tag file and
 	//                saving the tagger text to the gameobject itself.
 	//PARAMETERS    : Nothing
 	//RETURNS		: Nothing
-	public void WriteToLog()
+	public void WriteToLog ()
 	{
 		//Method variables
 		Stream logging;
 		StreamWriter write;
 		string fileName = "";
-		DateTime today = new DateTime();
+		DateTime today = new DateTime ();
 
 		//Restart the time scale
-		Time.timeScale = 1.0f;
+		//Time.timeScale = 1.0f;
 
 		//Get the player controller so we can access the selected building
-		obj = plyr.GetComponent<PlayerController> ().obj.transform.GetChild (2).gameObject;
+		obj = plyr.GetComponent<PlayerController> ().obj.transform.GetChild (3).gameObject;
 
-		try
-		{
+		try {
 			
 			//Set the text in the object to the text in the tagger
-		    obj.GetComponent<UnityEngine.UI.Text> ().text = tagger.text;
+			obj.GetComponent<UnityEngine.UI.Text> ().text = tagger.text;
 
 
-		    //get the current date
+			//get the current date
 			today = DateTime.Now;
 			
 			//Create a daily unique log file name
-			fileName = "Tags " + today.ToString("MM_dd_yyyy") + ".txt";
+			fileName = "Tags " + today.ToString ("MM_dd_yyyy") + ".txt";
 
 			//If the file doesnt exist
-			if (!File.Exists(fileName))
-			{
+			if (!File.Exists (fileName)) {
 				//Make the file and open it for appending
-				logging = new FileStream(fileName, FileMode.Append);
-				write = new StreamWriter(logging);
-			}
-			else
-			{
+				logging = new FileStream (fileName, FileMode.Append);
+				write = new StreamWriter (logging);
+			} else {
 				//If the file does exist get ready to append to it
-				write = File.AppendText(fileName);
+				write = File.AppendText (fileName);
 			}
 
 			//Get the current time of error
 			DateTime errorTime = DateTime.Now;
 
 			//Write the information to the tag file then close it
-			write.WriteLine("Object Name: " + obj.transform.gameObject.name);
-			write.WriteLine("Date Of Tag: " + errorTime );
-			write.WriteLine("Tag Details: " + tagger.text);
-			write.WriteLine(" ");
-			write.Flush();
-			write.Close();
-		}
-		catch (Exception)
-		{
-			errorHandler.Error("Tagger Error", "Error when attempting to save tag information to file/Asset"); 
+			write.WriteLine ("Object Name: " + obj.transform.gameObject.name);
+			write.WriteLine ("Date Of Tag: " + errorTime);
+			write.WriteLine ("Tag Details: " + tagger.text);
+			write.WriteLine (" ");
+			write.Flush ();
+			write.Close ();
+		} catch (Exception) {
+			errorHandler.Error ("Tagger Error", "Error when attempting to save tag information to file/Asset"); 
 		}
 	}
 
@@ -338,67 +289,44 @@ public class TextHandler : MonoBehaviour {
 	//                saving the tagger text to the gameobject itself.
 	//PARAMETERS    : Nothing
 	//RETURNS		: Nothing
-	public void WriteToLog(string message)
+	public void WriteToLog (string message)
 	{
 		//Method variables
 		Stream logging;
 		StreamWriter write;
 		string fileName = "";
-		DateTime today = new DateTime();
+		DateTime today = new DateTime ();
 
 		//Restart the time scale
 		Time.timeScale = 1.0f;
 
-		try
-		{
+		try {
 			//get the current date
 			today = DateTime.Now;
 
 			//Create a daily unique log file name
-			fileName = "Logs " + today.ToString("MM_dd_yyyy") + ".txt";
+			fileName = "Logs " + today.ToString ("MM_dd_yyyy") + ".txt";
 
 			//If the file doesnt exist
-			if (!File.Exists(fileName))
-			{
+			if (!File.Exists (fileName)) {
 				//Make the file and open it for appending
-				logging = new FileStream(fileName, FileMode.Append);
-				write = new StreamWriter(logging);
-			}
-			else
-			{
+				logging = new FileStream (fileName, FileMode.Append);
+				write = new StreamWriter (logging);
+			} else {
 				//If the file does exist get ready to append to it
-				write = File.AppendText(fileName);
+				write = File.AppendText (fileName);
 			}
 
 			//Get the current time of error
 			DateTime errorTime = DateTime.Now;
 
 			//Write the information to the tag file then close it
-			write.WriteLine(DateTime.Now + ": " + message);
-			write.Flush();
-			write.Close();
-		}
-		catch (Exception)
-		{
-			errorHandler.Error("Logger Error", "Error when attempting to write to log file"); 
+			write.WriteLine (DateTime.Now + ": " + message);
+			write.Flush ();
+			write.Close ();
+		} catch (Exception) {
+			errorHandler.Error ("Logger Error", "Error when attempting to write to log file"); 
 		}
 
 	}
-
-	void AdjustHighlight()
-	{
-		float scaler = 0.0254f;
-
-		GameObject setHighLighter = obj.transform.GetChild(2).gameObject;
-
-
-		Vector3 assetSize = (setHighLighter.GetComponent<BoxCollider> ().size * scaler);
-		Vector3 center = (setHighLighter.GetComponent<BoxCollider> ().center * scaler);
-		//assetSize = new Vector3 (assetSize.x * scaler, assetSize.y * scaler, assetSize.z * scaler);
-
-		lighter.transform.position = setHighLighter.transform.position + new Vector3 (center.x * obj.transform.localScale.x, center.y * obj.transform.localScale.y, center.z * obj.transform.localScale.z);
-		lighter.transform.localScale = new Vector3 (assetSize.x * obj.transform.localScale.x, assetSize.y * obj.transform.localScale.y, assetSize.z * obj.transform.localScale.z);
-		lighter.transform.rotation= obj.transform.rotation;
-	}
-
 }

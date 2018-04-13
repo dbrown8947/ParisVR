@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour
     public bool gridSelected = false;
 	public Material highlightShader;
 	public Material baseShader;
+	public TempVector rotationVals;
 
     //Private Variables
     private TextHandler Logger;
@@ -55,7 +56,7 @@ public class PlayerController : MonoBehaviour
 	public bool Locked
 	{
 		/*
-		 *  Name		: get (info)
+		 *  Name		: locked (info)
 		 *	Description : Accessor for the info list
 		 *	Parameters	: Nothing
 		 *  Returns		: List<Asset> info, the list of assets in the gameworld.
@@ -81,6 +82,7 @@ public class PlayerController : MonoBehaviour
         escCount = 0;
         creative = false;
 		safety = null;
+		rotationVals = new TempVector (0.0f, 0.0f, 0.0f);
     }
 
     //FUNCTION      : Update()
@@ -89,9 +91,10 @@ public class PlayerController : MonoBehaviour
     //PARAMETERS    : Nothing
     //RETURNS		: Nothing
     void Update()
-    {
-        //Enter the movement handler
-        Movement();
+    {	
+		
+     	//Enter the movement handler
+		Movement ();
 
         //Enter the Selection Handler
         FindObject();
@@ -116,25 +119,10 @@ public class PlayerController : MonoBehaviour
         CharacterController player = GetComponent<CharacterController>();
 
         //If the game is not paused
-        if (Time.timeScale == 1.0f)
+		if (Time.timeScale == 1.0f && locked == true)
         {
             //Use Standard Movement for the movement vector
             moving = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
-
-            if (creative == true)
-            {
-                if (Input.GetKeyDown(KeyCode.Space))
-                {
-					player.transform.position = new Vector3 (player.transform.position.x, player.transform.position.y + .5f, player.transform.position.z);
-                }
-                else if (Input.GetKeyDown(KeyCode.Z)) //NEEDS TO CHANGE
-                {
-					if (player.transform.position.y >= 0)
-					{
-						player.transform.position = new Vector3 (player.transform.position.x, player.transform.position.y - .5f, player.transform.position.z);
-					}
-                }
-            }
         }
         else
         {
@@ -168,8 +156,6 @@ public class PlayerController : MonoBehaviour
                 //Create a new raycast starting from the location where the mouse is (in this case the center of the screen)
                 if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
                 {
-					GameObject GetHighLight;
-
                     if (hit.transform.gameObject.tag == "Asset")
                     {
                         //Reset the esc counter
@@ -183,8 +169,8 @@ public class PlayerController : MonoBehaviour
 
 						//Start the highlighting an selection process
                         obj = hit.transform.parent.gameObject;
-						GetHighLight = hit.transform.gameObject;
-						HighLighter (GetHighLight,false);
+                         obj.transform.GetChild(2).gameObject.SetActive(true);
+
 
                         Logger.WriteToLog("Object Tagged, Name: " + obj.gameObject.name + " At X =" + obj.gameObject.transform.position.x + " Y =" + obj.gameObject.transform.position.x + " Z =" + obj.gameObject.transform.position.z);
 
@@ -200,11 +186,11 @@ public class PlayerController : MonoBehaviour
                         selected = true;
                         gridSelected = true;
 
-						obj = hit.transform.gameObject;
-                        
-						HighLighter (obj,true);
+                        obj = hit.transform.gameObject;
 
-                        TileName.text = "Selected Tile: " + hit.transform.parent.gameObject.name + " In " + hit.transform.parent.parent.parent.gameObject.name + " In " + hit.transform.parent.parent.parent.parent.gameObject.name;
+                        HighLighter (obj,true);
+
+                        TileName.text = "Selected Tile: " + hit.transform.parent.parent.gameObject.name;
 
                         Logger.WriteToLog("Grid Tile Tagged, Name: " + hit.transform.parent.gameObject.name + " At X=" + obj.gameObject.transform.position.x + " Y=" + obj.gameObject.transform.position.x + " Z=" + obj.gameObject.transform.position.z);
 
@@ -223,53 +209,39 @@ public class PlayerController : MonoBehaviour
     public void UpdateTextFields()
     {
         //Change the position text fields based on location of the targeted object
-        posX.text = obj.transform.position.x.ToString();
-        posY.text = obj.transform.position.y.ToString();
-        posZ.text = obj.transform.position.z.ToString();
+		posX.text = obj.transform.position.x.ToString("N5");
+		posY.text = obj.transform.position.y.ToString("N5");
+		posZ.text = obj.transform.position.z.ToString("N5");
 
         //Change the Rotation text fields based on location of the targeted object
-		rotX.text = obj.transform.rotation.eulerAngles.x.ToString();
-		rotY.text = obj.transform.rotation.eulerAngles.y.ToString();
-		rotZ.text = obj.transform.rotation.eulerAngles.z.ToString();
+		rotX.text = obj.transform.rotation.eulerAngles.x.ToString("N5"); 
+		rotY.text = obj.transform.rotation.eulerAngles.y.ToString("N5");
+		rotZ.text = obj.transform.rotation.eulerAngles.z.ToString("N5");
 
         //Change the scale text fields based on location of the targeted object
-        scleX.text = obj.transform.localScale.x.ToString();
-        scleY.text = obj.transform.localScale.y.ToString();
-        scleZ.text = obj.transform.localScale.z.ToString();
+		scleX.text = obj.transform.localScale.x.ToString("N5");
+		scleY.text = obj.transform.localScale.y.ToString("N5");
+		scleZ.text = obj.transform.localScale.z.ToString("N5");
 
-		tagger.text = obj.transform.GetChild (2).gameObject.GetComponent<UnityEngine.UI.Text> ().text;
+		tagger.text = obj.transform.GetChild(3).gameObject.GetComponent<UnityEngine.UI.Text> ().text;
 
         //Update the targetted text with the name of the object the user has selected
-        objName.text = "Object Name: " + obj.transform.gameObject.name;
+        objName.text = "Object Name: " + obj.transform.GetChild(3).gameObject.name;
     }
 
-	//FUNCTION      : HotKeys()
+	//FUNCTION      : Highlighter()
 	//DESCRIPTION   : This Method is responsible for activating hotkeys based on user input
 	//PARAMETERS    : GameObject SetHighLighter : The object we want to highlight
 	//              : Bool type				    : Is the object is a grid tile or not
 	//RETURNS		: Nothing
 	void HighLighter(GameObject SetHighLighter, bool isGrid)
-	{
-		float scaler = 0.0254f;
-			
+	{	
 		if (isGrid)
 		{
+			//If the object is a grid tile reset the tile to the old shader
 			baseObj = obj.transform.GetChild(0).gameObject;
 			baseObj.GetComponent<Renderer> ().material = highlightShader;
 		}
-		else 
-		{
-			lighter.SetActive (true);
-
-			Vector3 assetSize = (SetHighLighter.GetComponent<BoxCollider> ().size * scaler);
-			Vector3 center = (SetHighLighter.GetComponent<BoxCollider> ().center * scaler);
-			//assetSize = new Vector3 (assetSize.x * scaler, assetSize.y * scaler, assetSize.z * scaler);
-
-			lighter.transform.position = obj.transform.position + new Vector3 (center.x * obj.transform.localScale.x, center.y * obj.transform.localScale.y, center.z * obj.transform.localScale.z);
-			lighter.transform.localScale = new Vector3 (assetSize.x * obj.transform.localScale.x, assetSize.y * obj.transform.localScale.y, assetSize.z * obj.transform.localScale.z);
-			lighter.transform.rotation = obj.transform.rotation;
-		}
-			
 	}
 		
     //FUNCTION      : HotKeys()
@@ -306,16 +278,39 @@ public class PlayerController : MonoBehaviour
 				UpdateTextFields ();
             }
 
+			//If the user wants to delete an asset
 			if (Input.GetKey (KeyCode.Delete)) 
 			{
+				//Reactivate the tile and correct the save information
 				RemoveAsset ();
 				obj.transform.GetChild (0).gameObject.SetActive (true);
 				obj.transform.GetChild (1).gameObject.SetActive (true);
-				Destroy (obj.transform.GetChild(2).gameObject);
+				Destroy (obj.transform.GetChild(3).gameObject); // delete the asset
 				ResetTile ();
 				EscCommands ();
 			}
         }
+
+		//If we are in creative mode
+		if (creative == true && locked == true)
+		{
+			Debug.Log ("Flyin Input Detected");
+			if (Input.GetKey(KeyCode.Space))
+			{
+				//move the player up
+				Vector3 pos = transform.position;
+				pos.y = pos.y + speed;
+				transform.position = pos;
+			}
+			else if (Input.GetKey(KeyCode.Z)) 
+			{
+				//Move the player down
+				Vector3 pos = transform.position;
+				pos.y = pos.y - speed;
+				transform.position = pos;
+			}
+		}
+	
 
 		//Activate Creative Mode
         if(Input.GetKeyDown(KeyCode.C))
@@ -379,36 +374,84 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+	//FUNCTION      : EscCommands()
+	//DESCRIPTION   : This Method is responsible for handling esc button features
+	//PARAMETERS    : Nothing
+	//RETURNS		: Nothing
 	void EscCommands()
 	{
 		//Deactivate the modifaction menu and increase the esc counter
 		screen.SetActive(false);
 		importMenu.SetActive(false);
 		lighter.SetActive(false);
-		selected = false;
 		gridSelected = false;
-		escCount++;
-	}
+		DisableHighlight ();
+//		if (selected && obj.tag.Contains("Asset") == true)
+//		{
+//			obj.transform.GetChild (2).gameObject.SetActive (false);
+//		}
+	
+		selected = false;
+        escCount++;
+    }
 
-
+	//FUNCTION      : RemoveAsset()
+	//DESCRIPTION   : This Method is responsible for starting the process of removing a deleted asset
+	//                from the save list
+	//PARAMETERS    : Nothing
+	//RETURNS		: Nothing
 	void RemoveAsset()
 	{
+		//Find the object we wish to remove
 		GameObject del = obj.transform.parent.gameObject;
+
+		//Remove the asset from the list using the method found in the slmenuhandler
 		GameObject.Find ("PauseMenu").GetComponent<SLMenuHandler> ().RemoveAssetFromList (del);
 	}
 
+	//FUNCTION      : ResetTile()
+	//DESCRIPTION   : This Method is responsible for starting the process of removing a deleted asset
+	//                from the save list
+	//PARAMETERS    : Nothing
+	//RETURNS		: Nothing
 	void ResetTile()
 	{
+		//Gather the list of tile locations
 		List<ObjectInfo> tiles = GameObject.Find ("GeneratedWorld").GetComponent<GrahamScan.GrahamScan> ().objs;
 
+		//Find the tile in the orign points list
 		foreach (ObjectInfo obje in tiles) 
 		{
+			//When you find the tile reset its location to where it was when it was created.
 			if (obje.Name.CompareTo (obj.transform.name) == 0) 
 			{
 				obj.transform.localPosition = new Vector3 (obje.Position.X, obje.Position.Y, obje.Position.Z);
 				obj.transform.localEulerAngles = new Vector3 (obje.Rotation.X, obje.Rotation.Y, obje.Rotation.Z);
 				obj.transform.localScale = new Vector3 (obje.Scale.X, obje.Scale.Y, obje.Scale.Z);
 				break;
+			}
+		}
+	}
+
+	//FUNCTION      : DisableHighlight()
+	//DESCRIPTION   : This Method is responsible for finding the highlight of a prefab
+	//                and disabling it
+	//PARAMETERS    : Nothing
+	//RETURNS		: Nothing
+	void DisableHighlight()
+	{
+		//If the object exists
+		if (obj != null) 
+		{
+			//Search all the children of the selected object
+			foreach (Transform child in obj.transform)
+			{
+				//If there is one tagged highlight disable it and break the loop
+				if (child.tag.CompareTo ("Highlight") == 0)
+				{
+					child.gameObject.SetActive (false);
+					break;
+				}
 			}
 		}
 	}

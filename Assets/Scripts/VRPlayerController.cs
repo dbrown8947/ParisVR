@@ -241,14 +241,34 @@ public class VRPlayerController : MonoBehaviour
 						float z = center.z;
 						newBuilding.transform.localPosition = new Vector3 (newBuilding.transform.localPosition.x - (x), newBuilding.transform.localPosition.y - (y), newBuilding.transform.localPosition.z - (z));
 
+						//Center the highlight for the object around the building
+						Vector3 assetSize = (building.GetComponent<BoxCollider> ().size * 0.0254f);
+						Vector3 buildingCenter = (building.GetComponent<BoxCollider> ().center * 0.0254f);
 
+						//Access the highlight object inside the parent object
+						GameObject HighlightBox = Parent.transform.GetChild (2).gameObject;
+
+						//Scale the highlighter around the building
+						HighlightBox.transform.localScale = assetSize;
+						HighlightBox.transform.position = newBuilding.transform.position + buildingCenter;
+					
 						///marcos stuff for asset info
 						Asset asset = new Asset ();
+						//Populate save information
+
 						asset.ParentInfo.Name = newBuilding.name;
-						asset.ParentInfo.FileName = path;
+
 						asset.ParentInfo.Area = newBuilding.transform.parent.parent.name;
-						asset.ParentInfo.Tile = newBuilding.transform.parent.name;
-						asset.MapName = PlayerPrefs.GetString ("xml");
+
+						asset.ParentInfo.Tile = newBuilding.transform.parent.name;        //Find the file name of the asset imported
+
+						string[] splits = path.Split ('\\', '/');
+
+						asset.ParentInfo.FileName = splits [splits.Length - 1];         //Find the file name and apply it to each saved asset
+
+						splits = PlayerPrefs.GetString ("xml").Split ('\\', '/');
+
+						asset.MapName = splits [splits.Length - 1];
 						SLMENU.GetComponent<SLMenuHandler> ().AddToAssetList (asset);
 
 						//close all the menus
@@ -316,7 +336,7 @@ public class VRPlayerController : MonoBehaviour
 						if (file == "New Save") {
 
 							SLMENU.GetComponent<SLMenuHandler> ().VRSave ("VRSAVE-" + System.DateTime.Now.ToString ().Replace (@"/", "-").Replace (" ", "-").Replace (":", "-"));
-								
+
 
 						} else {
 							SLMENU.GetComponent<SLMenuHandler> ().VRSave (file);
@@ -360,7 +380,7 @@ public class VRPlayerController : MonoBehaviour
 
 	public void CloseAllMenus ()
 	{
-	
+
 		MainMenu.SetActive (false);
 		ImportMenu.SetActive (false);
 		OpenFileMenu.SetActive (false);
@@ -368,5 +388,7 @@ public class VRPlayerController : MonoBehaviour
 		transformMenu.gameObject.SetActive (false);
 		///blah
 	}
+
+
 }
 

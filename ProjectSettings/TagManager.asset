@@ -10,12 +10,13 @@ TagManager:
   - Button
   - VRUIDropdownClosed
   - VRUIDropdownElement
+  - VRUIDropdownScrollUp
+  - VRUIDropdownScrollDown
   - Asset
   - SubAsset
   - NumericBox
   - Menu
   - Highlight
-  - VRUIScroll
   layers:
   - Default
   - TransparentFX

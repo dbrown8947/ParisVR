@@ -1,20 +1,8 @@
 Object Name: CIBC(Clone)
-Date Of Tag: 4/11/2018 3:18:05 PM
-Tag Details: asdsad
+Date Of Tag: 4/11/2018 5:17:07 PM
+Tag Details: test
  
 Object Name: CIBC(Clone)
-Date Of Tag: 4/11/2018 3:21:15 PM
-Tag Details: sadasdasda
- 
-Object Name: CIBC(Clone)
-Date Of Tag: 4/11/2018 3:21:16 PM
-Tag Details: sadasdasda
- 
-Object Name: CIBC(Clone)
-Date Of Tag: 4/11/2018 3:23:27 PM
-Tag Details: asdasd
- 
-Object Name: CIBC(Clone)
-Date Of Tag: 4/11/2018 3:25:48 PM
-Tag Details: asdsdsadads
+Date Of Tag: 4/11/2018 5:17:26 PM
+Tag Details: test2
  

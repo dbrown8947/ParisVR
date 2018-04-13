@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B7C1BF7B-6DED-F2D0-FB76-00B584DA9115}</ProjectGuid>
+    <ProjectGuid>{7A1E38CE-B927-BA7E-D3FC-101665F6CAE2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,11 +53,9 @@
   <ItemGroup>
      <Compile Include="Assets\OBJImport\OBJLoader.cs" />
      <Compile Include="Assets\OBJImport\TextureLoader.cs" />
-     <Compile Include="Assets\Scripts\AddObjectsHandler.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\CatmullSpline.cs" />
      <Compile Include="Assets\Scripts\ChangeShape.cs" />
-     <Compile Include="Assets\Scripts\CreateGrid.cs" />
      <Compile Include="Assets\Scripts\CreateRoad.cs" />
      <Compile Include="Assets\Scripts\CreateWater.cs" />
      <Compile Include="Assets\Scripts\Data.cs" />
@@ -288,10 +286,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Ookii.Dialogs">
- <HintPath>C:/Users/Capstone/Desktop/ParisVR/Assets/StandaloneFileBrowser/Plugins/Ookii.Dialogs.dll</HintPath>
+ <HintPath>C:/Users/Capstone/Desktop/ParisVR-DesktopVRFinalMerge/Assets/StandaloneFileBrowser/Plugins/Ookii.Dialogs.dll</HintPath>
  </Reference>
  <Reference Include="System.Windows.Forms">
- <HintPath>C:/Users/Capstone/Desktop/ParisVR/Assets/StandaloneFileBrowser/Plugins/System.Windows.Forms.dll</HintPath>
+ <HintPath>C:/Users/Capstone/Desktop/ParisVR-DesktopVRFinalMerge/Assets/StandaloneFileBrowser/Plugins/System.Windows.Forms.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/Capstone/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>

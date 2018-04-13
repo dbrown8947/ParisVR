@@ -45,9 +45,11 @@ namespace Importer
 			if (!fileRead) {
 
 				if (mapFilePath == null) {
-					mapFilePath = PlayerPrefs.GetString ("xml", Application.dataPath + @"/map.osm-4.xml");
+					mapFilePath = PlayerPrefs.GetString ("xml", Application.dataPath);
 				}
-
+				ListOfWaterways.Clear ();
+				ListOfBuildings.Clear ();
+				ListOfRoads.Clear ();
 				OSMWay currentWay = new OSMWay (); //holds a way until it's done reading
 				OSMRelation currentRelation = new OSMRelation (); //holds a relation until it's done reading
 				bool openWay = false; //whether parser is currently reading a way
@@ -190,10 +192,11 @@ namespace Importer
 				bool road = false;
 				//check if the way has tags identifying it as a road
 				foreach (OSMTag t in way.tags) {
-					if (t.key == "highway" && (t.value == "secondary" || t.value == "residential")) {
+					if (t.key == "highway" && (t.value == "secondary" || t.value == "residential" || t.value == "motorway" || t.value == "primary")) {
 						road = true;
 						break;
-					} 
+					}
+
 				}
 
 				//if way is a road
@@ -322,16 +325,16 @@ namespace Importer
 				ReadFile ();
 			}
 
-			GameObject parentTerrain = new GameObject("TerrainParent");
-			Terrain terrain = new Terrain();
-			TerrainData _terrainData = new TerrainData();
-			_terrainData.size = new Vector3((map.maxLon - map.minLon), 0.0f, (map.maxLat - map.minLat));
+			GameObject parentTerrain = new GameObject ("TerrainParent");
+			Terrain terrain = new Terrain ();
+			TerrainData _terrainData = new TerrainData ();
+			_terrainData.size = new Vector3 ((map.maxLon - map.minLon), 0.0f, (map.maxLat - map.minLat));
 			//_terrainData.size = new Vector3((1000000) * 10, 0.0f, (1000000) * 10);
-			GameObject _Terrain = Terrain.CreateTerrainGameObject(_terrainData);
+			GameObject _Terrain = Terrain.CreateTerrainGameObject (_terrainData);
 			_Terrain.transform.parent = parentTerrain.transform;
 			//parentTerrain.transform.position = new Vector3((map.maxLat * 10f)/2, -1.0f, (map.maxLon * 10f)/2f);
-			Vector3 TS = _Terrain.GetComponent<Terrain>().terrainData.size;
-			_Terrain.transform.position = new Vector3((-TS.x / 2), -0.01f, (-TS.z / 2));
+			Vector3 TS = _Terrain.GetComponent<Terrain> ().terrainData.size;
+			_Terrain.transform.position = new Vector3 ((-TS.x / 2), -0.01f, (-TS.z / 2));
 
 			GameObject wallNorth = Instantiate (new GameObject ("WallNorth"), _Terrain.transform);
 			GameObject wallSouth = Instantiate (new GameObject ("WallSouth"), _Terrain.transform);
@@ -339,11 +342,11 @@ namespace Importer
 			GameObject wallWest = Instantiate (new GameObject ("WallWest"), _Terrain.transform);
 			GameObject wallRoof = Instantiate (new GameObject ("WallRoof"), _Terrain.transform);
 
-			wallNorth.AddComponent<BoxCollider>();
-			wallSouth.AddComponent<BoxCollider>();
-			wallEast.AddComponent<BoxCollider>();
-			wallWest.AddComponent<BoxCollider>();
-			wallRoof.AddComponent<BoxCollider>();
+			wallNorth.AddComponent<BoxCollider> ();
+			wallSouth.AddComponent<BoxCollider> ();
+			wallEast.AddComponent<BoxCollider> ();
+			wallWest.AddComponent<BoxCollider> ();
+			wallRoof.AddComponent<BoxCollider> ();
 
 			BoxCollider wallNorthBox = wallNorth.GetComponent<BoxCollider> ();
 			BoxCollider wallSouthBox = wallSouth.GetComponent<BoxCollider> ();
@@ -353,15 +356,15 @@ namespace Importer
 
 			wallEastBox.size = new Vector3 (0, (map.maxLat - map.minLat), ((map.maxLat - 1500) - (map.minLat + 1500)));
 			wallWestBox.size = new Vector3 (0, (map.maxLat - map.minLat), ((map.maxLat - 1500) - (map.minLat + 1500)));
-			wallNorthBox.size = new Vector3 (((map.maxLon-1500) - (map.minLon + 1500)), (map.maxLat - map.minLat), 0);
-			wallSouthBox.size = new Vector3 (((map.maxLon-1500) - (map.minLon + 1500)), (map.maxLat - map.minLat), 0);
-			wallRoofBox.size = new Vector3 (((map.maxLon-1500) - (map.minLon + 1500)), 0.0f, ((map.maxLat - 1500) - (map.minLat + 1500)));
+			wallNorthBox.size = new Vector3 (((map.maxLon - 1500) - (map.minLon + 1500)), (map.maxLat - map.minLat), 0);
+			wallSouthBox.size = new Vector3 (((map.maxLon - 1500) - (map.minLon + 1500)), (map.maxLat - map.minLat), 0);
+			wallRoofBox.size = new Vector3 (((map.maxLon - 1500) - (map.minLon + 1500)), 0.0f, ((map.maxLat - 1500) - (map.minLat + 1500)));
 
-			wallNorthBox.center = new Vector3 (((TS.x/2)),(map.maxLat - map.minLat)/2,(TS.z/2)+ (TS.z/2 -1500));
-			wallSouthBox.center = new Vector3 ((TS.x/2),(map.maxLat - map.minLat)/2,(TS.z/2)- (TS.z/2 -1500));
-			wallEastBox.center = new Vector3 ((TS.x/2)+ ((TS.x/2 - 1500)),(map.maxLat - map.minLat)/2,(TS.z/2));
-			wallWestBox.center = new Vector3 ((TS.x/2)- (TS.x/2 - 1500),(map.maxLat - map.minLat)/2,(TS.z/2));
-			wallRoofBox.center = new Vector3((TS.x/2),(map.maxLat - map.minLat) -1500,(TS.z/2));
+			wallNorthBox.center = new Vector3 (((TS.x / 2)), (map.maxLat - map.minLat) / 2, (TS.z / 2) + (TS.z / 2 - 1500));
+			wallSouthBox.center = new Vector3 ((TS.x / 2), (map.maxLat - map.minLat) / 2, (TS.z / 2) - (TS.z / 2 - 1500));
+			wallEastBox.center = new Vector3 ((TS.x / 2) + ((TS.x / 2 - 1500)), (map.maxLat - map.minLat) / 2, (TS.z / 2));
+			wallWestBox.center = new Vector3 ((TS.x / 2) - (TS.x / 2 - 1500), (map.maxLat - map.minLat) / 2, (TS.z / 2));
+			wallRoofBox.center = new Vector3 ((TS.x / 2), (map.maxLat - map.minLat) - 1500, (TS.z / 2));
 
 			SplatPrototype[] terrainTexture = new SplatPrototype[1];
 			terrainTexture [0] = new SplatPrototype ();

@@ -15,7 +15,6 @@ using SFB;
 public class Options : MonoBehaviour 
 {
 	//Public Variables
-
 	//Drop Down Menus
 	public Dropdown res;
 	public Dropdown wind;
@@ -30,6 +29,7 @@ public class Options : MonoBehaviour
 	public InputField assetFolder;
 	public InputField osmFile;
 
+	//Private Variables
 	private ErrorHandler errorHandler;
 
 	/*
@@ -51,10 +51,13 @@ public class Options : MonoBehaviour
 
 		errorHandler = GameObject.FindWithTag ("Menu").GetComponent<ErrorHandler> ();
 
+		//set the details value
+		dtls.value = PlayerPrefs.GetInt ("dtl", 1);
+
 		//Find the appropriate information relating to the locations of the save, asset and xml folders/files
-		saveFolder.text = PlayerPrefs.GetString ("save", Application.dataPath + @"/Saves");
-		assetFolder.text = PlayerPrefs.GetString ("asset", Application.dataPath + @"/MyObjects");
-		osmFile.text = PlayerPrefs.GetString ("xml", Application.dataPath + @"\map.osm-roads.xml");
+		saveFolder.text = PlayerPrefs.GetString ("save", Application.dataPath);
+		assetFolder.text = PlayerPrefs.GetString ("asset", Application.dataPath);
+		osmFile.text = PlayerPrefs.GetString ("xml", Application.dataPath);
 
 		//For each support resolution found
 		foreach (Resolution rez in resolutions)
@@ -105,14 +108,11 @@ public class Options : MonoBehaviour
 		//Depending on the selected index change the fullscreen bool
 		if (wind.value == 0)
 		{
-			//Screen.fullScreen = true;
 			Screen.SetResolution(Screen.currentResolution.width , Screen.currentResolution.height,true);
 		} 
 		else
 		{
-			//Screen.fullScreen = false;
 			Screen.SetResolution(Screen.currentResolution.width , Screen.currentResolution.height,false);
-
 		}			
 	}
 
@@ -152,6 +152,7 @@ public class Options : MonoBehaviour
 	public void OnDetailsChange(int index)
 	{
 		QualitySettings.SetQualityLevel (index);
+		PlayerPrefs.SetInt ("dtl", index);
 	}
 		
 	/*
@@ -248,7 +249,7 @@ public class Options : MonoBehaviour
 		}
 		catch(Exception e)
 		{
-			//Display the error to the user if one occurs
+			errorHandler.Error ("Menu Error", e.Message);
 		}			
 	}
 
@@ -262,6 +263,7 @@ public class Options : MonoBehaviour
 	*/
 	private string MenuHandler(bool isFolder, string title)
 	{
+		string[] hold;
 		string path = "";
 
 		try
@@ -270,13 +272,23 @@ public class Options : MonoBehaviour
 			if(isFolder)
 			{
 				//Open the File menu
-				path = StandaloneFileBrowser.OpenFolderPanel(title, Application.dataPath,false)[0];
+				hold = StandaloneFileBrowser.OpenFolderPanel(title, Application.dataPath,false);
 			}
 			else
 			{
 				//Otherwise open the file menu
-				path = StandaloneFileBrowser.OpenFilePanel(title, Application.dataPath, "xml", false)[0];
-			}				
+				hold = StandaloneFileBrowser.OpenFilePanel(title, Application.dataPath, "xml", false);
+			}	
+
+			//If they didnt select anything change the path
+			if(hold.Length == 0)
+			{
+				path = Application.dataPath;
+			}
+			else
+			{
+				path = hold[0]; //otherwise use the selected path
+			}
 		}
 		catch(Exception e)
 		{
