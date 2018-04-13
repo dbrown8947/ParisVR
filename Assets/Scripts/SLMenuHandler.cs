@@ -208,4 +208,13 @@ public class SLMenuHandler : MonoBehaviour
 
 		//data.Load (file);
 	}
+
+	public void VRQuit ()
+	{
+		data.Save (".tempSave.dat");
+		PlayerPrefs.SetString ("lLoc", ".tempSave.dat");
+		PlayerPrefs.SetInt ("flag", 1);
+		PlayerPrefs.SetInt ("VR", 0);
+		SceneManager.LoadScene ("prototype");
+	}
 }

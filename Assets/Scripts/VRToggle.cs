@@ -22,7 +22,6 @@ public class VRToggle : MonoBehaviour
 		VREnabled = false;
 		if (PlayerPrefs.GetInt ("VR", 0) == 1) {
 			UINormal.SetActive (true);
-
 			setVRMode (true);
 			UINormal.SetActive (false);
 		

@@ -278,7 +278,10 @@ public class VRPlayerController : MonoBehaviour
 
 					} else if (hitGameObject.name == "BtnQuitVR") {
 
-						GetComponent<VRToggle> ().setVRMode (false);
+
+						SLMENU.GetComponent<SLMenuHandler> ().VRQuit ();
+					
+
 
 					} else if (hitGameObject.name == "BtnResume") {
 
