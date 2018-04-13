@@ -1,313 +1,515 @@
-	using System.Collections;
-	using System.Collections.Generic;
-	using UnityEngine;
-	using System.IO;
-	using System.Text.RegularExpressions;
-	using System;
+/*  
+*  FILE          : TestObjectPlacement.cs TODO: Rename to OSMParser 
+*  PROJECT       : ParisVR
+*  PROGRAMMER    : Dustin Brown, Ronnie Skowron, Anthony Bastos
+*  FIRST VERSION : 2018-02-08
+*  DESCRIPTION   : 
+*    Parses map information from an exported OSM map file
+*/
 
-//essentially a container for the gameobject
-class OSMMap
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System.IO;
+using System.Text.RegularExpressions;
+using System;
+using System.Linq;
+
+namespace Importer
 {
-	public double minLat;
-	public double minLon;
-	public double maxLat;
-	public double maxLon;
-	public List<OSMPositionNode> posNodes = new List<OSMPositionNode>();
-	public List<OSMWay> ways = new List<OSMWay>();
-}
-
-//definition of a node
-//longitude and latitude are converted into metres later
-class OSMPositionNode
-{
-	public long id;
-	public double longitude;
-	public double latidude;
-}
-//tags, match key with value
-class OSMTag
-{
-	public string key;
-	public string value;
-}
-
-//OSMWay definition, essentially an object, has a list of node ids + tags describing the object
-class OSMWay
-{
-	public long id;
-	public List<long> nodeReferences = new List<long>();
-	public List<OSMTag> tags = new List<OSMTag>();
-}
-
-
-
-	public class TestObjectPlacement : MonoBehaviour {
-
-	public GameObject Tile;
-
-
-	OSMPositionNode findNode(long id, List<OSMPositionNode> n)
+	/*
+	*   NAME    : TestObjectPlacement TODO: Rename to OSMParser 
+	*   PURPOSE : Reads and parsers data from exported OSM data
+	*/
+	public class TestObjectPlacement : MonoBehaviour
 	{
-		//function that fetches the node when supplied it's id
-		OSMPositionNode ret = new OSMPositionNode();
-		foreach (OSMPositionNode i in n)
-		{
-			if(i.id == id)
-			{
-				ret = i;
-				break;
-			}
-		}
-		return ret;
-	}
-
-		// Use this for initialization
-		void Start () {
-
-		//read osm 
-		StreamReader sr = new StreamReader (@"/Users/student/Documents/OSM/map.osm.xml");
-		string line = sr.ReadLine ();
+		public string mapFilePath;
+		//filepath of the osm file
+		List<List<OSMPositionNode>> ListOfRoads = new List<List<OSMPositionNode>> ();
+		//node lists
+		List<List<OSMPositionNode>> ListOfBuildings = new List<List<OSMPositionNode>> ();
+		List<List<OSMPositionNode>> ListOfWaterways = new List<List<OSMPositionNode>> ();
+		//holds map data
 		OSMMap map = new OSMMap ();
+		//whether we have read the data
+		bool fileRead = false;
 
-		bool openElement = false;
-		OSMWay currentWay = new OSMWay ();
-
-
-		//parsing
-		while (line != null) {
-			Match m;
-
-			if (line.Contains ("<node ") && line.Contains (("/>"))) {
-				OSMPositionNode pn = new OSMPositionNode ();
-				m = Regex.Match (line, @"(?<=id=.)[\w]+");
-				pn.id = Int64.Parse (m.Value);
-				m = Regex.Match (line, @"(?<=lat=.)[\w.-]+");
-				pn.latidude = double.Parse (m.Value);
-				m = Regex.Match (line, @"(?<=lon=.)[\w.-]+");
-				pn.longitude = double.Parse (m.Value);
-				map.posNodes.Add (pn);
-			} else if (line.Contains ("<bounds")) {
-				m = Regex.Match (line, @"(?<=minlat=.)[\w.-]+");
-				map.minLat = double.Parse (m.Value);
-				m = Regex.Match (line, @"(?<=maxlat=.)[\w.-]+");
-				map.maxLat = double.Parse (m.Value);
-				m = Regex.Match (line, @"(?<=minlon=.)[\w.-]+");
-				map.minLon = double.Parse (m.Value);
-				m = Regex.Match (line, @"(?<=maxlon=.)[\w.-]+");
-				map.maxLon = double.Parse (m.Value);
-
-
-
-			} else {
-				if (line.Contains ("<way ")) {
-					openElement = true;
-
-					m = Regex.Match (line, @"(?<=id=.)[\w]+");
-					currentWay.id = Int64.Parse (m.Value);
-
-				} else if (line.Contains ("/way>")) {
-					openElement = false;
-					map.ways.Add (currentWay);
-					currentWay = new OSMWay ();
-
-				} else if (line.Contains ("<nd ") && openElement == true) {
-					m = Regex.Match (line, @"(?<=ref=.)[\w]+");
-					currentWay.nodeReferences.Add (Int64.Parse (m.Value));
-				} else if (line.Contains ("<tag ") && openElement == true) {
-					OSMTag tag = new OSMTag ();
-					m = Regex.Match (line, @"(?<=k=.)[\w]+");
-					tag.key = m.Value;
-					m = Regex.Match (line, @"(?<=v=.)[\w]+");
-					tag.value = m.Value;
-					currentWay.tags.Add (tag);
-				}
-			}
-
-
-
-			line = sr.ReadLine ();
-		}
-
-
-		//centre the map
-		double latOffset = (map.maxLat + map.minLat) / 2;
-		double lonOffset = (map.maxLon + map.minLon) / 2;
-
-		//convert lat and lon to metres
-		map.maxLat = (map.maxLat - latOffset) * 111000;
-		map.maxLon = (map.maxLon - lonOffset) * 111000;
-		map.minLon = (map.minLon - lonOffset) * 111000;
-		map.minLat = (map.minLat - latOffset) * 111000;
-
-		//apply offset to each node and convert to metres
-		foreach (OSMPositionNode o in map.posNodes) {
-			o.longitude = (o.longitude - lonOffset) * 111000;
-			o.latidude = (o.latidude - latOffset) * 111000;
-		}
-
-		//TerrainData _terrainData = new TerrainData ();
-
-		//set terrain width, height, length
-		//_terrainData.size = new Vector3 (100000f, 0.1f, 100000f);
-
-		//GameObject _terrain = Terrain.CreateTerrainGameObject (_terrainData);
-		//_terrain.transform.position = new Vector3(-50000f, 0, -50000f);
-
-	
-		//reading ways
-		foreach (OSMWay way in map.ways) {
-			bool building = false;
-			bool highway = false;
-			//check if the way has any relevant tags
-			foreach (OSMTag t in way.tags) {
-				if (t.key == "building" && t.value == "yes") {
-					building = true;
-					break;
-				} else if (t.key == "highway" && (t.value == "secondary" || t.value == "residential")) {
-					highway = true;
-					break;
-				}
-			}
-
-			//if way was a building
-			if (building) {
-				double? north = null;
-				double? south = null;
-				double? west = null; 
-				double? east = null;
-
-				//find the most northern, southern, eastern, western nodes to draw the box
-				//(replace with better algo later)
-				foreach (long p in way.nodeReferences) {
-					OSMPositionNode node = findNode (p, map.posNodes);
-
-					if (north == null || node.longitude > north) {
-						north = node.longitude;
-					}
-
-					if (node.longitude < south || south == null) {
-						south = node.longitude;
-					}
-
-					if (node.latidude > east || east == null) {
-						east = node.latidude;
-					}
-					if (node.latidude < west || west == null) {
-						west = node.latidude;
-					}
-
-				}
-
-
-
-				//create cube to reperesent the lot
-				GameObject lot = Instantiate(Tile,this.gameObject.transform);
-
-				GameObject tile = lot.transform.GetChild(0).gameObject;
-				GameObject Hitbox = tile.transform.GetChild(0).gameObject;
-				GameObject ground = Hitbox.transform.GetChild(1).gameObject;
-
-				Vector3 position;
-				Vector3 size;
-				//calculate the size
-				size.x = (float)(Math.Abs ((decimal)(north - south)));
-				size.y = 0.3f;
-				size.z = (float)(Math.Abs ((decimal)(east - west)));
-				//calculate the position
-				position.x = (float)(south + north) / 2;
-				position.y = 5;
-				position.z = (float)(east + west) / 2;
-
-				//apply transformations
-				//lot.transform.localScale = size;
-				lot.transform.position = position;
-
-				//lot.GetComponent<Renderer> ().material.color = Color.red;	
-
-				//Alter the hit box on the object
-				size.y = 10;
-				Hitbox.GetComponent<BoxCollider>().size = size;
-
-				//Update the visual representation of the ground
-				position.x = 0;
-				position.y = -5;
-				position.z = 0;
-				size.y = 0.3f;
-				ground.gameObject.transform.localScale = size;
-				ground.gameObject.transform.localPosition = position;
-			
-				//if it's a highway AKA any sort of road
-			} else if (highway) {
-				Vector3 position;
-				position.y = 0;
-				float rotation = 0;
-				float length = 0;
-
-				//iterate through pairs of nodes
-				for (int i = 0; i < way.nodeReferences.Count -1; i++) {
-					OSMPositionNode nodeA = findNode(way.nodeReferences[i],map.posNodes);
-					OSMPositionNode nodeB = findNode (way.nodeReferences [i + 1], map.posNodes);
-
-					//if nodes arent dead
-					if (nodeA.latidude != 0 && nodeB.longitude != 0) {
-						//average longitude
-						position.x = (float)((nodeA.longitude + nodeB.longitude) / 2);
-						//average latitude
-						position.z = (float)((nodeA.latidude + nodeB.latidude) / 2);
-						//apply rotation
-						rotation = (float)(Math.Atan((nodeB.longitude - nodeA.longitude) / (nodeB.latidude - nodeA.latidude)) * 180/ Math.PI + 90);
-						//scale to correct length
-						length = (float)(Math.Sqrt (Math.Pow ((nodeB.latidude - nodeA.latidude), 2) + Math.Pow ((nodeB.longitude - nodeA.longitude), 2)+10));
-
-						//create cube for the road
-						GameObject road = GameObject.CreatePrimitive (PrimitiveType.Cube);
-						//apply transformations
-						road.transform.position = position;
-						road.transform.Rotate (new Vector3 (0.0f, rotation, 0.0f));
-						road.transform.localScale = new Vector3 (length, 0.1f, 5f);
-						road.GetComponent<Renderer> ().material.color = Color.blue;
-					}
-
-				}
-
-			
-			}
-
-		
-		
-		
-		}
-
-	}
-		
-
-	#if false
-		void OSMParser()
+		/* 
+		*  METHOD        : ReadFile 
+		* 
+		*  DESCRIPTION   : Reads the OSM map data and stores it in map
+		*/
+		void ReadFile ()
 		{
+			//if the filename wasn't specified in the editor, default to this
+			if (!fileRead) {
 
+				if (mapFilePath == null) {
+					mapFilePath = PlayerPrefs.GetString ("xml", Application.dataPath + @"/map.osm-4.xml");
+				}
 
-			Console.WriteLine("Bounds:\nminLat:" + map.minLat + " maxLat:" + map.maxLat + " minLon:" + map.minLon + " maxLon:" + map.maxLon);
-			foreach (OSMPositionNode o in map.posNodes)
-			{
-			    Console.WriteLine("Node id:" + o.id + ", Long:" + o.longitude + ", Lat:" + o.latidude + "\n");
+				OSMWay currentWay = new OSMWay (); //holds a way until it's done reading
+				OSMRelation currentRelation = new OSMRelation (); //holds a relation until it's done reading
+				bool openWay = false; //whether parser is currently reading a way
+				bool openRelation = false; //whether parser is currently reading a relation
+				string line; //current line of the read
+				StreamReader sr = new StreamReader (mapFilePath); //read file
+				line = sr.ReadLine ();
+
+				while (line != null) {
+					Match m;
+
+					//if line contains a single line node definition
+					//TODO: Read nodes that are defined by multiple lines 
+					if (line.Contains ("<node ")) { //if node
+						OSMPositionNode pn = new OSMPositionNode ();
+						m = Regex.Match (line, @"(?<=id=.)[\w]+"); //parse data
+						pn.id = Int64.Parse (m.Value);
+						m = Regex.Match (line, @"(?<=lat=.)[\w.-]+");
+						pn.latidude = float.Parse (m.Value);
+						m = Regex.Match (line, @"(?<=lon=.)[\w.-]+");
+						pn.longitude = float.Parse (m.Value);
+						map.posNodes.Add (pn);
+					}
+					//dimensions of the map
+					else if (line.Contains ("<bounds")) { 
+						m = Regex.Match (line, @"(?<=minlat=.)[\w.-]+"); //parse data
+						map.minLat = float.Parse (m.Value);
+						m = Regex.Match (line, @"(?<=maxlat=.)[\w.-]+");
+						map.maxLat = float.Parse (m.Value);
+						m = Regex.Match (line, @"(?<=minlon=.)[\w.-]+");
+						map.minLon = float.Parse (m.Value);
+						m = Regex.Match (line, @"(?<=maxlon=.)[\w.-]+");
+						map.maxLon = float.Parse (m.Value);
+
+					} 
+					//opening a way element
+					else if (line.Contains ("<way ")) {
+						openWay = true; 
+						m = Regex.Match (line, @"(?<=id=.)[\w]+");
+						currentWay.id = Int64.Parse (m.Value);
+					} 
+					//closing and saving a way element
+					else if (line.Contains ("/way>")) {
+						openWay = false;
+						map.ways.Add (currentWay);
+						currentWay = new OSMWay ();
+					}
+					//opening a relation element
+					else if (line.Contains ("<relation ")) {
+						openRelation = true;
+						m = Regex.Match (line, @"(?<=id=.)[\w]+");
+						currentRelation.id = Int64.Parse (m.Value);
+					}
+					//closing a relation element
+					else if (line.Contains ("/relation>")) {
+						openRelation = false;
+						map.relations.Add (currentRelation);
+						currentRelation = new OSMRelation ();
+					}
+					//if we're inside a way element
+					else if (openWay) {
+						//add node reference
+						if (line.Contains ("<nd ")) {
+							m = Regex.Match (line, @"(?<=ref=.)[\w]+");
+							currentWay.nodeReferences.Add (Int64.Parse (m.Value));
+						}
+						//add tag 
+						else if (line.Contains ("<tag ")) {
+							OSMTag tag = new OSMTag (); //parse tags
+							m = Regex.Match (line, @"(?<=k=.)[\w]+");
+							tag.key = m.Value;
+							m = Regex.Match (line, @"(?<=v=.)[\w]+");
+							tag.value = m.Value;
+							currentWay.tags.Add (tag);
+						}
+					} 
+					//if we're inside a relation element
+					else if (openRelation) {
+						//read tag
+						if (line.Contains ("<tag ")) {
+							OSMTag tag = new OSMTag ();
+							m = Regex.Match (line, @"(?<=k=.)[\w]+");
+							tag.key = m.Value;
+							m = Regex.Match (line, @"(?<=v=.)[\w]+");
+							tag.value = m.Value;
+							currentRelation.tags.Add (tag);
+						}
+						//read member
+						else if (line.Contains ("<member ")) {
+							OSMMember member = new OSMMember ();
+							m = Regex.Match (line, @"(?<=type=.)[\w]+");
+							member.type = m.Value;
+							m = Regex.Match (line, @"(?<=ref=.)[\w]+");
+							member.reference = Int64.Parse (m.Value);
+							m = Regex.Match (line, @"(?<=role=.)[\w]+");
+							member.role = m.Value;
+							currentRelation.members.Add (member);
+						}
+					}
+					line = sr.ReadLine ();
+				}
+
+				//centre the map
+				float latOffset = (float)(map.maxLat + map.minLat) / 2f;
+				float lonOffset = (float)(map.maxLon + map.minLon) / 2f;
+				//convert lat and lon to metres
+				map.maxLat = (map.maxLat - latOffset) * 111000f;
+				map.maxLon = (map.maxLon - lonOffset) * 111000f;
+				map.minLon = (map.minLon - lonOffset) * 111000f;
+				map.minLat = (map.minLat - latOffset) * 111000f;
+				//apply offset to each node and convert to metres
+				foreach (OSMPositionNode o in map.posNodes) {
+					o.longitude = (o.longitude - lonOffset) * 111000f;
+					o.latidude = (o.latidude - latOffset) * 111000f;
+				}
+				map.maxLat += 1500;
+				map.maxLon += 1500;
+				map.minLon -= 1500;
+				map.minLat -= 1500;
 			}
-
-			foreach (OSMWay w in map.ways)
-			{
-			    Console.Write("\nWay id:" + w.id + "\nNodes:");
-			    foreach (long l in w.nodeReferences)
-			    {
-			        Console.Write("[" + l + "] ");
-			    }
-			    Console.Write("\nTags:");
-			    foreach (OSMTag t in w.tags)
-			    {
-			        Console.Write("[key: " + t.key + ", value: " + t.value + "] ");
-			    }
-			}
-	#endif
+			fileRead = true;
 		}
 
-	
+		/* 
+		*  METHOD        : ImportRoads 
+		* 
+		*  DESCRIPTION   : Gathers the road infomration
+		* 
+		*  RETURNS       : List<List<OSMNode>> : A list of ways containing roads
+		*/
+		public List<List<OSMPositionNode>> ImportRoads ()
+		{
+			//load data if haven't already
+			if (!fileRead) {
+				ReadFile ();
+			}
+
+			//iterate through all the ways
+			foreach (OSMWay way in map.ways) {
+				bool road = false;
+				//check if the way has tags identifying it as a road
+				foreach (OSMTag t in way.tags) {
+					if (t.key == "highway" && (t.value == "secondary" || t.value == "residential")) {
+						road = true;
+						break;
+					} 
+				}
+
+				//if way is a road
+				if (road) {
+					string roadName = "";
+					//get road name
+					foreach (OSMTag t in way.tags) {
+						if (t.key == "name" && (t.value != "")) {
+							roadName = t.value;
+							break;
+						} 
+					}
+
+					List<OSMPositionNode> listOfNodes = new List<OSMPositionNode> ();
+					foreach (long p in way.nodeReferences) {
+						OSMPositionNode node = getNodeByID (p); //get all the nodes in the way
+						node.name = roadName;
+						if (node.latidude != 0 && node.longitude != 0) { //ignore the node if it is zeroed
+							
+							if (node.longitude < map.maxLon && node.longitude > map.minLon) {
+
+								if (node.latidude < map.maxLat && node.latidude > map.minLat) {
+									listOfNodes.Add (node);
+								}
+							}
+						} else {
+
+						}
+					}
+					ListOfRoads.Add (listOfNodes); //add the road
+
+				}
+			}
+			return ListOfRoads;
+		}
 
 
+
+		/* 
+		*  METHOD        : ImportNodes 		//TODO:Rename to something more accurate, perhaps ImmportBuildings
+		* 
+		*  DESCRIPTION   : This function calculates tax on a retail purchase in Ontario. 
+		* 
+		*  RETURNS       : List<List<OSMNode>> : A list of ways containning buildings
+		*/
+		public List<List<OSMPositionNode>> ImportNodes ()
+		{
+			//read file if haven't already
+			if (!fileRead) {
+				ReadFile ();
+			}
+
+			//iterate through all the relations
+			foreach (OSMRelation relation in map.relations) {
+				bool building = false;
+				foreach (OSMTag t in relation.tags) { //if a relation is a building then flag it
+					if (t.key == "building") {
+						building = true;
+						break;
+					}
+
+				}
+
+				if (building) { //load the building
+					OSMMember member = new OSMMember ();
+					bool outer = false;
+					foreach (OSMMember m in relation.members) {
+						if (m.role == "outer") { //take the outer deminsions of the building 
+							outer = true;
+						}
+						if (outer) {
+							OSMWay way = getWayByID (m.reference);
+							List<OSMPositionNode> listOfNodes = new List<OSMPositionNode> ();
+							int numberOfPoints = 0;
+							foreach (long p in way.nodeReferences) {
+								OSMPositionNode node = getNodeByID (p);
+								listOfNodes.Add (node);
+								numberOfPoints++;
+							}
+							//TODO: Why do we remove the last node? Investigate.
+							listOfNodes.RemoveAt (numberOfPoints - 1);
+							ListOfBuildings.Add (listOfNodes);
+						}
+					}
+
+				}
+			}
+			//iterate through ways for buildings
+			foreach (OSMWay way in map.ways) { 
+				bool building = false;
+				foreach (OSMTag t in way.tags) {
+					if (t.key == "building") { // if it's a building, flag it
+						building = true;
+						break;
+					}
+				}
+				if (building) {
+					List<OSMPositionNode> listOfNodes = new List<OSMPositionNode> ();
+					int numberOfPoints = 0;
+					foreach (long p in way.nodeReferences) {
+						OSMPositionNode node = getNodeByID (p); //get the nodes of the way
+						listOfNodes.Add (node);
+						numberOfPoints++;
+					}
+					//TODO: Why do we remove the last node? Investigate.
+					listOfNodes.RemoveAt (numberOfPoints - 1);
+					ListOfBuildings.Add (listOfNodes); //add the way
+				}
+
+			}
+
+			return ListOfBuildings;
+		}
+
+		/* 
+		*  METHOD        : ImportWaterways 
+		* 
+		*  DESCRIPTION   : Imports riverbanks
+		* 
+		*  RETURNS       : List<List<OSMNode>> : A list of Ways containing riverbanks
+		*/
+		public List<List<OSMPositionNode>> ImportWaterways ()
+		{
+			//if file hasn't been read yet
+			if (!fileRead) {
+				ReadFile ();
+			}
+
+			GameObject parentTerrain = new GameObject("TerrainParent");
+			Terrain terrain = new Terrain();
+			TerrainData _terrainData = new TerrainData();
+			_terrainData.size = new Vector3((map.maxLon - map.minLon), 0.0f, (map.maxLat - map.minLat));
+			//_terrainData.size = new Vector3((1000000) * 10, 0.0f, (1000000) * 10);
+			GameObject _Terrain = Terrain.CreateTerrainGameObject(_terrainData);
+			_Terrain.transform.parent = parentTerrain.transform;
+			//parentTerrain.transform.position = new Vector3((map.maxLat * 10f)/2, -1.0f, (map.maxLon * 10f)/2f);
+			Vector3 TS = _Terrain.GetComponent<Terrain>().terrainData.size;
+			_Terrain.transform.position = new Vector3((-TS.x / 2), -0.01f, (-TS.z / 2));
+
+			GameObject wallNorth = Instantiate (new GameObject ("WallNorth"), _Terrain.transform);
+			GameObject wallSouth = Instantiate (new GameObject ("WallSouth"), _Terrain.transform);
+			GameObject wallEast = Instantiate (new GameObject ("WallEast"), _Terrain.transform);
+			GameObject wallWest = Instantiate (new GameObject ("WallWest"), _Terrain.transform);
+			GameObject wallRoof = Instantiate (new GameObject ("WallRoof"), _Terrain.transform);
+
+			wallNorth.AddComponent<BoxCollider>();
+			wallSouth.AddComponent<BoxCollider>();
+			wallEast.AddComponent<BoxCollider>();
+			wallWest.AddComponent<BoxCollider>();
+			wallRoof.AddComponent<BoxCollider>();
+
+			BoxCollider wallNorthBox = wallNorth.GetComponent<BoxCollider> ();
+			BoxCollider wallSouthBox = wallSouth.GetComponent<BoxCollider> ();
+			BoxCollider wallEastBox = wallEast.GetComponent<BoxCollider> ();
+			BoxCollider wallWestBox = wallWest.GetComponent<BoxCollider> ();
+			BoxCollider wallRoofBox = wallRoof.GetComponent<BoxCollider> ();
+
+			wallEastBox.size = new Vector3 (0, (map.maxLat - map.minLat), ((map.maxLat - 1500) - (map.minLat + 1500)));
+			wallWestBox.size = new Vector3 (0, (map.maxLat - map.minLat), ((map.maxLat - 1500) - (map.minLat + 1500)));
+			wallNorthBox.size = new Vector3 (((map.maxLon-1500) - (map.minLon + 1500)), (map.maxLat - map.minLat), 0);
+			wallSouthBox.size = new Vector3 (((map.maxLon-1500) - (map.minLon + 1500)), (map.maxLat - map.minLat), 0);
+			wallRoofBox.size = new Vector3 (((map.maxLon-1500) - (map.minLon + 1500)), 0.0f, ((map.maxLat - 1500) - (map.minLat + 1500)));
+
+			wallNorthBox.center = new Vector3 (((TS.x/2)),(map.maxLat - map.minLat)/2,(TS.z/2)+ (TS.z/2 -1500));
+			wallSouthBox.center = new Vector3 ((TS.x/2),(map.maxLat - map.minLat)/2,(TS.z/2)- (TS.z/2 -1500));
+			wallEastBox.center = new Vector3 ((TS.x/2)+ ((TS.x/2 - 1500)),(map.maxLat - map.minLat)/2,(TS.z/2));
+			wallWestBox.center = new Vector3 ((TS.x/2)- (TS.x/2 - 1500),(map.maxLat - map.minLat)/2,(TS.z/2));
+			wallRoofBox.center = new Vector3((TS.x/2),(map.maxLat - map.minLat) -1500,(TS.z/2));
+
+			SplatPrototype[] terrainTexture = new SplatPrototype[1];
+			terrainTexture [0] = new SplatPrototype ();
+			terrainTexture [0].texture = (Texture2D)Resources.Load ("Hand_Painted_Grass");
+			_terrainData.splatPrototypes = terrainTexture;
+
+			foreach (OSMWay way in map.ways) {
+				bool waterway = false;
+				//check if the way has any relevant tags
+				foreach (OSMTag t in way.tags) {
+					if (t.key == "waterway" && (t.value == "river")) {
+						waterway = true;
+						break;
+					}
+				}
+				//if way was a building
+				if (waterway) {
+					List<OSMPositionNode> listOfNodes = new List<OSMPositionNode> ();
+					//find the most northern, southern, eastern, western nodes to draw the box
+					//(replace with better algo later)
+					//DO CALCULATIONS HERE
+					int numberofPoints = 0;
+					//Collect all the nodes
+					foreach (long p in way.nodeReferences) {
+						OSMPositionNode node = getNodeByID (p);
+						if (node.longitude < map.maxLon && node.longitude > map.minLon) {
+
+							if (node.latidude < map.maxLat && node.latidude > map.minLat) {
+								listOfNodes.Add (node);
+							}
+						}
+						numberofPoints++;
+					}
+					//listOfNodes.RemoveAt (numberofPoints -1);
+					ListOfWaterways.Add (listOfNodes);
+					//listOfNodes.Clear ();
+					//Gets the convex points
+					//List<OSMPositionNode> convexPoints = calculator.ConvexHaul(listOfNodes);
+				}
+			}
+			return ListOfWaterways;
+		
+		}
+
+
+		/* 
+		*  METHOD        : getNodeByID 
+		* 
+		*  DESCRIPTION   : Finds the node with a given ID 
+		* 
+		*  PARAMETERS    : long id : the id of the node to be returned 
+		* 
+		*  RETURNS       : OSMNode : The node with the provided ID
+		*/
+		OSMPositionNode getNodeByID (long id)
+		{
+			OSMPositionNode ret = new OSMPositionNode ();
+			ret = map.posNodes.Where (OSMPositionNode => OSMPositionNode.id == id).First ();
+			return ret;
+		}
+
+		/* 
+		*  METHOD        : getWayByID 
+		* 
+		*  DESCRIPTION   : Finds the way with a given ID 
+		* 
+		*  PARAMETERS    : long id : the id of the way to be returned 
+		* 
+		*  RETURNS       : OSMNode : The way with the provided ID
+		*/
+		OSMWay getWayByID (long id)
+		{
+			OSMWay ret = new OSMWay ();
+			ret = map.ways.Where (OSMWay => OSMWay.id == id).FirstOrDefault ();
+			return ret;
+		}
+	}
+
+	/*
+	*   NAME    : OSMMap 
+	*   PURPOSE : Holds all OSM map data required for ParisVR. 
+	*/
+	class OSMMap
+	{
+		public float minLat;
+		public float minLon;
+		public float maxLat;
+		public float maxLon;
+		public List<OSMPositionNode> posNodes = new List<OSMPositionNode> ();
+		public List<OSMWay> ways = new List<OSMWay> ();
+		public List<OSMRelation> relations = new List<OSMRelation> ();
+	}
+
+	/*
+	*   NAME    : OSMTag 
+	*   PURPOSE : Represents an OSM Tag element
+	*/
+	class OSMTag
+	{
+		public string key;
+		public string value;
+	}
+
+	/*
+	*   NAME    : OSMWay 
+	*   PURPOSE : Represents an OSM way element
+	*/
+	class OSMWay
+	{
+		public long id;
+		public List<long> nodeReferences = new List<long> ();
+		public List<OSMTag> tags = new List<OSMTag> ();
+	}
+
+	/*
+	*   NAME    : OSMRelation 
+	*   PURPOSE : Represents an OSM relation element
+	*/
+	class OSMRelation
+	{
+		public long id;
+		public List<OSMMember> members = new List<OSMMember> ();
+		public List<OSMTag> tags = new List<OSMTag> ();
+	}
+
+	/*
+	*   NAME    : OSMMember 
+	*   PURPOSE : Represents an OSM member element
+	*/
+	class OSMMember
+	{
+		public string type;
+		public long reference;
+		public string role;
+	}
+
+	/*
+	*   NAME    : OSMPositionNode TODO: Rename to OSMNode 
+	*   PURPOSE : Represents an OSM node element
+	*/
+	public class OSMPositionNode
+	{
+		public long id;
+
+		public float longitude { get; set; }
+
+		public float latidude { get; set; }
+
+		public string name { get; set; }
+	}
+}

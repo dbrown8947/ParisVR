@@ -1,6 +1,6 @@
 ﻿/*
 * FILE			: TextHandler.cs
-* PROJECT		: Final Game Dev
+* PROJECT		: ParisVR
 * PROGRAMMERS	: Marco Fontana
 * FIRST VERSION	: 12-26-2017
 * DESCRIPTION   : This file contains the code and functionality required to modify a gameobject based on user input,
@@ -32,7 +32,25 @@ public class TextHandler : MonoBehaviour {
 
 	//Private variables
 	private GameObject obj;
+	private ErrorHandler errorHandler;
 
+	//Public variables
+	public GameObject lighter;
+
+	/*
+	*  METHOD	    : Start()
+    *  DESCRIPTION  : This Method is launched when the level is loaded and is used to gather
+	*                 information or initalize other variable
+	*  PARAMETERS	: Nothing
+    *  RETURNS  	: Nothing
+    * 
+	*/
+	void Start () 
+	{
+		//Initalize private variables
+		errorHandler = GameObject.FindWithTag ("Menu").GetComponent<ErrorHandler> ();
+	}
+		
 	//FUNCTION      : PosXModifier()
 	//DESCRIPTION   : This method parses user input to change the X value for Position
 	//PARAMETERS    : Nothing
@@ -49,6 +67,8 @@ public class TextHandler : MonoBehaviour {
 		{
 			//change the objects Position based on the inputted number
 			obj.transform.position = new Vector3(value, obj.transform.position.y, obj.transform.position.z);
+			AdjustHighlight ();
+			plyr.GetComponent<PlayerController> ().UpdateTextFields ();
 		}
 	}
 
@@ -68,6 +88,7 @@ public class TextHandler : MonoBehaviour {
 		{
 			//change the objects Position based on the inputted number
 			obj.transform.position = new Vector3(obj.transform.position.x, value, obj.transform.position.z);
+			AdjustHighlight ();
 		}
 	}
 
@@ -87,6 +108,7 @@ public class TextHandler : MonoBehaviour {
 		{
 			//change the objects Position based on the inputted number
 			obj.transform.position = new Vector3(obj.transform.position.x, obj.transform.position.y, value);
+			AdjustHighlight ();
 		}
 	}
 
@@ -105,7 +127,9 @@ public class TextHandler : MonoBehaviour {
 		if (float.TryParse (rotX.text, out value)) 
 		{
 			//change the objects Rotation based on the inputted number
-			obj.transform.localEulerAngles = new Vector3(value, obj.transform.localEulerAngles.y, obj.transform.localEulerAngles.z);
+			//obj.transform.localEulerAngles = new Vector3(value, obj.transform.localEulerAngles.y, obj.transform.localEulerAngles.z);
+			obj.transform.rotation =  Quaternion.Euler( new Vector3(value, obj.transform.rotation.y, obj.transform.rotation.z));
+			AdjustHighlight ();
 		}
 	}
 
@@ -124,7 +148,10 @@ public class TextHandler : MonoBehaviour {
 		if (float.TryParse (rotY.text, out value)) 
 		{
 			//change the objects Rotation based on the inputted number
-			obj.transform.localEulerAngles = new Vector3(obj.transform.rotation.x, value, obj.transform.rotation.z);
+			//obj.transform.localEulerAngles = new Vector3(obj.transform.localEulerAngles.x, value, obj.transform.localEulerAngles.z);
+			obj.transform.rotation =  Quaternion.Euler( new Vector3(obj.transform.rotation.x, value, obj.transform.rotation.z));
+
+			AdjustHighlight ();
 		}
 	}
 
@@ -143,7 +170,10 @@ public class TextHandler : MonoBehaviour {
 		if (float.TryParse (rotZ.text, out value)) 
 		{
 			//change the objects Rotation based on the inputted number
-			obj.transform.localEulerAngles = new Vector3(obj.transform.localEulerAngles.x, obj.transform.localEulerAngles.y, value);
+			//obj.transform.localEulerAngles = new Vector3(obj.transform.localEulerAngles.x, obj.transform.localEulerAngles.y, value);
+			obj.transform.rotation =  Quaternion.Euler( new Vector3(obj.transform.rotation.x, obj.transform.rotation.y, value));
+
+			AdjustHighlight ();
 		}
 	}
 
@@ -163,6 +193,7 @@ public class TextHandler : MonoBehaviour {
 		{
 			//change the objects Scale based on the inputted number
 			obj.transform.localScale = new Vector3(value, obj.transform.localScale.y, obj.transform.localScale.z);
+			AdjustHighlight ();
 		}
 	}
 
@@ -182,6 +213,7 @@ public class TextHandler : MonoBehaviour {
 		{
 			//change the objects Scale based on the inputted number
 			obj.transform.localScale = new Vector3(obj.transform.localScale.x, value, obj.transform.localScale.z);
+			AdjustHighlight ();
 		}
 	}
 
@@ -201,6 +233,7 @@ public class TextHandler : MonoBehaviour {
 		{
 			//change the objects Scale based on the inputted number
 			obj.transform.localScale = new Vector3(obj.transform.localScale.x, obj.transform.localScale.y, value);
+			AdjustHighlight ();
 		}
 	}
 
@@ -212,6 +245,10 @@ public class TextHandler : MonoBehaviour {
 	{
 		//reset the tagger text
 		tagger.text = "";
+
+		obj = plyr.GetComponent<PlayerController> ().obj.transform.GetChild(2).gameObject;
+		obj.GetComponent<UnityEngine.UI.Text> ().text = tagger.text;
+
 		Time.timeScale = 1.0f;
 	}
 
@@ -251,10 +288,11 @@ public class TextHandler : MonoBehaviour {
 		Time.timeScale = 1.0f;
 
 		//Get the player controller so we can access the selected building
-		obj = plyr.GetComponent<PlayerController> ().obj;
+		obj = plyr.GetComponent<PlayerController> ().obj.transform.GetChild (2).gameObject;
 
 		try
 		{
+			
 			//Set the text in the object to the text in the tagger
 		    obj.GetComponent<UnityEngine.UI.Text> ().text = tagger.text;
 
@@ -291,9 +329,8 @@ public class TextHandler : MonoBehaviour {
 		}
 		catch (Exception)
 		{
-			//Do nothing
+			errorHandler.Error("Tagger Error", "Error when attempting to save tag information to file/Asset"); 
 		}
-
 	}
 
 	//FUNCTION      : WriteToLog()
@@ -343,9 +380,25 @@ public class TextHandler : MonoBehaviour {
 		}
 		catch (Exception)
 		{
-			//Do nothing
+			errorHandler.Error("Logger Error", "Error when attempting to write to log file"); 
 		}
 
+	}
+
+	void AdjustHighlight()
+	{
+		float scaler = 0.0254f;
+
+		GameObject setHighLighter = obj.transform.GetChild(2).gameObject;
+
+
+		Vector3 assetSize = (setHighLighter.GetComponent<BoxCollider> ().size * scaler);
+		Vector3 center = (setHighLighter.GetComponent<BoxCollider> ().center * scaler);
+		//assetSize = new Vector3 (assetSize.x * scaler, assetSize.y * scaler, assetSize.z * scaler);
+
+		lighter.transform.position = setHighLighter.transform.position + new Vector3 (center.x * obj.transform.localScale.x, center.y * obj.transform.localScale.y, center.z * obj.transform.localScale.z);
+		lighter.transform.localScale = new Vector3 (assetSize.x * obj.transform.localScale.x, assetSize.y * obj.transform.localScale.y, assetSize.z * obj.transform.localScale.z);
+		lighter.transform.rotation= obj.transform.rotation;
 	}
 
 }

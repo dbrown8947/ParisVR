@@ -75,12 +75,10 @@ public class OBJLoader
             string s = sp.Replace("%FileName%", fileName);
             if (File.Exists(basePath + s + path))
             {
-				Logger.WriteToLog ("OBJGetFilePath works, " + basePath + s + path);
                 return basePath + s + path;
             }
             else if (File.Exists(path))
-            {
-				Logger.WriteToLog ("OBJGetFilePath works " + path);
+			{
                 return path;
             }
         }
@@ -95,9 +93,6 @@ public class OBJLoader
         string baseFileName = Path.GetFileNameWithoutExtension(fn);
         string mtlFileDirectory = mtlFileInfo.Directory.FullName + Path.DirectorySeparatorChar;
 
-		Logger.WriteToLog ("Base File Name = " + baseFileName);
-		Logger.WriteToLog ("mtl File Directory = " + mtlFileDirectory);
-
 		try{
         foreach (string ln in File.ReadAllLines(fn))
         {
@@ -111,17 +106,12 @@ public class OBJLoader
 
             if (cmps[0] == "newmtl")
             {
-					Logger.WriteToLog("Material Is being checked if it is null");
                 if (currentMaterial != null)
                 {
-						Logger.WriteToLog("Attempting to add material to a list");
                     matlList.Add(currentMaterial);
-						Logger.WriteToLog("Material Added, "+currentMaterial.name);
                 }
-					Logger.WriteToLog("Material was checked, attempting to find shader");
-					currentMaterial = new Material(mat.shader);
+				currentMaterial = new Material(mat.shader);
                 currentMaterial.name = data;
-					Logger.WriteToLog("Material instantiated");
             }
             else if (cmps[0] == "Kd")
             {
